@@ -5,6 +5,7 @@
 - [anthropomorphism.md](voice-and-tone/anthropomorphism.md)
 - [contractions.md](voice-and-tone/contractions.md)
 - [global-audience.md](voice-and-tone/global-audience.md)
+- [inclusive-language.md](voice-and-tone/inclusive-language.md)
 - [modern-voice.md](voice-and-tone/modern-voice.md)
 - [reading-level.md](voice-and-tone/reading-level.md)
 - [second-person.md](voice-and-tone/second-person.md)
@@ -26,8 +27,10 @@
 ## punctuation
 - [colons.md](punctuation/colons.md)
 - [dates-and-times.md](punctuation/dates-and-times.md)
+- [ellipses.md](punctuation/ellipses.md)
 - [em-dash.md](punctuation/em-dash.md)
 - [oxford-comma.md](punctuation/oxford-comma.md)
+- [quotation-marks.md](punctuation/quotation-marks.md)
 
 ## procedures
 - [admonitions.md](procedures/admonitions.md)
@@ -43,6 +46,8 @@
 - [ensure-vs-make-sure.md](terminology/ensure-vs-make-sure.md)
 - [f5-product-names.md](terminology/f5-product-names.md)
 - [latin-abbreviations.md](terminology/latin-abbreviations.md)
+- [login-vs-log-in.md](terminology/login-vs-log-in.md)
+- [possessives.md](terminology/possessives.md)
 - [sensitive-information.md](terminology/sensitive-information.md)
 - [ui-terms.md](terminology/ui-terms.md)
 - [word-list.md](terminology/word-list.md)
