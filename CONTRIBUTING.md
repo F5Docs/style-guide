@@ -32,7 +32,7 @@ and subject matter experts are welcome.
 5. Update the `Related` section of any existing files that are
    relevant to your new guideline.
 6. Link your MR to a Jira ticket. For minor fixes and typos, use
-   the catch-all housekeeping ticket.
+   the [catch-all housekeeping ticket](https://jira.f5net.com/browse/TECHDOCS-4373).
 7. All MRs require at least one reviewer approval before merging
    into `main`.
 
