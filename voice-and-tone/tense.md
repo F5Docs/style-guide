@@ -3,7 +3,7 @@ title: Tense
 category: voice-and-tone
 aliases: [tense, present tense, future tense, past tense]
 applies-to: [all F5 docs]
-source-authority: F5 Technical Style Guide, F5 Unified Style Guide
+source-authority: F5 Technical Style Guide
 last-reviewed: 2026-04-02
 ---
 

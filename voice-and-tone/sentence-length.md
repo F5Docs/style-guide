@@ -3,7 +3,7 @@ title: Sentence length
 category: voice-and-tone
 aliases: [sentence length, paragraph length, concise, brevity]
 applies-to: [all F5 docs]
-source-authority: F5 Modern Voice, F5 Unified Style Guide
+source-authority: F5 Modern Voice
 last-reviewed: 2026-04-02
 ---
 

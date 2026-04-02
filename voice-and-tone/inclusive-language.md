@@ -3,7 +3,7 @@ title: Inclusive language
 category: voice-and-tone
 aliases: [inclusive language, gender neutral, person-first, diversity]
 applies-to: [all F5 docs]
-source-authority: F5 Brand Style Guide, F5 Unified Style Guide
+source-authority: F5 Brand Style Guide
 last-reviewed: 2026-04-02
 ---
 

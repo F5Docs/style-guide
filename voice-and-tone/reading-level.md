@@ -3,7 +3,7 @@ title: Reading level
 category: voice-and-tone
 aliases: [reading level, Flesch-Kincaid, grade level, readability]
 applies-to: [all F5 docs]
-source-authority: F5 Modern Voice, F5 Unified Style Guide, F5 NGINX Style Guide
+source-authority: F5 Modern Voice, F5 NGINX Style Guide
 last-reviewed: 2026-04-02
 ---
 

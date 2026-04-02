@@ -3,7 +3,7 @@ title: Anthropomorphism
 category: voice-and-tone
 aliases: [anthropomorphism, personification, decides, knows, sees]
 applies-to: [all F5 docs]
-source-authority: F5 Technical Style Guide, F5 NGINX Style Guide, F5 Unified Style Guide
+source-authority: F5 Technical Style Guide, F5 NGINX Style Guide
 last-reviewed: 2026-04-02
 ---
 

@@ -3,7 +3,7 @@ title: Capitalization
 category: formatting
 aliases: [capitalization, sentence case, title case, caps]
 applies-to: [all F5 docs]
-source-authority: F5 Unified Style Guide, F5 Technical Style Guide, F5 NGINX Style Guide
+source-authority: F5 Technical Style Guide, F5 NGINX Style Guide
 last-reviewed: 2026-04-02
 ---
 

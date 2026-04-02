@@ -3,7 +3,7 @@ title: Second person
 category: voice-and-tone
 aliases: [you, your, second person, user perspective]
 applies-to: [all F5 docs]
-source-authority: F5 Unified Style Guide, F5 Modern Voice
+source-authority: F5 Modern Voice
 last-reviewed: 2026-04-02
 ---
 
