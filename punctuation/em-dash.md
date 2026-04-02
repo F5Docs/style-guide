@@ -3,7 +3,7 @@ title: Em dash
 category: punctuation
 aliases: [—, em-dash, dash]
 applies-to: [all F5 docs]
-source-authority: F5 Unified Style Guide, F5 NGINX Style Guide
+source-authority: F5 NGINX Style Guide
 last-reviewed: 2026-04-02
 ---
 

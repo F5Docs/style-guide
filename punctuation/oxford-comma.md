@@ -3,7 +3,7 @@ title: Oxford comma
 category: punctuation
 aliases: [serial comma, Oxford comma]
 applies-to: [all F5 docs]
-source-authority: F5 Unified Style Guide, F5 NGINX Style Guide, F5 Brand Style Guide
+source-authority: F5 NGINX Style Guide, F5 Brand Style Guide
 last-reviewed: 2026-04-02
 ---
 

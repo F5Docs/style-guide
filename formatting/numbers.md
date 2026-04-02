@@ -3,7 +3,7 @@ title: Numbers
 category: formatting
 aliases: [numbers, numerals, digits, measurements, percentages, dates]
 applies-to: [all F5 docs]
-source-authority: F5 Unified Style Guide, F5 Technical Style Guide, F5 Brand Style Guide
+source-authority: F5 Technical Style Guide, F5 Brand Style Guide
 last-reviewed: 2026-04-02
 ---
 

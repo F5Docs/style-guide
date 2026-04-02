@@ -3,7 +3,7 @@ title: Tables
 category: formatting
 aliases: [tables, table formatting]
 applies-to: [all F5 docs]
-source-authority: F5 Unified Style Guide, F5 Technical Style Guide
+source-authority: F5 Technical Style Guide
 last-reviewed: 2026-04-02
 ---
 

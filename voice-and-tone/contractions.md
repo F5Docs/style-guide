@@ -3,7 +3,7 @@ title: Contractions
 category: voice-and-tone
 aliases: [don't, can't, won't, contractions]
 applies-to: [all F5 docs]
-source-authority: F5 Modern Voice, F5 Unified Style Guide
+source-authority: F5 Modern Voice
 last-reviewed: 2026-04-02
 ---
 
