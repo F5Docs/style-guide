@@ -50,4 +50,6 @@ in a list.
 ## Related
 
 - [voice-and-tone/modern-voice.md](modern-voice.md)
+- [voice-and-tone/reading-level.md](reading-level.md)
+- [voice-and-tone/global-audience.md](global-audience.md)
 - [formatting/lists.md](../formatting/lists.md)

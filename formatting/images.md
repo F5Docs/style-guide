@@ -68,3 +68,5 @@ written instructions can do the job, skip the screenshot.
 
 - [accessibility/alt-text.md](../accessibility/alt-text.md)
 - [formatting/tables.md](tables.md)
+- [terminology/sensitive-information.md](../terminology/sensitive-information.md)
+- [punctuation/colons.md](../punctuation/colons.md)

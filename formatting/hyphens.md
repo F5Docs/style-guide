@@ -64,5 +64,7 @@ when available. Use "through" in prose:
 
 ## Related
 
-- [punctuation/em-dash.md](../punctuation/em-dash.md)
 - [formatting/capitalization.md](capitalization.md)
+- [formatting/numbers.md](numbers.md)
+- [punctuation/em-dash.md](../punctuation/em-dash.md)
+- [punctuation/dates-and-times.md](../punctuation/dates-and-times.md)

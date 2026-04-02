@@ -69,5 +69,6 @@ translation failure points.
 - [voice-and-tone/modern-voice.md](modern-voice.md)
 - [voice-and-tone/reading-level.md](reading-level.md)
 - [voice-and-tone/sentence-length.md](sentence-length.md)
+- [voice-and-tone/inclusive-language.md](inclusive-language.md)
 - [terminology/word-list.md](../terminology/word-list.md)
 - [terminology/latin-abbreviations.md](../terminology/latin-abbreviations.md)

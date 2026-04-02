@@ -55,4 +55,5 @@ acceptable when instructing the user to enable a setting.
 
 - [voice-and-tone/active-voice.md](active-voice.md)
 - [voice-and-tone/second-person.md](second-person.md)
+- [voice-and-tone/inclusive-language.md](inclusive-language.md)
 - [terminology/word-list.md](../terminology/word-list.md)

@@ -46,4 +46,6 @@ In navigation paths, use ">" not a colon to separate levels:
 ## Related
 
 - [formatting/lists.md](../formatting/lists.md)
+- [formatting/tables.md](../formatting/tables.md)
+- [formatting/images.md](../formatting/images.md)
 - [punctuation/em-dash.md](em-dash.md)

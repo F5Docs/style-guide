@@ -49,4 +49,6 @@ Required replacements:
 ## Related
 
 - [procedures/ui-element-names.md](../procedures/ui-element-names.md)
-- [procedures/click-vs-select.md](click-vs-select.md)
+- [terminology/click-vs-select.md](click-vs-select.md)
+- [terminology/login-vs-log-in.md](login-vs-log-in.md)
+- [formatting/bold.md](../formatting/bold.md)

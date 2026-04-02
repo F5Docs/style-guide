@@ -46,5 +46,8 @@ Avoid numerals and ampersands in headings unless space is critical.
 
 ## Related
 
+- [formatting/capitalization.md](capitalization.md)
 - [formatting/lists.md](lists.md)
+- [terminology/acronyms.md](../terminology/acronyms.md)
 - [voice-and-tone/active-voice.md](../voice-and-tone/active-voice.md)
+- [voice-and-tone/tense.md](../voice-and-tone/tense.md)

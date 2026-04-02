@@ -35,4 +35,6 @@ If an em dash appears unavoidable for readability, prefer two hyphens
 
 ## Related
 
+- [formatting/hyphens.md](../formatting/hyphens.md)
 - [punctuation/colons.md](colons.md)
+- [voice-and-tone/global-audience.md](../voice-and-tone/global-audience.md)

@@ -71,4 +71,5 @@ injection in AI-assisted documentation workflows.
 ## Related
 
 - [formatting/images.md](../formatting/images.md)
+- [formatting/code-blocks.md](../formatting/code-blocks.md)
 - [accessibility/alt-text.md](../accessibility/alt-text.md)

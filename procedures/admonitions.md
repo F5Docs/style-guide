@@ -57,3 +57,5 @@ should be part of the main text.
 ## Related
 
 - [procedures/step-formatting.md](step-formatting.md)
+- [procedures/cross-references.md](cross-references.md)
+- [formatting/bold.md](../formatting/bold.md)

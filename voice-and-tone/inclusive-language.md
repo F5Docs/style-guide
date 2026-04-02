@@ -86,6 +86,8 @@ metaphors for status or value judgments where possible.
 
 ## Related
 
-- [terminology/word-list.md](../terminology/word-list.md)
 - [voice-and-tone/global-audience.md](global-audience.md)
 - [voice-and-tone/second-person.md](second-person.md)
+- [voice-and-tone/anthropomorphism.md](anthropomorphism.md)
+- [terminology/word-list.md](../terminology/word-list.md)
+- [terminology/possessives.md](../terminology/possessives.md)

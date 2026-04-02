@@ -46,5 +46,6 @@ two levels, consider restructuring the content.
 
 ## Related
 
-- [procedures/step-formatting.md](../procedures/step-formatting.md)
 - [formatting/tables.md](tables.md)
+- [procedures/step-formatting.md](../procedures/step-formatting.md)
+- [voice-and-tone/sentence-length.md](../voice-and-tone/sentence-length.md)

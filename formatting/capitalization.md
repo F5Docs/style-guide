@@ -78,3 +78,4 @@ Service names are lowercase unless a word is a proper adjective:
 - [formatting/headings.md](headings.md)
 - [terminology/acronyms.md](../terminology/acronyms.md)
 - [terminology/f5-product-names.md](../terminology/f5-product-names.md)
+- [procedures/ui-element-names.md](../procedures/ui-element-names.md)

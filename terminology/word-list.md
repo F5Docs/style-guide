@@ -79,5 +79,7 @@ where appropriate:
 ## Related
 
 - [voice-and-tone/modern-voice.md](../voice-and-tone/modern-voice.md)
-- [terminology/latin-abbreviations.md](latin-abbreviations.md)
+- [voice-and-tone/inclusive-language.md](../voice-and-tone/inclusive-language.md)
 - [terminology/configure-vs-set-up.md](configure-vs-set-up.md)
+- [terminology/latin-abbreviations.md](latin-abbreviations.md)
+- [terminology/possessives.md](possessives.md)

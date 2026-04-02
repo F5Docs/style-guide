@@ -59,6 +59,8 @@ if you are creative enough to find it."
 
 - [voice-and-tone/active-voice.md](active-voice.md)
 - [voice-and-tone/contractions.md](contractions.md)
+- [voice-and-tone/global-audience.md](global-audience.md)
 - [voice-and-tone/reading-level.md](reading-level.md)
 - [voice-and-tone/second-person.md](second-person.md)
 - [voice-and-tone/sentence-length.md](sentence-length.md)
+- [terminology/word-list.md](../terminology/word-list.md)

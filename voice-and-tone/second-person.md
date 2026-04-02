@@ -41,4 +41,6 @@ singular pronoun when needed.
 ## Related
 
 - [voice-and-tone/active-voice.md](active-voice.md)
+- [voice-and-tone/anthropomorphism.md](anthropomorphism.md)
+- [voice-and-tone/inclusive-language.md](inclusive-language.md)
 - [voice-and-tone/modern-voice.md](modern-voice.md)

@@ -65,5 +65,6 @@ Use "through" for ranges in prose: 10 through 15.
 
 ## Related
 
-- [punctuation/dates-and-times.md](../punctuation/dates-and-times.md)
 - [formatting/capitalization.md](capitalization.md)
+- [formatting/hyphens.md](hyphens.md)
+- [punctuation/dates-and-times.md](../punctuation/dates-and-times.md)
