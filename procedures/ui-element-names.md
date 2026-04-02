@@ -1,26 +1,48 @@
 ---
-title: 
+title: UI element names
 category: procedures
-aliases: []
+aliases: [UI, user interface, buttons, navigation, labels]
 applies-to: [all F5 docs]
-source-authority: 
-last-reviewed: YYYY-MM-DD
+source-authority: F5 Technical Style Guide, F5 NGINX Style Guide
+last-reviewed: 2026-04-02
 ---
 
 # UI element names
 
 ## Guidance
 
+Bold UI labels and use the exact capitalization shown in the interface.
+When possible, refer to the label directly rather than naming the
+element type.
+
 ## Examples
 
 **Do:**
-> 
+> Select **Create**.
+
+> Under **General Properties**, enter a name for the virtual server.
+
+> Go to **Local Traffic** > **Virtual Servers** > **Create**.
 
 **Don't:**
-> 
+> Click the Create button.
+
+> In the General Properties field, enter a name.
+
+> Navigate to Local Traffic, then Virtual Servers, then click Create.
 
 ## Notes
 
+Use ">" to separate all navigation levels. Bold the labels, not the
+angle brackets:
+> Go to **Security** > **Protocol Security** > **Profiles**.
+
+When referring to a UI element type is unavoidable for clarity, use:
+tab, list, button, box.
+
 ## Related
 
-- 
+- [procedures/step-formatting.md](step-formatting.md)
+- [procedures/click-vs-select.md](../terminology/click-vs-select.md)
+- [terminology/ui-terms.md](../terminology/ui-terms.md)
+- [formatting/bold.md](../formatting/bold.md)
