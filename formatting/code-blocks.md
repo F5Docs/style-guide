@@ -14,13 +14,13 @@ last-reviewed: 2026-04-02
 Use code blocks for multi-line commands, configuration examples, and
 command output. Use inline code formatting for single commands, file
 paths, parameter names, and configuration values referenced in prose.
-Always specify the language for syntax highlighting.
+Always specify the language identifier for syntax highlighting.
 
 ## Examples
 
 **Do (code block):**
 > Before reloading NGINX, check your configuration syntax:
-> ```bash
+> ```shell
 > sudo nginx -t
 > ```
 
@@ -43,11 +43,15 @@ Always specify the language for syntax highlighting.
 ## Notes
 
 Always specify the language identifier after the opening fence for
-syntax highlighting. Common identifiers:
+syntax highlighting. Use `shell` for most command-line examples unless
+the command requires bash-specific syntax, in which case use `bash`.
+
+Common identifiers:
 
 | Language / context | Identifier |
 |--------------------|------------|
-| Shell / bash commands | `bash` |
+| Shell commands (default) | `shell` |
+| Bash-specific syntax | `bash` |
 | NGINX configuration | `nginx` |
 | YAML | `yaml` |
 | JSON | `json` |
