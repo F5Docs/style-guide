@@ -20,16 +20,22 @@ describe what the user needs to do instead.
 ## Examples
 
 **Do:**
-> From the **Policy** list, select **APM**.
-
-> Pick from the options in the **Policy** drop-down list.
+> Under **Policy**, select **APM**.
 
 > Enter a value in the **IP Address** box.
 
+> Go to **Local Traffic** > **Virtual Servers**.
+
+> Select the **Enable** option.
+
 **Don't:**
-> From the **Policy** drop-down, select **APM**.
+> From the **Policy** drop-down, select APM.
 
 > Enter a value in the **IP Address** field.
+
+> Navigate to **Local Traffic** > **Virtual Servers**.
+
+> Select the **Enable** radio button.
 
 ## Notes
 
@@ -37,8 +43,7 @@ Required replacements:
 
 | Avoid | Use instead | Notes |
 |-------|-------------|-------|
-| drop-down (noun) | list, menu | "Select from the Policy drop-down" → "From the Policy list, select APM" |
-| drop-down (adjective) | drop-down list, drop-down menu | Acceptable when "list" or "menu" alone feels ambiguous |
+| drop-down (noun) | list, menu | Use "drop-down" only as an adjective: "drop-down list," "drop-down menu" |
 | field | box | |
 | screen | page | Use "console screen" for hardware only |
 | GUI, WebGUI | user interface | |
@@ -49,15 +54,16 @@ Required replacements:
 
 ### Drop-down: noun vs. adjective
 
-"Drop-down" as a standalone noun is not acceptable. "Drop-down" as
-an adjective modifying "list" or "menu" is acceptable when context
-requires it. "List" or "menu" alone is always the preferred form.
+Don't use "drop-down" as a noun. As an adjective before "list" or
+"menu," it's acceptable when needed. The preferred form is to refer
+to the UI label directly without naming the element type.
 
 In order of preference:
-1. From the **Policy** list, select **APM**. (preferred)
-2. From the **Policy** drop-down list, select **APM**. (acceptable)
-3. From the **Policy** drop-down menu, select **APM**. (acceptable)
-4. From the **Policy** drop-down, select **APM**. (don't use)
+1. Under **Policy**, select **APM**. (preferred)
+2. From the **Policy** list, select **APM**. (acceptable)
+3. From the **Policy** drop-down list, select **APM**. (acceptable)
+4. From the **Policy** drop-down menu, select **APM**. (acceptable)
+5. From the **Policy** drop-down, select **APM**. (don't use)
 
 ## Related
 
