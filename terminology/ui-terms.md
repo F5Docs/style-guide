@@ -14,8 +14,8 @@ last-reviewed: 2026-04-03
 
 Use specific, plain terms for UI elements. Avoid legacy or ambiguous
 terms that don't translate well or don't match how the interface
-actually works. When possible, avoid referring to UI elements at all —
-describe what the user needs to do instead.
+actually works. Most of the time, avoid referring to UI elements at
+all — describe what the user needs to do instead.
 
 ## Examples
 
