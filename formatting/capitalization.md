@@ -89,4 +89,4 @@ Daemons that don't end in "d" are referred to as daemons:
 - [Acronyms](../terminology/acronyms.md)
 - [F5 product names](../terminology/f5-product-names.md)
 - [Headings](headings.md)
-- [Procedures — UI element names](../procedures/ui-element-names.md)
+- [UI element names](../procedures/ui-element-names.md)
