@@ -2,6 +2,7 @@
 
 ## Accessibility
 - [Alt text](accessibility/alt-text.md)
+- [Color](accessibility/color.md)
 - [Link text](accessibility/link-text.md)
 
 ## Formatting
