@@ -3,8 +3,9 @@ title: Link text
 category: accessibility
 aliases: [link text, hyperlinks, anchor text, click here]
 applies-to: [all F5 docs]
-source-authority: F5 Technical Style Guide, F5 Brand Style Guide
-last-reviewed: 2026-04-02
+source-authority: F5 Brand Style Guide, F5 NGINX Style Guide
+supersedes: F5 Technical Style Guide (hyperlinks: bold)
+last-reviewed: 2026-04-03
 ---
 
 # Link text
@@ -37,7 +38,8 @@ link text.
 Use the page title or a clear description of the destination as link
 text when possible.
 
-In F5 documentation, hyperlinks should be bold, not italicized.
+Do not bold hyperlinks. Links are already visually distinct through
+underline and color styling applied by the publishing system.
 
 Avoid linking the same text to different destinations in the same
 document — it creates confusion for screen reader users who navigate
@@ -51,8 +53,6 @@ Don't open links in a new tab without warning the user. If a link
 opens in a new tab, note it in the link text or immediately after:
 > [F5 Downloads page](link) (opens in a new tab)
 
-## Related
+## See also
 
-- [Alt text](alt-text.md)
-- [Bold](../formatting/bold.md)
-- [Cross-references](../procedures/cross-references.md)
+[Browse all guidelines](../TOC.md)

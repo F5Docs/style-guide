@@ -51,9 +51,6 @@ The same applies to weak verbs like allows, lets, and enables when
 used to describe what a product does for a user. These verbs are
 acceptable when instructing the user to enable a setting.
 
-## Related
+## See also
 
-- [Active voice](active-voice.md)
-- [Inclusive language](inclusive-language.md)
-- [Second person](second-person.md)
-- [Word list](../terminology/word-list.md)
+[Browse all guidelines](../TOC.md)

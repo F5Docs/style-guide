@@ -39,8 +39,6 @@ follow the same grammatical pattern.
 
 Include a header row. Use sentence case for all header text.
 
-## Related
+## See also
 
-- [Colons](../punctuation/colons.md)
-- [Images](images.md)
-- [Lists](lists.md)
+[Browse all guidelines](../TOC.md)

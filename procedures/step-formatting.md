@@ -44,10 +44,6 @@ separate sentence at the end of that step, not as its own step.
 Do not use "click" — use "select" for all UI interactions regardless
 of device.
 
-## Related
+## See also
 
-- [Admonitions](admonitions.md)
-- [click vs. select](../terminology/click-vs-select.md)
-- [Lists](../formatting/lists.md)
-- [Prerequisites](prerequisites.md)
-- [UI element names](ui-element-names.md)
+[Browse all guidelines](../TOC.md)

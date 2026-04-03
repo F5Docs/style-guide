@@ -49,9 +49,6 @@ Exception: Security advisory articles and vulnerability release notes
 may retain Latin abbreviations where they appear in standards or CVE
 references.
 
-## Related
+## See also
 
-- [Acronyms](acronyms.md)
-- [Global audience](../voice-and-tone/global-audience.md)
-- [Modern Voice](../voice-and-tone/modern-voice.md)
-- [Word list](word-list.md)
+[Browse all guidelines](../TOC.md)

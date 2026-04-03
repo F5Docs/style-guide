@@ -62,9 +62,6 @@ when available. Use "through" in prose:
 - Table: 10–15
 - Prose: 10 through 15
 
-## Related
+## See also
 
-- [Capitalization](capitalization.md)
-- [Dates and times](../punctuation/dates-and-times.md)
-- [Em dash](../punctuation/em-dash.md)
-- [Numbers](numbers.md)
+[Browse all guidelines](../TOC.md)

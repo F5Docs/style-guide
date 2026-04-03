@@ -1,5 +1,5 @@
 ---
-title: click vs. select
+title: Click vs. Select
 category: terminology
 aliases: [click, select, tap, choose, UI interaction]
 applies-to: [all F5 docs]
@@ -7,7 +7,7 @@ source-authority: F5 Technical Style Guide, F5 NGINX Style Guide
 last-reviewed: 2026-04-02
 ---
 
-# click vs. select
+# Click vs. Select
 
 ## Guidance
 
@@ -46,9 +46,6 @@ check, uncheck, unselect, deselect, choose.
 
 > Press **Esc** to cancel.
 
-## Related
+## See also
 
-- [login vs. log in](login-vs-log-in.md)
-- [Step formatting](../procedures/step-formatting.md)
-- [UI element names](../procedures/ui-element-names.md)
-- [UI terms](ui-terms.md)
+[Browse all guidelines](../TOC.md)

@@ -63,8 +63,6 @@ Use "through" for ranges in prose: 10 through 15.
 
 24x7 is the F5 standard, not 24/7.
 
-## Related
+## See also
 
-- [Capitalization](capitalization.md)
-- [Dates and times](../punctuation/dates-and-times.md)
-- [Hyphens](hyphens.md)
+[Browse all guidelines](../TOC.md)

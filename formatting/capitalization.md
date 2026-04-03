@@ -3,8 +3,9 @@ title: Capitalization
 category: formatting
 aliases: [capitalization, sentence case, title case, caps]
 applies-to: [all F5 docs]
-source-authority: F5 Technical Style Guide, F5 NGINX Style Guide
-last-reviewed: 2026-04-02
+source-authority: F5 Technical Style Guide, F5 NGINX Style Guide, F5 Unified Style Guide
+supersedes: 
+last-reviewed: 2026-04-03
 ---
 
 # Capitalization
@@ -57,7 +58,7 @@ capitalized unless they are proper nouns:
 
 ### Never capitalize for emphasis
 Use bold for emphasis instead. All caps is never acceptable for
-emphasis.
+emphasis:
 - Don't: Make sure you SAVE the file before closing.
 - Do: Make sure you save the file before closing.
 
@@ -69,13 +70,20 @@ that happen to describe a feature:
   (forward proxy here is a common term, not a feature name)
 
 ### Services and daemons
-Service names are lowercase unless a word is a proper adjective:
+Service names are lowercase unless a word is a proper adjective such
+as a company or feature name:
 - Do: F5 installer service
+- Do: machine certificate checker service
 - Do: DNS relay proxy service
 
-## Related
+Daemons that end in "d" should be referred to as processes, not
+daemons, since the "d" already stands for daemon:
+- Do: the alertd process
+- Don't: the alertd daemon
 
-- [Acronyms](../terminology/acronyms.md)
-- [F5 product names](../terminology/f5-product-names.md)
-- [Headings](headings.md)
-- [UI element names](../procedures/ui-element-names.md)
+Daemons that don't end in "d" are referred to as daemons:
+- Do: the websso daemon
+
+## See also
+
+[Browse all guidelines](../TOC.md)

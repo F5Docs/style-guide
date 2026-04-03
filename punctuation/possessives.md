@@ -55,9 +55,6 @@ Recast using "of" or restructure:
   objects when it improves readability and sounds natural:
   "the field's data area" is acceptable per the Cardinal Rule.
 
-## Related
+## See also
 
-- [F5 product names](f5-product-names.md)
-- [Inclusive language](../voice-and-tone/inclusive-language.md)
-- [Modern Voice](../voice-and-tone/modern-voice.md)
-- [Word list](word-list.md)
+[Browse all guidelines](../TOC.md)

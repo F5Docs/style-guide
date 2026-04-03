@@ -55,12 +55,6 @@ to native speakers of English."
 **Corollary:** "There is almost always a natural-sounding alternative
 if you are creative enough to find it."
 
-## Related
+## See also
 
-- [Active voice](active-voice.md)
-- [Contractions](contractions.md)
-- [Global audience](global-audience.md)
-- [Reading level](reading-level.md)
-- [Second person](second-person.md)
-- [Sentence length](sentence-length.md)
-- [Word list](../terminology/word-list.md)
+[Browse all guidelines](../TOC.md)

@@ -1,5 +1,5 @@
 ---
-title: configure vs. set up
+title: Configure vs. Set up
 category: terminology
 aliases: [setup, set up, configure]
 applies-to: [all F5 docs]
@@ -7,7 +7,7 @@ source-authority: F5 Technical Style Guide
 last-reviewed: 2026-04-02
 ---
 
-# configure vs. set up
+# Configure vs. Set up
 
 ## Guidance
 
@@ -37,8 +37,6 @@ like "enter" or "select."
 The NGINX style guide permits "configure" specifically when describing
 NGINX product configuration (installation, NGINX Agent setup, and similar).
 
-## Related
+## See also
 
-- [ensure vs. make sure](ensure-vs-make-sure.md)
-- [Modern Voice](../voice-and-tone/modern-voice.md)
-- [Word list](word-list.md)
+[Browse all guidelines](../TOC.md)

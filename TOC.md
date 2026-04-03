@@ -29,19 +29,23 @@
 - [Ellipses](punctuation/ellipses.md)
 - [Em dash](punctuation/em-dash.md)
 - [Oxford comma](punctuation/oxford-comma.md)
+- [Possessives](punctuation/possessives.md)
 - [Quotation marks](punctuation/quotation-marks.md)
 
 ## Terminology
 - [Acronyms](terminology/acronyms.md)
-- [click vs. select](terminology/click-vs-select.md)
-- [configure vs. set up](terminology/configure-vs-set-up.md)
-- [ensure vs. make sure](terminology/ensure-vs-make-sure.md)
+- [Click vs. Select](terminology/click-vs-select.md)
+- [Configure vs. Set up](terminology/configure-vs-set-up.md)
+- [Ensure vs. Make sure](terminology/ensure-vs-make-sure.md)
 - [F5 product names](terminology/f5-product-names.md)
+- [If vs. Whether](terminology/if-vs-whether.md)
 - [Latin abbreviations](terminology/latin-abbreviations.md)
-- [login vs. log in](terminology/login-vs-log-in.md)
-- [Possessives](terminology/possessives.md)
+- [Login vs. Log in](terminology/login-vs-log-in.md)
+- [May, Can, and Might](terminology/may-can-might.md)
 - [Sensitive information](terminology/sensitive-information.md)
+- [That vs. Which](terminology/that-vs-which.md)
 - [UI terms](terminology/ui-terms.md)
+- [Update vs. Upgrade](terminology/update-vs-upgrade.md)
 - [Word list](terminology/word-list.md)
 
 ## Voice and tone
@@ -55,3 +59,4 @@
 - [Second person](voice-and-tone/second-person.md)
 - [Sentence length](voice-and-tone/sentence-length.md)
 - [Tense](voice-and-tone/tense.md)
+- [We and Our](voice-and-tone/we-and-our.md)

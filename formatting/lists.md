@@ -44,8 +44,6 @@ Start each numbered step with an imperative verb: "Select," "Enter,"
 Avoid nested lists more than two levels deep. If you need more than
 two levels, consider restructuring the content.
 
-## Related
+## See also
 
-- [Sentence length](../voice-and-tone/sentence-length.md)
-- [Step formatting](../procedures/step-formatting.md)
-- [Tables](tables.md)
+[Browse all guidelines](../TOC.md)

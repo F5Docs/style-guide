@@ -47,9 +47,6 @@ Short paragraphs aid scanning. If a paragraph exceeds six sentences,
 look for a natural break point or consider whether the content belongs
 in a list.
 
-## Related
+## See also
 
-- [Global audience](global-audience.md)
-- [Lists](../formatting/lists.md)
-- [Modern Voice](modern-voice.md)
-- [Reading level](reading-level.md)
+[Browse all guidelines](../TOC.md)

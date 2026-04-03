@@ -3,8 +3,9 @@ title: Word list
 category: terminology
 aliases: [forbidden words, word choice, alternatives, replacements]
 applies-to: [all F5 docs]
-source-authority: F5 Modern Voice, F5 Technical Style Guide
-last-reviewed: 2026-04-02
+source-authority: F5 Modern Voice, F5 Unified Style Guide, F5 Technical Style Guide
+supersedes:
+last-reviewed: 2026-04-03
 ---
 
 # Word list
@@ -22,31 +23,38 @@ writer and the reader.
 | abort | stop, interrupt, shut down | OK in API/function names only |
 | access (verb) | use a specific verb: open, view, read | "access" as a verb is jargon |
 | allows, lets, enables | rewrite from user perspective | system-centric language |
-| and/or | and, or | be specific |
+| and/or | and, or | be specific about which you mean |
+| as (causal) | because | "as" is ambiguous; use "because" for cause-and-effect |
 | boot, boot up | start | use "boot" only in "boot to a new volume" |
-| configure | set up | see [configure vs. set up](configure-vs-set-up.md) |
+| configure | set up | see [Configure vs. Set up](configure-vs-set-up.md) |
 | crash | fails to respond, stops responding | be specific about the behavior |
-| desire, wish | want, need, prefer | "desire" and "wish" belong in fairy tales |
+| desire, wish | want, need, prefer | too formal |
+| due to | because of | "due to" modifies nouns; "because of" modifies verbs. When in doubt, use "because of." |
 | execute | run | "execute" means put to death |
 | grayed out | unavailable | |
 | halt | stop | |
-| hang | fails to respond | "hang" is slang |
+| hang | fails to respond | slang |
 | high-latency | high-latency | avoid "laggy" |
 | image | picture | in non-technical contexts |
+| in order to | to | always redundant |
 | initiate | start | |
 | kill | stop, end, interrupt | OK in UNIX command syntax only |
-| launch | start | "launch" is jargon |
+| launch | start | jargon |
 | modify | change | |
 | navigate to | go to | |
+| normal, normally | typical, typically | "normal" implies judgment |
 | obtain | get | |
+| once (temporal) | when, after | use "once" only to mean "one single time" |
 | perform | do, complete, follow | weak verb |
 | purchase | buy | |
 | reboot | restart | |
 | resolve | fix | |
+| since (causal) | because | "since" implies time, not causation |
 | terminate | end, stop | |
 | utilize | use | |
 | value | number | in non-technical contexts |
 | via | through, by way of | Latin; avoid |
+| whether or not | whether | "or not" is always redundant |
 
 ## Inclusive language replacements
 
@@ -58,8 +66,8 @@ writer and the reader.
 | slave | secondary |
 | sanity check | confidence check |
 | crazy, insane | overwhelming, surprising |
-| lame | boring, uninteresting |
-| crippled, hobbled | overloaded, limited |
+| lame | ineffective, poor |
+| crippled, hobbled | limited, restricted |
 | manpower | workforce, staff, personnel |
 | mankind | humanity, people |
 | chairman | chair, moderator |
@@ -76,10 +84,6 @@ where appropriate:
 > Note: F5 is working to eliminate exclusionary language in our
 > products and documentation.
 
-## Related
+## See also
 
-- [configure vs. set up](configure-vs-set-up.md)
-- [Inclusive language](../voice-and-tone/inclusive-language.md)
-- [Latin abbreviations](latin-abbreviations.md)
-- [Modern Voice](../voice-and-tone/modern-voice.md)
-- [Possessives](possessives.md)
+[Browse all guidelines](../TOC.md)

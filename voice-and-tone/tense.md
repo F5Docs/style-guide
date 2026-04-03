@@ -48,8 +48,6 @@ users are still using those versions in the present:
 - Don't: The feature was introduced in BIG-IP 10.x.
 - Do: The feature is available in BIG-IP 10.x and later.
 
-## Related
+## See also
 
-- [Active voice](active-voice.md)
-- [F5 product names](../terminology/f5-product-names.md)
-- [Modern Voice](modern-voice.md)
+[Browse all guidelines](../TOC.md)

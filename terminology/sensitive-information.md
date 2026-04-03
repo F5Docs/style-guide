@@ -68,8 +68,6 @@ Limit links to external non-F5 sources. When necessary, link only
 to reputable foundational sites. This reduces the risk of prompt
 injection in AI-assisted documentation workflows.
 
-## Related
+## See also
 
-- [Alt text](../accessibility/alt-text.md)
-- [Code blocks](../formatting/code-blocks.md)
-- [Images](../formatting/images.md)
+[Browse all guidelines](../TOC.md)
