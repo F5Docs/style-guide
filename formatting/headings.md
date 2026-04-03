@@ -44,6 +44,12 @@ Heading text must not contain a link to another page.
 
 Avoid numerals and ampersands in headings unless space is critical.
 
+## Related
+
+- [Active voice](../voice-and-tone/active-voice.md)
+- [Acronyms](../terminology/acronyms.md)
+- [Tense](../voice-and-tone/tense.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

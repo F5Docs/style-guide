@@ -55,6 +55,12 @@ Single quotes follow the same rules as double quotes. Don't use single
 quotes as apostrophes in running text — use the standard apostrophe
 character.
 
+## Related
+
+- [Bold](../formatting/bold.md)
+- [Italics](../formatting/italics.md)
+- [UI element names](../procedures/ui-element-names.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

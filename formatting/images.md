@@ -64,6 +64,12 @@ written instructions can do the job, skip the screenshot.
   [Alt text](../accessibility/alt-text.md) for
   guidance on writing effective alt text.
 
+## Related
+
+- [Alt text](../accessibility/alt-text.md)
+- [Color](../accessibility/color.md)
+- [Sensitive information](../terminology/sensitive-information.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

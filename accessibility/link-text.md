@@ -53,6 +53,12 @@ Don't open links in a new tab without warning the user. If a link
 opens in a new tab, note it in the link text or immediately after:
 > [F5 Downloads page](link) (opens in a new tab)
 
+## Related
+
+- [Bold](../formatting/bold.md)
+- [Cross-references](../procedures/cross-references.md)
+- [Italics](../formatting/italics.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

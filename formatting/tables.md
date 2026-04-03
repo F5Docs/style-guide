@@ -39,6 +39,12 @@ follow the same grammatical pattern.
 
 Include a header row. Use sentence case for all header text.
 
+## Related
+
+- [Alt text](../accessibility/alt-text.md)
+- [Colons](../punctuation/colons.md)
+- [Lists](lists.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

@@ -84,6 +84,12 @@ you mean:
 Use colors for literal representation only. Avoid using colors as
 metaphors for status or value judgments where possible.
 
+## Related
+
+- [Possessives](../punctuation/possessives.md)
+- [Second person](second-person.md)
+- [Word list](../terminology/word-list.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

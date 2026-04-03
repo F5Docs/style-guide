@@ -41,6 +41,12 @@ multiple actors in the same procedure.
 For guidance on avoiding "we" and "our" in technical documentation,
 see [We and our](we-and-our.md).
 
+## Related
+
+- [Active voice](active-voice.md)
+- [Inclusive language](inclusive-language.md)
+- [We and Our](we-and-our.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

@@ -113,6 +113,12 @@ Always include the "NGINX" brand name. Never use "F5 NGINX Unit" or
 
 > BIG-IPs in the cluster share a synchronized configuration.
 
+## Related
+
+- [Acronyms](acronyms.md)
+- [Capitalization](../formatting/capitalization.md)
+- [Possessives](../punctuation/possessives.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

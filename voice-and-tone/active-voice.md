@@ -38,6 +38,12 @@ lets, enables, makes. Write from the user's perspective instead.
 **Weak:** NGINX Plus allows you to configure rate limiting.
 **Better:** You can configure rate limiting in NGINX Plus.
 
+## Related
+
+- [Anthropomorphism](anthropomorphism.md)
+- [Tense](tense.md)
+- [Word list](../terminology/word-list.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

@@ -46,6 +46,12 @@ Required replacements:
 | grayed out | unavailable |
 | radio button | button, or refer to the label directly |
 
+## Related
+
+- [Bold](../formatting/bold.md)
+- [Click vs. Select](click-vs-select.md)
+- [UI element names](../procedures/ui-element-names.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

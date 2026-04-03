@@ -44,6 +44,12 @@ separate sentence at the end of that step, not as its own step.
 Do not use "click" — use "select" for all UI interactions regardless
 of device.
 
+## Related
+
+- [Active voice](../voice-and-tone/active-voice.md)
+- [Click vs. Select](../terminology/click-vs-select.md)
+- [Lists](../formatting/lists.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

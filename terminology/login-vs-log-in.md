@@ -55,6 +55,12 @@ out."
 
 Never use "log on," "logon," or "log onto." These are legacy terms.
 
+## Related
+
+- [Click vs. Select](click-vs-select.md)
+- [Step formatting](../procedures/step-formatting.md)
+- [UI terms](ui-terms.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

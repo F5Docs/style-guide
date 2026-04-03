@@ -84,6 +84,12 @@ where appropriate:
 > Note: F5 is working to eliminate exclusionary language in our
 > products and documentation.
 
+## Related
+
+- [Global audience](../voice-and-tone/global-audience.md)
+- [Inclusive language](../voice-and-tone/inclusive-language.md)
+- [Modern Voice](../voice-and-tone/modern-voice.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

@@ -54,6 +54,12 @@ Content must remain legible when users apply high-contrast
 personalization themes. Test diagrams and UI screenshots in
 high-contrast mode where possible.
 
+## Related
+
+- [Alt text](alt-text.md)
+- [Images](../formatting/images.md)
+- [Link text](link-text.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

@@ -39,6 +39,12 @@ Don't use "ensure" to mean "make certain" anywhere in technical
 documentation. Reserve it only if it appears as a product UI label,
 in which case use the label as shown.
 
+## Related
+
+- [Modern Voice](../voice-and-tone/modern-voice.md)
+- [Second person](../voice-and-tone/second-person.md)
+- [Word list](word-list.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

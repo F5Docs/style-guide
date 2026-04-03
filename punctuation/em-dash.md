@@ -33,6 +33,12 @@ brand and marketing content where a conversational tone is the goal.
 If an em dash appears unavoidable for readability, prefer two hyphens
 (`--`) in source files so it converts correctly in rendered output.
 
+## Related
+
+- [Global audience](../voice-and-tone/global-audience.md)
+- [Hyphens](../formatting/hyphens.md)
+- [Numbers](../formatting/numbers.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

@@ -53,6 +53,12 @@ information, not a visual transcript.
 For screenshots, describe the relevant UI state and what the user
 should notice, not every element on screen.
 
+## Related
+
+- [Images](../formatting/images.md)
+- [Sensitive information](../terminology/sensitive-information.md)
+- [Tables](../formatting/tables.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

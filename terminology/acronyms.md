@@ -116,6 +116,12 @@ and don't need to be spelled out:
 | XML     | Extensible Markup Language           |
 | YAML    | YAML Ain't Markup Language           |
 
+## Related
+
+- [Capitalization](../formatting/capitalization.md)
+- [F5 product names](f5-product-names.md)
+- [Headings](../formatting/headings.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

@@ -74,6 +74,12 @@ File path conventions:
 - File extensions: lowercase with dot prefix (`.conf`, `.yaml`)
 - File types: uppercase, no dot (`YAML`, `JSON`)
 
+## Related
+
+- [Sensitive information](../terminology/sensitive-information.md)
+- [Step formatting](../procedures/step-formatting.md)
+- [UI element names](../procedures/ui-element-names.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

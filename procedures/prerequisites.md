@@ -45,6 +45,12 @@ formal block when the list is only one or two items:
 > Before you set up the virtual server, verify that you have at least
 > one pool configured.
 
+## Related
+
+- [Admonitions](admonitions.md)
+- [Second person](../voice-and-tone/second-person.md)
+- [Step formatting](step-formatting.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

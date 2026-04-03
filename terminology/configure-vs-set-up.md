@@ -37,6 +37,12 @@ like "enter" or "select."
 The NGINX style guide permits "configure" specifically when describing
 NGINX product configuration (installation, NGINX Agent setup, and similar).
 
+## Related
+
+- [Step formatting](../procedures/step-formatting.md)
+- [UI element names](../procedures/ui-element-names.md)
+- [Word list](word-list.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

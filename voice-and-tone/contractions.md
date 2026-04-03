@@ -37,6 +37,12 @@ to a native English speaker, use it. If it sounds forced or ambiguous
 "Y'all" and similar regional contractions are not appropriate in
 product documentation.
 
+## Related
+
+- [Global audience](global-audience.md)
+- [Modern Voice](modern-voice.md)
+- [Reading level](reading-level.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

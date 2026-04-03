@@ -40,6 +40,12 @@ angle brackets:
 When referring to a UI element type is unavoidable for clarity, use:
 tab, list, button, box.
 
+## Related
+
+- [Bold](../formatting/bold.md)
+- [Click vs. Select](../terminology/click-vs-select.md)
+- [UI terms](../terminology/ui-terms.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

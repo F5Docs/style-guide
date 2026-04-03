@@ -46,6 +46,12 @@ check, uncheck, unselect, deselect, choose.
 
 > Press **Esc** to cancel.
 
+## Related
+
+- [Login vs. Log in](login-vs-log-in.md)
+- [Step formatting](../procedures/step-formatting.md)
+- [UI element names](../procedures/ui-element-names.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

@@ -32,6 +32,12 @@ guides and is non-negotiable.
 The Oxford comma prevents ambiguity in lists where the last two items
 might otherwise be read as a pair.
 
+## Related
+
+- [Colons](colons.md)
+- [Lists](../formatting/lists.md)
+- [Word list](../terminology/word-list.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)

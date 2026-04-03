@@ -54,6 +54,12 @@ Do not use admonitions as a substitute for clear writing. If the
 information is important enough to call out, consider whether it
 should be part of the main text.
 
+## Related
+
+- [Bold](../formatting/bold.md)
+- [Lists](../formatting/lists.md)
+- [Step formatting](step-formatting.md)
+
 ## See also
 
 [Browse all guidelines](../TOC.md)
