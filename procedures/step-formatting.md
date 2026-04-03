@@ -47,7 +47,7 @@ of device.
 ## Related
 
 - [Admonitions](admonitions.md)
-- [click vs. select](../terminology/click-vs-select.md)
+- [Click vs. Select](../terminology/click-vs-select.md)
 - [Lists](../formatting/lists.md)
 - [Prerequisites](prerequisites.md)
 - [UI element names](ui-element-names.md)

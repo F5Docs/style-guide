@@ -1,5 +1,5 @@
 ---
-title: login vs. log in
+title: Login vs. Log in
 category: terminology
 aliases: [login, log in, log out, logout, sign in, sign out]
 applies-to: [all F5 docs]
@@ -7,7 +7,7 @@ source-authority: F5 Technical Style Guide
 last-reviewed: 2026-04-02
 ---
 
-# login vs. log in
+# Login vs. Log in
 
 ## Guidance
 
@@ -57,6 +57,6 @@ Never use "log on," "logon," or "log onto." These are legacy terms.
 
 ## Related
 
-- [click vs. select](click-vs-select.md)
+- [Click vs. Select](click-vs-select.md)
 - [Step formatting](../procedures/step-formatting.md)
 - [UI terms](ui-terms.md)

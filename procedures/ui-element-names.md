@@ -44,6 +44,6 @@ tab, list, button, box.
 
 - [Bold](../formatting/bold.md)
 - [Capitalization](../formatting/capitalization.md)
-- [click vs. select](../terminology/click-vs-select.md)
+- [Click vs. Select](../terminology/click-vs-select.md)
 - [Step formatting](step-formatting.md)
 - [UI terms](../terminology/ui-terms.md)

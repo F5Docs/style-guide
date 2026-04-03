@@ -1,5 +1,5 @@
 ---
-title: We and our
+title: We and Our
 category: voice-and-tone
 aliases: [we, our, first person plural, F5 recommends]
 applies-to: [all F5 docs]
@@ -8,7 +8,7 @@ supersedes:
 last-reviewed: 2026-04-03
 ---
 
-# We and our
+# We and Our
 
 ## Guidance
 

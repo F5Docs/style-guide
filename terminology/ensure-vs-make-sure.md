@@ -1,5 +1,5 @@
 ---
-title: ensure vs. make sure
+title: Ensure vs. Make sure
 category: terminology
 aliases: [ensure, make sure, verify, confirm]
 applies-to: [all F5 docs]
@@ -7,7 +7,7 @@ source-authority: F5 Modern Voice
 last-reviewed: 2026-04-02
 ---
 
-# ensure vs. make sure
+# Ensure vs. Make sure
 
 ## Guidance
 
@@ -41,7 +41,7 @@ in which case use the label as shown.
 
 ## Related
 
-- [configure vs. set up](configure-vs-set-up.md)
+- [Configure vs. Set up](configure-vs-set-up.md)
 - [Latin abbreviations](latin-abbreviations.md)
 - [Modern Voice](../voice-and-tone/modern-voice.md)
 - [Word list](word-list.md)

@@ -49,6 +49,6 @@ Required replacements:
 ## Related
 
 - [Bold](../formatting/bold.md)
-- [click vs. select](click-vs-select.md)
-- [login vs. log in](login-vs-log-in.md)
+- [Click vs. Select](click-vs-select.md)
+- [Login vs. Log in](login-vs-log-in.md)
 - [UI element names](../procedures/ui-element-names.md)
