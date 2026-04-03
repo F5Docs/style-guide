@@ -38,18 +38,26 @@ terms in this guide.
 
 ## Notes
 
+Use "select" for all UI interactions — buttons, checkboxes, tabs,
+list items, and icons. See [Click vs. Select](click-vs-select.md)
+for more detail.
+
 Required replacements:
 
-| Avoid            | Use instead                                   | Notes                                          |
-|------------------|-----------------------------------------------|------------------------------------------------|
-| drop-down (noun) | UI label, list, menu                          | See [Drop-down usage](#drop-down-usage) below. |
-| field            | box                                           |                                                |
-| screen           | page                                          | Use "console screen" for hardware only         |
-| GUI, WebGUI      | user interface                                |                                                |
-| dialog box       | pop-up window (MyF5), popup screen (TechComm) |                                                |
-| navigate to      | go to                                         |                                                |
-| grayed out       | unavailable                                   |                                                |
-| radio button     | button, or refer to the label directly        |                                                |
+| Avoid            | Use instead                                   | Notes                                                         |
+|------------------|-----------------------------------------------|---------------------------------------------------------------|
+| button           | refer to the label directly                   | "Select the **Submit** button" → "Select **Submit**"          |
+| checkbox         | refer to the label directly                   | "Select the **Enable** checkbox" → "Select **Enable**"        |
+| dialog box       | pop-up window (MyF5), popup screen (TechComm) |                                                               |
+| drawer           | panel                                         | "Drawer" is a developer term                                  |
+| drop-down (noun) | refer to the label directly, list, menu       | See [Drop-down usage](#drop-down-usage) below.                |
+| field            | box                                           |                                                               |
+| grayed out       | unavailable                                   |                                                               |
+| GUI, WebGUI      | user interface                                |                                                               |
+| navigate to      | go to                                         |                                                               |
+| radio button     | refer to the label directly                   | "Select the **Yes** radio button" → "Select **Yes**"          |
+| screen           | page                                          | Use "console screen" for hardware only                        |
+| tab              | refer to the label directly                   | "Select the **Advanced** tab" → "Select **Advanced**"         |
 
 ### Drop-down usage
 
