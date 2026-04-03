@@ -42,6 +42,6 @@ the punctuation mark itself in explanatory content.
 
 ## Related
 
-- [punctuation/quotation-marks.md](quotation-marks.md)
-- [procedures/ui-element-names.md](../procedures/ui-element-names.md)
-- [terminology/ui-terms.md](../terminology/ui-terms.md)
+- [Quotation marks](quotation-marks.md)
+- [UI element names](../procedures/ui-element-names.md)
+- [UI terms](../terminology/ui-terms.md)

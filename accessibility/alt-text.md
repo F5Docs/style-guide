@@ -55,7 +55,7 @@ should notice, not every element on screen.
 
 ## Related
 
-- [accessibility/link-text.md](link-text.md)
-- [formatting/images.md](../formatting/images.md)
-- [formatting/tables.md](../formatting/tables.md)
-- [terminology/sensitive-information.md](../terminology/sensitive-information.md)
+- [Images](../formatting/images.md)
+- [Link text](link-text.md)
+- [Sensitive information](../terminology/sensitive-information.md)
+- [Tables](../formatting/tables.md)

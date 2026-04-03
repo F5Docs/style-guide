@@ -46,8 +46,8 @@ of device.
 
 ## Related
 
-- [formatting/lists.md](../formatting/lists.md)
-- [procedures/admonitions.md](admonitions.md)
-- [procedures/prerequisites.md](prerequisites.md)
-- [procedures/ui-element-names.md](ui-element-names.md)
-- [terminology/click-vs-select.md](../terminology/click-vs-select.md)
+- [Admonitions](admonitions.md)
+- [click vs. select](../terminology/click-vs-select.md)
+- [Lists](../formatting/lists.md)
+- [Prerequisites](prerequisites.md)
+- [UI element names](ui-element-names.md)

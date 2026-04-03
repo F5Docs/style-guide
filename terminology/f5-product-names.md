@@ -115,8 +115,8 @@ Always include the "NGINX" brand name. Never use "F5 NGINX Unit" or
 
 ## Related
 
-- [formatting/capitalization.md](../formatting/capitalization.md)
-- [terminology/acronyms.md](acronyms.md)
-- [terminology/possessives.md](possessives.md)
-- [terminology/ui-terms.md](ui-terms.md)
-- [punctuation/dates-and-times.md](../punctuation/dates-and-times.md)
+- [Acronyms](acronyms.md)
+- [Capitalization](../formatting/capitalization.md)
+- [Dates and times](../punctuation/dates-and-times.md)
+- [Possessives](possessives.md)
+- [UI terms](ui-terms.md)

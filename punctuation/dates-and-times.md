@@ -54,6 +54,6 @@ Version ranges:
 
 ## Related
 
-- [formatting/numbers.md](../formatting/numbers.md)
-- [formatting/hyphens.md](../formatting/hyphens.md)
-- [terminology/f5-product-names.md](../terminology/f5-product-names.md)
+- [F5 product names](../terminology/f5-product-names.md)
+- [Hyphens](../formatting/hyphens.md)
+- [Numbers](../formatting/numbers.md)

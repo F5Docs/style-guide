@@ -39,6 +39,6 @@ NGINX product configuration (installation, NGINX Agent setup, and similar).
 
 ## Related
 
-- [terminology/ensure-vs-make-sure.md](ensure-vs-make-sure.md)
-- [terminology/word-list.md](word-list.md)
-- [voice-and-tone/modern-voice.md](../voice-and-tone/modern-voice.md)
+- [ensure vs. make sure](ensure-vs-make-sure.md)
+- [Modern Voice](../voice-and-tone/modern-voice.md)
+- [Word list](word-list.md)

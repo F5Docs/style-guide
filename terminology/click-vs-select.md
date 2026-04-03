@@ -48,7 +48,7 @@ check, uncheck, unselect, deselect, choose.
 
 ## Related
 
-- [procedures/step-formatting.md](../procedures/step-formatting.md)
-- [procedures/ui-element-names.md](../procedures/ui-element-names.md)
-- [terminology/login-vs-log-in.md](login-vs-log-in.md)
-- [terminology/ui-terms.md](ui-terms.md)
+- [login vs. log in](login-vs-log-in.md)
+- [Step formatting](../procedures/step-formatting.md)
+- [UI element names](../procedures/ui-element-names.md)
+- [UI terms](ui-terms.md)

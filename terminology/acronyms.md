@@ -64,7 +64,7 @@ F5-specific exceptions — do not spell out:
 
 ## Related
 
-- [formatting/capitalization.md](../formatting/capitalization.md)
-- [formatting/headings.md](../formatting/headings.md)
-- [terminology/f5-product-names.md](f5-product-names.md)
-- [terminology/latin-abbreviations.md](latin-abbreviations.md)
+- [Capitalization](../formatting/capitalization.md)
+- [F5 product names](f5-product-names.md)
+- [Headings](../formatting/headings.md)
+- [Latin abbreviations](latin-abbreviations.md)

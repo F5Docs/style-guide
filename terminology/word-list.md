@@ -24,7 +24,7 @@ writer and the reader.
 | allows, lets, enables | rewrite from user perspective | system-centric language |
 | and/or | and, or | be specific |
 | boot, boot up | start | use "boot" only in "boot to a new volume" |
-| configure | set up | see [configure-vs-set-up.md](configure-vs-set-up.md) |
+| configure | set up | see [configure vs. set up](configure-vs-set-up.md) |
 | crash | fails to respond, stops responding | be specific about the behavior |
 | desire, wish | want, need, prefer | "desire" and "wish" belong in fairy tales |
 | execute | run | "execute" means put to death |
@@ -78,8 +78,8 @@ where appropriate:
 
 ## Related
 
-- [voice-and-tone/modern-voice.md](../voice-and-tone/modern-voice.md)
-- [voice-and-tone/inclusive-language.md](../voice-and-tone/inclusive-language.md)
-- [terminology/configure-vs-set-up.md](configure-vs-set-up.md)
-- [terminology/latin-abbreviations.md](latin-abbreviations.md)
-- [terminology/possessives.md](possessives.md)
+- [configure vs. set up](configure-vs-set-up.md)
+- [Inclusive language](../voice-and-tone/inclusive-language.md)
+- [Latin abbreviations](latin-abbreviations.md)
+- [Modern Voice](../voice-and-tone/modern-voice.md)
+- [Possessives](possessives.md)

@@ -53,6 +53,6 @@ opens in a new tab, note it in the link text or immediately after:
 
 ## Related
 
-- [accessibility/alt-text.md](alt-text.md)
-- [procedures/cross-references.md](../procedures/cross-references.md)
-- [formatting/bold.md](../formatting/bold.md)
+- [Alt text](alt-text.md)
+- [Bold](../formatting/bold.md)
+- [Cross-references](../procedures/cross-references.md)

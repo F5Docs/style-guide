@@ -76,7 +76,7 @@ File path conventions:
 
 ## Related
 
-- [formatting/bold.md](bold.md)
-- [formatting/numbers.md](numbers.md)
-- [procedures/step-formatting.md](../procedures/step-formatting.md)
-- [terminology/sensitive-information.md](../terminology/sensitive-information.md)
+- [Bold](bold.md)
+- [Numbers](numbers.md)
+- [Sensitive information](../terminology/sensitive-information.md)
+- [Step formatting](../procedures/step-formatting.md)

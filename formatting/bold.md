@@ -45,6 +45,6 @@ Specific bold conventions:
 
 ## Related
 
-- [formatting/italics.md](italics.md)
-- [formatting/code-blocks.md](code-blocks.md)
-- [procedures/ui-element-names.md](../procedures/ui-element-names.md)
+- [Code blocks](code-blocks.md)
+- [Italics](italics.md)
+- [UI element names](../procedures/ui-element-names.md)

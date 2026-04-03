@@ -41,6 +41,6 @@ Include a header row. Use sentence case for all header text.
 
 ## Related
 
-- [formatting/lists.md](lists.md)
-- [formatting/images.md](images.md)
-- [punctuation/colons.md](../punctuation/colons.md)
+- [Colons](../punctuation/colons.md)
+- [Images](images.md)
+- [Lists](lists.md)

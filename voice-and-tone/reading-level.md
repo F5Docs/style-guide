@@ -49,7 +49,7 @@ acceptable. A score above 10 is a signal to revise.
 
 ## Related
 
-- [voice-and-tone/global-audience.md](global-audience.md)
-- [voice-and-tone/modern-voice.md](modern-voice.md)
-- [voice-and-tone/sentence-length.md](sentence-length.md)
-- [terminology/word-list.md](../terminology/word-list.md)
+- [Global audience](global-audience.md)
+- [Modern Voice](modern-voice.md)
+- [Sentence length](sentence-length.md)
+- [Word list](../terminology/word-list.md)

@@ -54,6 +54,6 @@ than masking the destination.
 
 ## Related
 
-- [accessibility/link-text.md](../accessibility/link-text.md)
-- [procedures/admonitions.md](admonitions.md)
-- [terminology/f5-product-names.md](../terminology/f5-product-names.md)
+- [Admonitions](admonitions.md)
+- [F5 product names](../terminology/f5-product-names.md)
+- [Link text](../accessibility/link-text.md)

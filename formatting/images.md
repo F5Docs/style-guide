@@ -61,12 +61,12 @@ written instructions can do the job, skip the screenshot.
 
 ### Accessibility
 - Always include alt text. See
-  [accessibility/alt-text.md](../accessibility/alt-text.md) for
+  [Alt text](../accessibility/alt-text.md) for
   guidance on writing effective alt text.
 
 ## Related
 
-- [accessibility/alt-text.md](../accessibility/alt-text.md)
-- [formatting/tables.md](tables.md)
-- [terminology/sensitive-information.md](../terminology/sensitive-information.md)
-- [punctuation/colons.md](../punctuation/colons.md)
+- [Alt text](../accessibility/alt-text.md)
+- [Colons](../punctuation/colons.md)
+- [Sensitive information](../terminology/sensitive-information.md)
+- [Tables](tables.md)

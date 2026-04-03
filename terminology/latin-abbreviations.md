@@ -51,7 +51,7 @@ references.
 
 ## Related
 
-- [voice-and-tone/modern-voice.md](../voice-and-tone/modern-voice.md)
-- [voice-and-tone/global-audience.md](../voice-and-tone/global-audience.md)
-- [terminology/acronyms.md](acronyms.md)
-- [terminology/word-list.md](word-list.md)
+- [Acronyms](acronyms.md)
+- [Global audience](../voice-and-tone/global-audience.md)
+- [Modern Voice](../voice-and-tone/modern-voice.md)
+- [Word list](word-list.md)
