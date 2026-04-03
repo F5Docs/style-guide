@@ -1,5 +1,5 @@
 ---
-title: click vs. select
+title: Click vs. Select
 category: terminology
 aliases: [click, select, tap, choose, UI interaction]
 applies-to: [all F5 docs]
@@ -7,7 +7,7 @@ source-authority: F5 Technical Style Guide, F5 NGINX Style Guide
 last-reviewed: 2026-04-02
 ---
 
-# click vs. select
+# Click vs. Select
 
 ## Guidance
 

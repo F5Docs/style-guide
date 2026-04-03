@@ -3,8 +3,9 @@ title: Second person
 category: voice-and-tone
 aliases: [you, your, second person, user perspective]
 applies-to: [all F5 docs]
-source-authority: F5 Modern Voice
-last-reviewed: 2026-04-02
+source-authority: F5 Unified Style Guide, F5 Modern Voice
+supersedes:
+last-reviewed: 2026-04-03
 ---
 
 # Second person
@@ -29,18 +30,20 @@ necessary to avoid confusion between multiple actors.
 
 ## Notes
 
-Avoid "we" when referring to F5 as the actor in instructions. Use "F5"
-explicitly if you need to attribute a recommendation: "F5 recommends
-setting up a health monitor for each pool."
+Use gender-neutral language throughout. "They/their" is acceptable as
+a singular pronoun when needed:
+> If a user can't log in, they should reset their password.
 
-Do not use "we" to mean the user and F5 together. It creates ambiguity.
+Avoid third-person references to the user ("the user," "the
+administrator," "the operator") unless you need to distinguish between
+multiple actors in the same procedure.
 
-Use gender-neutral language throughout. "They/their" is acceptable as a
-singular pronoun when needed.
+For guidance on avoiding "we" and "our" in technical documentation,
+see [We and our](we-and-our.md).
 
 ## Related
 
 - [Active voice](active-voice.md)
-- [Anthropomorphism](anthropomorphism.md)
 - [Inclusive language](inclusive-language.md)
 - [Modern Voice](modern-voice.md)
+- [We and our](we-and-our.md)
