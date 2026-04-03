@@ -3,7 +3,7 @@ title: Word list
 category: terminology
 aliases: [forbidden words, word choice, alternatives, replacements]
 applies-to: [all F5 docs]
-source-authority: F5 Modern Voice, F5 Unified Style Guide, F5 Technical Style Guide
+source-authority: F5 Modern Voice, F5 Technical Style Guide
 supersedes:
 last-reviewed: 2026-04-03
 ---

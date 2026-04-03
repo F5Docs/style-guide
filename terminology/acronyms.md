@@ -78,30 +78,43 @@ If the acronym stands for a plural noun, don't add an "s":
 These acronyms are widely understood in the F5 technical audience
 and don't need to be spelled out:
 
-| Acronym | Spelled out                        |
-|---------|------------------------------------|
-| API     | application programming interface  |
-| CPU     | central processing unit            |
-| DNS     | Domain Name System                 |
-| FTP     | File Transfer Protocol             |
-| HTML    | HyperText Markup Language          |
-| HTTP    | HyperText Transfer Protocol        |
-| HTTPS   | HyperText Transfer Protocol Secure |
-| ID      | identifier                         |
-| IP      | Internet Protocol                  |
-| JSON    | JavaScript Object Notation         |
-| RAM     | random access memory               |
-| REST    | Representational State Transfer    |
-| SSH     | Secure Shell                       |
-| SSL     | Secure Sockets Layer               |
-| TLS     | Transport Layer Security           |
-| UI      | user interface                     |
-| URL     | Uniform Resource Locator           |
-| USB     | Universal Serial Bus               |
-| VLAN    | virtual local area network         |
-| VPN     | virtual private network            |
-| XML     | Extensible Markup Language         |
-| YAML    | YAML Ain't Markup Language         |
+| Acronym | Spelled out                          |
+|---------|--------------------------------------|
+| API     | Application Programming Interface    |
+| CIDR    | Classless Inter-Domain Routing       |
+| CPU     | Central Processing Unit              |
+| CVE     | Common Vulnerabilities and Exposures |
+| CVSS    | Common Vulnerability Scoring System  |
+| DHCP    | Dynamic Host Configuration Protocol  |
+| DNS     | Domain Name System                   |
+| FQDN    | Fully Qualified Domain Name          |
+| FTP     | File Transfer Protocol               |
+| GPU     | Graphics Processing Unit             |
+| gRPC    | gRPC Remote Procedure Call           |
+| HTTP    | HyperText Transfer Protocol          |
+| HTTPS   | HyperText Transfer Protocol Secure   |
+| ID      | Identifier                           |
+| IP      | Internet Protocol                    |
+| JSON    | JavaScript Object Notation           |
+| JWT     | JSON Web Token                       |
+| NAT     | Network Address Translation          |
+| PEM     | Privacy Enhanced Mail (file format)  |
+| RAM     | Random Access Memory                 |
+| REST    | Representational State Transfer      |
+| SMTP    | Simple Mail Transfer Protocol        |
+| SSH     | Secure Shell                         |
+| SSL     | Secure Sockets Layer                 |
+| TCP     | Transmission Control Protocol        |
+| TLS     | Transport Layer Security             |
+| UI      | User Interface                       |
+| UDP     | User Datagram Protocol               |
+| URL     | Uniform Resource Locator             |
+| USB     | Universal Serial Bus                 |
+| VLAN    | Virtual Local Area Network           |
+| VPN     | Virtual Private Network              |
+| WAF     | Web Application Firewall             |
+| XML     | Extensible Markup Language           |
+| YAML    | YAML Ain't Markup Language           |
 
 ## See also
 

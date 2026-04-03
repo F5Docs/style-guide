@@ -3,8 +3,8 @@ title: Capitalization
 category: formatting
 aliases: [capitalization, sentence case, title case, caps]
 applies-to: [all F5 docs]
-source-authority: F5 Technical Style Guide, F5 NGINX Style Guide, F5 Unified Style Guide
-supersedes: 
+source-authority: F5 Technical Style Guide, F5 NGINX Style Guide
+supersedes:
 last-reviewed: 2026-04-03
 ---
 
@@ -47,12 +47,18 @@ Always capitalize:
 - Official feature names when used as proper names: BIG-IP LTM,
   Client SSL
 - Third-party product names: Kubernetes, Linux, VMware
+- Protocol and standard names follow industry convention and use
+  title case: Network Address Translation, Transmission Control
+  Protocol, Virtual Local Area Network
 
 ### Acronyms
 Acronyms are written in all caps, but their source words are not
-capitalized unless they are proper nouns:
+capitalized unless they are proper nouns or industry-standard
+protocol and standard names:
 - Do: single sign-on (SSO)
 - Do: denial-of-service (DoS)
+- Do: Network Address Translation (NAT)
+- Do: Transmission Control Protocol (TCP)
 - Don't: Single Sign-On (SSO)
 - Don't: Denial-Of-Service (DoS)
 
