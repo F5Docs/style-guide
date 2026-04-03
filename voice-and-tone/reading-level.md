@@ -47,9 +47,6 @@ is technical.
 Target: Flesch-Kincaid Grade Level of 8–9. A score of 7 or lower is
 acceptable. A score above 10 is a signal to revise.
 
-## Related
+## See also
 
-- [Global audience](global-audience.md)
-- [Modern Voice](modern-voice.md)
-- [Sentence length](sentence-length.md)
-- [Word list](../terminology/word-list.md)
+[Browse all guidelines](../TOC.md)

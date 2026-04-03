@@ -43,9 +43,6 @@ Use one space after a colon, not two.
 In navigation paths, use ">" not a colon to separate levels:
 > Go to **Local Traffic** > **Virtual Servers**.
 
-## Related
+## See also
 
-- [Em dash](em-dash.md)
-- [Images](../formatting/images.md)
-- [Lists](../formatting/lists.md)
-- [Tables](../formatting/tables.md)
+[Browse all guidelines](../TOC.md)

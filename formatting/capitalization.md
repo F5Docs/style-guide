@@ -84,9 +84,6 @@ daemons, since the "d" already stands for daemon:
 Daemons that don't end in "d" are referred to as daemons:
 - Do: the websso daemon
 
-## Related
+## See also
 
-- [Acronyms](../terminology/acronyms.md)
-- [F5 product names](../terminology/f5-product-names.md)
-- [Headings](headings.md)
-- [UI element names](../procedures/ui-element-names.md)
+[Browse all guidelines](../TOC.md)

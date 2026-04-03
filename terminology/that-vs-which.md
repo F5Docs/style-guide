@@ -54,8 +54,6 @@ Always use "who" when referring to people:
 - Do: the administrator who manages the virtual servers
 - Don't: the administrator that manages the virtual servers
 
-## Related
+## See also
 
-- [Inclusive language](../voice-and-tone/inclusive-language.md)
-- [Second person](../voice-and-tone/second-person.md)
-- [We and our](../voice-and-tone/we-and-our.md)
+[Browse all guidelines](../TOC.md)

@@ -55,9 +55,6 @@ Single quotes follow the same rules as double quotes. Don't use single
 quotes as apostrophes in running text — use the standard apostrophe
 character.
 
-## Related
+## See also
 
-- [Bold](../formatting/bold.md)
-- [Ellipses](ellipses.md)
-- [Italics](../formatting/italics.md)
-- [Possessives](../punctuation/possessives.md)
+[Browse all guidelines](../TOC.md)

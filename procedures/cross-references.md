@@ -52,8 +52,6 @@ end of the topic.
 When linking to external F5 documentation, use the full URL rather
 than masking the destination.
 
-## Related
+## See also
 
-- [Admonitions](admonitions.md)
-- [F5 product names](../terminology/f5-product-names.md)
-- [Link text](../accessibility/link-text.md)
+[Browse all guidelines](../TOC.md)

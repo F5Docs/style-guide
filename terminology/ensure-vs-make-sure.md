@@ -39,9 +39,6 @@ Don't use "ensure" to mean "make certain" anywhere in technical
 documentation. Reserve it only if it appears as a product UI label,
 in which case use the label as shown.
 
-## Related
+## See also
 
-- [Configure vs. Set up](configure-vs-set-up.md)
-- [Latin abbreviations](latin-abbreviations.md)
-- [Modern Voice](../voice-and-tone/modern-voice.md)
-- [Word list](word-list.md)
+[Browse all guidelines](../TOC.md)

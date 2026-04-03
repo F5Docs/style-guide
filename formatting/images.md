@@ -64,9 +64,6 @@ written instructions can do the job, skip the screenshot.
   [Alt text](../accessibility/alt-text.md) for
   guidance on writing effective alt text.
 
-## Related
+## See also
 
-- [Alt text](../accessibility/alt-text.md)
-- [Colons](../punctuation/colons.md)
-- [Sensitive information](../terminology/sensitive-information.md)
-- [Tables](tables.md)
+[Browse all guidelines](../TOC.md)

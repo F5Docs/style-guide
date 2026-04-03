@@ -37,8 +37,6 @@ like "enter" or "select."
 The NGINX style guide permits "configure" specifically when describing
 NGINX product configuration (installation, NGINX Agent setup, and similar).
 
-## Related
+## See also
 
-- [Ensure vs Make sure](ensure-vs-make-sure.md)
-- [Modern Voice](../voice-and-tone/modern-voice.md)
-- [Word list](word-list.md)
+[Browse all guidelines](../TOC.md)

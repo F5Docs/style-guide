@@ -46,7 +46,6 @@ change they're making.
 Do not use "upgrade" as a general synonym for "improve" or "enhance"
 in F5 technical documentation.
 
-## Related
+## See also
 
-- [F5 product names](f5-product-names.md)
-- [Word list](word-list.md)
+[Browse all guidelines](../TOC.md)

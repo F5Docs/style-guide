@@ -58,8 +58,6 @@ For clear optional actions, use "can" or "may":
 - You can add a description to help identify the virtual server.
 - You may skip this step if you don't need custom logging.
 
-## Related
+## See also
 
-- [Active voice](../voice-and-tone/active-voice.md)
-- [Step formatting](../procedures/step-formatting.md)
-- [Word list](word-list.md)
+[Browse all guidelines](../TOC.md)

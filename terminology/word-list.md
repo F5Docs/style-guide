@@ -84,10 +84,6 @@ where appropriate:
 > Note: F5 is working to eliminate exclusionary language in our
 > products and documentation.
 
-## Related
+## See also
 
-- [Configure vs. Set up](configure-vs-set-up.md)
-- [Inclusive language](../voice-and-tone/inclusive-language.md)
-- [Latin abbreviations](latin-abbreviations.md)
-- [Modern Voice](../voice-and-tone/modern-voice.md)
-- [Possessives](../punctuation/possessives.md)
+[Browse all guidelines](../TOC.md)

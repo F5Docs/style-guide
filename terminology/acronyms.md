@@ -62,9 +62,6 @@ F5-specific exceptions — do not spell out:
 - RADIUS
 - UDP
 
-## Related
+## See also
 
-- [Capitalization](../formatting/capitalization.md)
-- [F5 product names](f5-product-names.md)
-- [Headings](../formatting/headings.md)
-- [Latin abbreviations](latin-abbreviations.md)
+[Browse all guidelines](../TOC.md)

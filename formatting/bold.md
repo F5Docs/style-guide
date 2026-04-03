@@ -43,8 +43,6 @@ Specific bold conventions:
 - Parameter names: bold
 - Database keys: bold, all lowercase
 
-## Related
+## See also
 
-- [Code blocks](code-blocks.md)
-- [Italics](italics.md)
-- [UI element names](../procedures/ui-element-names.md)
+[Browse all guidelines](../TOC.md)

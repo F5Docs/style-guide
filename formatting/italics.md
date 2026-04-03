@@ -33,8 +33,6 @@ NGINX documentation specifically — use roman (plain) text instead.
 
 Hyperlinks should be bold, not italicized.
 
-## Related
+## See also
 
-- [Bold](bold.md)
-- [Quotation marks](../punctuation/quotation-marks.md)
-- [UI element names](../procedures/ui-element-names.md)
+[Browse all guidelines](../TOC.md)

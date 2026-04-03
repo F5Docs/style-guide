@@ -84,10 +84,6 @@ you mean:
 Use colors for literal representation only. Avoid using colors as
 metaphors for status or value judgments where possible.
 
-## Related
+## See also
 
-- [Anthropomorphism](anthropomorphism.md)
-- [Global audience](global-audience.md)
-- [Possessives](../punctuation/possessives.md)
-- [Second person](second-person.md)
-- [Word list](../terminology/word-list.md)
+[Browse all guidelines](../TOC.md)

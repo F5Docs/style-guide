@@ -64,11 +64,6 @@ Shorter sentences translate more accurately. Avoid idioms, passive
 voice, and ambiguous pronoun references — these are common machine
 translation failure points.
 
-## Related
+## See also
 
-- [Inclusive language](inclusive-language.md)
-- [Latin abbreviations](../terminology/latin-abbreviations.md)
-- [Modern Voice](modern-voice.md)
-- [Reading level](reading-level.md)
-- [Sentence length](sentence-length.md)
-- [Word list](../terminology/word-list.md)
+[Browse all guidelines](../TOC.md)

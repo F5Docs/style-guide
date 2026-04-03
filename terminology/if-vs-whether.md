@@ -47,7 +47,6 @@ Never use "whether or not" — the "or not" is always redundant:
 - Don't: Check whether or not the service is running.
 - Do: Check whether the service is running.
 
-## Related
+## See also
 
-- [may, can, and might](may-can-might.md)
-- [Word list](word-list.md)
+[Browse all guidelines](../TOC.md)

@@ -58,8 +58,6 @@ announcements, and blog posts where F5 is speaking directly to
 customers as a company. It is not appropriate in technical
 procedures, reference documentation, or conceptual content.
 
-## Related
+## See also
 
-- [Active voice](active-voice.md)
-- [Anthropomorphism](anthropomorphism.md)
-- [Second person](second-person.md)
+[Browse all guidelines](../TOC.md)
