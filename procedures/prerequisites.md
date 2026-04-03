@@ -47,6 +47,6 @@ formal block when the list is only one or two items:
 
 ## Related
 
-- [procedures/step-formatting.md](step-formatting.md)
-- [procedures/admonitions.md](admonitions.md)
-- [voice-and-tone/second-person.md](../voice-and-tone/second-person.md)
+- [Admonitions](admonitions.md)
+- [Second person](../voice-and-tone/second-person.md)
+- [Step formatting](step-formatting.md)

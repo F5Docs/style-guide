@@ -34,5 +34,5 @@ might otherwise be read as a pair.
 
 ## Related
 
-- [punctuation/colons.md](colons.md)
-- [formatting/lists.md](../formatting/lists.md)
+- [Colons](colons.md)
+- [Lists](../formatting/lists.md)

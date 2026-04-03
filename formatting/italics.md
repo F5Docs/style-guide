@@ -35,6 +35,6 @@ Hyperlinks should be bold, not italicized.
 
 ## Related
 
-- [formatting/bold.md](bold.md)
-- [punctuation/quotation-marks.md](../punctuation/quotation-marks.md)
-- [procedures/ui-element-names.md](../procedures/ui-element-names.md)
+- [Bold](bold.md)
+- [Quotation marks](../punctuation/quotation-marks.md)
+- [UI element names](../procedures/ui-element-names.md)

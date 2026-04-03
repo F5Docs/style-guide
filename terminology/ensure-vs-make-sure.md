@@ -41,7 +41,7 @@ in which case use the label as shown.
 
 ## Related
 
-- [voice-and-tone/modern-voice.md](../voice-and-tone/modern-voice.md)
-- [terminology/configure-vs-set-up.md](configure-vs-set-up.md)
-- [terminology/word-list.md](word-list.md)
-- [terminology/latin-abbreviations.md](latin-abbreviations.md)
+- [configure vs. set up](configure-vs-set-up.md)
+- [Latin abbreviations](latin-abbreviations.md)
+- [Modern Voice](../voice-and-tone/modern-voice.md)
+- [Word list](word-list.md)

@@ -70,7 +70,7 @@ Avoid terms that use disability as a metaphor or pejorative:
 | sanity check | confidence check, review |
 
 ### Exclusionary technical terms
-See [terminology/word-list.md](../terminology/word-list.md) for the
+See [Word list](../terminology/word-list.md) for the
 full list of exclusionary technical terms and their replacements,
 including blacklist/whitelist and master/slave.
 
@@ -86,8 +86,8 @@ metaphors for status or value judgments where possible.
 
 ## Related
 
-- [voice-and-tone/global-audience.md](global-audience.md)
-- [voice-and-tone/second-person.md](second-person.md)
-- [voice-and-tone/anthropomorphism.md](anthropomorphism.md)
-- [terminology/word-list.md](../terminology/word-list.md)
-- [terminology/possessives.md](../terminology/possessives.md)
+- [Anthropomorphism](anthropomorphism.md)
+- [Global audience](global-audience.md)
+- [Possessives](../terminology/possessives.md)
+- [Second person](second-person.md)
+- [Word list](../terminology/word-list.md)

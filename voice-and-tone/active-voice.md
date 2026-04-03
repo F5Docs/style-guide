@@ -40,8 +40,8 @@ lets, enables, makes. Write from the user's perspective instead.
 
 ## Related
 
-- [voice-and-tone/anthropomorphism.md](anthropomorphism.md)
-- [voice-and-tone/contractions.md](contractions.md)
-- [voice-and-tone/second-person.md](second-person.md)
-- [voice-and-tone/tense.md](tense.md)
-- [terminology/word-list.md](../terminology/word-list.md)
+- [Anthropomorphism](anthropomorphism.md)
+- [Contractions](contractions.md)
+- [Second person](second-person.md)
+- [Tense](tense.md)
+- [Word list](../terminology/word-list.md)

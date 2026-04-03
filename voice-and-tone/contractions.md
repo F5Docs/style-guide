@@ -39,5 +39,5 @@ product documentation.
 
 ## Related
 
-- [voice-and-tone/modern-voice.md](modern-voice.md)
-- [voice-and-tone/active-voice.md](active-voice.md)
+- [Active voice](active-voice.md)
+- [Modern Voice](modern-voice.md)

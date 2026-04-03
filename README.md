@@ -38,7 +38,7 @@ Examples of American English preferences:
 ## Date and time formats
 
 Follow American date format conventions. See
-[punctuation/dates-and-times.md](punctuation/dates-and-times.md) for
+[Dates and times](punctuation/dates-and-times.md) for
 full guidance.
 
 - Dates: June 17, 2026 (not 17 June 2026)

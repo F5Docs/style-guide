@@ -57,7 +57,7 @@ character.
 
 ## Related
 
-- [formatting/bold.md](../formatting/bold.md)
-- [formatting/italics.md](../formatting/italics.md)
-- [punctuation/ellipses.md](ellipses.md)
-- [terminology/possessives.md](../terminology/possessives.md)
+- [Bold](../formatting/bold.md)
+- [Ellipses](ellipses.md)
+- [Italics](../formatting/italics.md)
+- [Possessives](../terminology/possessives.md)

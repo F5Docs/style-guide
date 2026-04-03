@@ -57,10 +57,10 @@ if you are creative enough to find it."
 
 ## Related
 
-- [voice-and-tone/active-voice.md](active-voice.md)
-- [voice-and-tone/contractions.md](contractions.md)
-- [voice-and-tone/global-audience.md](global-audience.md)
-- [voice-and-tone/reading-level.md](reading-level.md)
-- [voice-and-tone/second-person.md](second-person.md)
-- [voice-and-tone/sentence-length.md](sentence-length.md)
-- [terminology/word-list.md](../terminology/word-list.md)
+- [Active voice](active-voice.md)
+- [Contractions](contractions.md)
+- [Global audience](global-audience.md)
+- [Reading level](reading-level.md)
+- [Second person](second-person.md)
+- [Sentence length](sentence-length.md)
+- [Word list](../terminology/word-list.md)
