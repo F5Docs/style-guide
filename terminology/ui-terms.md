@@ -41,16 +41,16 @@ describe what the user needs to do instead.
 
 Required replacements:
 
-| Avoid            | Use instead                                   | Notes                                  |
-|------------------|-----------------------------------------------|----------------------------------------|
-| drop-down (noun) | UI label, list, menu                          | See Drop-down usage below.             |
-| field            | box                                           |                                        |
-| screen           | page                                          | Use "console screen" for hardware only |
-| GUI, WebGUI      | user interface                                |                                        |
-| dialog box       | pop-up window (MyF5), popup screen (TechComm) |                                        |
-| navigate to      | go to                                         |                                        |
-| grayed out       | unavailable                                   |                                        |
-| radio button     | button, or refer to the label directly        |                                        |
+| Avoid            | Use instead                                   | Notes                                          |
+|------------------|-----------------------------------------------|------------------------------------------------|
+| drop-down (noun) | UI label, list, menu                          | See [Drop-down usage](#drop-down-usage) below. |
+| field            | box                                           |                                                |
+| screen           | page                                          | Use "console screen" for hardware only         |
+| GUI, WebGUI      | user interface                                |                                                |
+| dialog box       | pop-up window (MyF5), popup screen (TechComm) |                                                |
+| navigate to      | go to                                         |                                                |
+| grayed out       | unavailable                                   |                                                |
+| radio button     | button, or refer to the label directly        |                                                |
 
 ### Drop-down usage
 
