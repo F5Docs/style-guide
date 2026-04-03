@@ -12,10 +12,9 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Use specific, plain terms for UI elements. Avoid legacy or ambiguous
-terms that don't translate well or don't match how the interface
-actually works. Most of the time, avoid referring to UI elements at
-all — describe what the user needs to do instead.
+Most of the time, avoid referring to UI elements. Instead, describe
+what the user needs to do. When you do refer to UI elements, use the
+terms in this guide.
 
 ## Examples
 
@@ -26,7 +25,7 @@ all — describe what the user needs to do instead.
 
 > Go to **Local Traffic** > **Virtual Servers**.
 
-> Select the **Enable** option.
+> Select **Submit**.
 
 **Don't:**
 > From the **Policy** drop-down, select **APM**.
@@ -35,7 +34,7 @@ all — describe what the user needs to do instead.
 
 > Navigate to **Local Traffic** > **Virtual Servers**.
 
-> Select the **Enable** radio button.
+> Select the **Submit** button.
 
 ## Notes
 
@@ -54,10 +53,8 @@ Required replacements:
 
 ### Drop-down usage
 
-Most of the time, avoid talking about UI elements. Instead, describe
-what the user needs to do. If you must refer to a drop-down menu or
-list, it's OK to use "drop-down" as an adjective. Don't use
-"drop-down" as a noun.
+If you must refer to a drop-down menu or list, it's OK to use
+"drop-down" as an adjective. Don't use "drop-down" as a noun.
 
 **Do:**
 > Under **Policy**, select **APM**.
