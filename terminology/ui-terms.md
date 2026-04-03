@@ -43,7 +43,7 @@ Required replacements:
 
 | Avoid | Use instead | Notes |
 |-------|-------------|-------|
-| drop-down (noun) | list, menu | Use "drop-down" only as an adjective: "drop-down list," "drop-down menu" |
+| drop-down (noun) | UI label, list, menu | See Drop-down usage below. |
 | field | box | |
 | screen | page | Use "console screen" for hardware only |
 | GUI, WebGUI | user interface | |
@@ -52,18 +52,23 @@ Required replacements:
 | grayed out | unavailable | |
 | radio button | button, or refer to the label directly | |
 
-### Drop-down: noun vs. adjective
+### Drop-down usage
 
-Don't use "drop-down" as a noun. As an adjective before "list" or
-"menu," it's acceptable when needed. The preferred form is to refer
-to the UI label directly without naming the element type.
+Most of the time, avoid talking about UI elements. Instead, describe
+what the user needs to do. If you must refer to a drop-down menu or
+list, it's OK to use "drop-down" as an adjective. Don't use
+"drop-down" as a noun.
 
-In order of preference:
-1. Under **Policy**, select **APM**. (preferred)
-2. From the **Policy** list, select **APM**. (acceptable)
-3. From the **Policy** drop-down list, select **APM**. (acceptable)
-4. From the **Policy** drop-down menu, select **APM**. (acceptable)
-5. From the **Policy** drop-down, select **APM**. (don't use)
+**Do:**
+> Under **Policy**, select **APM**.
+
+> From the **Policy** list, select **APM**.
+
+**Acceptable:**
+> From the **Policy** drop-down list, select **APM**.
+
+**Don't:**
+> From the **Policy** drop-down, select **APM**.
 
 ## Related
 
