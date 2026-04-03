@@ -60,4 +60,4 @@ character.
 - [Bold](../formatting/bold.md)
 - [Ellipses](ellipses.md)
 - [Italics](../formatting/italics.md)
-- [Possessives](../terminology/possessives.md)
+- [Possessives](../punctuation/possessives.md)

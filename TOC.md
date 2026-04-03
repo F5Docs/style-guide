@@ -29,6 +29,7 @@
 - [Ellipses](punctuation/ellipses.md)
 - [Em dash](punctuation/em-dash.md)
 - [Oxford comma](punctuation/oxford-comma.md)
+- [Possessives](punctuation/possessives.md)
 - [Quotation marks](punctuation/quotation-marks.md)
 
 ## Terminology
@@ -39,7 +40,6 @@
 - [F5 product names](terminology/f5-product-names.md)
 - [Latin abbreviations](terminology/latin-abbreviations.md)
 - [login vs. log in](terminology/login-vs-log-in.md)
-- [Possessives](terminology/possessives.md)
 - [Sensitive information](terminology/sensitive-information.md)
 - [UI terms](terminology/ui-terms.md)
 - [Word list](terminology/word-list.md)

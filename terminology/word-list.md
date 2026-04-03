@@ -82,4 +82,4 @@ where appropriate:
 - [Inclusive language](../voice-and-tone/inclusive-language.md)
 - [Latin abbreviations](latin-abbreviations.md)
 - [Modern Voice](../voice-and-tone/modern-voice.md)
-- [Possessives](possessives.md)
+- [Possessives](../punctuation/possessives.md)

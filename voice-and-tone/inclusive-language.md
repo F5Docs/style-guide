@@ -88,6 +88,6 @@ metaphors for status or value judgments where possible.
 
 - [Anthropomorphism](anthropomorphism.md)
 - [Global audience](global-audience.md)
-- [Possessives](../terminology/possessives.md)
+- [Possessives](../punctuation/possessives.md)
 - [Second person](second-person.md)
 - [Word list](../terminology/word-list.md)

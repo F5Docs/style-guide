@@ -57,7 +57,7 @@ Recast using "of" or restructure:
 
 ## Related
 
-- [F5 product names](f5-product-names.md)
+- [F5 product names](../terminology/f5-product-names.md)
 - [Inclusive language](../voice-and-tone/inclusive-language.md)
 - [Modern Voice](../voice-and-tone/modern-voice.md)
-- [Word list](word-list.md)
+- [Word list](../terminology/word-list.md)
