@@ -26,6 +26,10 @@ last-reviewed: YYYY-MM-DD
 
 [Edge cases, exceptions, or context. Optional — omit if there's nothing to add.]
 
+## Related
+
+- [Link to related guideline]
+
 ## See also
 
 [Browse all guidelines](../TOC.md)
