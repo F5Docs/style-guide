@@ -1,6 +1,6 @@
 ---
 title: Tense
-category: voice-and-tone
+category: grammar
 aliases: [tense, present tense, future tense, past tense]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Style Guide
@@ -50,7 +50,7 @@ users are still using those versions in the present:
 
 ## Related
 
-- [Active voice](active-voice.md)
+- [Active voice](../voice-and-tone/active-voice.md)
 - [F5 product names](../terminology/f5-product-names.md)
 - [Headings](../formatting/headings.md)
 

@@ -17,6 +17,14 @@
 - [Numbers](formatting/numbers.md)
 - [Tables](formatting/tables.md)
 
+## Grammar
+- [Articles](grammar/articles.md)
+- [Directional references](grammar/directional-references.md)
+- [If vs. Whether](grammar/if-vs-whether.md)
+- [May, Can, and Might](grammar/may-can-might.md)
+- [Tense](grammar/tense.md)
+- [That vs. Which](grammar/that-vs-which.md)
+
 ## Procedures
 - [Admonitions](procedures/admonitions.md)
 - [Cross-references](procedures/cross-references.md)
@@ -39,12 +47,9 @@
 - [Configure vs. Set up](terminology/configure-vs-set-up.md)
 - [Ensure vs. Make sure](terminology/ensure-vs-make-sure.md)
 - [F5 product names](terminology/f5-product-names.md)
-- [If vs. Whether](terminology/if-vs-whether.md)
 - [Latin abbreviations](terminology/latin-abbreviations.md)
 - [Login vs. Log in](terminology/login-vs-log-in.md)
-- [May, Can, and Might](terminology/may-can-might.md)
 - [Sensitive information](terminology/sensitive-information.md)
-- [That vs. Which](terminology/that-vs-which.md)
 - [UI terms](terminology/ui-terms.md)
 - [Update vs. Upgrade](terminology/update-vs-upgrade.md)
 - [Word list](terminology/word-list.md)
@@ -59,5 +64,4 @@
 - [Reading level](voice-and-tone/reading-level.md)
 - [Second person](voice-and-tone/second-person.md)
 - [Sentence length](voice-and-tone/sentence-length.md)
-- [Tense](voice-and-tone/tense.md)
 - [We and Our](voice-and-tone/we-and-our.md)

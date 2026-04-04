@@ -1,6 +1,6 @@
 ---
 title: If vs. Whether
-category: terminology
+category: grammar
 aliases: [if, whether, conditional, alternatives]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Style Guide
@@ -51,7 +51,7 @@ Never use "whether or not" — the "or not" is always redundant:
 
 - [May, Can, and Might](may-can-might.md)
 - [That vs. Which](that-vs-which.md)
-- [Word list](word-list.md)
+- [Word list](../terminology/word-list.md)
 
 ## See also
 

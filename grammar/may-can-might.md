@@ -1,6 +1,6 @@
 ---
 title: May, Can, and Might
-category: terminology
+category: grammar
 aliases: [may, can, might, should, modal verbs, permission, ability]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Style Guide, F5 NGINX Style Guide

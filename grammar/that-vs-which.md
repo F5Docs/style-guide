@@ -1,6 +1,6 @@
 ---
 title: That vs. Which
-category: terminology
+category: grammar
 aliases: [that, which, who, relative clauses, essential, non-essential]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Style Guide, F5 NGINX Style Guide
