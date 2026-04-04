@@ -23,23 +23,31 @@ for more detail.
 
 ## Quick reference
 
-| Term             | Guidance                                                                                  |
-|------------------|-------------------------------------------------------------------------------------------|
-| button           | Refer to the label directly                                                               |
-| checkbox         | Refer to the label directly, or use "checkbox" as a noun. Use "select" to select, "clear" to deselect. |
-| dialog box       | pop-up window (MyF5), popup screen (TechComm)                                             |
-| drawer           | panel                                                                                     |
-| drop-down        | Refer to the label directly, or use as an adjective before "list" or "menu"               |
-| field            | box                                                                                       |
-| grayed out       | unavailable                                                                               |
-| GUI, WebGUI      | user interface                                                                            |
-| navigate to      | go to                                                                                     |
-| radio button     | Refer to the label directly. If you need a descriptor, use "option."                      |
-| screen           | page                                                                                      |
-| tab (UI)         | Use as a noun with the label: "On the **View** tab"                                       |
-| Tab key          | Use "Tab key" when referring to the keyboard key                                          |
+| Term                    | Avoid                      | Guidance                                                                                  |
+|-------------------------|----------------------------|-------------------------------------------------------------------------------------------|
+| box                     | field                      | Use "box" for input areas.                                                                |
+| button                  |                            | Refer to the label directly.                                                              |
+| checkbox                |                            | Refer to the label directly, or use "checkbox" as a noun. Use "select" to select, "clear" to deselect. |
+| drop-down (adjective)   | drop-down (noun)           | Refer to the label directly, or use as an adjective before "list" or "menu." Never use as a noun. |
+| go to                   | navigate to                |                                                                                           |
+| page                    | screen                     | Use "console screen" for hardware only.                                                   |
+| panel                   | drawer                     | "Drawer" is a developer term.                                                             |
+| pop-up window           | dialog box                 | Use "popup screen" in TechComm content.                                                   |
+| radio button            |                            | Refer to the label directly. If you need a descriptor, use "option."                      |
+| tab (UI)                |                            | Use as a noun with the label: "On the **View** tab."                                      |
+| Tab key                 |                            | Use "Tab key" when referring to the keyboard key.                                         |
+| unavailable             | grayed out                 |                                                                                           |
+| user interface          | GUI, WebGUI                |                                                                                           |
 
 ## Details
+
+### Box
+
+**Do:**
+> Enter a value in the **IP Address** box.
+
+**Don't:**
+> Enter a value in the **IP Address** field.
 
 ### Button
 
@@ -79,22 +87,6 @@ Use "select" to select a checkbox and "clear" to deselect it.
 
 **Don't:**
 > From the **Policy** drop-down, select **APM**.
-
-### Field
-
-**Do:**
-> Enter a value in the **IP Address** box.
-
-**Don't:**
-> Enter a value in the **IP Address** field.
-
-### Grayed out
-
-**Do:**
-> The option is unavailable.
-
-**Don't:**
-> The option is grayed out.
 
 ### Radio button
 
