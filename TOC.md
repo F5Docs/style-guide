@@ -20,8 +20,11 @@
 ## Grammar
 - [Articles](grammar/articles.md)
 - [Directional references](grammar/directional-references.md)
+- [Gerunds](grammar/gerunds.md)
 - [If vs. Whether](grammar/if-vs-whether.md)
 - [May, Can, and Might](grammar/may-can-might.md)
+- [Noun clusters](grammar/noun-clusters.md)
+- [Parallel structure](grammar/parallel-structure.md)
 - [Tense](grammar/tense.md)
 - [That vs. Which](grammar/that-vs-which.md)
 
