@@ -41,7 +41,7 @@ lets, enables, makes. Write from the user's perspective instead.
 ## Related
 
 - [Anthropomorphism](anthropomorphism.md)
-- [Tense](tense.md)
+- [Tense](../grammar/tense.md)
 - [Word list](../terminology/word-list.md)
 
 ## See also
