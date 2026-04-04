@@ -24,7 +24,7 @@ making positional references unreliable.
 
 > In the **Tunnel Location** section, select a destination location.
 
-> For more information, see [Virtual servers](link).
+> For more information, see the *Virtual servers* section.
 
 **Don't:**
 > In the left column menu, select **Manage**.
