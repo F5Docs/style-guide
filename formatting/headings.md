@@ -46,8 +46,6 @@ Avoid numerals and ampersands in headings unless space is critical.
 
 ## Related
 
-- [Active voice](../voice-and-tone/active-voice.md)
-- [Acronyms](../terminology/acronyms.md)
 - [Capitalization](../formatting/capitalization.md)
 - [Gerunds](../grammar/gerunds.md)
 - [Tense](../grammar/tense.md)
