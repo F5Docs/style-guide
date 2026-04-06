@@ -3,9 +3,9 @@ title: Word list
 category: terminology
 aliases: [forbidden words, word choice, alternatives, replacements]
 applies-to: [all F5 docs]
-source-authority: F5 Modern Voice, F5 Technical Style Guide
+source-authority: F5 Modern Voice, F5 Technical Style Guide, Microsoft Style Guide
 supersedes:
-last-reviewed: 2026-04-03
+last-reviewed: 2026-04-06
 ---
 
 # Word list
@@ -22,14 +22,17 @@ writer and the reader.
 |-------|-------------|-------|
 | abort | stop, interrupt, shut down | OK in API/function names only |
 | access (verb) | use a specific verb: open, view, read | "access" as a verb is jargon |
-| allows, lets, enables | rewrite from user perspective | system-centric language |
 | and/or | and, or | be specific about which you mean |
 | as (causal) | because | "as" is ambiguous; use "because" for cause-and-effect |
 | boot, boot up | start | use "boot" only in "boot to a new volume" |
 | configure | set up | see [Configure vs. Set up](configure-vs-set-up.md) |
 | crash | fails to respond, stops responding | be specific about the behavior |
 | desire, wish | want, need, prefer | too formal |
+| disable | turn off, make unavailable, block, remove | see [Enable and disable](enable-disable.md) |
+| disabled (state) | unavailable, inactive, off | see [Enable and disable](enable-disable.md) |
 | due to | because of | "due to" modifies nouns; "because of" modifies verbs. When in doubt, use "because of." |
+| enable | turn on, allow, add | see [Enable and disable](enable-disable.md) |
+| enables, allows, lets | rewrite from user perspective | "BIG-IP enables you to..." → "Use BIG-IP to..."; see [Enable and disable](enable-disable.md) |
 | execute | run | "execute" means put to death |
 | grayed out | unavailable | |
 | halt | stop | |
@@ -86,6 +89,7 @@ where appropriate:
 
 ## Related
 
+- [Enable and disable](enable-disable.md)
 - [Global audience](../voice-and-tone/global-audience.md)
 - [Inclusive language](../voice-and-tone/inclusive-language.md)
 - [Modern Voice](../voice-and-tone/modern-voice.md)

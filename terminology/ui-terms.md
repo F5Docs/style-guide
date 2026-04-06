@@ -129,6 +129,7 @@ referring to a UI tab. When referring to the keyboard key, use
 - [Bold](../formatting/bold.md)
 - [Click vs. Select](click-vs-select.md)
 - [Directional references](../procedures/directional-references.md)
+- [Enable and disable](enable-disable.md)
 - [UI element names](../procedures/ui-element-names.md)
 
 ## See also
