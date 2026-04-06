@@ -36,7 +36,7 @@ for more detail.
 | radio button      |                            | Refer to the label directly. If you need a descriptor, use "option."                      |
 | tab (UI)          |                            | Use as a noun with the label: "On the **View** tab."                                      |
 | Tab key           |                            | Use "Tab key" when referring to the keyboard key.                                         |
-| toggle (noun/adj) |                            | Use "turn on" and "turn off" with the label. Include "toggle" only if it adds clarity.    |
+| toggle (noun/adj) | toggle (verb)              | Use "turn on" and "turn off" with the label. Include "toggle" only if it adds clarity.    |
 | unavailable       | grayed out                 |                                                                                           |
 | user interface    | GUI, WebGUI                |                                                                                           |
 
