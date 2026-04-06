@@ -44,6 +44,7 @@ tab, list, button, box.
 
 - [Bold](../formatting/bold.md)
 - [Click vs. Select](../terminology/click-vs-select.md)
+- [Directional references](directional-references.md)
 - [UI terms](../terminology/ui-terms.md)
 
 ## See also

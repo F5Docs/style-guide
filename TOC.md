@@ -19,7 +19,6 @@
 
 ## Grammar
 - [Articles](grammar/articles.md)
-- [Directional references](grammar/directional-references.md)
 - [Gerunds](grammar/gerunds.md)
 - [If vs. Whether](grammar/if-vs-whether.md)
 - [May, Can, and Might](grammar/may-can-might.md)
@@ -31,6 +30,7 @@
 ## Procedures
 - [Admonitions](procedures/admonitions.md)
 - [Cross-references](procedures/cross-references.md)
+- [Directional references](procedures/directional-references.md)
 - [Prerequisites](procedures/prerequisites.md)
 - [Step formatting](procedures/step-formatting.md)
 - [UI element names](procedures/ui-element-names.md)

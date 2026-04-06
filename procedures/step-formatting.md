@@ -48,6 +48,7 @@ of device.
 
 - [Active voice](../voice-and-tone/active-voice.md)
 - [Click vs. Select](../terminology/click-vs-select.md)
+- [Directional references](directional-references.md)
 - [Lists](../formatting/lists.md)
 
 ## See also

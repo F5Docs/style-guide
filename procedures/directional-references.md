@@ -48,12 +48,13 @@ Acceptable positional references when no label is available:
 Always prefer the label over a positional reference when one exists.
 
 For guidance on document cross-references specifically, see
-[Cross-references](../procedures/cross-references.md).
+[Cross-references](cross-references.md).
 
 ## Related
 
-- [Cross-references](../procedures/cross-references.md)
-- [UI element names](../procedures/ui-element-names.md)
+- [Cross-references](cross-references.md)
+- [Step formatting](step-formatting.md)
+- [UI element names](ui-element-names.md)
 - [UI terms](../terminology/ui-terms.md)
 
 ## See also
