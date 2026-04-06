@@ -1,11 +1,11 @@
 ---
 title: UI terms
 category: terminology
-aliases: [UI, user interface, screen, field, dialog, drop-down, GUI, button, checkbox, tab, radio button]
+aliases: [UI, user interface, screen, field, dialog, drop-down, GUI, button, checkbox, tab, radio button, toggle]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Style Guide, F5 NGINX Style Guide, Microsoft Style Guide
 supersedes:
-last-reviewed: 2026-04-03
+last-reviewed: 2026-04-06
 ---
 
 # UI terms
@@ -23,21 +23,22 @@ for more detail.
 
 ## Quick reference
 
-| Term                    | Avoid                      | Guidance                                                                                  |
-|-------------------------|----------------------------|-------------------------------------------------------------------------------------------|
-| box                     | field                      | Use "box" for input areas.                                                                |
-| button                  |                            | Refer to the label directly.                                                              |
-| checkbox                |                            | Refer to the label directly, or use "checkbox" as a noun. Use "select" to select, "clear" to deselect. |
-| drop-down (adjective)   | drop-down (noun)           | Refer to the label directly, or use as an adjective before "list" or "menu." Never use as a noun. |
-| go to                   | navigate to                |                                                                                           |
-| page                    | screen                     | Use "console screen" for hardware only.                                                   |
-| panel                   | drawer                     | "Drawer" is a developer term.                                                             |
-| pop-up window           | dialog box                 | Use "popup screen" in TechComm content.                                                   |
-| radio button            |                            | Refer to the label directly. If you need a descriptor, use "option."                      |
-| tab (UI)                |                            | Use as a noun with the label: "On the **View** tab."                                      |
-| Tab key                 |                            | Use "Tab key" when referring to the keyboard key.                                         |
-| unavailable             | grayed out                 |                                                                                           |
-| user interface          | GUI, WebGUI                |                                                                                           |
+| Use               | Don't use                  | Guidance                                                                                  |
+|-------------------|----------------------------|-------------------------------------------------------------------------------------------|
+| box               | field                      | Use "box" for input areas.                                                                |
+| button            |                            | Refer to the label directly.                                                              |
+| checkbox          |                            | Refer to the label directly, or use "checkbox" as a noun. Use "select" to select, "clear" to deselect. |
+| drop-down (adj)   | drop-down (noun)           | Refer to the label directly, or use as an adjective before "list" or "menu." Never use as a noun. |
+| go to             | navigate to                |                                                                                           |
+| page              | screen                     | Use "console screen" for hardware only.                                                   |
+| panel             | drawer                     | "Drawer" is a developer term.                                                             |
+| pop-up window     | dialog box                 | Use "popup screen" in TechComm content.                                                   |
+| radio button      |                            | Refer to the label directly. If you need a descriptor, use "option."                      |
+| tab (UI)          |                            | Use as a noun with the label: "On the **View** tab."                                      |
+| Tab key           |                            | Use "Tab key" when referring to the keyboard key.                                         |
+| toggle (noun/adj) |                            | Use "turn on" and "turn off" with the label. Include "toggle" only if it adds clarity.    |
+| unavailable       | grayed out                 |                                                                                           |
+| user interface    | GUI, WebGUI                |                                                                                           |
 
 ## Details
 
@@ -62,20 +63,23 @@ for more detail.
 Use "select" to select a checkbox and "clear" to deselect it.
 
 **Do:**
-> Select **Enable**.
+> Select **Require client certificate**.
 
-> Clear **Enable**.
+> Clear **Require client certificate**.
 
-> Select the **Enable** checkbox.
+> Select the **Require client certificate** checkbox.
 
 **Don't:**
-> Check **Enable**.
+> Check **Require client certificate**.
 
-> Uncheck **Enable**.
+> Uncheck **Require client certificate**.
 
-> Turn on **Enable**.
+> Turn on **Require client certificate**.
 
 ### Drop-down
+
+Don't use "drop-down" as a noun. As an adjective before "list" or
+"menu" it's acceptable when needed.
 
 **Do:**
 > Under **Policy**, select **APM**.
@@ -124,11 +128,27 @@ referring to a UI tab. When referring to the keyboard key, use
 **Don't:**
 > Tab to the **Advanced** section.
 
+### Toggle
+
+Don't use "toggle" as a verb. Use "turn on" and "turn off" with the
+label name. In most cases, just refer to the label directly — you
+don't need to name the element type at all. Don't use "enable" or
+"disable" — see [Enable and disable](enable-disable.md).
+
+**Do:**
+> Turn on **High contrast**.
+
+> Turn on the **Pass all filters** toggle.
+
+**Don't:**
+> Toggle the **Pass all filters** switch.
+
+> Enable **High contrast**.
+
 ## Related
 
 - [Bold](../formatting/bold.md)
 - [Click vs. Select](click-vs-select.md)
-- [Directional references](../procedures/directional-references.md)
 - [Enable and disable](enable-disable.md)
 - [UI element names](../procedures/ui-element-names.md)
 
