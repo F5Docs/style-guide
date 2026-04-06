@@ -5,6 +5,10 @@
 - [Color](accessibility/color.md)
 - [Link text](accessibility/link-text.md)
 
+## Error messages
+- [Published error messages](error-messages/published-error-messages.md)
+- [Writing error messages](error-messages/writing-error-messages.md)
+
 ## Formatting
 - [Bold](formatting/bold.md)
 - [Capitalization](formatting/capitalization.md)
