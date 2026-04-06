@@ -35,6 +35,9 @@ like it was written for a machine, rewrite it.
 > The account could not be deleted because the account name could not
 > be found. Check the account name and try again.
 
+> Your changes could not be saved because the session timed out.
+> Sign in again and reapply your changes.
+
 **Don't:**
 > You entered an invalid value.
 
@@ -44,6 +47,8 @@ like it was written for a machine, rewrite it.
 > "^[^A-Z\s\x00-\x1f\x60\x7f\;\*\"\[\]\{\}\\/]+$"
 
 > Cannot rename. Specify another name.
+
+> Your changes could not be saved. Try again.
 
 ## Notes
 
@@ -60,7 +65,10 @@ Not every error will have all four parts. Include what applies.
 - Use plain language — describe the situation as you would to
   a colleague
 - Be specific — give the user enough information to self-solve
-- Provide a next step whenever possible
+- Explain why the error happened when you can — it helps the
+  user decide what to do next
+- Suggest a specific next step that is likely to resolve the
+  issue, not just "try again"
 
 ### Don't
 - Blame the user
@@ -76,9 +84,27 @@ Not every error will have all four parts. Include what applies.
   - Do: "A workspace with that name already exists. Enter a
     unique name."
 
+### Try again
+Only suggest "try again" when the error is likely transient —
+for example, a network timeout or a temporary service outage.
+If the error is deterministic (the same input will produce the
+same error), "try again" is unhelpful. Instead, tell the user
+what to change:
+
+- Don't: "Your changes could not be saved. Try again."
+- Do: "Your changes could not be saved because the session
+  timed out. Sign in again and reapply your changes."
+- Do: "Your changes could not be saved because the name is
+  already in use. Enter a unique name and save again."
+
 ### Escalation path
-When self-service options are exhausted, direct the user to the
-next step:
+Reserve "contact F5 Support" for errors the user genuinely
+cannot resolve on their own. Before escalating, give the user
+self-service options:
+
+1. What to check or change
+2. Where to find more information (logs, troubleshooting guide)
+3. Contact support if the issue persists
 
 > If you still have the same issue, review the logs for errors
 > and consult the troubleshooting guide. If you need further
