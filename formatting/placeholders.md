@@ -12,89 +12,74 @@ last-reviewed: 2026-04-07
 
 ## Guidance
 
-Use placeholders to show where users must substitute their own values.
-The format depends on context. Use curly braces for API path
-parameters and angle brackets for all other placeholders.
+Use placeholders to show where users must substitute their own values. The format depends on context. Use curly braces for API path parameters, written in lowercase with underscores. Use angle brackets for all other placeholders, written in all caps with underscores.
 
 ## Examples
 
 **Do:**
 > `/api/v2/{user_id}`
 
-> `nginx -s reload -c <path/to/nginx.conf>`
+> `nginx -s reload -c <PATH/TO/NGINX.CONF>`
 
 > `curl -X GET https://example.com/api/v2/{tenant_id}/policies`
 
-> `curl https://<nim-fqdn>/install/nginx-agent | sudo sh`
+> `curl https://<NIM_FQDN>/install/nginx-agent | sudo sh`
 
-> `docker pull repo.f5.com/images/<container-image-filename>:<container-image-version>`
+> `docker pull repo.f5.com/images/<CONTAINER_IMAGE_FILENAME>:<CONTAINER_IMAGE_VERSION>`
 
 > ```
 > kubectl apply -f far-pull-secret.yaml \
-> --namespace <namespace-name>
+> --namespace <NAMESPACE_NAME>
 > ```
 
-> Copy `<path/to/nginx-repo.crt>` to `/etc/ssl/certs/`.
+> Copy `<PATH/TO/NGINX_REPO.CRT>` to `/etc/ssl/certs/`.
 
 **Don't:**
 > `/api/v2/<user_id>`
 
 > `nginx -s reload -c {path/to/nginx.conf}`
 
-> `Copy <PATH_TO_NGINX_REPO_CRT> to /etc/ssl/certs/.`
+> `Copy <path/to/nginx-repo.crt> to /etc/ssl/certs/.`
 
 > `docker pull repo.f5.com/images/<containerImageFilename>:<containerImageVersion>`
 
-> `curl https://<NIM-FQDN>/install/nginx-agent | sudo sh`
+> `curl https://<nim-fqdn>/install/nginx-agent | sudo sh`
 
 ## Notes
 
 ### API path parameters: curly braces
-Use curly braces for path parameters in API URL paths only. This
-follows the OpenAPI/Swagger convention:
+Use curly braces for path parameters in API URL paths only. This follows the OpenAPI/Swagger convention:
 
 > `curl -X GET https://example.com/api/v2/{tenant_id}/policies`
 
-Don't use curly braces for hostnames, domains, or other parts of a
-command. Use angle brackets instead:
+Don't use curly braces for hostnames, domains, or other parts of a command. Use angle brackets instead:
 
-> `curl https://<nim-fqdn>/install/nginx-agent | sudo sh`
+> `curl https://<NIM_FQDN>/install/nginx-agent | sudo sh`
 
 A single command can use both, depending on what's being substituted:
 
-> `curl -X GET https://<nim-fqdn>/api/v2/{tenant_id}/policies`
+> `curl -X GET https://<NIM_FQDN>/api/v2/{tenant_id}/policies`
 
 ### All other placeholders: angle brackets
-Use angle brackets for placeholders in commands, configuration files,
-and prose. Write placeholder names in lowercase, using hyphens or
-slashes to separate words. Make the name descriptive enough that the
-user knows what to substitute:
+Use angle brackets for placeholders in commands, configuration files, and prose. Write placeholder names in all caps with underscores. All caps makes it unambiguous that the value must be replaced. Make the name descriptive enough that the user knows what to substitute:
 
-> `cp <path/to/nginx-repo.crt> /etc/ssl/certs/`
+> `cp <PATH/TO/NGINX_REPO.CRT> /etc/ssl/certs/`
 
-> `ssh <username>@<hostname>`
+> `ssh <USERNAME>@<HOSTNAME>`
 
-> Replace `<license-key>` with the key from your F5 account.
-
-### Why not all caps
-All-caps placeholders (`<PATH_TO_NGINX_REPO_CRT>`) are not the
-preferred form. The Microsoft Style Guide recommends lowercase for
-placeholder names.
+> Replace `<LICENSE_KEY>` with the key from your F5 account.
 
 ### Tell the user what to substitute
-Always introduce a placeholder with a brief explanation of what value
-the user should supply, either in the step text or in a preceding
-note:
+Always introduce a placeholder with a brief explanation of what value the user should supply, either in the step text or in a preceding note:
 
-> Replace `<tenant-id>` with your F5 Distributed Cloud tenant ID.
+> Replace `<TENANT_ID>` with your F5 Distributed Cloud tenant ID.
 
 > Where `{user_id}` is the unique identifier for the user account.
 
 ### Formatting
-Always format placeholders as inline code. In Markdown, wrap them
-in backticks:
+Always format placeholders as inline code. In Markdown, wrap them in backticks:
 
-> \`<hostname>\`
+> \`<HOSTNAME>\`
 
 > \`{user_id}\`
 
