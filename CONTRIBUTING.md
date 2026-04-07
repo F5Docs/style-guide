@@ -21,12 +21,14 @@ and subject matter experts are welcome.
    [templates/guideline-template.md](templates/guideline-template.md)
    for all new files.
 3. Place your file in the appropriate category folder:
-   - `voice-and-tone/` — tone, style, and language principles
-   - `formatting/` — visual and structural formatting rules
-   - `punctuation/` — punctuation usage
-   - `procedures/` — rules for writing tasks and instructions
-   - `terminology/` — word choice and specific term guidance
    - `accessibility/` — accessibility standards
+   - `error-messages/` — error message writing and publishing guidelines
+   - `formatting/` — visual and structural formatting rules
+   - `grammar/` — grammar rules and usage
+   - `procedures/` — rules for writing tasks and instructions
+   - `punctuation/` — punctuation usage
+   - `terminology/` — word choice and specific term guidance
+   - `voice-and-tone/` — tone, style, and language principles
 4. Update [TOC.md](TOC.md) to include your new file in alphabetical
    order within its section.
 5. Update the `Related` section of any existing files that are
