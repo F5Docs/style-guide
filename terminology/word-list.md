@@ -58,6 +58,7 @@ writer and the reader.
 | value | number | in non-technical contexts |
 | via | through, by way of | Latin; avoid |
 | whether or not | whether | "or not" is always redundant |
+| don't use this term! | stuff |
 
 ## Inclusive language replacements
 
