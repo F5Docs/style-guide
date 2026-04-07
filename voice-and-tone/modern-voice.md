@@ -4,7 +4,7 @@ category: voice-and-tone
 aliases: [modern voice, F5 Modern Voice, tone, voice]
 applies-to: [all F5 docs]
 source-authority: F5 Modern Voice Guidelines
-last-reviewed: 2026-04-02
+last-reviewed: 2026-04-07
 ---
 
 # Modern Voice
@@ -29,7 +29,7 @@ lists, tables, and headers. Extra words clog things up.
 
 **4. Use normal, relaxed words.** Write the way you'd talk to a
 colleague. Less formal doesn't mean less technical. Use contractions.
-Use "you" and "we."
+Use "you."
 
 **5. Empathize.** Never imply the user did something wrong. Acknowledge
 when a process is long or difficult. Be their trusted advisor.
