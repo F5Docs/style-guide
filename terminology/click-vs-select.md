@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Always use "select" for UI interactions. Never use "click." "Select"
-is device-agnostic and works for mouse, keyboard, touchscreen, and
-any future input method.
+Always use "select" for UI interactions. Never use "click." "Select" is device-agnostic and works for mouse, keyboard, touchscreen, and any future input method.
 
 ## Examples
 
@@ -29,8 +27,7 @@ any future input method.
 
 ## Notes
 
-This applies to all UI interactions regardless of element type:
-buttons, checkboxes, tabs, list items, menu items, and icons.
+This applies to all UI interactions regardless of element type: buttons, checkboxes, tabs, list items, menu items, and icons.
 
 Other interaction verbs to use in the right context:
 - "enter" — for typing data into a box
@@ -38,8 +35,7 @@ Other interaction verbs to use in the right context:
 - "clear" — for deselecting a checkbox
 - "hover over" — for tooltip or reveal interactions
 
-Do not use: click, hit, press (except for physical keyboard keys),
-check, uncheck, unselect, deselect, choose.
+Do not use: click, hit, press (except for physical keyboard keys), check, uncheck, unselect, deselect, choose.
 
 "Press" is reserved for physical keys only:
 > Press **Enter** to confirm.

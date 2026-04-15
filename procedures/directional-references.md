@@ -12,10 +12,7 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Don't use position words to describe where a UI element is on the
-page or where content appears in a document. Refer to the label or
-section name instead. Layout changes across devices and screen sizes,
-making positional references unreliable.
+Don't use position words to describe where a UI element is on the page or where content appears in a document. Refer to the label or section name instead. Layout changes across devices and screen sizes, making positional references unreliable.
 
 ## Examples
 
@@ -37,9 +34,7 @@ making positional references unreliable.
 
 ## Notes
 
-Avoid positional references such as "above," "below," "left,"
-"right," "upper," and "lower." Use the section or element name
-instead.
+Avoid positional references such as "above," "below," "left," "right," "upper," and "lower." Use the section or element name instead.
 
 Acceptable positional references when no label is available:
 - "at the top of the page"
@@ -47,8 +42,7 @@ Acceptable positional references when no label is available:
 
 Always prefer the label over a positional reference when one exists.
 
-For guidance on document cross-references specifically, see
-[Cross-references](cross-references.md).
+For guidance on document cross-references specifically, see [Cross-references](cross-references.md).
 
 ## Related
 

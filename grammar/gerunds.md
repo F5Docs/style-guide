@@ -12,9 +12,7 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Don't use gerunds in headings or titles. Use active, imperative verb
-forms instead. Gerunds are also discouraged in general prose where
-an active verb works better.
+Don't use gerunds in headings or titles. Use active, imperative verb forms instead. Gerunds are also discouraged in general prose where an active verb works better.
 
 ## Examples
 
@@ -38,17 +36,14 @@ A gerund is the "-ing" form of a verb used as a noun:
 - "Configuring the system" uses "configuring" as a noun (gerund)
 - "Configure the system" uses "configure" as an imperative verb
 
-In headings, gerunds make content feel passive and harder to scan.
-Imperative verbs are more direct and action-oriented.
+In headings, gerunds make content feel passive and harder to scan. Imperative verbs are more direct and action-oriented.
 
-Gerunds are acceptable when they are part of an official product or
-feature name:
+Gerunds are acceptable when they are part of an official product or feature name:
 > Load balancing (feature name)
 
 > The NGINX Plus load balancing feature
 
-Don't use gerunds as the first word in a list item. Use imperative
-verbs instead:
+Don't use gerunds as the first word in a list item. Use imperative verbs instead:
 - Don't: "Configuring the pool"
 - Do: "Configure the pool"
 

@@ -41,9 +41,7 @@ Before you begin, ensure you have:
 
     {Optional: Outcome or explanatory text.}
 
-    ```{language}
-    {code sample}
-    ```
+    ```{language} {code sample} ```
 
 2. {Step.}
 

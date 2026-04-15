@@ -45,9 +45,7 @@ Before you begin, ensure you have:
 
 1. {Step — start with a verb. Orient the user before the action: state what file to open or screen to navigate to first.}
 
-    ```{language}
-    {code sample — use ALL_CAPS_PLACEHOLDERS for values the reader must supply}
-    ```
+    ```{language} {code sample — use ALL_CAPS_PLACEHOLDERS for values the reader must supply} ```
 
     {Outcome sentence — describe what the step does or what the reader should observe. This is the sentence AI assistants are most likely to surface when answering follow-up questions.}
 
@@ -64,9 +62,7 @@ Before you begin, ensure you have:
 
 1. {Step.}
 
-    ```{language}
-    {code sample}
-    ```
+    ```{language} {code sample} ```
 
     {Outcome sentence.}
 
@@ -82,10 +78,7 @@ Before you begin, ensure you have:
 
 2. Set the following values:
 
-    ```{language}
-    {PLACEHOLDER_KEY}: YOUR_VALUE_HERE
-    {PLACEHOLDER_KEY_2}: YOUR_VALUE_HERE
-    ```
+    ```{language} {PLACEHOLDER_KEY}: YOUR_VALUE_HERE {PLACEHOLDER_KEY_2}: YOUR_VALUE_HERE ```
 
     {Outcome sentence — for example: "These values connect the agent to your control plane."}
 
@@ -97,15 +90,11 @@ Before you begin, ensure you have:
 
 1. {Step — for example: run a status or version command.}
 
-    ```{language}
-    {code sample}
-    ```
+    ```{language} {code sample} ```
 
     {Outcome sentence — describe the expected output that confirms a successful installation.}
 
-    ```{language}
-    {expected output sample}
-    ```
+    ```{language} {expected output sample} ```
 
 2. {Optional: additional verification step.}
 

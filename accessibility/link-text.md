@@ -12,10 +12,7 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Write link text that describes the destination. A user should be able
-to understand where a link goes without reading the surrounding
-sentence. Never use "click here," "read more," or "learn more" as
-link text.
+Write link text that describes the destination. A user should be able to understand where a link goes without reading the surrounding sentence. Never use "click here," "read more," or "learn more" as link text.
 
 ## Examples
 
@@ -35,22 +32,15 @@ link text.
 
 ## Notes
 
-Use the page title or a clear description of the destination as link
-text when possible.
+Use the page title or a clear description of the destination as link text when possible.
 
-Do not bold hyperlinks. Links are already visually distinct through
-underline and color styling applied by the publishing system.
+Do not bold hyperlinks. Links are already visually distinct through underline and color styling applied by the publishing system.
 
-Avoid linking the same text to different destinations in the same
-document — it creates confusion for screen reader users who navigate
-by links.
+Avoid linking the same text to different destinations in the same document — it creates confusion for screen reader users who navigate by links.
 
-Avoid bare URLs as link text in prose. A bare URL is acceptable in
-a reference list or when the URL itself is the content the user needs
-to copy.
+Avoid bare URLs as link text in prose. A bare URL is acceptable in a reference list or when the URL itself is the content the user needs to copy.
 
-Don't open links in a new tab without warning the user. If a link
-opens in a new tab, note it in the link text or immediately after:
+Don't open links in a new tab without warning the user. If a link opens in a new tab, note it in the link text or immediately after:
 > [F5 Downloads page](link) (opens in a new tab)
 
 ## Related

@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use quotation marks only when quoting a source directly or when
-required for syntax. Never use quotation marks for emphasis — use
-bold instead.
+Use quotation marks only when quoting a source directly or when required for syntax. Never use quotation marks for emphasis — use bold instead.
 
 ## Examples
 
@@ -37,23 +35,18 @@ bold instead.
 
 Acceptable uses of quotation marks:
 - Direct quotations from a source
-- Syntax references where the quoted string is literal content the
-  user must match exactly
+- Syntax references where the quoted string is literal content the user must match exactly
 - Single quotation marks when required for syntax only
 
 Never use quotation marks:
 - For emphasis — use bold instead
 - For UI labels — use bold instead
 - In titles or headings — recast the title if needed
-- As scare quotes to distance yourself from a term — if the term
-  needs distancing, choose a different term
+- As scare quotes to distance yourself from a term — if the term needs distancing, choose a different term
 
-Do not use curly (smart) quotes in source files. Use straight quotes
-and let the publishing system handle typographic conversion.
+Do not use curly (smart) quotes in source files. Use straight quotes and let the publishing system handle typographic conversion.
 
-Single quotes follow the same rules as double quotes. Don't use single
-quotes as apostrophes in running text — use the standard apostrophe
-character.
+Single quotes follow the same rules as double quotes. Don't use single quotes as apostrophes in running text — use the standard apostrophe character.
 
 ## Related
 

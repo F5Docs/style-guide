@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Bold UI labels and use the exact capitalization shown in the interface.
-When possible, refer to the label directly rather than naming the
-element type.
+Bold UI labels and use the exact capitalization shown in the interface. When possible, refer to the label directly rather than naming the element type.
 
 ## Examples
 
@@ -33,12 +31,10 @@ element type.
 
 ## Notes
 
-Use ">" to separate all navigation levels. Bold the labels, not the
-angle brackets:
+Use ">" to separate all navigation levels. Bold the labels, not the angle brackets:
 > Go to **Security** > **Protocol Security** > **Profiles**.
 
-When referring to a UI element type is unavoidable for clarity, use:
-tab, list, button, box.
+When referring to a UI element type is unavoidable for clarity, use: tab, list, button, box.
 
 ## Related
 

@@ -11,28 +11,19 @@ last-reviewed: 2026-04-07
 
 ## Guidance
 
-F5 Modern Voice makes content simple, clear, and relevant. Write at an
-8th–9th grade reading level. Sound like a trusted advisor talking to a
-professional peer — not a lawyer or a professor.
+F5 Modern Voice makes content simple, clear, and relevant. Write at an 8th–9th grade reading level. Sound like a trusted advisor talking to a professional peer — not a lawyer or a professor.
 
 ## The five principles
 
-**1. Focus on the customer question.** Understand what the user is
-trying to accomplish. One question = one topic with one answer.
+**1. Focus on the customer question.** Understand what the user is trying to accomplish. One question = one topic with one answer.
 
-**2. Give a concise answer.** Lead with the 80% case. Cut edge cases,
-obvious details, and duplicate content. If you're out of breath reading
-it aloud, it isn't concise.
+**2. Give a concise answer.** Lead with the 80% case. Cut edge cases, obvious details, and duplicate content. If you're out of breath reading it aloud, it isn't concise.
 
-**3. Make it easy to scan.** Put the most important thing first. Use
-lists, tables, and headers. Extra words clog things up.
+**3. Make it easy to scan.** Put the most important thing first. Use lists, tables, and headers. Extra words clog things up.
 
-**4. Use normal, relaxed words.** Write the way you'd talk to a
-colleague. Less formal doesn't mean less technical. Use contractions.
-Use "you."
+**4. Use normal, relaxed words.** Write the way you'd talk to a colleague. Less formal doesn't mean less technical. Use contractions. Use "you."
 
-**5. Empathize.** Never imply the user did something wrong. Acknowledge
-when a process is long or difficult. Be their trusted advisor.
+**5. Empathize.** Never imply the user did something wrong. Acknowledge when a process is long or difficult. Be their trusted advisor.
 
 ## Examples
 
@@ -45,15 +36,11 @@ when a process is long or difficult. Be their trusted advisor.
 
 ## Notes
 
-Consistency in product names and UI elements is required. Consistency
-in format and approach across topics is not a goal — customer
-satisfaction is more important than uniformity.
+Consistency in product names and UI elements is required. Consistency in format and approach across topics is not a goal — customer satisfaction is more important than uniformity.
 
-**The Cardinal Rule:** "Don't make any change that will sound unnatural
-to native speakers of English."
+**The Cardinal Rule:** "Don't make any change that will sound unnatural to native speakers of English."
 
-**Corollary:** "There is almost always a natural-sounding alternative
-if you are creative enough to find it."
+**Corollary:** "There is almost always a natural-sounding alternative if you are creative enough to find it."
 
 ## Related
 

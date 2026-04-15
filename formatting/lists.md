@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use numbered lists for sequential steps. Use bulleted lists for
-non-sequential items. Use parallel structure within any list — all
-items should follow the same grammatical pattern.
+Use numbered lists for sequential steps. Use bulleted lists for non-sequential items. Use parallel structure within any list — all items should follow the same grammatical pattern.
 
 ## Examples
 
@@ -35,14 +33,11 @@ items should follow the same grammatical pattern.
 
 ## Notes
 
-Start each bulleted item with the same part of speech — either all
-nouns, all verbs, or all phrases. Don't mix.
+Start each bulleted item with the same part of speech — either all nouns, all verbs, or all phrases. Don't mix.
 
-Start each numbered step with an imperative verb: "Select," "Enter,"
-"Configure."
+Start each numbered step with an imperative verb: "Select," "Enter," "Configure."
 
-Avoid nested lists more than two levels deep. If you need more than
-two levels, consider restructuring the content.
+Avoid nested lists more than two levels deep. If you need more than two levels, consider restructuring the content.
 
 ## Related
 

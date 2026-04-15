@@ -12,9 +12,7 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Limit noun clusters to three words maximum. Longer strings of nouns
-used as modifiers are hard to read, hard to translate, and often
-ambiguous.
+Limit noun clusters to three words maximum. Longer strings of nouns used as modifiers are hard to read, hard to translate, and often ambiguous.
 
 ## Examples
 
@@ -30,14 +28,11 @@ ambiguous.
 
 ## Notes
 
-A noun cluster is a string of nouns where all but the last act as
-modifiers. They're common in technical writing but quickly become
-hard to parse:
+A noun cluster is a string of nouns where all but the last act as modifiers. They're common in technical writing but quickly become hard to parse:
 
 > BIG-IP system configuration file location setting
 
-The reader has to work backwards to understand what's being modified.
-Break them up with prepositions:
+The reader has to work backwards to understand what's being modified. Break them up with prepositions:
 
 > The location setting for the BIG-IP configuration file
 

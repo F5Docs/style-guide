@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use full product names consistently. Follow the rules below for first
-and subsequent mentions. Never use acronyms in place of full product
-names, and never use trademark symbols in documentation.
+Use full product names consistently. Follow the rules below for first and subsequent mentions. Never use acronyms in place of full product names, and never use trademark symbols in documentation.
 
 ## NGINX products
 
@@ -25,16 +23,14 @@ names, and never use trademark symbols in documentation.
 | F5 WAF for NGINX | WAF for NGINX |
 | F5 NGINX Instance Manager | NGINX Instance Manager |
 
-When naming multiple enterprise products in one document, include "F5"
-only once, on the first product mentioned.
+When naming multiple enterprise products in one document, include "F5" only once, on the first product mentioned.
 
 ### Open source products (never use F5 prefix)
 
 - NGINX Unit
 - NGINX Agent
 
-Always include the "NGINX" brand name. Never use "F5 NGINX Unit" or
-"F5 NGINX Agent."
+Always include the "NGINX" brand name. Never use "F5 NGINX Unit" or "F5 NGINX Agent."
 
 ### General NGINX rules
 
@@ -67,26 +63,22 @@ Always include the "NGINX" brand name. Never use "F5 NGINX Unit" or
 - Always use the full name: BIG-IP Next Central Manager.
 - Never abbreviate to "CM" or "BIG-IP Next CM" in external documents.
 - Use "BIG-IP Next system" per CSUG.
-- Do not refer to BIG-IP Next HA instances as a "cluster" — that term
-  is reserved for BIG-IP classic only.
+- Do not refer to BIG-IP Next HA instances as a "cluster" — that term is reserved for BIG-IP classic only.
 
 ### BIG-IP version references
 
 - Format as "BIG-IP 13.x" not "BIG-IP version 13.x."
-- Use "earlier" and "later" for version comparisons, not
-  "before/after," "greater," "lower," "higher."
+- Use "earlier" and "later" for version comparisons, not "before/after," "greater," "lower," "higher."
 - Use "from X through Y" for inclusive ranges in prose.
 
 ## BIG-IQ products
 
-- You do not need to specify "the BIG-IQ system" — BIG-IQ alone is
-  acceptable.
+- You do not need to specify "the BIG-IQ system" — BIG-IQ alone is acceptable.
 - Use "BIG-IQ VE" not just "VE." Never group as "BIG-IP and BIG-IQ VE."
 
 ## General product naming rules
 
-- Never use code names for product versions or releases in
-  customer-facing documentation.
+- Never use code names for product versions or releases in customer-facing documentation.
 - Do not use possessive constructions with product names:
   - Don't: BIG-IQ Cloud's internal VLAN
   - Don't: the BIG-IP's tendency

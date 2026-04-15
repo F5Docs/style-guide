@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Write for a global audience. Assume your reader may be a non-native
-English speaker, using machine translation, or both. Use simple, direct
-language and avoid anything that doesn't translate cleanly.
+Write for a global audience. Assume your reader may be a non-native English speaker, using machine translation, or both. Use simple, direct language and avoid anything that doesn't translate cleanly.
 
 ## Examples
 
@@ -30,8 +28,7 @@ language and avoid anything that doesn't translate cleanly.
 ## Notes
 
 ### Reading level
-Write at an 8th–9th grade reading level. Use the Flesch-Kincaid
-readability calculator to check your writing if needed.
+Write at an 8th–9th grade reading level. Use the Flesch-Kincaid readability calculator to check your writing if needed.
 
 ### Words and phrases to avoid
 - Idioms: "hit the ground running," "on the same page," "ballpark"
@@ -56,13 +53,10 @@ Choose the shorter, more common word:
 ### Measurements and examples
 - Use specific measurements rather than vague references
 - Avoid region-specific examples (sports, geography, currency)
-- Use example.com, example.net, or example.org for domain names
-  per RFC 2606
+- Use example.com, example.net, or example.org for domain names per RFC 2606
 
 ### Machine translation
-Shorter sentences translate more accurately. Avoid idioms, passive
-voice, and ambiguous pronoun references — these are common machine
-translation failure points.
+Shorter sentences translate more accurately. Avoid idioms, passive voice, and ambiguous pronoun references — these are common machine translation failure points.
 
 ## Related
 

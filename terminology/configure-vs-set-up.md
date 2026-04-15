@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use "set up" in most cases. Use "configure" only when describing a
-multi-step procedure that results in a specific product configuration —
-particularly when that term appears in the product UI or API.
+Use "set up" in most cases. Use "configure" only when describing a multi-step procedure that results in a specific product configuration — particularly when that term appears in the product UI or API.
 
 ## Examples
 
@@ -29,13 +27,9 @@ particularly when that term appears in the product UI or API.
 
 ## Notes
 
-"Configure" is appropriate when the user is populating multiple settings
-for an entire feature, not just entering a single value. If the user is
-specifying one value in one field, use "set up" or a more specific verb
-like "enter" or "select."
+"Configure" is appropriate when the user is populating multiple settings for an entire feature, not just entering a single value. If the user is specifying one value in one field, use "set up" or a more specific verb like "enter" or "select."
 
-The NGINX style guide permits "configure" specifically when describing
-NGINX product configuration (installation, NGINX Agent setup, and similar).
+The NGINX style guide permits "configure" specifically when describing NGINX product configuration (installation, NGINX Agent setup, and similar).
 
 ## Related
 

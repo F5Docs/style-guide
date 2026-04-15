@@ -12,9 +12,7 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Use "can" to indicate ability. Use "may" to indicate permission or
-uncertainty. Use "might" for stronger uncertainty. Avoid "should" —
-it's ambiguous and implies judgment.
+Use "can" to indicate ability. Use "may" to indicate permission or uncertainty. Use "might" for stronger uncertainty. Avoid "should" — it's ambiguous and implies judgment.
 
 ## Examples
 
@@ -46,9 +44,7 @@ Modal verb guide:
 | must | required to | mandatory actions |
 | should | ought to | avoid — implies judgment |
 
-Avoid "should" in instructions. It's ambiguous — the reader can't
-tell if the action is required or just recommended. Use "must" for
-required actions and rewrite recommendations as direct statements:
+Avoid "should" in instructions. It's ambiguous — the reader can't tell if the action is required or just recommended. Use "must" for required actions and rewrite recommendations as direct statements:
 - Don't: You should save your work before closing.
 - Do: Save your work before closing.
 - Don't: You should use reload instead of restart.

@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Only use images when they add information that prose or a table can't
-convey as clearly. Screenshots go out of date quickly — if clear
-written instructions can do the job, skip the screenshot.
+Only use images when they add information that prose or a table can't convey as clearly. Screenshots go out of date quickly — if clear written instructions can do the job, skip the screenshot.
 
 ## Examples
 
@@ -32,8 +30,7 @@ written instructions can do the job, skip the screenshot.
 
 ### File format and size
 - Use PNG format for screenshots and diagrams.
-- Use SVG for diagrams where possible — SVG scales without quality loss
-  and is easier to maintain.
+- Use SVG for diagrams where possible — SVG scales without quality loss and is easier to maintain.
 - Set width to 800 pixels for full-width screenshots.
 - Use 72 dpi resolution.
 - Use a transparent background to support light and dark modes.
@@ -46,23 +43,18 @@ written instructions can do the job, skip the screenshot.
 ### Placement and captions
 - Never use a colon to introduce an image.
 - Include a caption that describes the action or process shown.
-- Don't include "illustration of" or "diagram of" in captions —
-  just describe what it shows.
-- Avoid using trademarks in diagrams. Call out the product name in
-  the surrounding text instead.
+- Don't include "illustration of" or "diagram of" in captions — just describe what it shows.
+- Avoid using trademarks in diagrams. Call out the product name in the surrounding text instead.
 
 ### Annotations
 - Use simple arrows and rectangles to highlight important items.
 - Use high-contrast colors so annotations stand out.
 - Don't capture the cursor in screenshots.
-- Crop screenshots to include only relevant content — avoid
-  unnecessary whitespace.
+- Crop screenshots to include only relevant content — avoid unnecessary whitespace.
 - Don't add a border — let the publishing system handle that via CSS.
 
 ### Accessibility
-- Always include alt text. See
-  [Alt text](../accessibility/alt-text.md) for
-  guidance on writing effective alt text.
+- Always include alt text. See [Alt text](../accessibility/alt-text.md) for guidance on writing effective alt text.
 
 ## Related
 

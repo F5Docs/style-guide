@@ -12,13 +12,9 @@ last-reviewed: 2026-04-06
 
 ## Guidance
 
-The BIG-IP Log Messages Reference is a published reference of
-system-generated log messages organized by ID number. Each entry
-must include enough detail for users to identify the cause,
-understand the impact, and take action without contacting support.
+The BIG-IP Log Messages Reference is a published reference of system-generated log messages organized by ID number. Each entry must include enough detail for users to identify the cause, understand the impact, and take action without contacting support.
 
-For the full BIG-IP log messages reference, see
-[Log Messages Reference](https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/related/log-messages.html).
+For the full BIG-IP log messages reference, see [Log Messages Reference](https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/related/log-messages.html).
 
 ## Examples
 
@@ -48,18 +44,14 @@ Every published error message entry must include the following fields:
 | Workaround/Recommended action | Steps the user should take to resolve the error |
 
 ### Message text
-Write the message field following the guidance in
-[Writing error messages](writing-error-messages.md). Keep the
-message meaningful without exposing internal system details.
+Write the message field following the guidance in [Writing error messages](writing-error-messages.md). Keep the message meaningful without exposing internal system details.
 
 ### Arguments
-When a message contains variable content, use placeholders to
-indicate where values are substituted:
+When a message contains variable content, use placeholders to indicate where values are substituted:
 
 > Self IP %s / %s: this network is defined on two VLANs (%s and %s).
 
-Document each argument in the Arguments field so users understand
-what each placeholder represents.
+Document each argument in the Arguments field so users understand what each placeholder represents.
 
 ### Severity levels
 Use these severity levels consistently:

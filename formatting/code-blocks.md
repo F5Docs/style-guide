@@ -11,10 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use code blocks for multi-line commands, configuration examples, and
-command output. Use inline code formatting for single commands, file
-paths, parameter names, and configuration values referenced in prose.
-Always specify the language identifier for syntax highlighting.
+Use code blocks for multi-line commands, configuration examples, and command output. Use inline code formatting for single commands, file paths, parameter names, and configuration values referenced in prose. Always specify the language identifier for syntax highlighting.
 
 ## Examples
 
@@ -42,9 +39,7 @@ Always specify the language identifier for syntax highlighting.
 
 ## Notes
 
-Always specify the language identifier after the opening fence for
-syntax highlighting. Use `shell` for most command-line examples unless
-the command requires bash-specific syntax, in which case use `bash`.
+Always specify the language identifier after the opening fence for syntax highlighting. Use `shell` for most command-line examples unless the command requires bash-specific syntax, in which case use `bash`.
 
 Common identifiers:
 
@@ -63,11 +58,9 @@ Always test commands and configuration examples before publishing.
 
 Include necessary context in commands: sudo, file paths, required flags.
 
-Do not use code style within a paragraph for running prose — only for
-literal strings the user must type, copy, or identify exactly.
+Do not use code style within a paragraph for running prose — only for literal strings the user must type, copy, or identify exactly.
 
-Bold command names when referenced in prose outside of a code block.
-Use code formatting for the command itself in procedures.
+Bold command names when referenced in prose outside of a code block. Use code formatting for the command itself in procedures.
 
 File path conventions:
 - File names: bold when the user interacts with them in a procedure

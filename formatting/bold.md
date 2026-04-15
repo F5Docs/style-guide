@@ -11,8 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use bold for UI labels, UI element names, and key terms that users must
-identify or interact with. Use it sparingly — overuse dilutes its value.
+Use bold for UI labels, UI element names, and key terms that users must identify or interact with. Use it sparingly — overuse dilutes its value.
 
 ## Examples
 
@@ -30,16 +29,13 @@ identify or interact with. Use it sparingly — overuse dilutes its value.
 
 ## Notes
 
-Bold is for UI labels and interaction points, not for general emphasis.
-Use sentence structure to create emphasis instead.
+Bold is for UI labels and interaction points, not for general emphasis. Use sentence structure to create emphasis instead.
 
-Do not use italics as an alternative to bold for UI elements. Do not
-use ALL CAPS for emphasis under any circumstances.
+Do not use italics as an alternative to bold for UI elements. Do not use ALL CAPS for emphasis under any circumstances.
 
 Specific bold conventions:
 - UI labels: always bold, use exact capitalization as shown in the UI
-- Commands: bold when referenced in prose; use code formatting in
-  procedures
+- Commands: bold when referenced in prose; use code formatting in procedures
 - Parameter names: bold
 - Database keys: bold, all lowercase
 

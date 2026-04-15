@@ -11,10 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Write at an 8th–9th grade reading level as measured by the
-Flesch-Kincaid Grade Level scale. This makes content accessible to
-non-native English speakers, faster to read for everyone, and more
-accurate when machine-translated.
+Write at an 8th–9th grade reading level as measured by the Flesch-Kincaid Grade Level scale. This makes content accessible to non-native English speakers, faster to read for everyone, and more accurate when machine-translated.
 
 ## Examples
 
@@ -29,8 +26,7 @@ accurate when machine-translated.
 
 ## Notes
 
-Use the [Flesch-Kincaid readability calculator](https://goodcalculators.com/flesch-kincaid-calculator/)
-to check your writing when in doubt.
+Use the [Flesch-Kincaid readability calculator](https://goodcalculators.com/flesch-kincaid-calculator/) to check your writing when in doubt.
 
 The main drivers of a high grade level score are:
 - Long sentences — break them up
@@ -38,14 +34,9 @@ The main drivers of a high grade level score are:
 - Passive voice — rewrite as active
 - Noun clusters — break them apart
 
-A lower grade level doesn't mean dumbed-down content. Technical
-terminology is fine — it's the surrounding prose that should be simple.
-"The BIG-IP system forwards traffic to the pool member" scores well
-because the sentence structure is clean, even though the terminology
-is technical.
+A lower grade level doesn't mean dumbed-down content. Technical terminology is fine — it's the surrounding prose that should be simple. "The BIG-IP system forwards traffic to the pool member" scores well because the sentence structure is clean, even though the terminology is technical.
 
-Target: Flesch-Kincaid Grade Level of 8–9. A score of 7 or lower is
-acceptable. A score above 10 is a signal to revise.
+Target: Flesch-Kincaid Grade Level of 8–9. A score of 7 or lower is acceptable. A score above 10 is a signal to revise.
 
 ## Related
 

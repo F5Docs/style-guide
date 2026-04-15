@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use sentence case for all headings — capitalize only the first word and
-proper nouns. Use active, imperative verbs in task headings, not
-gerunds. Don't end headings with a period.
+Use sentence case for all headings — capitalize only the first word and proper nouns. Use active, imperative verbs in task headings, not gerunds. Don't end headings with a period.
 
 ## Examples
 
@@ -33,12 +31,9 @@ gerunds. Don't end headings with a period.
 
 ## Notes
 
-Use imperative verb forms for task headings ("Set up", "Configure",
-"Add") and noun phrases for concept or reference headings ("BIG-IP
-Next architecture overview", "System requirements").
+Use imperative verb forms for task headings ("Set up", "Configure", "Add") and noun phrases for concept or reference headings ("BIG-IP Next architecture overview", "System requirements").
 
-Do not use gerunds in headings: "Configuring the system" should be
-"Configure the system."
+Do not use gerunds in headings: "Configuring the system" should be "Configure the system."
 
 Heading text must not contain a link to another page.
 
