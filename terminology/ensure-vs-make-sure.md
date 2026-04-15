@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use "make sure" instead of "ensure." "Ensure" is formal and stiff.
-"Make sure" sounds like a person talking. Both mean the same thing,
-but "make sure" is consistent with F5 Modern Voice.
+Use "make sure" instead of "ensure." "Ensure" is formal and stiff. "Make sure" sounds like a person talking. Both mean the same thing, but "make sure" is consistent with F5 Modern Voice.
 
 ## Examples
 
@@ -29,15 +27,12 @@ but "make sure" is consistent with F5 Modern Voice.
 
 ## Notes
 
-"Verify" and "confirm" are acceptable alternatives when the user is
-checking a specific result or output:
+"Verify" and "confirm" are acceptable alternatives when the user is checking a specific result or output:
 > Verify that the virtual server status is green.
 
 > Confirm that the configuration was saved successfully.
 
-Don't use "ensure" to mean "make certain" anywhere in technical
-documentation. Reserve it only if it appears as a product UI label,
-in which case use the label as shown.
+Don't use "ensure" to mean "make certain" anywhere in technical documentation. Reserve it only if it appears as a product UI label, in which case use the label as shown.
 
 ## Related
 

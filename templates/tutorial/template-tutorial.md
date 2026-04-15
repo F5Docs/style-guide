@@ -64,9 +64,7 @@ Before you begin, ensure you have:
 
     {Optional: One to two sentences explaining why this step is done. This is what distinguishes a tutorial from a how-to guide.}
 
-    ```{language}
-    {code sample — include all required import statements and inline comments}
-    ```
+    ```{language} {code sample — include all required import statements and inline comments} ```
 
     {Outcome sentence — describe what the step does or what the reader should observe.}
 
@@ -89,9 +87,7 @@ Before you begin, ensure you have:
 
 1. {Step.}
 
-    ```{language}
-    {code sample}
-    ```
+    ```{language} {code sample} ```
 
     {Outcome sentence.}
 

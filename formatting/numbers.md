@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Spell out zero through nine in prose. Use numerals for 10 and above.
-Always use numerals for measurements, percentages, dates, and money
-regardless of the number.
+Spell out zero through nine in prose. Use numerals for 10 and above. Always use numerals for measurements, percentages, dates, and money regardless of the number.
 
 ## Examples
 
@@ -48,18 +46,15 @@ Spell out zero through nine for these:
 - General counts in prose: "three pool members," "nine virtual servers"
 - Ordinals in prose: first, second, third (not 1st, 2nd, 3rd)
 
-If one number in a sentence requires a numeral, use numerals for all
-numbers of the same type in that sentence:
+If one number in a sentence requires a numeral, use numerals for all numbers of the same type in that sentence:
 > One article has 16 pages, one has 7 pages, and the third has 5 pages.
 
-Don't start a sentence with a numeral. Rewrite the sentence or spell
-out the number:
+Don't start a sentence with a numeral. Rewrite the sentence or spell out the number:
 > Do: More than 10 apps are included.
 > Do: Eleven apps are included.
 > Don't: 10 apps are included.
 
-Use a hyphen for ranges in titles and tables: 10-15.
-Use "through" for ranges in prose: 10 through 15.
+Use a hyphen for ranges in titles and tables: 10-15. Use "through" for ranges in prose: 10 through 15.
 
 24x7 is the F5 standard, not 24/7.
 

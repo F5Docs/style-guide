@@ -11,8 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use simple present tense. Avoid future tense for describing system
-behavior — the system does things, it doesn't "will do" things.
+Use simple present tense. Avoid future tense for describing system behavior — the system does things, it doesn't "will do" things.
 
 ## Examples
 
@@ -34,17 +33,14 @@ behavior — the system does things, it doesn't "will do" things.
 
 ## Notes
 
-Use simple verb tenses: past, present, and future. Avoid progressive
-and perfect tenses where simple tenses work:
+Use simple verb tenses: past, present, and future. Avoid progressive and perfect tenses where simple tenses work:
 - Don't: The system is receiving the request.
 - Do: The system receives the request.
 
-Future tense is acceptable when describing something that genuinely
-happens later as a consequence:
+Future tense is acceptable when describing something that genuinely happens later as a consequence:
 > After you restart the service, the new configuration takes effect.
 
-Use present tense even when describing older product versions — some
-users are still using those versions in the present:
+Use present tense even when describing older product versions — some users are still using those versions in the present:
 - Don't: The feature was introduced in BIG-IP 10.x.
 - Do: The feature is available in BIG-IP 10.x and later.
 

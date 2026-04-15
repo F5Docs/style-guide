@@ -12,9 +12,7 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Spell out acronyms on first use in body copy, even if used only once.
-Avoid acronyms in titles and headings. Make acronyms plural by adding
-a lowercase "s" — never an apostrophe.
+Spell out acronyms on first use in body copy, even if used only once. Avoid acronyms in titles and headings. Make acronyms plural by adding a lowercase "s" — never an apostrophe.
 
 ## Examples
 
@@ -49,13 +47,10 @@ Do not use an acronym in a title or heading. Spell out the full term:
 > Do: Configure single sign-on for your application
 > Don't: Configure SSO for your application
 
-If an acronym is used only once in a document, still spell it out on
-first use — do not introduce it and then never use the short form.
+If an acronym is used only once in a document, still spell it out on first use — do not introduce it and then never use the short form.
 
 ### a vs. an before acronyms
-Use "a" or "an" based on how the acronym sounds when spoken, not
-how it is spelled. If the first sound is a vowel sound, use "an."
-If the first sound is a consonant sound, use "a."
+Use "a" or "an" based on how the acronym sounds when spoken, not how it is spelled. If the first sound is a vowel sound, use "an." If the first sound is a consonant sound, use "a."
 
 | Acronym | First sound       | Article          |
 |---------|-------------------|------------------|
@@ -75,8 +70,7 @@ If the acronym stands for a plural noun, don't add an "s":
 > Microsoft Foundation Classes (MFC) — MFC is already plural
 
 ### Common acronyms you don't need to spell out
-These acronyms are widely understood in the F5 technical audience
-and don't need to be spelled out:
+These acronyms are widely understood in the F5 technical audience and don't need to be spelled out:
 
 | Acronym | Spelled out                          |
 |---------|--------------------------------------|

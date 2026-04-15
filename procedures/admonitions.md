@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use admonitions sparingly. Every note or warning you add trains readers
-to skip them. Reserve each type for its specific purpose and don't
-use them as a catch-all for extra information.
+Use admonitions sparingly. Every note or warning you add trains readers to skip them. Reserve each type for its specific purpose and don't use them as a catch-all for extra information.
 
 ## Admonition types
 
@@ -40,19 +38,15 @@ use them as a catch-all for extra information.
 
 ## Notes
 
-Use only these five types: Note, Important, Tip, Warning, Caution.
-Do not use Notice or Attention except in hardware documentation.
+Use only these five types: Note, Important, Tip, Warning, Caution. Do not use Notice or Attention except in hardware documentation.
 
 Caution is less severe than Warning:
 - Caution: risk of damage, downtime, or service interruption
 - Warning: risk of data loss or sustained outage, or hazard to personnel
 
-If you find yourself adding a Note to every procedure, consider whether
-that information belongs in the main content instead.
+If you find yourself adding a Note to every procedure, consider whether that information belongs in the main content instead.
 
-Do not use admonitions as a substitute for clear writing. If the
-information is important enough to call out, consider whether it
-should be part of the main text.
+Do not use admonitions as a substitute for clear writing. If the information is important enough to call out, consider whether it should be part of the main text.
 
 ## Related
 

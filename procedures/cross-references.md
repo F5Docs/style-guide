@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Refer to specific section names, table numbers, or figure titles
-instead of relative position words like "above" or "below." Relative
-position changes when content is reformatted or reordered.
+Refer to specific section names, table numbers, or figure titles instead of relative position words like "above" or "below." Relative position changes when content is reformatted or reordered.
 
 ## Examples
 
@@ -32,25 +30,19 @@ position changes when content is reformatted or reordered.
 
 ## Notes
 
-Avoid "above" and "below" entirely. Use the section name or a
-descriptive phrase instead:
+Avoid "above" and "below" entirely. Use the section name or a descriptive phrase instead:
 - Don't: See the note above.
 - Do: See the note in [Configure the virtual server](link).
 
-Use "preceding" or "following" only when the reference is immediately
-adjacent and unambiguous.
+Use "preceding" or "following" only when the reference is immediately adjacent and unambiguous.
 
-In the same document, bold the exact section or procedure name when
-linking without an anchor:
+In the same document, bold the exact section or procedure name when linking without an anchor:
 > To do so, use the example from the **Setting up a virtual server**
 > procedure.
 
-Do not include individual cross-references within topics in TechComm
-content. Collect related links in a separate resources section at the
-end of the topic.
+Do not include individual cross-references within topics in TechComm content. Collect related links in a separate resources section at the end of the topic.
 
-When linking to external F5 documentation, use the full URL rather
-than masking the destination.
+When linking to external F5 documentation, use the full URL rather than masking the destination.
 
 ## Related
 

@@ -12,8 +12,7 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Never use color as the only way to convey information. Always pair
-color with another visual indicator such as text, pattern, or shape.
+Never use color as the only way to convey information. Always pair color with another visual indicator such as text, pattern, or shape.
 
 ## Examples
 
@@ -31,28 +30,19 @@ color with another visual indicator such as text, pattern, or shape.
 ## Notes
 
 ### Contrast
-Use a minimum contrast ratio of 4.5:1 for text and background colors.
-Avoid low-contrast combinations such as light green on white or red
-on green.
+Use a minimum contrast ratio of 4.5:1 for text and background colors. Avoid low-contrast combinations such as light green on white or red on green.
 
 ### Hard-coded colors
-Don't hard-code colors in documentation or UI content. Hard-coded
-colors can become illegible in high-contrast themes and may not
-render correctly across publishing systems.
+Don't hard-code colors in documentation or UI content. Hard-coded colors can become illegible in high-contrast themes and may not render correctly across publishing systems.
 
 ### Backgrounds
-Don't use screened or shaded backgrounds, watermarks, or other images
-behind text. Reduced contrast makes text harder to read and can
-interfere with screen readers.
+Don't use screened or shaded backgrounds, watermarks, or other images behind text. Reduced contrast makes text harder to read and can interfere with screen readers.
 
 ### Diagrams and graphics
-Don't use screens or tints in diagrams. Use pattern and color
-together — never color alone — to differentiate elements.
+Don't use screens or tints in diagrams. Use pattern and color together — never color alone — to differentiate elements.
 
 ### High-contrast themes
-Content must remain legible when users apply high-contrast
-personalization themes. Test diagrams and UI screenshots in
-high-contrast mode where possible.
+Content must remain legible when users apply high-contrast personalization themes. Test diagrams and UI screenshots in high-contrast mode where possible.
 
 ## Related
 

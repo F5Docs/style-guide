@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use italics sparingly. In technical documentation, bold is preferred
-over italics for emphasis. Italics are appropriate for titles of
-published works and introducing new terms on first use.
+Use italics sparingly. In technical documentation, bold is preferred over italics for emphasis. Italics are appropriate for titles of published works and introducing new terms on first use.
 
 ## Examples
 
@@ -27,9 +25,7 @@ published works and introducing new terms on first use.
 
 ## Notes
 
-Do not use italics for UI elements — use bold. Do not use italics as a
-substitute for quotation marks. Do not use italics for new terms in
-NGINX documentation specifically — use roman (plain) text instead.
+Do not use italics for UI elements — use bold. Do not use italics as a substitute for quotation marks. Do not use italics for new terms in NGINX documentation specifically — use roman (plain) text instead.
 
 Hyperlinks should be bold, not italicized.
 

@@ -12,9 +12,7 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Use the same grammatical form for items in a list, a series, or a
-set of headings. Parallel structure makes content easier to scan
-and understand.
+Use the same grammatical form for items in a list, a series, or a set of headings. Parallel structure makes content easier to scan and understand.
 
 ## Examples
 
@@ -43,12 +41,9 @@ and understand.
 ## Notes
 
 Parallel structure applies to:
-- Bulleted and numbered lists — all items should start with the same
-  part of speech
-- Headings in a series — all should follow the same pattern
-  (all imperative verbs, or all noun phrases)
-- Table columns — all cells in a column should follow the same
-  grammatical pattern
+- Bulleted and numbered lists — all items should start with the same part of speech
+- Headings in a series — all should follow the same pattern (all imperative verbs, or all noun phrases)
+- Table columns — all cells in a column should follow the same grammatical pattern
 
 For lists, lead with the same part of speech for every item:
 - All nouns: "A valid license," "A configured pool"

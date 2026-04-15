@@ -11,27 +11,18 @@ last-reviewed: 2026-04-15
 
 ## Guidance
 
-Use full product names consistently across all F5 documentation. On first
-mention, include the "F5" prefix. On subsequent mentions, drop "F5" unless
-the product requires it. Never use acronyms in place of full product names.
-Never use trademark symbols in documentation. Do not use articles ("the,"
-"a") before standalone product names. Do not use possessive constructions
-with product names. Do not use code names for product versions or releases
-in customer-facing documentation.
+Use full product names consistently across all F5 documentation. On first mention, include the "F5" prefix. On subsequent mentions, drop "F5" unless the product requires it. Never use acronyms in place of full product names. Never use trademark symbols in documentation. Do not use articles ("the," "a") before standalone product names. Do not use possessive constructions with product names. Do not use code names for product versions or releases in customer-facing documentation.
 
 ## Examples
 
 ### First and subsequent mentions
 
 **Do:**
-> F5 NGINX Plus provides advanced load balancing features. NGINX Plus
-> also supports dynamic reconfiguration without restarting the service.
+> F5 NGINX Plus provides advanced load balancing features. NGINX Plus also supports dynamic reconfiguration without restarting the service.
 
-> F5 WAF for NGINX protects your applications from web threats. F5 WAF
-> also supports Envoy-based deployments.
+> F5 WAF for NGINX protects your applications from web threats. F5 WAF also supports Envoy-based deployments.
 
-> F5 NGINXaaS for Azure provides cloud-native load balancing. NGINXaaS
-> integrates natively with Azure networking services.
+> F5 NGINXaaS for Azure provides cloud-native load balancing. NGINXaaS also integrates natively with Azure networking services.
 
 > Install F5 WAF for NGINX using F5 NGINX Instance Manager.
 
@@ -40,10 +31,9 @@ in customer-facing documentation.
 > Use BIG-IP LTM to manage local traffic policies.
 
 **Don't:**
-> The F5 NGINX Plus's configuration file is located at /etc/nginx/.
+> The F5 NGINX Plus's configuration file is located at `/etc/nginx/`.
 
-> F5 WAF for NGINX protects your applications. WAF for NGINX also
-> supports Envoy-based deployments.
+> F5 WAF for NGINX protects your applications. WAF for NGINX also supports Envoy-based deployments.
 
 > Configure the BIG-IP to route traffic to the pool.
 
@@ -75,11 +65,11 @@ in customer-facing documentation.
 
 ### First and subsequent mentions
 
-On first mention, use the full product name including the "F5" prefix.
+On first mention, use the full product name including the "F5" prefix. 
+
 On subsequent mentions, drop "F5" unless the product name requires it.
-Each product requires the "F5" prefix on its own first mention,
-independently of other products in the same document. Exception:
-always retain "F5" in "F5 WAF" on all mentions.
+
+Each product requires the "F5" prefix on its own first mention, independently of other products in the same document. Exception: always retain "F5" in "F5 WAF" on all mentions.
 
 | First mention              | Subsequent mentions |
 |----------------------------|---------------------|
@@ -88,10 +78,7 @@ always retain "F5" in "F5 WAF" on all mentions.
 | F5 NGINXaaS for [platform] | NGINXaaS            |
 | F5 WAF for [platform]      | F5 WAF              |
 
-F5 WAF and F5 NGINXaaS run on multiple platforms. On first mention,
-use the full platform-specific name: "F5 WAF for NGINX," "F5 WAF for
-Envoy," or "F5 NGINXaaS for Azure." On subsequent mentions, use
-"F5 WAF" or "NGINXaaS."
+F5 WAF and F5 NGINXaaS run on multiple platforms. On first mention, use the full platform-specific name: "F5 WAF for NGINX," "F5 WAF for Envoy," or "F5 NGINXaaS for Azure." On subsequent mentions, use "F5 WAF" or "NGINXaaS."
 
 ### General rules
 
@@ -99,9 +86,7 @@ Envoy," or "F5 NGINXaaS for Azure." On subsequent mentions, use
 - Never use articles before standalone product names.
 - An article is acceptable when the product name qualifies another noun.
 - Never use possessive constructions with product names.
-- Never use acronyms in place of full product names. For example, use
-  "NGINX Instance Manager" not "NIM," and "BIG-IP Next for Kubernetes"
-  not "BNK."
+- Never use acronyms in place of full product names. For example, use "NGINX Instance Manager" not "NIM," and "BIG-IP Next for Kubernetes" not "BNK."
 
 ### NGINX products
 
@@ -110,8 +95,7 @@ Envoy," or "F5 NGINXaaS for Azure." On subsequent mentions, use
 - NGINX Unit
 - NGINX Agent
 
-Always include the "NGINX" brand name. Never use "F5 NGINX Unit" or
-"F5 NGINX Agent."
+Always include the "NGINX" brand name. Never use "F5 NGINX Unit" or "F5 NGINX Agent."
 
 #### General NGINX rules
 

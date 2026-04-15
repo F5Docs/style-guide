@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Keep sentences short. Task-oriented sentences: 20 words maximum.
-Conceptual sentences: 25 words maximum. Paragraphs: 6 sentences
-maximum. Noun clusters: 3 words maximum.
+Keep sentences short. Task-oriented sentences: 20 words maximum. Conceptual sentences: 25 words maximum. Paragraphs: 6 sentences maximum. Noun clusters: 3 words maximum.
 
 ## Examples
 
@@ -32,20 +30,15 @@ maximum. Noun clusters: 3 words maximum.
 
 ## Notes
 
-Read your writing aloud. If you run out of breath before finishing
-a sentence, it's too long.
+Read your writing aloud. If you run out of breath before finishing a sentence, it's too long.
 
-Break long sentences at natural joints — conjunctions, relative
-clauses, and prepositional phrases are good split points.
+Break long sentences at natural joints — conjunctions, relative clauses, and prepositional phrases are good split points.
 
-Limit noun clusters to three words. A noun cluster is a string of
-nouns used as modifiers:
+Limit noun clusters to three words. A noun cluster is a string of nouns used as modifiers:
 - Don't: BIG-IP system configuration file location setting
 - Do: The location setting for the BIG-IP configuration file
 
-Short paragraphs aid scanning. If a paragraph exceeds six sentences,
-look for a natural break point or consider whether the content belongs
-in a list.
+Short paragraphs aid scanning. If a paragraph exceeds six sentences, look for a natural break point or consider whether the content belongs in a list.
 
 ## Related
 

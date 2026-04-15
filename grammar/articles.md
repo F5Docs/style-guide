@@ -12,9 +12,7 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Use articles ("a," "an," "the") wherever possible in body text.
-Omitting articles makes content harder to read and harder to
-translate for global audiences.
+Use articles ("a," "an," "the") wherever possible in body text. Omitting articles makes content harder to read and harder to translate for global audiences.
 
 ## Examples
 
@@ -31,25 +29,20 @@ translate for global audiences.
 ## Notes
 
 ### A vs. An
-Use "a" or "an" based on how the following word sounds when spoken,
-not how it is spelled. If the first sound is a vowel sound, use "an."
-If the first sound is a consonant sound, use "a."
+Use "a" or "an" based on how the following word sounds when spoken, not how it is spelled. If the first sound is a vowel sound, use "an." If the first sound is a consonant sound, use "a."
 
 > an hour, a user, an API, a URL
 
-For full guidance on articles before acronyms, see
-[Acronyms](../terminology/acronyms.md).
+For full guidance on articles before acronyms, see [Acronyms](../terminology/acronyms.md).
 
 ### The
-Use "the" before a specific, known noun. Use "a" or "an" before a
-general or unspecified noun:
+Use "the" before a specific, known noun. Use "a" or "an" before a general or unspecified noun:
 > Set up a virtual server. (any virtual server)
 
 > The virtual server receives all inbound traffic. (a specific one)
 
 ### Articles in headings
-Noun phrase headings don't require articles. Imperative headings
-follow normal article rules.
+Noun phrase headings don't require articles. Imperative headings follow normal article rules.
 
 **Do:**
 > Virtual server configuration

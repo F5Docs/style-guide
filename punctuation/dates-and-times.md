@@ -11,8 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use month/day/year format for dates. Use lowercase a.m./p.m. with a
-space before them for times. Always specify the time zone for events.
+Use month/day/year format for dates. Use lowercase a.m./p.m. with a space before them for times. Always specify the time zone for events.
 
 ## Examples
 
@@ -47,8 +46,7 @@ Recurring availability:
 - Use 24x7, not 24/7 (F5 standard)
 
 Version ranges:
-- Use "earlier" and "later" for version comparisons, not
-  "before/after," "above/below," "greater/lower"
+- Use "earlier" and "later" for version comparisons, not "before/after," "above/below," "greater/lower"
 - Use "through" for inclusive ranges in prose: BIG-IP 12.1 through 12.4
 - Use a hyphen for ranges in tables and titles: 12.1-12.4
 

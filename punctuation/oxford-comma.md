@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Always use the Oxford (serial) comma — the comma before the final item
-in a list of three or more. This is consistent across all F5 style
-guides and is non-negotiable.
+Always use the Oxford (serial) comma — the comma before the final item in a list of three or more. This is consistent across all F5 style guides and is non-negotiable.
 
 ## Examples
 
@@ -29,8 +27,7 @@ guides and is non-negotiable.
 
 ## Notes
 
-The Oxford comma prevents ambiguity in lists where the last two items
-might otherwise be read as a pair.
+The Oxford comma prevents ambiguity in lists where the last two items might otherwise be read as a pair.
 
 ## Related
 

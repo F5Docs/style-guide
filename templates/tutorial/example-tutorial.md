@@ -79,9 +79,7 @@ Preparing the brewer correctly before adding coffee removes the papery taste of 
 
 2. Grind the beans immediately before brewing. Ground coffee begins losing its aromatics within minutes of grinding.
 
-    ```text
-    Grinder output: approximately 2 tablespoons of medium-coarse grounds
-    ```
+    ```text Grinder output: approximately 2 tablespoons of medium-coarse grounds ```
 
 3. Place the paper filter inside the pour-over brewer. Press the filter firmly against the brewer walls so it sits flat with no folded edges. A filter that sits away from the walls collapses inward during brewing and blocks water flow.
 
@@ -133,12 +131,7 @@ Evaluating the cup immediately after brewing helps you identify one specific adj
 
 2. Identify the dominant characteristic using the guide below.
 
-    | Characteristic | Likely cause | Adjustment |
-    |---|---|---|
-    | Bitter, dry, or astringent | Over-extracted: grind too fine or brew time too long | Move grinder one step coarser |
-    | Sour, thin, or sharp | Under-extracted: grind too coarse or brew time too short | Move grinder one step finer |
-    | Flat or lacking aroma | Beans are stale or water temperature too low | Use fresher beans or raise kettle temperature |
-    | Balanced, sweet, and clean | Correct extraction | No adjustment needed |
+    | Characteristic | Likely cause | Adjustment | |---|---|---| | Bitter, dry, or astringent | Over-extracted: grind too fine or brew time too long | Move grinder one step coarser | | Sour, thin, or sharp | Under-extracted: grind too coarse or brew time too short | Move grinder one step finer | | Flat or lacking aroma | Beans are stale or water temperature too low | Use fresher beans or raise kettle temperature | | Balanced, sweet, and clean | Correct extraction | No adjustment needed |
 
 3. Write down the grinder setting, water temperature, and your evaluation note. Keeping a brew log makes it possible to repeat successful brews and avoid repeating unsuccessful ones.
 

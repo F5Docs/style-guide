@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use numbered lists for sequential steps. Start each step with an
-imperative verb. One step = one action. Use parallel structure
-throughout.
+Use numbered lists for sequential steps. Start each step with an imperative verb. One step = one action. Use parallel structure throughout.
 
 ## Examples
 
@@ -30,19 +28,15 @@ throughout.
 
 ## Notes
 
-Use substeps sparingly. If you need more than two levels of nesting,
-restructure the procedure into multiple tasks.
+Use substeps sparingly. If you need more than two levels of nesting, restructure the procedure into multiple tasks.
 
-Substep numbering: 1, a, i (use the third level only when absolutely
-necessary).
+Substep numbering: 1, a, i (use the third level only when absolutely necessary).
 
 Avoid "in order to" in step text — use "to" instead.
 
-If a step has a result the user needs to verify, include it as a
-separate sentence at the end of that step, not as its own step.
+If a step has a result the user needs to verify, include it as a separate sentence at the end of that step, not as its own step.
 
-Do not use "click" — use "select" for all UI interactions regardless
-of device.
+Do not use "click" — use "select" for all UI interactions regardless of device.
 
 ## Related
 

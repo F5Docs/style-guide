@@ -12,14 +12,9 @@ last-reviewed: 2026-04-06
 
 ## Guidance
 
-This guide covers the correct terms for common UI elements. Most of
-the time, avoid referring to UI elements. Instead, describe what the
-user needs to do. When you do refer to UI elements, use the terms in
-this guide.
+This guide covers the correct terms for common UI elements. Most of the time, avoid referring to UI elements. Instead, describe what the user needs to do. When you do refer to UI elements, use the terms in this guide.
 
-Use "select" for all UI interactions — buttons, checkboxes, tabs,
-list items, and icons. See [Click vs. Select](click-vs-select.md)
-for more detail.
+Use "select" for all UI interactions — buttons, checkboxes, tabs, list items, and icons. See [Click vs. Select](click-vs-select.md) for more detail.
 
 ## Quick reference
 
@@ -78,8 +73,7 @@ Use "select" to select a checkbox and "clear" to deselect it.
 
 ### Drop-down
 
-Don't use "drop-down" as a noun. As an adjective before "list" or
-"menu" it's acceptable when needed.
+Don't use "drop-down" as a noun. As an adjective before "list" or "menu" it's acceptable when needed.
 
 **Do:**
 > Under **Policy**, select **APM**.
@@ -94,9 +88,7 @@ Don't use "drop-down" as a noun. As an adjective before "list" or
 
 ### Radio button
 
-Refer to a radio button by its label. If you must provide a
-descriptor, use "option." Don't capitalize "option." Use "radio
-button" only in developer content where the API includes the term.
+Refer to a radio button by its label. If you must provide a descriptor, use "option." Don't capitalize "option." Use "radio button" only in developer content where the API includes the term.
 
 **Do:**
 > Select **Yes**.
@@ -116,9 +108,7 @@ button" only in developer content where the API includes the term.
 
 ### Tab
 
-Don't use "tab" as a verb. Use it as a noun with the label when
-referring to a UI tab. When referring to the keyboard key, use
-"Tab key."
+Don't use "tab" as a verb. Use it as a noun with the label when referring to a UI tab. When referring to the keyboard key, use "Tab key."
 
 **Do:**
 > On the **View** tab, select **Enable**.
@@ -130,10 +120,7 @@ referring to a UI tab. When referring to the keyboard key, use
 
 ### Toggle
 
-Don't use "toggle" as a verb. Use "turn on" and "turn off" with the
-label name. In most cases, just refer to the label directly — you
-don't need to name the element type at all. Don't use "enable" or
-"disable" — see [Enable and disable](enable-disable.md).
+Don't use "toggle" as a verb. Use "turn on" and "turn off" with the label name. In most cases, just refer to the label directly — you don't need to name the element type at all. Don't use "enable" or "disable" — see [Enable and disable](enable-disable.md).
 
 **Do:**
 > Turn on **High contrast**.

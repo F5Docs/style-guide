@@ -11,10 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Avoid em dashes in technical documentation. They don't translate well
-for global audiences and machine translation engines. Use a comma,
-period, colon, or parentheses instead. Em dashes are permitted in
-brand and marketing content where a conversational tone is the goal.
+Avoid em dashes in technical documentation. They don't translate well for global audiences and machine translation engines. Use a comma, period, colon, or parentheses instead. Em dashes are permitted in brand and marketing content where a conversational tone is the goal.
 
 ## Examples
 
@@ -30,8 +27,7 @@ brand and marketing content where a conversational tone is the goal.
 
 ## Notes
 
-If an em dash appears unavoidable for readability, prefer two hyphens
-(`--`) in source files so it converts correctly in rendered output.
+If an em dash appears unavoidable for readability, prefer two hyphens (`--`) in source files so it converts correctly in rendered output.
 
 ## Related
 
