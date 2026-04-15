@@ -12,8 +12,7 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Use "update" when moving between minor versions. Use "upgrade" when
-moving between major versions.
+Use "update" when moving between minor versions. Use "upgrade" when moving between major versions.
 
 ## Examples
 
@@ -34,17 +33,12 @@ moving between major versions.
 ## Notes
 
 The distinction:
-- **Update** — moving from one minor version to another within the
-  same major version. For example, BIG-IP 13.1 to 13.2.
-- **Upgrade** — moving from one major version to another. For
-  example, BIG-IP 13.x to 14.0.
+- **Update** — moving from one minor version to another within the same major version. For example, BIG-IP 13.1 to 13.2.
+- **Upgrade** — moving from one major version to another. For example, BIG-IP 13.x to 14.0.
 
-This distinction is F5-specific and matters for support and licensing
-reasons. Use the correct term so users understand the scope of the
-change they're making.
+This distinction is F5-specific and matters for support and licensing reasons. Use the correct term so users understand the scope of the change they're making.
 
-Do not use "upgrade" as a general synonym for "improve" or "enhance"
-in F5 technical documentation.
+Do not use "upgrade" as a general synonym for "improve" or "enhance" in F5 technical documentation.
 
 ## Related
 

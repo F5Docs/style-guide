@@ -12,9 +12,7 @@ last-reviewed: 2026-04-06
 
 ## Guidance
 
-Use plain, direct words. Avoid formal or bureaucratic language that
-sounds unnatural, translates poorly, or puts distance between the
-writer and the reader.
+Use plain, direct words. Avoid formal or bureaucratic language that sounds unnatural, translates poorly, or puts distance between the writer and the reader.
 
 ## Required replacements
 
@@ -77,13 +75,9 @@ writer and the reader.
 
 ## Notes
 
-This list is not exhaustive. Apply the same principle to any word not
-listed here: would a plain, direct alternative work just as well? If
-yes, use it.
+This list is not exhaustive. Apply the same principle to any word not listed here: would a plain, direct alternative work just as well? If yes, use it.
 
-When a forbidden term appears in a product UI, API, or command-line
-output, use the term as shown to avoid confusing users. Add a note
-where appropriate:
+When a forbidden term appears in a product UI, API, or command-line output, use the term as shown to avoid confusing users. Add a note where appropriate:
 > Note: F5 is working to eliminate exclusionary language in our
 > products and documentation.
 

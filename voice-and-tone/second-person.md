@@ -12,9 +12,7 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Write from the user's perspective using "you" and "your." Avoid
-third-person references like "the user" or "the administrator" unless
-necessary to avoid confusion between multiple actors.
+Write from the user's perspective using "you" and "your." Avoid third-person references like "the user" or "the administrator" unless necessary to avoid confusion between multiple actors.
 
 ## Examples
 
@@ -30,16 +28,12 @@ necessary to avoid confusion between multiple actors.
 
 ## Notes
 
-Use gender-neutral language throughout. "They/their" is acceptable as
-a singular pronoun when needed:
+Use gender-neutral language throughout. "They/their" is acceptable as a singular pronoun when needed:
 > If a user can't log in, they should reset their password.
 
-Avoid third-person references to the user ("the user," "the
-administrator," "the operator") unless you need to distinguish between
-multiple actors in the same procedure.
+Avoid third-person references to the user ("the user," "the administrator," "the operator") unless you need to distinguish between multiple actors in the same procedure.
 
-For guidance on avoiding "we" and "our" in technical documentation,
-see [We and our](we-and-our.md).
+For guidance on avoiding "we" and "our" in technical documentation, see [We and our](we-and-our.md).
 
 ## Related
 

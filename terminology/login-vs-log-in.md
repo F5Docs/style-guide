@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-"Log in" is a verb. "Login" is a noun or adjective. Never use "log
-into" — always "log in to." F5 uses "log in/log out" not "sign
-in/sign out."
+"Log in" is a verb. "Login" is a noun or adjective. Never use "log into" — always "log in to." F5 uses "log in/log out" not "sign in/sign out."
 
 ## Examples
 
@@ -38,20 +36,16 @@ in/sign out."
 > The login page displays after the session expires.
 > Verify your login information.
 
-"Log in" as a verb — always two words, always followed by "to" not
-"into":
+"Log in" as a verb — always two words, always followed by "to" not "into":
 > Log in to the BIG-IP system.
 > Log in to tmsh.
 > Log in to the chassis partition.
 
-"Log out" follows the same pattern — two words as a verb, one word
-as a noun or adjective:
+"Log out" follows the same pattern — two words as a verb, one word as a noun or adjective:
 > Log out of the system when finished.
 > Select the logout button.
 
-F5 uses "log in/log out" not "sign in/sign out." This is an explicit
-exception to the Microsoft Style Guide, which prefers "sign in/sign
-out."
+F5 uses "log in/log out" not "sign in/sign out." This is an explicit exception to the Microsoft Style Guide, which prefers "sign in/sign out."
 
 Never use "log on," "logon," or "log onto." These are legacy terms.
 

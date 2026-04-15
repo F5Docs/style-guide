@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Don't use possessive constructions with F5 product names or trademarks.
-Don't use possessive case for inanimate objects. Recast the sentence
-instead.
+Don't use possessive constructions with F5 product names or trademarks. Don't use possessive case for inanimate objects. Recast the sentence instead.
 
 ## Examples
 
@@ -37,23 +35,18 @@ Never use possessive form with trademarked product names:
 - Don't: BIG-IP's, NGINX Plus's, BIG-IQ's
 - Do: recast using "of" or restructure the sentence
 
-Possessive pronouns before product names are acceptable but use
-sparingly:
+Possessive pronouns before product names are acceptable but use sparingly:
 - Acceptable: your BIG-IP system, your NGINX configuration
 - Avoid: their BIG-IP's settings
 
-"F5's" is acceptable when there is no reasonable alternative, but
-prefer "F5" used as a modifier:
+"F5's" is acceptable when there is no reasonable alternative, but prefer "F5" used as a modifier:
 - Preferred: F5 documentation, F5 support policy
 - Acceptable: F5's documentation, F5's support policy
 
-Don't use possessive case for inanimate objects in general prose.
-Recast using "of" or restructure:
+Don't use possessive case for inanimate objects in general prose. Recast using "of" or restructure:
 - Don't: the field's value
 - Do: the value of the field
-- Exception: the Modern Voice guidelines permit "'s" with inanimate
-  objects when it improves readability and sounds natural:
-  "the field's data area" is acceptable per the Cardinal Rule.
+- Exception: the Modern Voice guidelines permit "'s" with inanimate objects when it improves readability and sounds natural: "the field's data area" is acceptable per the Cardinal Rule.
 
 ## Related
 

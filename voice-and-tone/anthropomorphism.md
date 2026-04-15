@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Don't write about products and systems as though they have human
-qualities. Products don't decide, know, see, hear, or want. Rewrite
-to describe what the product actually does, or shift focus to the user.
+Don't write about products and systems as though they have human qualities. Products don't decide, know, see, hear, or want. Rewrite to describe what the product actually does, or shift focus to the user.
 
 ## Examples
 
@@ -37,19 +35,13 @@ Anthropomorphic words to avoid when describing products:
 - wants, thinks, believes, feels
 - walks you through (use "guides you through")
 
-"A wizard guides you through the steps" is acceptable — guides is a
-functional description of what the wizard does, not a human quality.
-"A wizard walks you through the steps" is not — walking is a human
-action.
+"A wizard guides you through the steps" is acceptable — guides is a functional description of what the wizard does, not a human quality. "A wizard walks you through the steps" is not — walking is a human action.
 
-Avoid system-centric language that implies the product is doing the
-user a favor:
+Avoid system-centric language that implies the product is doing the user a favor:
 - Don't: NGINX Plus allows you to configure rate limiting.
 - Do: You can configure rate limiting in NGINX Plus.
 
-The same applies to weak verbs like allows, lets, and enables when
-used to describe what a product does for a user. These verbs are
-acceptable when instructing the user to enable a setting.
+The same applies to weak verbs like allows, lets, and enables when used to describe what a product does for a user. These verbs are acceptable when instructing the user to enable a setting.
 
 ## Related
 

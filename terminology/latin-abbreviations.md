@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Avoid Latin abbreviations. Spell out the English equivalent instead.
-Latin abbreviations are harder to translate, unfamiliar to global
-audiences, and easy to misuse.
+Avoid Latin abbreviations. Spell out the English equivalent instead. Latin abbreviations are harder to translate, unfamiliar to global audiences, and easy to misuse.
 
 ## Examples
 
@@ -45,9 +43,7 @@ Use these replacements consistently:
 | vs.  | versus, or (recast the sentence) |
 | via  | through, by way of |
 
-Exception: Security advisory articles and vulnerability release notes
-may retain Latin abbreviations where they appear in standards or CVE
-references.
+Exception: Security advisory articles and vulnerability release notes may retain Latin abbreviations where they appear in standards or CVE references.
 
 ## Related
 

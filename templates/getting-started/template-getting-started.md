@@ -59,9 +59,7 @@ Before you begin, ensure you have:
 
 1. {Step — start with a verb.}
 
-    ```{language}
-    {code sample — use ALL_CAPS_PLACEHOLDERS for values the reader must supply}
-    ```
+    ```{language} {code sample — use ALL_CAPS_PLACEHOLDERS for values the reader must supply} ```
 
     {Outcome sentence — describe what the step does or what the reader should observe.}
 
@@ -69,15 +67,11 @@ Before you begin, ensure you have:
 
 3. Verify the installation completed successfully.
 
-    ```{language}
-    {verification command}
-    ```
+    ```{language} {verification command} ```
 
     {Expected output.}
 
-    ```{language}
-    {expected output sample}
-    ```
+    ```{language} {expected output sample} ```
 
 ---
 
@@ -91,9 +85,7 @@ Before you begin, ensure you have:
 
 1. {Action — start with a verb. Orient the user first: state what file to open or screen to navigate to.}
 
-    ```{language}
-    {code sample}
-    ```
+    ```{language} {code sample} ```
 
     {Outcome sentence.}
 
@@ -109,9 +101,7 @@ Before you begin, ensure you have:
 
 1. {Action.}
 
-    ```{language}
-    {code sample}
-    ```
+    ```{language} {code sample} ```
 
     {Outcome sentence.}
 
@@ -127,9 +117,7 @@ Before you begin, ensure you have:
 
 1. {Action.}
 
-    ```{language}
-    {code sample}
-    ```
+    ```{language} {code sample} ```
 
     {Outcome sentence.}
 
@@ -154,15 +142,11 @@ Before you begin, ensure you have:
 
 1. {Step — run a status or verification command, or describe the UI check.}
 
-    ```{language}
-    {verification command}
-    ```
+    ```{language} {verification command} ```
 
     {Outcome sentence — describe the expected output that confirms success.}
 
-    ```{language}
-    {expected output sample}
-    ```
+    ```{language} {expected output sample} ```
 
 2. {Optional: additional verification step.}
 

@@ -11,8 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use colons to introduce lists, explanations, and examples. Never use
-a colon to introduce a graphic, figure, or table.
+Use colons to introduce lists, explanations, and examples. Never use a colon to introduce a graphic, figure, or table.
 
 ## Examples
 
@@ -33,8 +32,7 @@ a colon to introduce a graphic, figure, or table.
 
 ## Notes
 
-A colon should follow a complete sentence or independent clause. Don't
-use a colon after a verb or preposition:
+A colon should follow a complete sentence or independent clause. Don't use a colon after a verb or preposition:
 - Don't: "The methods are: LDAP, RADIUS, and TACACS+."
 - Do: "The system supports three methods: LDAP, RADIUS, and TACACS+."
 

@@ -12,10 +12,7 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Avoid "we" and "our" in technical documentation. They're ambiguous —
-the reader can't tell if "we" means F5, the development team, or the
-user and F5 together. Write from the user's perspective using "you"
-instead, or name F5 explicitly.
+Avoid "we" and "our" in technical documentation. They're ambiguous — the reader can't tell if "we" means F5, the development team, or the user and F5 together. Write from the user's perspective using "you" instead, or name F5 explicitly.
 
 ## Examples
 
@@ -42,8 +39,7 @@ instead, or name F5 explicitly.
 - The writer
 - The user and F5 together
 
-None of these are useful to the reader. Replace "we" with the
-specific actor:
+None of these are useful to the reader. Replace "we" with the specific actor:
 - "We recommend" → "F5 recommends"
 - "We support" → "NGINX Plus supports"
 - "We need to configure" → "You need to configure"
@@ -53,10 +49,7 @@ specific actor:
 - "Our products" → "F5 products"
 - "Our recommendation" → "F5's recommendation"
 
-Exception: "we" is acceptable in conversational UI text, release
-announcements, and blog posts where F5 is speaking directly to
-customers as a company. It is not appropriate in technical
-procedures, reference documentation, or conceptual content.
+Exception: "we" is acceptable in conversational UI text, release announcements, and blog posts where F5 is speaking directly to customers as a company. It is not appropriate in technical procedures, reference documentation, or conceptual content.
 
 ## Related
 

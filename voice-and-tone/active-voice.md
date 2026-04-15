@@ -11,8 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Write in active voice. The subject performs the action. Passive voice
-obscures who is doing what and adds unnecessary words.
+Write in active voice. The subject performs the action. Passive voice obscures who is doing what and adds unnecessary words.
 
 ## Examples
 
@@ -28,15 +27,11 @@ obscures who is doing what and adds unnecessary words.
 
 ## Notes
 
-Passive voice is occasionally appropriate — for example, when the actor
-is unknown or irrelevant: "The configuration file is generated during
-installation." Use judgment, but default to active.
+Passive voice is occasionally appropriate — for example, when the actor is unknown or irrelevant: "The configuration file is generated during installation." Use judgment, but default to active.
 
-Avoid weak, system-centric verbs that imply passive agency: allows,
-lets, enables, makes. Write from the user's perspective instead.
+Avoid weak, system-centric verbs that imply passive agency: allows, lets, enables, makes. Write from the user's perspective instead.
 
-**Weak:** NGINX Plus allows you to configure rate limiting.
-**Better:** You can configure rate limiting in NGINX Plus.
+**Weak:** NGINX Plus allows you to configure rate limiting. **Better:** You can configure rate limiting in NGINX Plus.
 
 ## Related
 

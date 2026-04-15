@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-State prerequisites as conditions the user must meet before starting,
-not as restatements of prior steps. Keep the list short. If
-prerequisites are extensive, consider a separate topic.
+State prerequisites as conditions the user must meet before starting, not as restatements of prior steps. Keep the list short. If prerequisites are extensive, consider a separate topic.
 
 ## Examples
 
@@ -30,18 +28,13 @@ prerequisites are extensive, consider a separate topic.
 
 ## Notes
 
-Do not list the previous task in a sequence as a prerequisite — if
-the user is following a workflow, assume they completed the prior step.
+Do not list the previous task in a sequence as a prerequisite — if the user is following a workflow, assume they completed the prior step.
 
-Write prerequisites as conditions, not instructions. If the user needs
-to take action to meet a prerequisite, that action belongs in its own
-task.
+Write prerequisites as conditions, not instructions. If the user needs to take action to meet a prerequisite, that action belongs in its own task.
 
-Avoid restating the obvious. "You must have a BIG-IP system" is not
-a useful prerequisite.
+Avoid restating the obvious. "You must have a BIG-IP system" is not a useful prerequisite.
 
-Frame prerequisites naturally in the intro sentence rather than as a
-formal block when the list is only one or two items:
+Frame prerequisites naturally in the intro sentence rather than as a formal block when the list is only one or two items:
 > Before you set up the virtual server, verify that you have at least
 > one pool configured.
 

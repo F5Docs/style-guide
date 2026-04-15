@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Use inclusive, person-first language. Avoid gendered terms, ableist
-language, and collective references that exclude or diminish groups
-of people.
+Use inclusive, person-first language. Avoid gendered terms, ableist language, and collective references that exclude or diminish groups of people.
 
 ## Examples
 
@@ -45,8 +43,7 @@ of people.
 | salesman | sales representative |
 | he/she, his/her | they, their |
 
-Use "they" as the singular gender-neutral pronoun. It is grammatically
-correct and widely accepted:
+Use "they" as the singular gender-neutral pronoun. It is grammatically correct and widely accepted:
 > If a user can't log in, they should reset their password.
 
 ### Person-first language
@@ -70,19 +67,15 @@ Avoid terms that use disability as a metaphor or pejorative:
 | sanity check | confidence check, review |
 
 ### Exclusionary technical terms
-See [Word list](../terminology/word-list.md) for the
-full list of exclusionary technical terms and their replacements,
-including blacklist/whitelist and master/slave.
+See [Word list](../terminology/word-list.md) for the full list of exclusionary technical terms and their replacements, including blacklist/whitelist and master/slave.
 
 ### Collective references
-Avoid vague collective references. Be specific about which group
-you mean:
+Avoid vague collective references. Be specific about which group you mean:
 - Don't: minorities
 - Do: refer to the specific group by name
 
 ### Colors
-Use colors for literal representation only. Avoid using colors as
-metaphors for status or value judgments where possible.
+Use colors for literal representation only. Avoid using colors as metaphors for status or value judgments where possible.
 
 ## Related
 

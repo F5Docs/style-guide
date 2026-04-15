@@ -12,8 +12,7 @@ last-reviewed: 2026-04-03
 
 ## Guidance
 
-Use sentence case everywhere except proper nouns and official product
-names. Never capitalize for emphasis.
+Use sentence case everywhere except proper nouns and official product names. Never capitalize for emphasis.
 
 ## Examples
 
@@ -44,17 +43,12 @@ Capitalize only the first word and proper nouns. This applies to:
 ### Proper nouns and product names
 Always capitalize:
 - F5 product names: BIG-IP, NGINX Plus, BIG-IQ
-- Official feature names when used as proper names: BIG-IP LTM,
-  Client SSL
+- Official feature names when used as proper names: BIG-IP LTM, Client SSL
 - Third-party product names: Kubernetes, Linux, VMware
-- Protocol and standard names follow industry convention and use
-  title case: Network Address Translation, Transmission Control
-  Protocol, Virtual Local Area Network
+- Protocol and standard names follow industry convention and use title case: Network Address Translation, Transmission Control Protocol, Virtual Local Area Network
 
 ### Acronyms
-Acronyms are written in all caps, but their source words are not
-capitalized unless they are proper nouns or industry-standard
-protocol and standard names:
+Acronyms are written in all caps, but their source words are not capitalized unless they are proper nouns or industry-standard protocol and standard names:
 - Do: single sign-on (SSO)
 - Do: denial-of-service (DoS)
 - Do: Network Address Translation (NAT)
@@ -63,27 +57,22 @@ protocol and standard names:
 - Don't: Denial-Of-Service (DoS)
 
 ### Never capitalize for emphasis
-Use bold for emphasis instead. All caps is never acceptable for
-emphasis:
+Use bold for emphasis instead. All caps is never acceptable for emphasis:
 - Don't: Make sure you SAVE the file before closing.
 - Do: Make sure you save the file before closing.
 
 ### Features vs. common terms
-Capitalize official feature names. Don't capitalize common terms
-that happen to describe a feature:
+Capitalize official feature names. Don't capitalize common terms that happen to describe a feature:
 - Do: Enable SSL Forward Proxy for both profiles.
-- Don't: The forward proxy feature is enabled by default.
-  (forward proxy here is a common term, not a feature name)
+- Don't: The forward proxy feature is enabled by default. (forward proxy here is a common term, not a feature name)
 
 ### Services and daemons
-Service names are lowercase unless a word is a proper adjective such
-as a company or feature name:
+Service names are lowercase unless a word is a proper adjective such as a company or feature name:
 - Do: F5 installer service
 - Do: machine certificate checker service
 - Do: DNS relay proxy service
 
-Daemons that end in "d" should be referred to as processes, not
-daemons, since the "d" already stands for daemon:
+Daemons that end in "d" should be referred to as processes, not daemons, since the "d" already stands for daemon:
 - Do: the alertd process
 - Don't: the alertd daemon
 
