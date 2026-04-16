@@ -13,6 +13,7 @@
 - [Bold](formatting/bold.md)
 - [Capitalization](formatting/capitalization.md)
 - [Code blocks](formatting/code-blocks.md)
+- [Doc titles](formatting/doc-titles.md)
 - [Headings](formatting/headings.md)
 - [Hyphens](formatting/hyphens.md)
 - [Images](formatting/images.md)

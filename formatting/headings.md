@@ -42,6 +42,7 @@ Avoid numerals and ampersands in headings unless space is critical.
 ## Related
 
 - [Capitalization](../formatting/capitalization.md)
+- [Doc titles](../formatting/doc-titles.md)
 - [Gerunds](../grammar/gerunds.md)
 - [Tense](../grammar/tense.md)
 
