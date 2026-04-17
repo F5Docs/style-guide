@@ -65,16 +65,17 @@ Use bold for emphasis instead. All caps is never acceptable for emphasis:
 
 Capitalize official feature names. Don't capitalize common terms that happen to describe a feature.
 
-An **official feature name** is a named, licensable capability -- a SKUed product or module you can purchase or enable separately.
+An **official feature name** is a licensable capability or a feature with a distinct, established identity -- not just any feature or setting. If you can replace the name with a generic description and lose no meaning, it's not a proper noun. If you're unsure whether a feature name is official, contact the content strategy team before capitalizing.
 
 If a feature is labeled in the UI using title case, capitalize it when referring to that specific UI element or feature. Use lowercase when referring to the concept generally.
 
-- Do: Deploy NGINX App Protect in front of your upstream servers. *(licensed module)*
-- Do: Configure the managed public endpoint for your deployment. *(configuration option, not a licensed feature)*
-- Don't: Configure the Managed Public Endpoint for your deployment.
-- Don't: Allow messages from VIPs, even if Notifications are paused. *(not a licensed feature)*
+When documenting features from a third-party product, follow that product's capitalization conventions.
 
-If you're unsure whether something is an official feature name, check whether it appears as a separate line item in a product's licensing or SKU documentation. When in doubt, use lowercase.
+- Do: Use Security Monitoring to track F5 WAF activity on your NGINX instances. *(named feature)*
+- Do: Configure the managed public endpoint for your deployment. *(configuration option, not a named feature)*
+- Do: A Pod is the smallest deployable unit in Kubernetes. *(follows Kubernetes documentation conventions)*
+- Don't: Configure the Managed Public Endpoint for your deployment. *(configuration option, not a named feature)*
+- Don't: Allow Notifications even in do not disturb mode. *(not a named feature)*
 
 ### Services and daemons
 Service names are lowercase unless a word is a proper adjective such as a company or feature name:
