@@ -39,6 +39,7 @@ When referring to a UI element type is unavoidable for clarity, use: tab, list, 
 ## Related
 
 - [Bold](../formatting/bold.md)
+- [Capitalization](../formatting/capitalization.md)
 - [Click vs. Select](../terminology/click-vs-select.md)
 - [Directional references](directional-references.md)
 - [UI terms](../terminology/ui-terms.md)

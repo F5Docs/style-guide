@@ -5,7 +5,7 @@ aliases: [capitalization, sentence case, title case, caps]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Style Guide, F5 NGINX Style Guide
 supersedes:
-last-reviewed: 2026-04-03
+last-reviewed: 2026-04-16
 ---
 
 # Capitalization
@@ -62,9 +62,19 @@ Use bold for emphasis instead. All caps is never acceptable for emphasis:
 - Do: Make sure you save the file before closing.
 
 ### Features vs. common terms
-Capitalize official feature names. Don't capitalize common terms that happen to describe a feature:
-- Do: Enable SSL Forward Proxy for both profiles.
-- Don't: The forward proxy feature is enabled by default. (forward proxy here is a common term, not a feature name)
+
+Capitalize official feature names. Don't capitalize common terms that happen to describe a feature.
+
+An **official feature name** is a named, licensable capability -- a SKUed product or module you can purchase or enable separately.
+
+If a feature is labeled in the UI using title case, capitalize it when referring to that specific UI element or feature. Use lowercase when referring to the concept generally.
+
+- Do: Deploy NGINX App Protect in front of your upstream servers. *(licensed module)*
+- Do: Configure the managed public endpoint for your deployment. *(configuration option, not a licensed feature)*
+- Don't: Configure the Managed Public Endpoint for your deployment.
+- Don't: Allow messages from VIPs, even if Notifications are paused. *(not a licensed feature)*
+
+If you're unsure whether something is an official feature name, check whether it appears as a separate line item in a product's licensing or SKU documentation. When in doubt, use lowercase.
 
 ### Services and daemons
 Service names are lowercase unless a word is a proper adjective such as a company or feature name:
