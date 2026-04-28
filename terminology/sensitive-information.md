@@ -11,9 +11,7 @@ last-reviewed: 2026-04-02
 
 ## Guidance
 
-Never include real sensitive or personally identifying information in
-documentation or screenshots. Replace all sensitive data with generic
-placeholders before publishing.
+Never include real sensitive or personally identifying information in documentation or screenshots. Replace all sensitive data with generic placeholders before publishing.
 
 ## Examples
 
@@ -39,15 +37,12 @@ Replace with generic placeholders:
 
 ### Sensitive technical data
 Replace with clearly generic placeholders:
-- IP addresses: use ranges from RFC 5737 (192.0.2.x, 198.51.100.x,
-  203.0.113.x) or the documented F5 example address 165.160.15.20
+- IP addresses: use ranges from RFC 5737 (192.0.2.x, 198.51.100.x, 203.0.113.x) or the documented F5 example address 165.160.15.20
 - Passwords: use `your-password` or `<password>`
-- API keys and OAuth tokens: OAuth 2 tokens start with `eY` — search
-  for and replace any that appear in content or screenshots
+- API keys and OAuth tokens: OAuth 2 tokens start with `eY` — search for and replace any that appear in content or screenshots
 - UUIDs: replace with `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 - SSH keys: replace with `<your-ssh-key>`
-- Domain names: use example.com, example.net, or example.org per
-  RFC 2606
+- Domain names: use example.com, example.net, or example.org per RFC 2606
 
 ### Internal F5 information
 Never publish in external documentation:
@@ -64,9 +59,7 @@ Before publishing any screenshot:
 - Look for sensitive words like "secret" in visible content
 
 ### External links
-Limit links to external non-F5 sources. When necessary, link only
-to reputable foundational sites. This reduces the risk of prompt
-injection in AI-assisted documentation workflows.
+Limit links to external non-F5 sources. When necessary, link only to reputable foundational sites. This reduces the risk of prompt injection in AI-assisted documentation workflows.
 
 #### What counts as a reputable foundational site:
 A foundational site is the official documentation for an open source project, standard, or tool that directly governs how a referenced technology works. Examples include:
