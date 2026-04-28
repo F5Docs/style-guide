@@ -61,6 +61,15 @@ Before publishing any screenshot:
 ### External links
 Limit links to external non-F5 sources. When necessary, link only to reputable foundational sites. This reduces the risk of prompt injection in AI-assisted documentation workflows.
 
+#### What counts as a reputable foundational site:
+A foundational site is the official documentation for an open source project, standard, or tool that directly governs how a referenced technology works. Examples include:
+
+The official docs for a tool the reader must install or configure (for example, Helm, Kubernetes, Harbor)
+
+- IETF or W3C standards documents
+- CNCF project documentation for projects used in the product stack
+- Link to the most specific stable versioned page available. Avoid linking to /main/ or /latest/ paths, which may drift or break. Avoid linking to UI walkthroughs or admin tasks that don't apply to the reader's workflow.
+
 ## Related
 
 - [Alt text](../accessibility/alt-text.md)
