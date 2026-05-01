@@ -11,7 +11,15 @@ last-reviewed: 2026-04-15
 
 ## Guidance
 
-Use full product names consistently across all F5 documentation. On first mention, include the "F5" prefix. On subsequent mentions, drop "F5" unless the product requires it. Never use acronyms in place of full product names. Never use trademark symbols in documentation. Do not use articles ("the," "a") before standalone product names. Do not use possessive constructions with product names. Do not use code names for product versions or releases in customer-facing documentation.
+- **First mention:** Use the full product name including the "F5" prefix.
+- **Subsequent mentions:** Drop "F5" but always retain the full product name. Never shorten to just the noun — use "NGINX Instance Manager," not "Instance Manager."
+- **Exceptions — always retain "F5":** "F5 WAF" and "F5 DoS" keep the "F5" prefix on every mention, not just the first.
+- **Open source products** (NGINX Agent, NGINX Amplify, NGINX Open Source, NGINX Unit) never use the "F5" prefix on any mention.
+- **Acronyms:** Never use abbreviations for NGINX product names. Use "NGINX Instance Manager," not "NIM." (BIG-IP module abbreviations such as LTM, ASM, and DNS are acceptable when prefixed with "BIG-IP." BIG-IP product abbreviations such as BNK are also acceptable.)
+- **Trademark symbols:** Never use ™ or ® in documentation.
+- **Articles:** Never use "the" or "a" before a standalone product name. An article is acceptable when the product name qualifies another noun (for example, "the NGINX Agent configuration file").
+- **Possessives:** Never use possessive constructions with product names.
+- **Code names:** Never use code names for product versions or releases in customer-facing documentation.
 
 ## Examples
 
@@ -63,57 +71,44 @@ Use full product names consistently across all F5 documentation. On first mentio
 
 ## Notes
 
-### First and subsequent mentions
+### Product name reference
 
-On first mention, use the full product name including the "F5" prefix. 
+**Managed products — use "F5" prefix on first mention, drop on subsequent mentions:**
 
-On subsequent mentions, drop "F5" unless the product name requires it.
+| First mention                    | Subsequent mentions          |
+|----------------------------------|------------------------------|
+| F5 BIG-IP                        | BIG-IP                       |
+| F5 NGINX Gateway Fabric          | NGINX Gateway Fabric         |
+| F5 NGINX Ingress Controller      | NGINX Ingress Controller     |
+| F5 NGINX Instance Manager        | NGINX Instance Manager       |
+| F5 NGINX One Console             | NGINX One Console            |
+| F5 NGINX Plus                    | NGINX Plus                   |
+| F5 NGINXaaS for Azure            | NGINXaaS                     |
+| F5 NGINXaaS for Google Cloud     | NGINXaaS                     |
+| F5 WAF for NGINX                 | F5 WAF (retain "F5")         |
+| F5 DoS for NGINX                 | F5 DoS (retain "F5")         |
 
-Each product requires the "F5" prefix on its own first mention, independently of other products in the same document. Exception: always retain "F5" in "F5 WAF" on all mentions.
+**Open source products — never use "F5" prefix on any mention:**
 
-| First mention              | Subsequent mentions |
-|----------------------------|---------------------|
-| F5 BIG-IP                  | BIG-IP              |
-| F5 NGINX Plus              | NGINX Plus          |
-| F5 NGINXaaS for [platform] | NGINXaaS            |
-| F5 WAF for [platform]      | F5 WAF              |
-
-F5 WAF and F5 NGINXaaS run on multiple platforms. On first mention, use the full platform-specific name: "F5 WAF for NGINX," "F5 WAF for Envoy," or "F5 NGINXaaS for Azure." On subsequent mentions, use "F5 WAF" or "NGINXaaS."
-
-### General rules
-
-- Never use trademark symbols (™, ®) in documentation.
-- Never use articles before standalone product names.
-- An article is acceptable when the product name qualifies another noun.
-- Never use possessive constructions with product names.
-- Never use acronyms in place of full product names. For example, use "NGINX Instance Manager" not "NIM," and "BIG-IP Next for Kubernetes" not "BNK."
+| Product          |
+|------------------|
+| NGINX Agent      |
+| NGINX Amplify    |
+| NGINX Open Source|
+| NGINX Unit       |
 
 ### NGINX products
 
-#### Open source products (never use F5 prefix)
-
-- NGINX Unit
-- NGINX Agent
-
-Always include the "NGINX" brand name. Never use "F5 NGINX Unit" or "F5 NGINX Agent."
-
-#### General NGINX rules
-
-- Don't include "F5" in document titles.
+- Never use abbreviations for NGINX product names (NIM, NGF, NIC, and similar).
+- Never include "F5" in document titles.
 
 ### BIG-IP products
-
-#### Core naming rules
 
 - Always refer to "BIG-IP system," never just "BIG-IP."
 - Use "BIG-IP device" when referring to discrete hardware.
 - Never make BIG-IP plural: use "BIG-IP systems," not "BIG-IPs."
-- Never use BIG-IP in possessive form.
-- Never use "the" before BIG-IP product names.
-- Always prefix module names with BIG-IP:
-  - Do: BIG-IP LTM, BIG-IP ASM, BIG-IP DNS
-  - Don't: LTM, ASM, DNS (standalone)
-- Always all caps with a hyphen: BIG-IP. Never Big-IP, Big-ip, or bigip.
+- Always prefix module names with "BIG-IP": use "BIG-IP LTM," "BIG-IP ASM," "BIG-IP DNS" — never "LTM," "ASM," or "DNS" standalone.
+- Always write BIG-IP in all caps with a hyphen. Never Big-IP, Big-ip, or bigip.
 
 ## Related
 
