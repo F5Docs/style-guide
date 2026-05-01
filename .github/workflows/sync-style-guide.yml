@@ -1,0 +1,44 @@
+name: Sync style guide submodule
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync-submodule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout nginx/documentation
+        uses: actions/checkout@v4
+        with:
+          repository: nginx/documentation
+          token: ${{ secrets.NGINX_DOCS_PAT }}
+          submodules: true
+
+      - name: Update style guide submodule
+        run: git submodule update --remote .style-guide
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet .style-guide && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Create branch and open PR
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.NGINX_DOCS_PAT }}
+        run: |
+          BRANCH="chore/sync-style-guide-$(date +%Y%m%d%H%M%S)"
+          git config user.name "nginxdocsbot"
+          git config user.email "nginxdocsbot@f5.com"
+          git checkout -b "$BRANCH"
+          git add .style-guide
+          git commit -m "chore: Update F5 style guide submodule"
+          git push origin "$BRANCH"
+          gh pr create \
+            --repo nginx/documentation \
+            --title "chore: Update F5 style guide submodule" \
+            --body "Automated PR to sync the latest F5 style guide updates. Review changes in \`.style-guide/\` before merging." \
+            --base main \
+            --head "$BRANCH"
