@@ -53,18 +53,18 @@ jobs:
           gh pr create \
             --repo nginx/documentation \
             --title "chore: Update F5 style guide submodule" \
-            --body "## F5 style guide update
-
-This PR was opened automatically by the style guide sync workflow.
-
-**Triggered by:** ${{ github.event.pull_request.html_url || 'Manual workflow run' }}
-
-**What changed:** Review the commits in the style guide PR linked above for a summary of what changed.
-
-## Before merging
-
-- Review the diff in \`.style-guide/\` to confirm the changes look correct
-- Check that any updated guidelines are reflected in \`copilot-instructions.md\` if needed
-- Verify no unintended files were included in the sync" \
             --base main \
-            --head "$BRANCH"
+            --head "$BRANCH" \
+            --body "## F5 style guide update 
+            
+            This PR was opened automatically by the style guide sync workflow. 
+            
+            **Triggered by:** ${{ github.event.pull_request.html_url || 'Manual workflow run' }}
+
+            **What changed:** Review the commits in the style guide PR linked above for a summary of what changed.
+
+            ## Before merging
+
+            - Review the diff in \`.style-guide/\` to confirm the changes look correct
+            - Check that any updated guidelines are reflected in \`copilot-instructions.md\` if needed
+            - Verify no unintended files were included in the sync" \
