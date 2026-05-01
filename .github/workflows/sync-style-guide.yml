@@ -14,7 +14,7 @@ env:
   GIT_EMAIL: nginxdocsbot@f5.com
 jobs:
   sync-submodule:
-    if: github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'sync-downstream')
+    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'sync-downstream'))
     runs-on: ubuntu-latest
     steps:
       - name: Checkout nginx/documentation
