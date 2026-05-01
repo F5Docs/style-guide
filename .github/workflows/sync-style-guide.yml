@@ -8,6 +8,10 @@ on:
       - main
   workflow_dispatch:
 
+env:
+  GH_TOKEN: ${{ secrets.NGINX_DOCS_BOT_PAT }}
+  GIT_NAME: nginxdocsbot
+  GIT_EMAIL: nginxdocsbot@f5.com
 jobs:
   sync-submodule:
     if: github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'sync-downstream')
@@ -17,7 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: nginx/documentation
-          token: ${{ secrets.NGINX_DOCS_BOT_PAT }}
+          token: ${{ env.GH_TOKEN }}
           submodules: true
 
       - name: Update style guide submodule
@@ -38,12 +42,10 @@ jobs:
 
       - name: Create branch and open PR
         if: steps.changes.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.NGINX_DOCS_BOT_PAT }}
         run: |
           BRANCH="chore/sync-style-guide-$(date +%Y%m%d%H%M%S)"
-          git config user.name "nginxdocsbot"
-          git config user.email "nginxdocsbot@f5.com"
+          git config user.name "${GIT_NAME}"
+          git config user.email "${GIT_EMAIL}"
           git checkout -b "$BRANCH"
           git add .style-guide
           git commit -m "chore: Update F5 style guide submodule"
