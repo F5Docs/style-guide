@@ -28,6 +28,14 @@ jobs:
         run: |
           git diff --quiet .style-guide && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
+      # TODO: Add sync job for BNK GitLab repo (gitswarm.f5net.com/techcomm/spk/spk-titan)
+      # when ready, this job will use the GitLab API to open an MR instead of the gh CLI.
+      # Required before adding:
+      #   - GITSWARM_PAT secret (GitLab personal access token for the bot)
+      #   - Confirm submodule path in BNK repo (likely .style-guide/)
+      #   - Confirm default branch name in BNK repo
+      #   - Confirm GitSwarm is reachable from GitHub Actions runners
+
       - name: Create branch and open PR
         if: steps.changes.outputs.changed == 'true'
         env:
