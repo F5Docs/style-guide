@@ -1,12 +1,15 @@
 name: Sync style guide submodule
 
 on:
-  push:
+  pull_request:
+    types:
+      - closed
     branches:
       - main
 
 jobs:
   sync-submodule:
+    if: github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'sync-downstream')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout nginx/documentation
