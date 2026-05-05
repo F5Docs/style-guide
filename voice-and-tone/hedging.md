@@ -11,7 +11,7 @@ last-reviewed: 2026-05-05
 
 ## Guidance
 
-Avoid hedging. State verified facts directly and write with authority. When genuine uncertainty exists, name it explicitly and tell the reader what to do next.
+Avoid hedging. Hedged language undermines authority, obscures facts, and leaves readers unable to act. It also invites LLM hallucinations: when source content is vague or qualified, AI tools fill the gaps with plausible-sounding fabrications. State verified facts directly, and when genuine uncertainty exists, name it explicitly and tell the reader what to do next.
 
 ## Examples
 
