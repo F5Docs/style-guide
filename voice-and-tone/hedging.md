@@ -1,7 +1,7 @@
 ---
 title: Hedging
 category: voice-and-tone
-aliases: [hedging, uncertainty, qualifiers, seems, probably, it appears, weasel words]
+aliases: [hedging, uncertainty, qualifiers, seems, probably, it appears, weasel words, vague verbs, nominalizations, double negatives]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Writing Style Guide
 last-reviewed: 2026-05-05
@@ -20,10 +20,14 @@ Avoid hedging. State verified facts directly and write with authority. When genu
 
 > BIG-IP logs all requests to the access log.
 
+> This setting reduces load time by 40% in testing.
+
 **Don't:**
 > It seems the connector is working and probably filled in the missing data.
 
 > BIG-IP should log most requests to the access log.
+
+> This setting may improve performance.
 
 ## Notes
 
@@ -39,6 +43,14 @@ Avoid these hedging phrases:
 | it could be argued | state the position directly |
 | it is possible that | may (if appropriate) or rewrite as a condition |
 | tend to, generally | rewrite with the specific condition or scope |
+
+**Passive constructions are a hedging pattern.** "It is recommended that you update the firmware" hedges by hiding who is recommending. Write "Update the firmware" instead. See [Active voice](active-voice.md).
+
+**Weak or vague verbs have the same effect.** Nominalizations ("perform a service restart") and vague verbs ("make," "do," "provide") distance the reader from the action. Use domain-specific verbs that name the action precisely: configure, deploy, validate, restart, monitor.
+
+**Be specific, not general.** Replace vague claims with measurable or scoped statements. "This setting may improve performance" says nothing actionable; "This setting reduces load time by 40% in testing" does.
+
+**Double negatives obscure meaning.** Replace "not unlike" with "similar to" and "not uncommon" with "common."
 
 "May" and "might" have legitimate technical uses — see [May, Can, and Might](../grammar/may-can-might.md).
 
