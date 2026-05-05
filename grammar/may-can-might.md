@@ -57,6 +57,7 @@ For clear optional actions, use "can" or "may":
 ## Related
 
 - [Active voice](../voice-and-tone/active-voice.md)
+- [Hedging](../voice-and-tone/hedging.md)
 - [If vs. Whether](if-vs-whether.md)
 - [Step formatting](../procedures/step-formatting.md)
 

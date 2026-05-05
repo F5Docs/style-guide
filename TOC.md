@@ -68,6 +68,7 @@
 - [Anthropomorphism](voice-and-tone/anthropomorphism.md)
 - [Contractions](voice-and-tone/contractions.md)
 - [Global audience](voice-and-tone/global-audience.md)
+- [Hedging](voice-and-tone/hedging.md)
 - [Inclusive language](voice-and-tone/inclusive-language.md)
 - [Modern Voice](voice-and-tone/modern-voice.md)
 - [Reading level](voice-and-tone/reading-level.md)
