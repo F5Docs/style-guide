@@ -11,7 +11,7 @@ last-reviewed: 2026-05-05
 
 ## Guidance
 
-Avoid hedging. Hedged language undermines authority, obscures facts, and leaves readers unable to act. It also invites LLM hallucinations: when source content is vague or qualified, AI tools fill the gaps with plausible-sounding fabrications. State verified facts directly, and when genuine uncertainty exists, name it explicitly and tell the reader what to do next.
+Hedging is the use of vague, cautious, or qualifying language that softens a statement instead of asserting it directly — phrases like "it seems," "probably," or "this may help." Avoid it. Hedged language undermines authority, obscures facts, and leaves readers unable to act. It also invites LLM hallucinations: when source content is vague or qualified, AI tools fill the gaps with plausible-sounding fabrications. State verified facts directly, and when genuine uncertainty exists, name it explicitly and tell the reader what to do next.
 
 ## Examples
 
