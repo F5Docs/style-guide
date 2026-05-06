@@ -33,6 +33,10 @@ Read every error message out loud before publishing. If it sounds like it was wr
 > Your changes could not be saved because the session timed out.
 > Sign in again and reapply your changes.
 
+> zone_sync \"%V\" is too small
+
+> zone_sync \"%V\": too small
+
 **Don't:**
 > You entered an invalid value.
 
@@ -45,12 +49,19 @@ Read every error message out loud before publishing. If it sounds like it was wr
 
 > Your changes could not be saved. Try again.
 
+> zone_sync \"%V\" too small
+
 ## Notes
 
 ### Format
 Follow this structure when writing error messages:
 
 > Error [doing some action]: [why it happened]. [What the
+> consequences are.] [How to solve the error.]
+
+Alternative format at the command line or in log messages. This format may be easier to localize.
+
+> Error [doing some action] is [brief explanation]. [What the
 > consequences are.] [How to solve the error.]
 
 Not every error will have all four parts. Include what applies.
@@ -96,6 +107,9 @@ Reserve "contact F5 Support" for errors the user genuinely cannot resolve on the
 - bad, wrong, illegal, invalid
 - fatal, catastrophic, critical (unless technically accurate and meaningful to the user)
 - failed (use "could not" instead)
+
+### Exception
+It's acceptable to include "please" in error messages when the problem is caused by F5 software.
 
 ## Related
 
