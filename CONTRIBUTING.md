@@ -26,7 +26,7 @@ This guide is a living document. Contributions from writers, editors, and subjec
 6. Link your MR to a Jira ticket. For minor fixes and typos, use the [catch-all housekeeping ticket](https://jira.f5net.com/browse/TECHDOCS-4373).
 7. All MRs require at least one reviewer approval before merging into `main`.
 
-## Syncing changes to downstream repos
+## Sync changes to downstream repos
 
 This repo is included as a submodule in downstream documentation repos. A GitHub Actions workflow automatically opens a PR in each downstream repo when style guide changes merge to `main`.
 
