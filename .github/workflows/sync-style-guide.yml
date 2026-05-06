@@ -12,6 +12,7 @@ env:
   GH_TOKEN: ${{ secrets.NGINX_DOCS_BOT_PAT }}
   GIT_NAME: nginxdocsbot
   GIT_EMAIL: nginxdocsbot@f5.com
+
 jobs:
   sync-submodule:
     if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'sync-downstream'))
@@ -27,10 +28,21 @@ jobs:
       - name: Update style guide submodule
         run: git submodule update --remote .style-guide
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Regenerate copilot-instructions.md
+        run: |
+          python .style-guide/scripts/update-copilot-instructions.py \
+            --style-guide .style-guide \
+            --instructions .github/copilot-instructions.md
+
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet .style-guide && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
       # TODO: Add sync job for BNK GitLab repo (gitswarm.f5net.com/techcomm/spk/spk-titan)
       # when ready, this job will use the GitLab API to open an MR instead of the gh CLI.
@@ -47,7 +59,7 @@ jobs:
           git config user.name "${GIT_NAME}"
           git config user.email "${GIT_EMAIL}"
           git checkout -b "$BRANCH"
-          git add .style-guide
+          git add .style-guide .github/copilot-instructions.md
           git commit -m "chore: Update F5 style guide submodule"
           git push origin "$BRANCH"
           gh pr create \
@@ -55,16 +67,15 @@ jobs:
             --title "chore: Update F5 style guide submodule" \
             --base main \
             --head "$BRANCH" \
-            --body "## F5 style guide update 
-            
-            This PR was opened automatically by the style guide sync workflow. 
-            
-            **Triggered by:** ${{ github.event.pull_request.html_url || 'Manual workflow run' }}
+            --body "## F5 style guide update
 
-            **What changed:** Review the commits in the style guide PR linked above for a summary of what changed.
+This PR was opened automatically by the style guide sync workflow.
 
-            ## Before merging
+**Triggered by:** ${{ github.event.pull_request.html_url || 'Manual workflow run' }}
 
-            - Review the diff in \`.style-guide/\` to confirm the changes look correct
-            - Check that any updated guidelines are reflected in \`copilot-instructions.md\` if needed
-            - Verify no unintended files were included in the sync" \
+**What changed:** Review the commits in the style guide PR linked above for a summary of what changed.
+
+## Before merging
+
+- Review the diff in \`.style-guide/\` to confirm the changes look correct
+- Verify no unintended files were included in the sync"
