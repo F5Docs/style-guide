@@ -41,7 +41,7 @@ Use the label when your PR:
 - Adds or updates a document template
 - Makes a change that contributors in downstream repos need to be aware of
 
-Leave the label off when your PR:
+Don't use the label when your PR:
 - Updates repo documentation (README, CONTRIBUTING, TOC)
 - Fixes a typo or formatting issue with no impact on the guidance itself
 - Makes changes to workflow or tooling files
