@@ -26,6 +26,26 @@ This guide is a living document. Contributions from writers, editors, and subjec
 6. Link your MR to a Jira ticket. For minor fixes and typos, use the [catch-all housekeeping ticket](https://jira.f5net.com/browse/TECHDOCS-4373).
 7. All MRs require at least one reviewer approval before merging into `main`.
 
+## Syncing changes to downstream repos
+
+This repo is included as a submodule in downstream documentation repos. A GitHub Actions workflow automatically opens a PR in each downstream repo when style guide changes merge to `main`.
+
+The sync is not triggered on every merge -- only when the PR includes the `sync-downstream` label. Add this label when your changes should propagate to downstream repos. Leave it off for housekeeping changes like README updates or minor formatting fixes.
+
+If you merge a PR without the label and need to trigger the sync manually, go to **Actions > Sync style guide submodule > Run workflow** in this repo.
+
+### When to use the sync-downstream label
+
+Use the label when your PR:
+- Adds or updates a style guideline
+- Adds or updates a document template
+- Makes a change that contributors in downstream repos need to be aware of
+
+Leave the label off when your PR:
+- Updates repo documentation (README, CONTRIBUTING, TOC)
+- Fixes a typo or formatting issue with no impact on the guidance itself
+- Makes changes to workflow or tooling files
+
 ## Guideline file standards
 
 - One file = one guideline or term. If you can't describe the file's scope in a single sentence, it's probably two files.
