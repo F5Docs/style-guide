@@ -69,13 +69,13 @@ jobs:
             --head "$BRANCH" \
             --body "## F5 style guide update
 
-This PR was opened automatically by the style guide sync workflow.
+            This PR was opened automatically by the style guide sync workflow.
 
-**Triggered by:** ${{ github.event.pull_request.html_url || 'Manual workflow run' }}
+            **Triggered by:** ${{ github.event.pull_request.html_url || 'Manual workflow run' }}
 
-**What changed:** Review the commits in the style guide PR linked above for a summary of what changed.
+            **What changed:** Review the commits in the style guide PR linked above for a summary of what changed.
 
-## Before merging
+            ## Before merging
 
-- Review the diff in \`.style-guide/\` to confirm the changes look correct
-- Verify no unintended files were included in the sync"
+            - Review the diff in \`.style-guide/\` to confirm the changes look correct
+            - Verify no unintended files were included in the sync"
