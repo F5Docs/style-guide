@@ -36,6 +36,7 @@ Avoid weak, system-centric verbs that imply passive agency: allows, lets, enable
 ## Related
 
 - [Anthropomorphism](anthropomorphism.md)
+- [Hedging](hedging.md)
 - [Tense](../grammar/tense.md)
 - [Word list](../terminology/word-list.md)
 

@@ -41,6 +41,7 @@ Target: Flesch-Kincaid Grade Level of 8–9. A score of 7 or lower is acceptable
 ## Related
 
 - [Global audience](global-audience.md)
+- [Hedging](hedging.md)
 - [Modern Voice](modern-voice.md)
 - [Sentence length](sentence-length.md)
 

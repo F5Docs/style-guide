@@ -44,6 +44,7 @@ Consistency in product names and UI elements is required. Consistency in format 
 
 ## Related
 
+- [Hedging](hedging.md)
 - [Reading level](reading-level.md)
 - [Sentence length](sentence-length.md)
 - [Word list](../terminology/word-list.md)
