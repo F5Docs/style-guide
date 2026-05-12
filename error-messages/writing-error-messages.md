@@ -33,10 +33,6 @@ Read every error message out loud before publishing. If it sounds like it was wr
 > Your changes could not be saved because the session timed out.
 > Sign in again and reapply your changes.
 
-> zone_sync \"%V\" is too small
-
-> zone_sync \"%V\": too small
-
 **Don't:**
 > You entered an invalid value.
 
@@ -48,8 +44,6 @@ Read every error message out loud before publishing. If it sounds like it was wr
 > Cannot rename. Specify another name.
 
 > Your changes could not be saved. Try again.
-
-> zone_sync \"%V\" too small
 
 ## Notes
 
@@ -114,6 +108,7 @@ It's acceptable to include "please" in error messages when the problem is caused
 ## Related
 
 - [Active voice](../voice-and-tone/active-voice.md)
+- [Error message strings](error-message-strings.md)
 - [Global audience](../voice-and-tone/global-audience.md)
 - [Modern Voice](../voice-and-tone/modern-voice.md)
 - [Reading level](../voice-and-tone/reading-level.md)
