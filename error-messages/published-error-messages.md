@@ -65,6 +65,7 @@ Use these severity levels consistently:
 
 ## Related
 
+- [Error message strings](error-message-strings.md)
 - [Log Messages Reference](https://techdocs.f5.com/kb/en-us/products/big-ip_ltm/releasenotes/related/log-messages.html)
 - [Writing error messages](writing-error-messages.md)
 
