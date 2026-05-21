@@ -12,7 +12,7 @@ last-reviewed: 2026-05-12
 
 ## Guidance
 
-Write error messages as complete strings with placeholders, not as concatenated fragments. Fragmented strings may render incorrectly when translated because the target language may require a different word order. When a placeholder is the subject of the sentence, use a colon instead of a copula verb ("is," "are," "was") — the noun that replaces the placeholder may require different verb agreement in the target language, and neither human translators nor AI translation models can determine the correct form without knowing the substituted value. Enclose placeholder values in quotes when they represent a name or identifier.
+Write error messages as complete strings with placeholders, not as concatenated fragments. Fragmented strings may render incorrectly when translated because the target language may require a different word order. When a placeholder is the subject of the sentence, use a colon instead of a linking verb ("is," "are," "was"). The noun substituted for the placeholder may require different verb agreement in the target language, and neither human translators nor AI translation models can determine the correct form without knowing the substituted value. Enclose placeholder values in quotes when they represent a name or identifier.
 
 ## Examples
 
@@ -58,9 +58,9 @@ Once concatenation is in the codebase it is difficult to remove. Translators can
 ### Placeholder position and sentence structure
 The position of a placeholder in the sentence determines how to write the string.
 
-**Placeholder as subject — use a colon, avoid copula verbs**
+**Placeholder as subject: use a colon, avoid linking verbs**
 
-Don't use "is," "are," "was," or other copula verbs when a placeholder is the subject. The variable's grammatical gender, number, or case may differ across languages, making verb agreement impossible to guarantee. Use a colon after the placeholder instead:
+Don't use "is," "are," "was," or other linking verbs when a placeholder is the subject. The variable's grammatical gender, number, or case may differ across languages, making verb agreement impossible to guarantee. Use a colon after the placeholder instead:
 
 - Don't: `"zone_sync \"%V\" is too small"`
 - Do: `"zone_sync \"%V\": too small"`
