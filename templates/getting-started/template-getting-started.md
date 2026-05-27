@@ -2,7 +2,7 @@
 title: Get started with {product or feature name}
 description: "{One-sentence summary of what the reader will accomplish, under 160 characters.}"
 f5-product: {PRODUCT_CODE}
-f5-content-type: howto
+f5-content-type: howto {Valid values: howto | concept | reference | tech-specs | tutorial}
 f5-keywords: "{keyword1}, {keyword2}, {keyword3}, quickstart, first steps, introduction"
 f5-summary: >
   {Sentence 1: what the reader will do and what they will have at the end.}

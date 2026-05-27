@@ -4,7 +4,7 @@ description: "{One-sentence summary of what component or system this page covers
 weight: 100
 toc: true
 f5-product: {PRODUCT_CODE}
-f5-content-type: tech-specs
+f5-content-type: tech-specs {Valid values: howto | concept | reference | tech-specs | tutorial}
 f5-docs: DOCS-000
 f5-keywords: "{component name}, {spec1}, {spec2}, technical specifications, requirements, limits, performance, compatibility"
 f5-summary: >

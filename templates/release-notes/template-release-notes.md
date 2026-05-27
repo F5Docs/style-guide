@@ -2,7 +2,7 @@
 title: "{Product Name} release notes"
 description: "{One-sentence summary of what this release covers, under 160 characters.}"
 f5-product: {PRODUCT_CODE}
-f5-content-type: reference
+f5-content-type: reference {Valid values: howto | concept | reference | tech-specs | tutorial}
 f5-keywords: "{product name}, release notes, changelog, {version}, new features, resolved issues"
 f5-summary: >
   {Sentence 1: what product and version range these release notes cover.}

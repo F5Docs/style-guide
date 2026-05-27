@@ -4,7 +4,7 @@ description: "{One-sentence summary of what skill the reader will gain, under 16
 weight: 100
 toc: true
 f5-product: {PRODUCT_CODE}
-f5-content-type: tutorial
+f5-content-type: tutorial {Valid values: howto | concept | reference | tech-specs | tutorial}
 f5-docs: DOCS-000
 f5-keywords: "{product name}, {skill}, {keyword3}, tutorial, learn, step by step, beginner"
 f5-summary: >
