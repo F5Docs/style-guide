@@ -1,14 +1,14 @@
 ---
-content-type: getting-started
-product: {PRODUCT_CODE}
 title: Get started with {product or feature name}
 description: "{One-sentence summary of what the reader will accomplish, under 160 characters.}"
-keywords: "{keyword1}, {keyword2}, {keyword3}, quickstart, first steps, introduction"
-summary: >
+f5-product: {PRODUCT_CODE}
+f5-content-type: howto
+f5-keywords: "{keyword1}, {keyword2}, {keyword3}, quickstart, first steps, introduction"
+f5-summary: >
   {Sentence 1: what the reader will do and what they will have at the end.}
   {Sentence 2: what the primary feature does or enables.}
   {Sentence 3 (optional): intended audience, scope limits, or assumed knowledge.}
-audience: {developer | operator | admin | architect | any}
+f5-audience: {developer | operator | admin | architect | any}
 ---
 
 > If you need more information about how to fill in this template, read the accompanying [guide](./guide-getting-started.md).

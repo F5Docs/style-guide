@@ -1,14 +1,14 @@
 ---
-content-type: release-notes
-product: {PRODUCT_CODE}
 title: "{Product Name} release notes"
 description: "{One-sentence summary of what this release covers, under 160 characters.}"
-keywords: "{product name}, release notes, changelog, {version}, new features, resolved issues"
-summary: >
+f5-product: {PRODUCT_CODE}
+f5-content-type: reference
+f5-keywords: "{product name}, release notes, changelog, {version}, new features, resolved issues"
+f5-summary: >
   {Sentence 1: what product and version range these release notes cover.}
   {Sentence 2: the most significant change or theme of the release.}
   {Sentence 3 (optional): any scope limits, such as platform or edition.}
-audience: {developer | operator | admin | architect | any}
+f5-audience: {developer | operator | admin | architect | any}
 ---
 
 > If you need more information about how to fill in this template, read the accompanying [guide](./guide-release-notes.md).
