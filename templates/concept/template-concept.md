@@ -3,6 +3,7 @@ title: {Concept name — use a noun phrase, not "Understand X" or "About X"}
 description: "{One sentence summarizing what the concept is and why it matters, under 160 characters.}"
 f5-product: {PRODUCT_CODE}
 f5-content-type: concept {Valid values: howto | concept | reference | tech-specs | tutorial}
+f5-docs: DOCS-000
 f5-keywords: "{concept name}, {related term}, {synonym}, {product or domain context}"
 f5-summary: >
   {Sentence 1: what the concept is, in plain language. Write in plain prose and avoid jargon.}
