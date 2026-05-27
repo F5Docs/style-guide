@@ -1,14 +1,15 @@
 ---
-content-type: how-to
-product: {PRODUCT_CODE}
 title: {Verb + object}
 description: "{One-sentence summary of what the reader achieves, under 160 characters.}"
-keywords: "{keyword1}, {keyword2}, {keyword3}"
-summary: >
+f5-product: {PRODUCT_CODE}
+f5-content-type: howto {Valid values: howto | concept | reference | tech-specs | tutorial}
+f5-docs: DOCS-000
+f5-keywords: "{keyword1}, {keyword2}, {keyword3}"
+f5-summary: >
   {Sentence 1: what the reader will configure or achieve.}
   {Sentence 2: why they would need to do this.}
   {Sentence 3 (optional): any important constraints or scope boundaries.}
-audience: {developer | operator | admin | architect | any}
+f5-audience: {developer | operator | admin | architect | any}
 ---
 
 > If you need more information about how to fill in this template, read the accompanying [guide](./guide-how-to.md).
