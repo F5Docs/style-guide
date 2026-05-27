@@ -3,6 +3,7 @@ title: Prepare pour-over coffee
 description: "Configure a pour-over coffee setup and brew a single cup using freshly ground beans."
 f5-product: KITCHEN
 f5-content-type: howto
+f5-docs: DOCS-000
 f5-keywords: "pour-over, coffee, brew, filter, kettle, grind, V60, Chemex, hand grinder"
 f5-summary: >
   Use this guide to set up a pour-over coffee brewer and produce a single, well-extracted cup.

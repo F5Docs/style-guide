@@ -3,6 +3,7 @@ title: "Nbeamex Coffee release notes"
 description: "New features, behavior changes, and resolved issues for Nbeamex Coffee 2.16.0."
 f5-product: KITCHEN
 f5-content-type: reference
+f5-docs: DOCS-000
 f5-keywords: "Nbeamex Coffee, release notes, 2.16.0, organic beans, recyclable packaging, grinder fix, CVE-2024-9999"
 f5-summary: >
   These release notes cover Nbeamex Coffee version 2.16.0, released April 18, 2024.

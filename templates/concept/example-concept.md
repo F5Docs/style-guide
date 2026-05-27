@@ -3,6 +3,7 @@ title: Coffee extraction
 description: "Coffee extraction is the process by which hot water dissolves flavor compounds from ground coffee, determining the taste of the final cup."
 f5-product: KITCHEN
 f5-content-type: concept
+f5-docs: DOCS-000
 f5-keywords: "coffee extraction, extraction yield, over-extraction, under-extraction, brew ratio, grind size, contact time, soluble compounds, French press, pour-over, drip"
 f5-summary: >
   Coffee extraction is the process by which hot water dissolves soluble flavor compounds from
