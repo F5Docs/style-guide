@@ -176,7 +176,7 @@ These acronyms are not widely understood and do need to be spelled out:
 | OSI     | Open Systems Interconnection                 |
 | OVF     | Open Virtualization Format                   |
 | QUIC    | Quick UDP Internet Connections               |
-| RFC     | Request for Comment                          |
+| RFC     | Request for Comments                          |
 | RFE     | Request for Enhancement                      |
 | RIB     | Routing Information Base                     |
 | RBAC    | Role-Based Access Control                    |
