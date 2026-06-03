@@ -180,7 +180,6 @@ These acronyms are not widely understood and do need to be spelled out:
 | RFE     | Request for Enhancement                      |
 | RIB     | Routing Information Base                     |
 | RBAC    | Role-Based Access Control                    |
-| RPC     | Requests per connection                      |
 | RPF     | Reverse Path Forwarding                      |
 | RPM     | Red Hat Package Manager                      |
 | RSA     | Ron Rivest, Adi Shamir and Leonard Adleman   |
