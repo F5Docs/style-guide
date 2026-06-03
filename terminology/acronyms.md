@@ -182,7 +182,6 @@ These acronyms are not widely understood and do need to be spelled out:
 | RBAC    | Role-Based Access Control                    |
 | RPF     | Reverse Path Forwarding                      |
 | RPM     | Red Hat Package Manager                      |
-| RSA     | Ron Rivest, Adi Shamir and Leonard Adleman   |
 | RTT     | Round Trip Time                              |
 | SaaS    | Software as a Service                        |
 | SAML    | Security Assertion Markup Language           |
