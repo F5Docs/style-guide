@@ -136,7 +136,7 @@ These acronyms are not widely understood and do need to be spelled out:
 | EULA    | End user license agreement                   |
 | GCP     | Google Cloud Platform                        |
 | GRE     | Generic Routing Encapsulation                |
-| GUID    | Global Unique Identifier                     |
+| GUID    | Globally Unique Identifier                     |
 | HA      | High Availability/Highly Available           |
 | HSM     | Hardware Security Module                     |
 | HSTS    | HTTP Strict Transport Security               |
