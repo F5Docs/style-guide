@@ -190,8 +190,6 @@ These acronyms are not widely understood and do need to be spelled out:
 | SecOps  | Security Operations                          |
 | SIP     | Session Initiation Protocol                  |
 | SLA     | Service Level Agreement                      |
-| SLI     | Site Local Inside                            |
-| SLO     | Site Local Outside                           |
 | SMART   | Self-Monitoring Analysis and Reporting Technology |
 | SMG     | Site Mesh Group                                   |
 | SNAT    | Source Network Address Translation                |
