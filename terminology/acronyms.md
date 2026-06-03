@@ -157,7 +157,7 @@ These acronyms are not widely understood and do need to be spelled out:
 | RE      | Regional Edge                                |
 | MAC     | Media Access Control                         |
 | MCN     | Multi-Cloud Networking                       |
-| mTLS    | Mutual Transport Layer Security              |
+| mTLS    | Mutual TLS              |
 | MTU     | Maximum Transmission Unit                    |
 | NetOps  | Network Operations                           |
 | NLP     | Natural Language Processing                  |
