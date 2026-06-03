@@ -168,7 +168,7 @@ These acronyms are not widely understood and do need to be spelled out:
 | PDU     | Protocol Data Unit                           |
 | PKI     | Public Key Infrastructure                    |
 | PMTU    | Path Maximum Transmission Unit               |
-| POC     | Proof of concept                             |
+| POC     | Proof of Concept                             |
 | PoP     | Point of Presence                            |
 | PVC     | Persistent Volume Claim                      |
 | OCSP    | Online Certificate Status Protocol           |
