@@ -205,7 +205,7 @@ These acronyms are not widely understood and do need to be spelled out:
 | UI      | User Interface                                    |
 | VIP     | Virtual IP                                        |
 | vK8s    | Virtual Kubernetes                                |
-| VLAN    | Virtual local area network                        |
+| VLAN    | Virtual Local Area Network                        |
 | VM      | Virtual Machine                                   |
 | VNet    | Virtual Network                                   |
 | VPN     | Virtual Private Network                           |
