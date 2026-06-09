@@ -44,6 +44,7 @@ Avoid nested lists more than two levels deep. If you need more than two levels, 
 - [Admonitions](../procedures/admonitions.md)
 - [Sentence length](../voice-and-tone/sentence-length.md)
 - [Step formatting](../procedures/step-formatting.md)
+- [Step numbers in headings](../procedures/step-numbers-in-headings.md)
 
 ## See also
 

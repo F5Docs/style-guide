@@ -39,6 +39,7 @@
 - [Directional references](procedures/directional-references.md)
 - [Prerequisites](procedures/prerequisites.md)
 - [Step formatting](procedures/step-formatting.md)
+- [Step numbers in headings](procedures/step-numbers-in-headings.md)
 - [UI element names](procedures/ui-element-names.md)
 
 ## Punctuation
