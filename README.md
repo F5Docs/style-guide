@@ -93,7 +93,7 @@ Once configured, contributors can ask the assistant to:
   > - used with proxy_pass in a server or location block
   > - audience: developers new to NGINX
 
-See the `CLAUDE.md` or `copilot-instructions.md` files in [nginx/documentation](https://github.com/nginx/documentation) for a working example of how to configure this.
+See the [`copilot-instructions.md`](https://github.com/nginx/documentation/blob/main/.github/copilot-instructions.md) file in the [nginx/documentation](https://github.com/nginx/documentation) for a working example of how to configure this.
 
 ### Updating the submodule
 
