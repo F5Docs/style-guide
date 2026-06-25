@@ -20,7 +20,7 @@ Never include real sensitive or personally identifying information in documentat
 > curl -u admin:your-password https://example.com/api/v1/status
 > ```
 
-> Replace `<your-api-key>` with your actual API key.
+> Replace `<your-password>` with your actual password.
 
 **Don't:**
 > ```bash
