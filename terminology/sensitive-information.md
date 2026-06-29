@@ -17,10 +17,10 @@ Never include real sensitive or personally identifying information in documentat
 
 **Do:**
 > ```bash
-> curl -u admin:your-password https://example.com/api/v1/status
+> curl -u admin:<API_KEY> https://example.com/api/v1/status
 > ```
 
-> Replace `<your-password>` with your actual password.
+> Replace `<API_KEY>` with your actual key.
 
 **Don't:**
 > ```bash
@@ -38,10 +38,10 @@ Replace with generic placeholders:
 ### Sensitive technical data
 Replace with clearly generic placeholders:
 - IP addresses: use ranges from RFC 5737 (192.0.2.x, 198.51.100.x, 203.0.113.x) or the documented F5 example address 165.160.15.20
-- Passwords: use `your-password` or `<password>`
+- Passwords: use `<YOUR_PASSWORD>`
 - API keys and OAuth tokens: OAuth 2 tokens start with `eY` — search for and replace any that appear in content or screenshots
 - UUIDs: replace with `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
-- SSH keys: replace with `<your-ssh-key>`
+- SSH keys: replace with `<SSH_KEY>`
 - Domain names: use example.com, example.net, or example.org per RFC 2606
 
 ### Internal F5 information
