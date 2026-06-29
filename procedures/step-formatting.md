@@ -44,6 +44,7 @@ Do not use "click" — use "select" for all UI interactions regardless of device
 - [Click vs. Select](../terminology/click-vs-select.md)
 - [Directional references](directional-references.md)
 - [Lists](../formatting/lists.md)
+- [Step numbers in headings](step-numbers-in-headings.md)
 
 ## See also
 
