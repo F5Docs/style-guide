@@ -91,6 +91,7 @@ These acronyms are widely understood in the F5 technical audience and don't need
 | IP      | Internet Protocol                    |
 | JSON    | JavaScript Object Notation           |
 | JWT     | JSON Web Token                       |
+| LLM     | Large Language Model                 |
 | NAT     | Network Address Translation          |
 | PEM     | Privacy Enhanced Mail (file format)  |
 | RAM     | Random Access Memory                 |
