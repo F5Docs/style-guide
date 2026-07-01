@@ -29,13 +29,26 @@ Use code blocks for multi-line commands, configuration examples, and command out
 > }
 > ```
 
-**Do (inline):**
+**Do (inline — parameter):**
 > Set the `worker_processes` directive to match the number of CPU cores.
+
+**Do (inline — file path):**
+> Edit `/etc/nginx/nginx.conf` to update the server block.
+
+**Do (inline — IP address):**
+> Replace the example address `192.0.2.10` with your server's IP.
+
+**Do (inline — domain name):**
+> Point the DNS record to `example.com` before continuing.
 
 **Don't:**
 > Run sudo nginx -t to check your configuration syntax.
 
 > Set the worker_processes directive to match the number of CPU cores.
+
+> Edit /etc/nginx/nginx.conf to update the server block.
+
+> Replace the example address 192.0.2.10 with your server's IP.
 
 ## Notes
 
