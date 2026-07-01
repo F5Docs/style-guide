@@ -58,7 +58,7 @@ Always test commands and configuration examples before publishing.
 
 Include necessary context in commands: sudo, file paths, required flags.
 
-Do not use code style within a paragraph for running prose — only for literal strings the user must type, copy, or identify exactly.
+Do not use code style within a paragraph for running prose — only for literal strings the user must type, copy, or identify exactly, such as commands, file paths, parameter names, IP addresses, domain names, and internal identifiers.
 
 Bold command names when referenced in prose outside of a code block. Use code formatting for the command itself in procedures.
 

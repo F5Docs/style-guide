@@ -30,7 +30,7 @@ Use numbered lists for sequential steps. Start each step with an imperative verb
 
 Use substeps sparingly. If you need more than two levels of nesting, restructure the procedure into multiple tasks.
 
-Substep numbering: 1, a, i (use the third level only when absolutely necessary).
+Substep numbering: `1`, `a`, `i` (use the third level only when absolutely necessary).
 
 Avoid "in order to" in step text — use "to" instead.
 
