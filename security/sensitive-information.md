@@ -1,6 +1,6 @@
 ---
 title: Sensitive information
-category: terminology
+category: security
 aliases: [sensitive information, PII, passwords, IP addresses, placeholders]
 applies-to: [all F5 docs]
 source-authority: F5 NGINX Style Guide

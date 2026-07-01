@@ -60,7 +60,7 @@ Only use images when they add information that prose or a table can't convey as 
 
 - [Alt text](../accessibility/alt-text.md)
 - [Color](../accessibility/color.md)
-- [Sensitive information](../terminology/sensitive-information.md)
+- [Sensitive information](../security/sensitive-information.md)
 
 ## See also
 

@@ -69,7 +69,7 @@ File path conventions:
 
 ## Related
 
-- [Sensitive information](../terminology/sensitive-information.md)
+- [Sensitive information](../security/sensitive-information.md)
 - [Step formatting](../procedures/step-formatting.md)
 - [UI element names](../procedures/ui-element-names.md)
 
