@@ -38,7 +38,7 @@ last-reviewed: 2026-04-02
 
 "Log in" as a verb — always two words, always followed by "to" not "into":
 > Log in to the BIG-IP system.
-> Log in to tmsh.
+> Log in to `tmsh`.
 > Log in to the chassis partition.
 
 "Log out" follows the same pattern — two words as a verb, one word as a noun or adjective:

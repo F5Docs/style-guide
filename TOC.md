@@ -60,10 +60,12 @@
 - [F5 product names](terminology/f5-product-names.md)
 - [Latin abbreviations](terminology/latin-abbreviations.md)
 - [Login vs. Log in](terminology/login-vs-log-in.md)
-- [Sensitive information](terminology/sensitive-information.md)
 - [UI terms](terminology/ui-terms.md)
 - [Update vs. Upgrade](terminology/update-vs-upgrade.md)
 - [Word list](terminology/word-list.md)
+
+## Security
+- [Sensitive information](security/sensitive-information.md)
 
 ## Voice and tone
 - [Active voice](voice-and-tone/active-voice.md)

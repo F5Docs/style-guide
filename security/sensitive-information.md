@@ -1,6 +1,6 @@
 ---
 title: Sensitive information
-category: terminology
+category: security
 aliases: [sensitive information, PII, passwords, IP addresses, placeholders]
 applies-to: [all F5 docs]
 source-authority: F5 NGINX Style Guide
@@ -32,22 +32,22 @@ Never include real sensitive or personally identifying information in documentat
 ### Personal information
 Replace with generic placeholders:
 - Names: use "Admin User," "User A," or a generic role name
-- Email addresses: use user@example.com
+- Email addresses: use `user@example.com`
 - Phone numbers: use a clearly fictional number
 
 ### Sensitive technical data
 Replace with clearly generic placeholders:
-- IP addresses: use ranges from RFC 5737 (192.0.2.x, 198.51.100.x, 203.0.113.x) or the documented F5 example address 165.160.15.20
+- IP addresses: use ranges from RFC 5737 (`192.0.2.x`, `198.51.100.x`, `203.0.113.x`) or the documented F5 example address `165.160.15.20`
 - Passwords: use `<YOUR_PASSWORD>`
 - API keys and OAuth tokens: OAuth 2 tokens start with `eY` — search for and replace any that appear in content or screenshots
 - UUIDs: replace with `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 - SSH keys: replace with `<SSH_KEY>`
-- Domain names: use example.com, example.net, or example.org per RFC 2606
+- Domain names: use `example.com`, `example.net`, or `example.org` per RFC 2606
 
 ### Internal F5 information
 Never publish in external documentation:
-- Internal IP address ranges (172.25–172.32.x)
-- Internal machine names or domain names (f5net.com, f5.net)
+- Internal IP address ranges (`172.25–172.32.x`)
+- Internal machine names or domain names (`f5net.com`, `f5.net`)
 - Internal URLs or license server addresses
 - Code names for product versions or releases
 
@@ -68,7 +68,7 @@ The official docs for a tool the reader must install or configure (for example, 
 
 - IETF or W3C standards documents
 - CNCF project documentation for projects used in the product stack
-- Link to the most specific stable versioned page available. Avoid linking to /main/ or /latest/ paths, which may drift or break. Avoid linking to UI walkthroughs or admin tasks that don't apply to the reader's workflow.
+- Link to the most specific stable versioned page available. Avoid linking to `/main/` or `/latest/` paths, which may drift or break. Avoid linking to UI walkthroughs or admin tasks that don't apply to the reader's workflow.
 
 ## Related
 

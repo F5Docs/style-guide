@@ -53,7 +53,7 @@ Choose the shorter, more common word:
 ### Measurements and examples
 - Use specific measurements rather than vague references
 - Avoid region-specific examples (sports, geography, currency)
-- Use example.com, example.net, or example.org for domain names per RFC 2606
+- Use `example.com`, `example.net`, or `example.org` for domain names per RFC 2606
 
 ### Machine translation
 Shorter sentences translate more accurately. Avoid idioms, passive voice, and ambiguous pronoun references — these are common machine translation failure points.
