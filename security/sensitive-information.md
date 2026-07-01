@@ -32,7 +32,7 @@ Never include real sensitive or personally identifying information in documentat
 ### Personal information
 Replace with generic placeholders:
 - Names: use "Admin User," "User A," or a generic role name
-- Email addresses: use user@example.com
+- Email addresses: use `user@example.com`
 - Phone numbers: use a clearly fictional number
 
 ### Sensitive technical data
@@ -68,7 +68,7 @@ The official docs for a tool the reader must install or configure (for example, 
 
 - IETF or W3C standards documents
 - CNCF project documentation for projects used in the product stack
-- Link to the most specific stable versioned page available. Avoid linking to /main/ or /latest/ paths, which may drift or break. Avoid linking to UI walkthroughs or admin tasks that don't apply to the reader's workflow.
+- Link to the most specific stable versioned page available. Avoid linking to `/main/` or `/latest/` paths, which may drift or break. Avoid linking to UI walkthroughs or admin tasks that don't apply to the reader's workflow.
 
 ## Related
 

@@ -36,12 +36,14 @@ Do not use italics as an alternative to bold for UI elements. Do not use ALL CAP
 Specific bold conventions:
 - UI labels: always bold, use exact capitalization as shown in the UI
 - Commands: bold when referenced in prose; use code formatting in procedures
-- Parameter names: bold
 - Database keys: bold, all lowercase
+
+Parameter names, file paths, IP addresses, and other literal strings the user must type or match exactly use inline code, not bold. See [Code blocks](code-blocks.md).
 
 ## Related
 
 - [Click vs. Select](../terminology/click-vs-select.md)
+- [Code blocks](code-blocks.md)
 - [Quotation marks](../punctuation/quotation-marks.md)
 - [UI element names](../procedures/ui-element-names.md)
 - [UI terms](../terminology/ui-terms.md)
