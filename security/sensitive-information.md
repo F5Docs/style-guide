@@ -75,6 +75,7 @@ The official docs for a tool the reader must install or configure (for example, 
 - [Alt text](../accessibility/alt-text.md)
 - [Code blocks](../formatting/code-blocks.md)
 - [Images](../formatting/images.md)
+- [Placeholders](../formatting/placeholders.md)
 
 ## See also
 

@@ -87,6 +87,7 @@ Always format placeholders as inline code. In Markdown, wrap them in backticks:
 
 - [Code blocks](code-blocks.md)
 - [Cross-references](../procedures/cross-references.md)
+- [Sensitive information](../security/sensitive-information.md)
 - [Step formatting](../procedures/step-formatting.md)
 
 ## See also
