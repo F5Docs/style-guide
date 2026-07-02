@@ -1,7 +1,7 @@
 ---
 title: Install a drip coffee maker
 description: "Set up a drip coffee maker on a standard kitchen countertop and brew a verified first pot."
-f5-product: KITCHEN
+f5-product: F5 Kitchen
 f5-content-type: howto
 f5-docs: DOCS-000
 f5-keywords: "coffee maker, drip coffee, install, setup, carafe, filter basket, water reservoir, brew, countertop"

@@ -3,7 +3,7 @@ title: Brew pour-over coffee with a burr grinder
 description: "Learn to calibrate a burr grinder, prepare a pour-over brewer, and produce a well-extracted cup."
 weight: 100
 toc: true
-f5-product: KITCHEN
+f5-product: F5 Kitchen
 f5-content-type: tutorial
 f5-docs: DOCS-000
 f5-keywords: "pour-over, coffee, burr grinder, V60, Chemex, grind size, extraction, tutorial, learn, brew"

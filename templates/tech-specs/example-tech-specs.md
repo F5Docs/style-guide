@@ -3,7 +3,7 @@ title: BrewMaster Controller technical specifications
 description: "Hardware requirements, performance limits, compatibility, and networking specifications for the BrewMaster Controller."
 weight: 100
 toc: true
-f5-product: BREWMASTER
+f5-product: F5 Brewmaster
 f5-content-type: tech-specs
 f5-docs: DOCS-000
 f5-keywords: "BrewMaster Controller, technical specifications, system requirements, performance limits, compatibility, networking, ports, protocols, supported platforms, brew rate, extraction pressure"

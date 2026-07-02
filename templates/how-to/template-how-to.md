@@ -1,7 +1,7 @@
 ---
 title: {Verb + object}
 description: "{One-sentence summary of what the reader achieves, under 160 characters.}"
-f5-product: {PRODUCT_CODE}
+f5-product: {PRODUCT_NAME}
 f5-content-type: howto {Valid values: howto | concept | reference | tech-specs | tutorial}
 f5-docs: DOCS-000
 f5-keywords: "{keyword1}, {keyword2}, {keyword3}"

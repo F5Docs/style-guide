@@ -106,7 +106,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **content-type**: Always `getting-started` for first-use guides.
 
-**product**: The product code. Check an existing document for the same product if you are unsure which code to use.
+**product**: The product name. Check an existing document for the same product if you are unsure which name to use.
 
 **title**: Use "Get started with {product or feature name}". Keep it under 60 characters.
 
