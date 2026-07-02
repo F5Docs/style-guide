@@ -104,7 +104,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **content-type**: Always `tech-specs` for technical specifications pages.
 
-**product**: The product name. Check an existing document for the same product if you are unsure which nameto use.
+**product**: The product name. Check an existing document for the same product if you are unsure which name to use.
 
 **title**: Use a noun phrase ending in "technical specifications". Keep it under 60 characters.
 

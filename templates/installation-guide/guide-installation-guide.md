@@ -109,7 +109,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **content-type**: Always `installation-guide` for installation content.
 
-**product**: The product name. Check an existing document for the same product if you are unsure which nameto use.
+**product**: The product name. Check an existing document for the same product if you are unsure which name to use.
 
 **title**: Use an imperative verb phrase beginning with "Install". Keep it under 60 characters. Include the platform when the guide is platform-specific.
 
