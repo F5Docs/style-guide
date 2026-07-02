@@ -108,7 +108,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **content-type**: Always `how-to` for task-based guides.
 
-**product**: The product code. Ask your team lead or the technical writers if you are unsure which code to use. You can also check the code of an existing document for the same product.
+**product**: The product name. Ask your team lead or the technical writers if you are unsure which name to use. You can also check the name of an existing document for the same product.
 
 **title**: Use an imperative verb phrase — the same verb form you would use to tell someone what to do. Keep it under 60 characters so it fits cleanly in navigation menus and search results.
 

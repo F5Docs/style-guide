@@ -107,7 +107,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **content-type**: Always `tutorial` for tutorial content.
 
-**product**: The product code. Check an existing document for the same product if you are unsure which code to use.
+**product**: The product name. Check an existing document for the same product if you are unsure which nameto use.
 
 **title**: Use a verb phrase that describes what the reader will learn to do. Keep it under 60 characters.
 

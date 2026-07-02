@@ -111,7 +111,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **content-type**: Always `release-notes` for release note pages.
 
-**product**: The product code. Check an existing document for the same product if you are unsure which code to use.
+**product**: The product name. Check an existing document for the same product if you are unsure which nameto use.
 
 **title**: Use `"{Product Name} release notes"`. Keep it under 60 characters. This page covers all versions of the product, so do not include a version number in the title.
 

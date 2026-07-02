@@ -107,7 +107,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **content-type**: Always `reference` for reference articles.
 
-**product**: The product code. Check an existing document for the same product if you are unsure which code to use.
+**product**: The product name. Check an existing document for the same product if you are unsure which nameto use.
 
 **title**: Use a noun phrase identifying the component or set of entries. Do not use a verb phrase or start with "How to". Keep it under 60 characters.
 

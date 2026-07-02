@@ -1,7 +1,7 @@
 ---
 title: {Noun phrase identifying the component or set of entries}
 description: "{One-sentence summary of what this article covers, under 160 characters.}"
-f5-product: {PRODUCT_CODE}
+f5-product: {PRODUCT_NAME}
 f5-content-type: reference {Valid values: howto | concept | reference | tech-specs | tutorial}
 f5-docs: DOCS-000
 f5-keywords: "{component name}, {parameter1}, {parameter2}, {keyword3}, config, settings, options, parameters"
