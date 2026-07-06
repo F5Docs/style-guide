@@ -16,6 +16,16 @@ f5-audience: {developer | operator | admin | architect | any}
 
 > This template includes writing instructions and boilerplate text that you can customize, use as-is, or completely replace with your own text. This text is indicated in {curly brackets}. Make sure you replace the placeholders with your own text.
 
+## Background
+
+{Provide two to four sentences of context that helps the reader understand the primary feature before they start. Do not use this section to promote the product or repeat content from the Overview. If the background material is substantial, link to a standalone concept topic instead and keep this section brief.}
+
+{Useful sentence starters:}
+- {Product} is a {product type} that {common use case}.
+- {Feature} enables you to {capability}, which means you can {benefit}.
+
+---
+
 ## Overview
 
 {Use this guide to [primary action] so that [outcome]. The Overview is the paragraph most likely to be surfaced verbatim by AI assistants — make every sentence independently meaningful. Write two to four sentences covering: what the reader will do, what the primary feature does or enables, and what they will have when they finish. End with one sentence stating the intended audience and any assumed knowledge. Do not start with "This guide explains how to".}

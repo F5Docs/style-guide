@@ -88,6 +88,7 @@ AI assistants and human readers parse documentation differently from search engi
 
 | Section | Required? |
 |---|---|
+| Background | Required |
 | Overview | Required |
 | Before you begin | Required |
 | At least one part with numbered steps | Required |
@@ -128,6 +129,14 @@ These fields are not rendered in the product UI, but they are consumed by AI sys
 - Sentence 3 (optional): the audience, scope limits, or assumed knowledge
 
 **audience**: Who this guide is for. Accepted values: `developer`, `operator`, `admin`, `architect`, `any`. Getting started guides are typically audience `any` unless the product is role-specific.
+
+---
+
+## Background section
+
+This section is required. Include two to four sentences of context that help the reader understand the primary feature before they start — for example, what the product or feature is and the common use case it serves.
+
+Do not use this section to promote the product or repeat content from the Overview. If the background material is substantial, link to a standalone concept topic and keep this section brief.
 
 ---
 

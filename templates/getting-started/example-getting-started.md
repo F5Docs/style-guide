@@ -13,6 +13,12 @@ f5-summary: >
 f5-audience: any
 ---
 
+## Background
+
+A drip coffee maker is a countertop appliance that automates the pour-over brewing process. It heats water and releases it at a controlled rate over a bed of ground coffee, which means you can brew a full carafe with minimal manual effort compared to manual methods like pour-over.
+
+---
+
 ## Overview
 
 Use this guide to set up a drip coffee maker and brew a confirmed first cup. A drip coffee maker heats cold water and passes it through a filter basket containing ground coffee, collecting the brewed coffee in a carafe below. After completing this guide, the coffee maker will be positioned, connected, and verified ready for daily use.
