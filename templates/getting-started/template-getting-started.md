@@ -18,7 +18,7 @@ f5-audience: {developer | operator | admin | architect | any}
 
 ## Background
 
-{Provide two to four sentences of context that helps the reader understand the primary feature before they start. Do not use this section to promote the product or repeat content from the Overview. If the background material is substantial, link to a standalone concept topic instead and keep this section brief.}
+{Provide two to four sentences of context that help the reader understand the primary feature before they start. Do not use this section to promote the product or repeat content from the Overview. If the background material is substantial, link to a standalone concept topic instead and keep this section brief.}
 
 {Useful sentence starters:}
 - {Product} is a {product type} that {common use case}.
