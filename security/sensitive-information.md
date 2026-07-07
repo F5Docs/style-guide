@@ -39,6 +39,7 @@ Replace with generic placeholders:
 Replace with clearly generic placeholders:
 - IP addresses: use ranges from RFC 5737 (`192.0.2.x`, `198.51.100.x`, `203.0.113.x`) or the documented F5 example address `165.160.15.20`
 - Passwords: use `<YOUR_PASSWORD>`
+- Password hashes: use `<PASWORD_HASH>`
 - API keys and OAuth tokens: OAuth 2 tokens start with `eY` — search for and replace any that appear in content or screenshots
 - UUIDs: replace with `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 - SSH keys: replace with `<SSH_KEY>`
