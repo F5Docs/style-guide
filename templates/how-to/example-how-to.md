@@ -21,7 +21,7 @@ Use this guide to brew a single cup of pour-over coffee from whole beans. Pour-o
 
 ## Before you begin
 
-Before you begin, ensure you have:
+Before you begin, make sure you have:
 
 - **A pour-over brewer and a matching paper filter**: The filter must fit your specific brewer model. Using the wrong size causes the filter to collapse during brewing.
 - **Whole coffee beans**: Use beans roasted within the past four weeks. Older beans produce a flat, stale cup.
