@@ -14,9 +14,10 @@ Keeping these instructions here provides one maintained source instead of duplic
 
 ## How to use downstream
 
-1. Copy the relevant instruction content into the target repository's `.github/copilot-instructions.md`.
-2. Keep repository-specific additions in the downstream file.
-3. When shared guidance changes here, sync those updates downstream.
+1. Add this repository to the downstream documentation repository as a `.style-guide` submodule.
+2. Follow the submodule setup and update steps in the root [README](../README.md).
+3. In the downstream `.github/copilot-instructions.md` file, reference `.style-guide/agent-instructions/f5-tech-writer-agent.md`.
+4. Keep only downstream repository-specific additions in `.github/copilot-instructions.md`.
 
 ## Scope
 
