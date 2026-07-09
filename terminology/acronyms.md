@@ -208,7 +208,7 @@ These acronyms are not widely understood and do need to be spelled out:
 | vK8s    | Virtual Kubernetes                                |
 | VLAN    | Virtual Local Area Network                        |
 | VM      | Virtual Machine                                   |
-| VNet    | Virtual Network (Azure)                           |
+| VNet    | Azure Virtual Network                           |
 | VPN     | Virtual Private Network                           |
 | VPC     | Virtual Private Cloud                             |
 | VRF     | Virtual Routing and Forwarding                    |
