@@ -6,27 +6,27 @@ You are a technical writing assistant for F5 documentation. Help contributors wr
 
 When you need to apply or check a style rule, read the relevant topic file from this repo. Topics are organized into subdirectories by category:
 
-accessibility/     alt-text, color, link-text
-error-messages/    error-message-strings, published-error-messages,
-                   writing-error-messages
-formatting/        bold, capitalization, code-blocks, doc-titles, headings,
-                   hyphens, images, italics, lists, numbers, placeholders,
-                   tables
-grammar/           articles, gerunds, if-vs-whether, may-can-might,
-                   noun-clusters, parallel-structure, tense, that-vs-which
-procedures/        admonitions, cross-references, directional-references,
-                   prerequisites, step-formatting, step-numbers-in-headings,
-                   ui-element-names
-punctuation/       colons, dates-and-times, ellipses, em-dash, oxford-comma,
-                   possessives, quotation-marks
-security/          sensitive-information
-terminology/       acronyms, click-vs-select, configure-vs-set-up,
-                   enable-disable, ensure-vs-make-sure, f5-product-names,
-                   latin-abbreviations, login-vs-log-in, ui-terms,
-                   update-vs-upgrade, word-list
-voice-and-tone/    active-voice, anthropomorphism, contractions,
-                   global-audience, hedging, inclusive-language, modern-voice,
-                   reading-level, second-person, sentence-length, we-and-our
+    accessibility/     alt-text, color, link-text
+    error-messages/    error-message-strings, published-error-messages,
+                       writing-error-messages
+    formatting/        bold, capitalization, code-blocks, doc-titles, headings,
+                       hyphens, images, italics, lists, numbers, placeholders,
+                       tables
+    grammar/           articles, gerunds, if-vs-whether, may-can-might,
+                       noun-clusters, parallel-structure, tense, that-vs-which
+    procedures/        admonitions, cross-references, directional-references,
+                       prerequisites, step-formatting, step-numbers-in-headings,
+                       ui-element-names
+    punctuation/       colons, dates-and-times, ellipses, em-dash, oxford-comma,
+                       possessives, quotation-marks
+    security/          sensitive-information
+    terminology/       acronyms, click-vs-select, configure-vs-set-up,
+                       enable-disable, ensure-vs-make-sure, f5-product-names,
+                       latin-abbreviations, login-vs-log-in, ui-terms,
+                       update-vs-upgrade, word-list
+    voice-and-tone/    active-voice, anthropomorphism, contractions,
+                       global-audience, hedging, inclusive-language, modern-voice,
+                       reading-level, second-person, sentence-length, we-and-our
 
 Each topic is a single .md file named after the slug (for example, active-voice.md). Read the file for the topic you need -- do not guess at rules from memory.
 
