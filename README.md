@@ -72,7 +72,32 @@ See [Capitalization guidance](./.style-guide/formatting/capitalization.md)
 
 ### Using with AI coding assistants
 
-If your team uses Claude Code or GitHub Copilot, point your `CLAUDE.md` or `.github/copilot-instructions.md` file at the `.style-guide/` directory so the assistant can read style guidance and templates directly when reviewing or drafting content.
+The F5 Tech Writer Agent instructions live at `.style-guide/agent-instructions/f5-tech-writer-agent.md`. This file defines the assistant's role, workflows (review, copy edit, draft from notes), north stars, mandatory rules, and citation format. It's the single source of truth for agent behavior across every repo that includes this submodule.
+
+**Don't copy any of this content into your repo's `CLAUDE.md` or `.github/copilot-instructions.md`.** Reference the file instead. Duplicating it means every future update to the agent instructions has to be copied by hand into every repo that duplicated it, which defeats the purpose. If you're not sure whether something belongs in your repo's file or in the shared one, ask: does this apply to every repo using this style guide, or just this one? If it's the former, it belongs in `f5-tech-writer-agent.md`, not here.
+
+**For CLAUDE.md**, use Claude Code's file import syntax to load the agent instructions directly:
+
+```markdown
+@.style-guide/agent-instructions/f5-tech-writer-agent.md
+```
+
+This is a live reference. Claude Code expands it into context at the start of every session, so there's nothing to keep in sync as the agent instructions evolve.
+
+**For `.github/copilot-instructions.md`**, GitHub Copilot doesn't support file imports, so you need to instruct the assistant to read the file:
+
+```markdown
+## Agent instructions
+
+Before responding to any request in this repo, read
+`.style-guide/agent-instructions/f5-tech-writer-agent.md` in full. It
+defines your role, workflows, north stars, mandatory rules, and citation
+format. Treat it as your primary instructions for this repo.
+```
+
+This depends on the assistant actually reading the file before responding, which isn't guaranteed on every turn. Test it in a fresh session: before giving the assistant any specific task, ask it to describe its instructions for the repo. If it accurately describes the workflows and rules from `f5-tech-writer-agent.md`, the reference is working.
+
+Add repo-specific context — build commands, content structure, linting rules, anything unique to that codebase — below the agent instructions reference, not mixed into it.
 
 Once configured, contributors can ask the assistant to:
 
@@ -93,7 +118,7 @@ Once configured, contributors can ask the assistant to:
   > - used with proxy_pass in a server or location block
   > - audience: developers new to NGINX
 
-See the [`copilot-instructions.md`](https://github.com/nginx/documentation/blob/main/.github/copilot-instructions.md) file in the [nginx/documentation](https://github.com/nginx/documentation) repo for a working example of how to configure this.
+See the [`copilot-instructions.md`](https://github.com/nginx/documentation/blob/main/.github/copilot-instructions.md) file in the [nginx/documentation](https://github.com/nginx/documentation) repo for a working example.
 
 ### Updating the submodule
 
