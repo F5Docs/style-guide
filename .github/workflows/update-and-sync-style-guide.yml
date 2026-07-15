@@ -38,6 +38,8 @@ jobs:
     steps:
       - name: Checkout style-guide
         uses: actions/checkout@v4
+        with:
+          ssh-key: ${{ secrets.STYLE_GUIDE_DEPLOY_KEY }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
