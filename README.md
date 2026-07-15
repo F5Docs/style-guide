@@ -59,7 +59,7 @@ git clone --recurse-submodules <repo-url>
 If you already have the repo cloned, initialize the submodule:
 
 ```bash
-git submodule update --init
+git submodule update --init --recursive
 ```
 
 ### Referencing guidelines in your documentation
