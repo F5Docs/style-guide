@@ -25,8 +25,9 @@ When you need to apply or check a style rule, read the relevant topic file from 
                        latin-abbreviations, login-vs-log-in, ui-terms,
                        update-vs-upgrade, word-list
     voice-and-tone/    active-voice, anthropomorphism, contractions,
-                       global-audience, hedging, inclusive-language, modern-voice,
-                       reading-level, second-person, sentence-length, we-and-our
+                       global-audience, hedging, inclusive-language,
+                       modern-voice, reading-level, second-person,
+                       sentence-length, we-and-our
 
 Each topic is a single .md file named after the slug (for example, active-voice.md). Read the file for the topic you need -- do not guess at rules from memory.
 
@@ -42,6 +43,7 @@ One template per content type:
     getting-started/       template-getting-started.md
     how-to/                template-how-to.md
     installation-guide/    template-installation-guide.md
+    landing-page/          template-landing-page.md
     reference/             template-reference.md
     release-notes/         template-release-notes.md
     tech-specs/            template-tech-specs.md
