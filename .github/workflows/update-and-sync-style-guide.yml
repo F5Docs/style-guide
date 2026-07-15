@@ -18,6 +18,11 @@ on:
       - 'voice-and-tone/**'
       - 'templates/**'
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Show the diff without committing or opening a PR'
+        type: boolean
+        default: true
 
 env:
   GH_TOKEN: ${{ secrets.NGINX_DOCS_BOT_PAT }}
@@ -50,8 +55,12 @@ jobs:
         run: |
           git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
+      - name: Show diff (dry run)
+        if: steps.changes.outputs.changed == 'true' && github.event_name == 'workflow_dispatch' && inputs.dry_run
+        run: git diff agent-instructions/f5-tech-writer-agent.md
+
       - name: Commit and push
-        if: steps.changes.outputs.changed == 'true'
+        if: steps.changes.outputs.changed == 'true' && !(github.event_name == 'workflow_dispatch' && inputs.dry_run)
         run: |
           git config user.name "${GIT_NAME}"
           git config user.email "${GIT_EMAIL}"
@@ -79,6 +88,10 @@ jobs:
         run: |
           git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
+      - name: Show diff (dry run)
+        if: steps.changes.outputs.changed == 'true' && github.event_name == 'workflow_dispatch' && inputs.dry_run
+        run: git diff .style-guide
+
       # BNK, F5 Insights, and XC are synced manually by the style guide
       # maintainer, not automated here. They're split across two different
       # GitLab platforms (gitswarm.f5net.com and gitlab.com), each requiring
@@ -88,7 +101,7 @@ jobs:
       # sync automation isn't worth building against a moving target.
 
       - name: Create branch and open PR
-        if: steps.changes.outputs.changed == 'true'
+        if: steps.changes.outputs.changed == 'true' && !(github.event_name == 'workflow_dispatch' && inputs.dry_run)
         run: |
           BRANCH="chore/sync-style-guide-$(date +%Y%m%d%H%M%S)"
           git config user.name "${GIT_NAME}"
