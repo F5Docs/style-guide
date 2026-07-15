@@ -75,6 +75,7 @@
 - [Hedging](voice-and-tone/hedging.md)
 - [Inclusive language](voice-and-tone/inclusive-language.md)
 - [Modern Voice](voice-and-tone/modern-voice.md)
+- [Please and Thank You](voice-and-tone/please-and-thank-you.md)
 - [Reading level](voice-and-tone/reading-level.md)
 - [Second person](voice-and-tone/second-person.md)
 - [Sentence length](voice-and-tone/sentence-length.md)

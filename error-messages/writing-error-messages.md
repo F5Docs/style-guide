@@ -3,9 +3,9 @@ title: Writing error messages
 category: error-messages
 aliases: [error messages, errors, error text, validation messages]
 applies-to: [all F5 docs]
-source-authority: F5 NGINX Style Guide, F5 Technical Style Guide, F5 Distributed Cloud Style Guide
+source-authority: F5 NGINX Style Guide, F5 Technical Style Guide, F5 Distributed Cloud Style Guide, Microsoft Style Guide
 supersedes:
-last-reviewed: 2026-04-06
+last-reviewed: 2026-07-15
 ---
 
 # Writing error messages
@@ -103,7 +103,11 @@ Reserve "contact F5 Support" for errors the user genuinely cannot resolve on the
 - failed (use "could not" instead)
 
 ### Exception
-It's acceptable to include "please" in error messages when the problem is caused by F5 software.
+It's acceptable to include "please" in error messages when the problem is caused by F5 software, not the user:
+
+> The network connection was lost. Please reenter your password.
+
+This is the only exception to the [Please and Thank You](../voice-and-tone/please-and-thank-you.md) rule — "thank you" has no exception anywhere.
 
 ## Related
 
@@ -111,6 +115,7 @@ It's acceptable to include "please" in error messages when the problem is caused
 - [Error message strings](error-message-strings.md)
 - [Global audience](../voice-and-tone/global-audience.md)
 - [Modern Voice](../voice-and-tone/modern-voice.md)
+- [Please and Thank You](../voice-and-tone/please-and-thank-you.md)
 - [Reading level](../voice-and-tone/reading-level.md)
 
 ## See also
