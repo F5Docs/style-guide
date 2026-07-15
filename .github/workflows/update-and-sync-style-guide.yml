@@ -1,0 +1,116 @@
+name: Update and sync style guide
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+    paths:
+      - 'accessibility/**'
+      - 'error-messages/**'
+      - 'formatting/**'
+      - 'grammar/**'
+      - 'procedures/**'
+      - 'punctuation/**'
+      - 'security/**'
+      - 'terminology/**'
+      - 'voice-and-tone/**'
+      - 'templates/**'
+  workflow_dispatch:
+
+env:
+  GH_TOKEN: ${{ secrets.NGINX_DOCS_BOT_PAT }}
+  GIT_NAME: nginxdocsbot
+  GIT_EMAIL: nginxdocsbot@f5.com
+
+jobs:
+  update-agent-instructions:
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout style-guide
+        uses: actions/checkout@v4
+        with:
+          token: ${{ env.GH_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Regenerate agent-instructions/f5-tech-writer-agent.md
+        run: |
+          python scripts/update-agent-instructions.py \
+            --style-guide . \
+            --instructions agent-instructions/f5-tech-writer-agent.md
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "${GIT_NAME}"
+          git config user.email "${GIT_EMAIL}"
+          git add agent-instructions/f5-tech-writer-agent.md
+          git commit -m "chore: Regenerate valid topics and templates in agent instructions"
+          git push origin main
+
+  sync-submodule-nginx:
+    needs: update-agent-instructions
+    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'sync-downstream'))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout nginx/documentation
+        uses: actions/checkout@v4
+        with:
+          repository: nginx/documentation
+          token: ${{ env.GH_TOKEN }}
+          submodules: true
+
+      - name: Update style guide submodule
+        run: git submodule update --remote .style-guide
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      # BNK, F5 Insights, and XC are synced manually by the style guide
+      # maintainer, not automated here. They're split across two different
+      # GitLab platforms (gitswarm.f5net.com and gitlab.com), each requiring
+      # separate credentials and, for GitSwarm, an unconfirmed network path
+      # from hosted runners. All of these docs repos -- including this one --
+      # are also slated to move into a shared monorepo, so cross-platform
+      # sync automation isn't worth building against a moving target.
+
+      - name: Create branch and open PR
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          BRANCH="chore/sync-style-guide-$(date +%Y%m%d%H%M%S)"
+          git config user.name "${GIT_NAME}"
+          git config user.email "${GIT_EMAIL}"
+          git checkout -b "$BRANCH"
+          git add .style-guide
+          git commit -m "chore: Update F5 style guide submodule"
+          git push origin "$BRANCH"
+          gh pr create \
+            --repo nginx/documentation \
+            --title "chore: Update F5 style guide submodule" \
+            --base main \
+            --head "$BRANCH" \
+            --body "## F5 style guide update
+
+            This PR was opened automatically by the style guide sync workflow.
+
+            **Triggered by:** ${{ github.event.pull_request.html_url || 'Manual workflow run' }}
+
+            **What changed:** Review the commits in the style guide PR linked above for a summary of what changed.
+
+            ## Before merging
+
+            - Review the diff in \`.style-guide/\` to confirm the changes look correct
+            - Verify no unintended files were included in the sync"
