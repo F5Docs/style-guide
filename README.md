@@ -72,9 +72,7 @@ See [Capitalization guidance](./.style-guide/formatting/capitalization.md)
 
 ### Using with AI coding assistants
 
-The F5 Tech Writer Agent instructions live at `.style-guide/agent-instructions/f5-tech-writer-agent.md`. This file defines the assistant's role, workflows (review, copy edit, draft from notes), north stars, mandatory rules, and citation format. It's the single source of truth for agent behavior across every repo that includes this submodule.
-
-**Don't copy any of this content into your repo's `CLAUDE.md` or `.github/copilot-instructions.md`.** Reference the file instead. Duplicating it means every future update to the agent instructions has to be copied by hand into every repo that duplicated it, which defeats the purpose. If you're not sure whether something belongs in your repo's file or in the shared one, ask: does this apply to every repo using this style guide, or just this one? If it's the former, it belongs in `f5-tech-writer-agent.md`, not here.
+The F5 Tech Writer Agent instructions live at `.style-guide/agent-instructions/f5-tech-writer-agent.md`. Reference this file in your `CLAUDE.md` or `.github/copilot-instructions.md`. This file defines the assistant's role, workflows (review, copy edit, draft from notes), north stars, mandatory rules, and citation format. It's the single source of truth for agent behavior across every repo that includes this submodule.
 
 **For CLAUDE.md**, use Claude Code's file import syntax to load the agent instructions directly:
 
