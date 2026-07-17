@@ -31,9 +31,7 @@ Avoid Latin abbreviations. Spell out the English equivalent instead. Latin abbre
 
 > Set up a virtual server, pool, etc.
 
-## Notes
-
-Use these replacements consistently:
+## Required replacements
 
 | Avoid | Use instead |
 |-------|-------------|
@@ -43,7 +41,9 @@ Use these replacements consistently:
 | vs.  | versus, or (recast the sentence) |
 | via  | through, by way of |
 
-Exception: Security advisory articles and vulnerability release notes may retain Latin abbreviations where they appear in standards or CVE references.
+## Exceptions
+
+Security advisory articles and vulnerability release notes may retain Latin abbreviations where they appear in standards or CVE references.
 
 ## Related
 
