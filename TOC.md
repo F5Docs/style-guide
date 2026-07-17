@@ -14,6 +14,7 @@
 - [Bold](formatting/bold.md)
 - [Capitalization](formatting/capitalization.md)
 - [Code blocks](formatting/code-blocks.md)
+- [Dates and times](formatting/dates-and-times.md)
 - [Doc titles](formatting/doc-titles.md)
 - [Headings](formatting/headings.md)
 - [Hyphens](formatting/hyphens.md)
@@ -44,7 +45,6 @@
 
 ## Punctuation
 - [Colons](punctuation/colons.md)
-- [Dates and times](punctuation/dates-and-times.md)
 - [Ellipses](punctuation/ellipses.md)
 - [Em dash](punctuation/em-dash.md)
 - [Oxford comma](punctuation/oxford-comma.md)
@@ -58,6 +58,7 @@
 - [Enable and disable](terminology/enable-disable.md)
 - [Ensure vs. Make sure](terminology/ensure-vs-make-sure.md)
 - [F5 product names](terminology/f5-product-names.md)
+- [Language and spelling](terminology/language-and-spelling.md)
 - [Latin abbreviations](terminology/latin-abbreviations.md)
 - [Login vs. Log in](terminology/login-vs-log-in.md)
 - [UI terms](terminology/ui-terms.md)

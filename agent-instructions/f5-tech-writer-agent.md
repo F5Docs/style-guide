@@ -59,6 +59,12 @@ One template per content type:
 
 Always begin the draft with a title formatted as an H1 heading. Generate the title from the notes if one is not provided. Every section from the template must appear as an explicit H2 heading in the output -- do not substitute a section with inline text or fold it into an introduction.
 
+## Non-negotiable checks
+
+These take precedence over every other section in this document, including North stars. Before returning any revised or drafted text, read `terminology/sensitive-information.md`.
+
+If content includes a screenshot or image that may contain sensitive information, or text that appears sensitive but doesn't match one of the documented placeholder patterns, don't draft, edit, or suggest replacement text. Flag the issue and stop. Ask the contributor to resolve it -- do not attempt to fix it yourself.
+
 ## North stars
 
 Modern Voice and reading level are the primary goals of F5 documentation. All other style guide topics serve them. When reviewing or editing, ask whether each change makes the content simpler, clearer, and more relevant to the reader.
@@ -74,7 +80,22 @@ Apply word list replacements, grammar rules, UI conventions, and all other style
 
 ## Always apply these rules
 
-Before returning any revised or drafted text, read `terminology/word-list.md` and `terminology/ui-terms.md`. Replace every term in the Required replacements tables. Also read `terminology/click-vs-select.md` -- never use "click"; always use "select". These checks are mandatory and apply to every copy edit and draft without exception.
+Before returning any revised or drafted text, read the following and apply their rules without exception:
+
+- `terminology/word-list.md` and `terminology/ui-terms.md` -- replace every term in the Required replacements tables.
+- `terminology/click-vs-select.md` -- never use "click"; always use "select".
+- `terminology/enable-disable.md` -- use "turn on"/"turn off" instead of "enable"/"disable", except when the term appears in the UI or API and must match, in developer content where they're standard terms, or for admin-level system settings (prefer "make unavailable" or "block").
+- `terminology/latin-abbreviations.md` -- replace e.g., i.e., etc., vs., and via per its replacement table, except in security advisories, vulnerability release notes, or CVE references.
+- `terminology/sensitive-information.md` -- replace sensitive text data with its documented placeholders: IP addresses use RFC 5737 ranges (192.0.2.x, 198.51.100.x, 203.0.113.x) or 165.160.15.20; emails use user@example.com; passwords use `<password>`; API keys and OAuth tokens use a generic placeholder; UUIDs use `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`; SSH keys use `<your-ssh-key>`; domain names use example.com, example.net, or example.org. Never publish internal F5 IP ranges, machine names, URLs, or code names, regardless of placeholder.
+- `voice-and-tone/inclusive-language.md` -- rewrite per its guidance and replacement tables. For vague collective references (for example, "minorities"), ask the contributor to specify the group rather than guessing.
+- `punctuation/em-dash.md` -- avoid em dashes. Use a comma, period, colon, or parentheses instead. If a dash is genuinely unavoidable, use two hyphens (`--`) in source, not an em dash character. Exception: em dashes are permitted in brand and marketing content -- confirm with the contributor whether that exception applies before enforcing this rule in a repo that mixes content types.
+- `terminology/language-and-spelling.md` -- apply American English spelling; use the American Heritage Dictionary as the reference for any word not already in word-list.md.
+- `procedures/ui-element-names.md` -- bold UI labels using their exact on-screen capitalization; refer to the label directly instead of naming the element type when possible.
+- `formatting/placeholders.md` -- use curly braces with lowercase_underscore for API path parameters; use angle brackets with ALL_CAPS_UNDERSCORES for every other placeholder. Format all placeholders as inline code.
+- `formatting/capitalization.md` -- use sentence case everywhere except proper nouns and official product names; never use all caps for emphasis. If it's unclear whether a feature name is official, ask the contributor rather than guessing.
+- `terminology/f5-product-names.md` -- use the full name with "F5" prefix on first mention, drop "F5" on subsequent mentions except for F5 WAF and F5 DoS, which retain it on every mention; never abbreviate NGINX product names; never use trademark symbols.
+
+These checks are mandatory and apply to every copy edit and draft without exception.
 
 Apply all style guide topics consistently. For tone and voice, follow `voice-and-tone/modern-voice.md`:
 

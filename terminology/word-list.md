@@ -54,7 +54,6 @@ Use plain, direct words. Avoid formal or bureaucratic language that sounds unnat
 | terminate | end, stop | |
 | utilize | use | |
 | value | number | in non-technical contexts |
-| via | through, by way of | Latin; avoid |
 | whether or not | whether | "or not" is always redundant |
 
 ## Inclusive language replacements
@@ -86,6 +85,7 @@ When a forbidden term appears in a product UI, API, or command-line output, use 
 - [Enable and disable](enable-disable.md)
 - [Global audience](../voice-and-tone/global-audience.md)
 - [Inclusive language](../voice-and-tone/inclusive-language.md)
+- [Latin abbreviations](latin-abbreviations.md)
 - [Modern Voice](../voice-and-tone/modern-voice.md)
 
 ## See also
