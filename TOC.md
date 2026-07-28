@@ -23,10 +23,6 @@
 - [Numbers](formatting/numbers.md)
 - [Tables](formatting/tables.md)
 
-## Media
-- [Images](media/images.md)
-- [Video](media/videos.md)
-
 ## Grammar
 - [Articles](grammar/articles.md)
 - [Gerunds](grammar/gerunds.md)
@@ -36,6 +32,10 @@
 - [Parallel structure](grammar/parallel-structure.md)
 - [Tense](grammar/tense.md)
 - [That vs. Which](grammar/that-vs-which.md)
+
+## Media
+- [Images](media/images.md)
+- [Video](media/videos.md)
 
 ## Procedures
 - [Admonitions](procedures/admonitions.md)
@@ -54,6 +54,9 @@
 - [Possessives](punctuation/possessives.md)
 - [Quotation marks](punctuation/quotation-marks.md)
 
+## Security
+- [Sensitive information](security/sensitive-information.md)
+
 ## Terminology
 - [Acronyms](terminology/acronyms.md)
 - [Click vs. Select](terminology/click-vs-select.md)
@@ -67,9 +70,6 @@
 - [UI terms](terminology/ui-terms.md)
 - [Update vs. Upgrade](terminology/update-vs-upgrade.md)
 - [Word list](terminology/word-list.md)
-
-## Security
-- [Sensitive information](security/sensitive-information.md)
 
 ## Voice and tone
 - [Active voice](voice-and-tone/active-voice.md)
