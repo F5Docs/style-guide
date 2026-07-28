@@ -43,7 +43,7 @@ In navigation paths, use ">" not a colon to separate levels:
 
 ## Related
 
-- [Images](../formatting/images.md)
+- [Images](../media/images.md)
 - [Lists](../formatting/lists.md)
 - [Tables](../formatting/tables.md)
 

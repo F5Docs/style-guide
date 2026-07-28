@@ -18,11 +18,14 @@
 - [Doc titles](formatting/doc-titles.md)
 - [Headings](formatting/headings.md)
 - [Hyphens](formatting/hyphens.md)
-- [Images](formatting/images.md)
 - [Italics](formatting/italics.md)
 - [Lists](formatting/lists.md)
 - [Numbers](formatting/numbers.md)
 - [Tables](formatting/tables.md)
+
+## Media
+- [Images](media/images.md)
+- [Video](media/videos.md)
 
 ## Grammar
 - [Articles](grammar/articles.md)

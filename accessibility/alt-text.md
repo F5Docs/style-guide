@@ -46,7 +46,7 @@ For screenshots, describe the relevant UI state and what the user should notice,
 
 ## Related
 
-- [Images](../formatting/images.md)
+- [Images](../media/images.md)
 - [Sensitive information](../security/sensitive-information.md)
 - [Tables](../formatting/tables.md)
 
