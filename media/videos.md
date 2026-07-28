@@ -16,7 +16,7 @@ Ship a video only when it clears three bars: a job plain text can't do, a measur
 ## Examples
 
 **Good uses for video:**
-- Concepts that outlive the UI, such as how a request moves from a virtual server to a pool member. Concepts change on a slower cycle than screens do, so they're the safest return on production time.
+- Concepts that outlive the UI, such as how a request moves from a virtual server to a pool member. Concepts change more slowly than screens do, so they're the safest return on production time.
 - Hardware tasks where the reader needs to see the physical action, such as installing or seating a component
 - Tasks where readers get stuck at the same step, confirmed by support case volume or search data
 
@@ -33,7 +33,7 @@ Ship a video only when it clears three bars: a job plain text can't do, a measur
 Answer all three questions in writing. A proposal that skips one isn't ready.
 
 - **Purpose.** Name the specific thing the video does that a written topic can't. "It's easier to follow" is not a purpose.
-- **Success.** State the measure, the number you expect to hit, and the date you'll check. View count alone is weak. Prefer a support-deflection or task-completion signal, which ties to what TechComm is trying to move.
+- **Success.** State the measure, the target number, and the date you'll check. View count alone is weak. Prefer a support-deflection or task-completion signal tied to what TechComm is trying to move.
 - **Owner.** Name a person, not a team. That person re-records or retires the video when the product changes.
 
 ### Ownership and review
@@ -44,7 +44,7 @@ Answer all three questions in writing. A proposal that skips one isn't ready.
 
 ### Video and the written topic
 
-- Text is the source of truth. Every video needs an equivalent written topic that stands on its own, because search, translation, and screen readers all work on text.
+- Text is the source of truth. Every video needs an equivalent written topic. Search, translation, and screen readers all work on text, not video.
 - Don't use a colon to introduce a video. See [Colons](../punctuation/colons.md).
 - Use descriptive link text, and include the run time so readers know what they're committing to. See [Link text](../accessibility/link-text.md).
 
@@ -57,7 +57,7 @@ Answer all three questions in writing. A proposal that skips one isn't ready.
 
 ### Production
 
-- Keep it short. A video that runs long is usually covering more than one question, so split it or write it up instead.
+- Keep it short. A long video is usually covering more than one question. Split it or write it up instead.
 - Record a clean environment. Follow [Sensitive information](../security/sensitive-information.md) for hostnames, IP addresses, license keys, and account details.
 - Avoid on-screen version numbers and dates where you can. They shorten the useful life of the recording.
 - Follow [F5 product names](../terminology/f5-product-names.md) in narration and on-screen text.

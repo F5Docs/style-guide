@@ -35,7 +35,7 @@
 
 ## Media
 - [Images](media/images.md)
-- [Video](media/videos.md)
+- [Videos](media/videos.md)
 
 ## Procedures
 - [Admonitions](procedures/admonitions.md)
