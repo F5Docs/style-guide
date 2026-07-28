@@ -1,22 +1,22 @@
 ---
-title: Video
-category: formatting
+title: Videos
+category: media
 aliases: [video, videos, screencast, demo, walkthrough, captions, transcript, tutorial]
 applies-to: [all F5 docs]
 source-authority: F5 Modern Voice, F5 Technical Writing Style Guide
 last-reviewed: 2026-07-28
 ---
 
-# Video
+# Videos
 
 ## Guidance
 
-Ship a video only when it clears three bars: a job plain text can't do, a measurable definition of success, and a named owner. Video costs the most to produce and goes out of date the fastest, so this is an ROI decision. If no one will own the update, don't ship it.
+Ship a video only when it clears three bars: a job plain text can't do, a measurable definition of success, and a named owner. Video costs the most to produce and goes out of date the fastest. If no one will own the update, don't ship it.
 
 ## Examples
 
 **Good uses for video:**
-- Concepts that outlive the UI, such as how a request moves from a virtual server to a pool member. Concepts change on a slower cycle than screens do, which makes them the safest return on production time.
+- Concepts that outlive the UI, such as how a request moves from a virtual server to a pool member. Concepts change on a slower cycle than screens do, so they're the safest return on production time.
 - Hardware tasks where the reader needs to see the physical action, such as installing or seating a component
 - Tasks where readers get stuck at the same step, confirmed by support case volume or search data
 
@@ -32,7 +32,7 @@ Ship a video only when it clears three bars: a job plain text can't do, a measur
 
 Answer all three questions in writing. A proposal that skips one isn't ready.
 
-- **Purpose.** Name the specific thing the video does that a written topic can't. "It's easier to follow" isn't a purpose.
+- **Purpose.** Name the specific thing the video does that a written topic can't. "It's easier to follow" is not a purpose.
 - **Success.** State the measure, the number you expect to hit, and the date you'll check. View count alone is weak. Prefer a support-deflection or task-completion signal, which ties to what TechComm is trying to move.
 - **Owner.** Name a person, not a team. That person re-records or retires the video when the product changes.
 
