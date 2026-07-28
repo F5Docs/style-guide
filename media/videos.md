@@ -1,6 +1,6 @@
 ---
 title: Video
-category: media
+category: formatting
 aliases: [video, videos, screencast, demo, walkthrough, captions, transcript, tutorial]
 applies-to: [all F5 docs]
 source-authority: F5 Modern Voice, F5 Technical Writing Style Guide
@@ -46,7 +46,7 @@ Answer all three questions in writing. A proposal that skips one isn't ready.
 
 - Text is the source of truth. Every video needs an equivalent written topic that stands on its own, because search, translation, and screen readers all work on text.
 - Don't use a colon to introduce a video. See [Colons](../punctuation/colons.md).
-- Use descriptive link text and include the run time, as in the Do example above. See [Link text](../accessibility/link-text.md).
+- Use descriptive link text, and include the run time so readers know what they're committing to. See [Link text](../accessibility/link-text.md).
 
 ### Accessibility
 
@@ -64,7 +64,6 @@ Answer all three questions in writing. A proposal that skips one isn't ready.
 
 ## Related
 
-- [Colons](../punctuation/colons.md)
 - [Color](../accessibility/color.md)
 - [Images](images.md)
 - [Link text](../accessibility/link-text.md)
