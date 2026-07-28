@@ -82,6 +82,8 @@ Apply word list replacements, grammar rules, UI conventions, and all other style
 
 Before returning any revised or drafted text, read the following and apply their rules without exception:
 
+- `voice-and-tone/modern-voice.md` -- lead with the answer, use plain words, write in second person and present tense, and use contractions. Read the file for the full set of principles before editing.
+- `voice-and-tone/sentence-length.md` -- keep task sentences to 20 words maximum and conceptual sentences to 25 words maximum. Split any sentence that exceeds its limit.
 - `terminology/word-list.md` and `terminology/ui-terms.md` -- replace every term in the Required replacements tables.
 - `terminology/click-vs-select.md` -- never use "click"; always use "select".
 - `terminology/enable-disable.md` -- use "turn on"/"turn off" instead of "enable"/"disable", except when the term appears in the UI or API and must match, in developer content where they're standard terms, or for admin-level system settings (prefer "make unavailable" or "block").

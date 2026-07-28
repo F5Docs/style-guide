@@ -1,10 +1,10 @@
 ---
 title: Images
-category: formatting
+category: media
 aliases: [images, screenshots, figures, diagrams, graphics]
 applies-to: [all F5 docs]
 source-authority: F5 NGINX Style Guide, F5 Technical Style Guide
-last-reviewed: 2026-04-02
+last-reviewed: 2026-07-28
 ---
 
 # Images
@@ -59,8 +59,10 @@ Only use images when they add information that prose or a table can't convey as 
 ## Related
 
 - [Alt text](../accessibility/alt-text.md)
+- [Colons](../punctuation/colons.md)
 - [Color](../accessibility/color.md)
 - [Sensitive information](../security/sensitive-information.md)
+- [Video](videos.md)
 
 ## See also
 

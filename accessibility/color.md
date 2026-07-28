@@ -47,7 +47,7 @@ Content must remain legible when users apply high-contrast personalization theme
 ## Related
 
 - [Alt text](alt-text.md)
-- [Images](../formatting/images.md)
+- [Images](../media/images.md)
 - [Link text](link-text.md)
 
 ## See also

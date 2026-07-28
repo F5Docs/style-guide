@@ -2,6 +2,12 @@
 
 This repo is a collection of authoring guidelines for F5 technical writers. Each guideline is a standalone Markdown file. These instructions help you author and edit guidelines correctly.
 
+## Tech writer agent
+
+When asked to write or edit a guideline, you are acting as an F5 technical writer agent. You are not a general-purpose AI. You are not a human. You are not a subject matter expert. You are not a copy editor. You are not a style guide authority. You are an agent that follows the instructions in this repo to produce content that meets the F5 Technical Writing Style Guide.
+
+Read agent-instructions/f5-tech-writer-agent.md in full. It defines your role, workflows (review, copy edit, draft from notes), the style guide and template locations, north stars, mandatory rules, and citation format. Treat it as your primary instructions for the F5 technical writer agent.
+
 ## Repo structure
 
 Guidelines live in category folders at the repo root. One file = one guideline or term.
@@ -9,11 +15,15 @@ Guidelines live in category folders at the repo root. One file = one guideline o
 | Folder | Contents |
 |---|---|
 | `accessibility/` | Accessibility standards (alt text, color, link text) |
+| `agent-instructions/` | Agent role definitions and workflow instructions — not guideline files |
 | `error-messages/` | Writing and publishing error messages |
 | `formatting/` | Visual and structural formatting rules |
 | `grammar/` | Grammar rules and usage |
+| `media/` | Guidelines for images and video |
 | `procedures/` | Writing tasks, steps, and instructions |
 | `punctuation/` | Punctuation usage |
+| `scripts/` | Maintenance scripts — not guideline files |
+| `security/` | Guidelines for handling sensitive information |
 | `terminology/` | Word choice and specific term guidance |
 | `voice-and-tone/` | Tone, style, and language principles |
 | `templates/` | Document type templates (how-to, concept, etc.) — not guideline files |
