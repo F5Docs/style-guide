@@ -15,11 +15,15 @@ Guidelines live in category folders at the repo root. One file = one guideline o
 | Folder | Contents |
 |---|---|
 | `accessibility/` | Accessibility standards (alt text, color, link text) |
+| `agent-instructions/` | Agent role definitions and workflow instructions — not guideline files |
 | `error-messages/` | Writing and publishing error messages |
 | `formatting/` | Visual and structural formatting rules |
 | `grammar/` | Grammar rules and usage |
+| `media/` | Guidelines for images and video |
 | `procedures/` | Writing tasks, steps, and instructions |
 | `punctuation/` | Punctuation usage |
+| `scripts/` | Maintenance scripts — not guideline files |
+| `security/` | Guidelines for handling sensitive information |
 | `terminology/` | Word choice and specific term guidance |
 | `voice-and-tone/` | Tone, style, and language principles |
 | `templates/` | Document type templates (how-to, concept, etc.) — not guideline files |
