@@ -3,8 +3,8 @@ title: Admonitions
 category: procedures
 aliases: [admonitions, notes, warnings, cautions, tips, important]
 applies-to: [all F5 docs]
-source-authority: F5 Technical Style Guide, F5 NGINX Style Guide
-last-reviewed: 2026-04-02
+source-authority: F5 Technical Style Guide, F5 NGINX Style Guide, ASD-STE100
+last-reviewed: 2026-08-07
 ---
 
 # Admonitions
@@ -29,12 +29,17 @@ Use admonitions sparingly. Every note or warning you add trains readers to skip 
 > **Note:** BIG-IP Next Central Manager manages BIG-IP Next instances
 > only. It does not manage classic BIG-IP devices.
 
-> **Warning:** Restarting the service drops all active connections.
-> Use reload instead to apply configuration changes without downtime.
+> **Warning:** Use reload, not restart, to apply configuration
+> changes. Restarting the service drops all active connections.
 
 **Don't:**
 > **Note:** This is a very important step that you should not skip
 > because it is required for the configuration to work correctly.
+
+> **Warning:** Restarting the service drops all active connections.
+> Use reload instead to apply configuration changes without downtime.
+> (Leads with the risk instead of the command -- see Warning and
+> Caution structure below.)
 
 ## Notes
 
@@ -47,6 +52,15 @@ Caution is less severe than Warning:
 If you find yourself adding a Note to every procedure, consider whether that information belongs in the main content instead.
 
 Do not use admonitions as a substitute for clear writing. If the information is important enough to call out, consider whether it should be part of the main text.
+
+### Warning and Caution structure
+
+Start Warning and Caution text with the command or the triggering condition, not with the risk. State what to do -- or what to watch for -- first, then explain the consequence. A reader who only reads the first sentence should still know what action to take.
+
+- Do: Use reload, not restart, to apply configuration changes. Restarting the service drops all active connections.
+- Don't: Restarting the service drops all active connections. Use reload instead to apply configuration changes without downtime.
+
+If a Warning or Caution uses a vertical list, put "Do not" in each item that needs it instead of stating it once before the list. See [Lists](../formatting/lists.md).
 
 ## Related
 
