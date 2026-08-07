@@ -21,15 +21,19 @@
 - [Italics](formatting/italics.md)
 - [Lists](formatting/lists.md)
 - [Numbers](formatting/numbers.md)
+- [Placeholders](formatting/placeholders.md)
 - [Tables](formatting/tables.md)
 
 ## Grammar
+- [And/or](grammar/and-or.md)
 - [Articles](grammar/articles.md)
+- [Conditional sentences](grammar/conditional-sentences.md)
 - [Gerunds](grammar/gerunds.md)
 - [If vs. Whether](grammar/if-vs-whether.md)
 - [May, Can, and Might](grammar/may-can-might.md)
 - [Noun clusters](grammar/noun-clusters.md)
 - [Parallel structure](grammar/parallel-structure.md)
+- [Pronouns](grammar/pronouns.md)
 - [Tense](grammar/tense.md)
 - [That vs. Which](grammar/that-vs-which.md)
 
@@ -51,8 +55,10 @@
 - [Ellipses](punctuation/ellipses.md)
 - [Em dash](punctuation/em-dash.md)
 - [Oxford comma](punctuation/oxford-comma.md)
+- [Parentheses](punctuation/parentheses.md)
 - [Possessives](punctuation/possessives.md)
 - [Quotation marks](punctuation/quotation-marks.md)
+- [Semicolons](punctuation/semicolons.md)
 
 ## Security
 - [Sensitive information](security/sensitive-information.md)
@@ -79,6 +85,7 @@
 - [Hedging](voice-and-tone/hedging.md)
 - [Inclusive language](voice-and-tone/inclusive-language.md)
 - [Modern Voice](voice-and-tone/modern-voice.md)
+- [Paragraph structure](voice-and-tone/paragraph-structure.md)
 - [Please and Thank You](voice-and-tone/please-and-thank-you.md)
 - [Reading level](voice-and-tone/reading-level.md)
 - [Second person](voice-and-tone/second-person.md)
