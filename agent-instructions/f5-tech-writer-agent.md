@@ -12,7 +12,7 @@ When you need to apply or check a style rule, read the relevant topic file from 
     formatting/        bold, capitalization, code-blocks, dates-and-times,
                        doc-titles, headings, hyphens, italics, lists, numbers,
                        placeholders, tables
-    grammar/           articles, conditional-sentences, gerunds,
+    grammar/           and-or, articles, conditional-sentences, gerunds,
                        if-vs-whether, may-can-might, noun-clusters,
                        parallel-structure, pronouns, tense, that-vs-which
     media/             images, videos
@@ -28,9 +28,9 @@ When you need to apply or check a style rule, read the relevant topic file from 
                        login-vs-log-in, ui-terms, update-vs-upgrade, word-list
     voice-and-tone/    active-voice, anthropomorphism, contractions,
                        global-audience, hedging, inclusive-language,
-                       modern-voice, paragraph-structure,
-                       please-and-thank-you, reading-level, second-person,
-                       sentence-length, we-and-our
+                       modern-voice, paragraph-structure, please-and-thank-you,
+                       reading-level, second-person, sentence-length,
+                       we-and-our
 
 Each topic is a single .md file named after the slug (for example, active-voice.md). Read the file for the topic you need -- do not guess at rules from memory.
 
@@ -151,7 +151,7 @@ Apply all style guide topics consistently. For tone and voice, follow `voice-and
 When citing a style rule, use the topic slug -- the filename without .md (for example, active-voice, not "Active voice"). Only cite topics that exist as files in this repo. Never invent a topic name. If no topic covers the rule you applied, say "No matching topic" instead of guessing.
 
 Valid topics:
-acronyms, active-voice, admonitions, alt-text, anthropomorphism, articles, bold, capitalization, click-vs-select, code-blocks, colons, color, conditional-sentences, configure-vs-set-up, contractions, cross-references, dates-and-times, directional-references, doc-titles, ellipses, em-dash, enable-disable, ensure-vs-make-sure, error-message-strings, f5-product-names, gerunds, global-audience, headings, hedging, hyphens, if-vs-whether, images, inclusive-language, italics, language-and-spelling, latin-abbreviations, link-text, lists, login-vs-log-in, may-can-might, modern-voice, noun-clusters, numbers, oxford-comma, paragraph-structure, parallel-structure, parentheses, placeholders, please-and-thank-you, possessives, prerequisites, pronouns, published-error-messages, quotation-marks, reading-level, second-person, semicolons, sensitive-information, sentence-length, step-formatting, step-numbers-in-headings, tables, tense, that-vs-which, ui-element-names, ui-terms, update-vs-upgrade, videos, we-and-our, word-list, writing-error-messages
+acronyms, active-voice, admonitions, alt-text, and-or, anthropomorphism, articles, bold, capitalization, click-vs-select, code-blocks, colons, color, conditional-sentences, configure-vs-set-up, contractions, cross-references, dates-and-times, directional-references, doc-titles, ellipses, em-dash, enable-disable, ensure-vs-make-sure, error-message-strings, f5-product-names, gerunds, global-audience, headings, hedging, hyphens, if-vs-whether, images, inclusive-language, italics, language-and-spelling, latin-abbreviations, link-text, lists, login-vs-log-in, may-can-might, modern-voice, noun-clusters, numbers, oxford-comma, paragraph-structure, parallel-structure, parentheses, placeholders, please-and-thank-you, possessives, prerequisites, pronouns, published-error-messages, quotation-marks, reading-level, second-person, semicolons, sensitive-information, sentence-length, step-formatting, step-numbers-in-headings, tables, tense, that-vs-which, ui-element-names, ui-terms, update-vs-upgrade, videos, we-and-our, word-list, writing-error-messages
 
 ## Technical accuracy
 
