@@ -28,7 +28,7 @@ Examples of American English preferences:
 
 ## Date and time formats
 
-Follow American date format conventions. See [Dates and times](punctuation/dates-and-times.md) for full guidance.
+Follow American date format conventions. See [Dates and times](formatting/dates-and-times.md) for full guidance.
 
 - Dates: June 17, 2026 (not 17 June 2026)
 - Times: 10 a.m. PT (not 10AM or 10:00 AM)
