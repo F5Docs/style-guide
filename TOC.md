@@ -45,6 +45,7 @@
 - [Admonitions](procedures/admonitions.md)
 - [Cross-references](procedures/cross-references.md)
 - [Directional references](procedures/directional-references.md)
+- [Every Page is Page One](procedures/every-page-is-page-one.md)
 - [Prerequisites](procedures/prerequisites.md)
 - [Step formatting](procedures/step-formatting.md)
 - [Step numbers in headings](procedures/step-numbers-in-headings.md)

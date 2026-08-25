@@ -30,6 +30,30 @@ Guidelines live in category folders at the repo root. One file = one guideline o
 
 `TOC.md` is the authoritative list of all guidelines, organized by category in alphabetical order. `README.md` covers the guide's purpose and fallback authorities.
 
+## Documentation philosophy
+
+### Every Page is Page One
+
+F5 documentation follows the "Every Page is Page One" methodology. This means each topic should be self-contained and understandable without requiring readers to follow a specific reading sequence.
+
+**Core principles:**
+
+- **Provide context upfront** — Each page begins with enough context for readers to understand what it covers and when to use it
+- **Link to prerequisites** — Don't assume prior knowledge; link to prerequisite topics instead
+- **Avoid sequential language** — Don't use phrases like "as mentioned earlier" or "now that you've completed the previous step"
+- **Make topics discoverable** — Use clear, descriptive titles and metadata that help readers find what they need
+- **Define or link to terms** — Define key terms inline or link to the glossary rather than assuming familiarity
+
+**Apply this to guidelines:**
+
+When writing a guideline in this repo:
+- Start with a clear statement of what the rule is
+- Don't assume readers have read other guidelines first
+- Link to related guidelines instead of referencing them implicitly
+- Each guideline should be understandable on its own
+
+**Apply this to F5 product documentation:**
+
 ## Guideline file anatomy
 
 Every guideline file uses this structure (from `templates/guideline-template.md`):
