@@ -43,6 +43,7 @@ Do not use "click" — use "select" for all UI interactions regardless of device
 - [Active voice](../voice-and-tone/active-voice.md)
 - [Click vs. Select](../terminology/click-vs-select.md)
 - [Directional references](directional-references.md)
+- [Every Page is Page One](every-page-is-page-one.md)
 - [Lists](../formatting/lists.md)
 - [Step numbers in headings](step-numbers-in-headings.md)
 

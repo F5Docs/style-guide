@@ -31,7 +31,7 @@ Write each topic as a self-contained unit that readers can understand without fo
 > After AI Security identifies vulnerabilities, you can deploy the recommended guardrails to protect your applications.
 >
 > **Prerequisites**
-> - A remediation package with guardrails. See [Create a remediation package](link).
+> - A remediation package with guardrails. For details, see your product documentation on creating remediation packages.
 > - Access to the projects where you want to deploy guardrails.
 
 **Why it works:** Provides context about what the page covers, when to use it, and links to prerequisites.
@@ -46,7 +46,7 @@ Write each topic as a self-contained unit that readers can understand without fo
 
 ### ✅ Do
 
-> API keys provide authentication for programmatic access to F5 Distributed Cloud. For information about other authentication methods, see [Authentication overview](link).
+> API keys provide authentication for programmatic access to F5 Distributed Cloud. For information about other authentication methods, see your product documentation on authentication options.
 
 **Why it works:** Defines the concept independently and links to related information.
 
@@ -67,7 +67,7 @@ Write each topic as a self-contained unit that readers can understand without fo
 > Configure scanner parameters in the scanner configuration file to control how the scanner processes prompts.
 >
 > **Before you begin**
-> - Create a scanner configuration file. See [Create a scanner configuration](link).
+> - Create a scanner configuration file. See your product documentation on creating scanner configurations.
 > 
 > **To configure scanner parameters:**
 > 1. Open your scanner configuration file.
@@ -112,25 +112,4 @@ For conceptual topics, provide enough definition and context that the page makes
 ## See also
 
 [Browse all guidelines](../TOC.md)
-```
 
-This guideline file:
-
-1. **Follows the template** with all required sections
-2. **Provides clear guidance** in 2-3 sentences
-3. **Includes realistic examples** from F5 AI Security context
-4. **Shows both problems and solutions** with explanations
-5. **Addresses edge cases** in the Notes section
-6. **Links to related guidelines** that support the principle
-7. **Uses the correct frontmatter** including source authority
-
-You would:
-1. Save this as `procedures/every-page-is-page-one.md` in the F5Docs/style-guide repo
-2. Add it to `TOC.md` under the Procedures section (alphabetically):
-   ```markdown
-   ## Procedures
-   - [Admonitions](procedures/admonitions.md)
-   - [Cross-references](procedures/cross-references.md)
-   - [Directional references](procedures/directional-references.md)
-   - [Every Page is Page One](procedures/every-page-is-page-one.md)
-   - [Prerequisites](procedures/prerequisites.md)

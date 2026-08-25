@@ -47,6 +47,7 @@ When linking to external F5 documentation, use the full URL rather than masking 
 ## Related
 
 - [Directional references](directional-references.md)
+- [Every Page is Page One](every-page-is-page-one.md)
 - [F5 product names](../terminology/f5-product-names.md)
 - [Link text](../accessibility/link-text.md)
 - [UI element names](ui-element-names.md)
@@ -54,3 +55,4 @@ When linking to external F5 documentation, use the full URL rather than masking 
 ## See also
 
 [Browse all guidelines](../TOC.md)
+

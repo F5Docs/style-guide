@@ -41,9 +41,11 @@ Frame prerequisites naturally in the intro sentence rather than as a formal bloc
 ## Related
 
 - [Admonitions](admonitions.md)
+- [Every Page is Page One](every-page-is-page-one.md)
 - [Second person](../voice-and-tone/second-person.md)
 - [Step formatting](step-formatting.md)
 
 ## See also
 
 [Browse all guidelines](../TOC.md)
+
