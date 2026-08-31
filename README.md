@@ -4,7 +4,7 @@ A consolidated reference for F5 technical writers covering voice and tone, forma
 
 ## Purpose
 
-This guide consolidates F5's previously siloed style guides into a single, authoritative reference. Those guides are Modern Voice, Brand, NGINX, and the F5 Technical Style Guide. It is also configured as a knowledge base for the F5 Style GPT agent.
+This guide consolidates F5's previously siloed style guides into a single, authoritative reference. Those guides are Modern Voice, Brand, NGINX, and the F5 Technical Style Guide. This guide also serves as a knowledge base for the F5 Style GPT agent.
 
 ## How to use this guide
 
@@ -34,47 +34,54 @@ Follow American date format conventions. See [Dates and times](formatting/dates-
 - Times: 10 a.m. PT (not 10AM or 10:00 AM)
 - Availability: 24x7 (not 24/7)
 
-## Using as a submodule
+## Add this guide as a submodule
 
-To add this guide as a submodule to your documentation repository with the directory name `.style-guide`:
+Add this guide to your documentation repository as a submodule named `.style-guide`.
+
+1. Create a branch, add the submodule, and commit it:
+
+   ```bash
+   git checkout -b docs/add-style-guide-submodule
+   git submodule add https://github.com/F5Docs/style-guide.git .style-guide
+   git add .gitmodules .style-guide
+   git commit -m "docs: Add F5 style guide as submodule"
+   git push -u origin docs/add-style-guide-submodule
+   ```
+
+2. Open a pull request as usual.
+
+### Clone a repository that includes this submodule
+
+To clone a repository for the first time, include its submodules:
 
 ```bash
-git checkout -b docs/add-style-guide-submodule
-git submodule add https://github.com/F5Docs/style-guide.git .style-guide
-git add .gitmodules .style-guide
-git commit -m "docs: Add F5 style guide as submodule"
-git push -u origin docs/add-style-guide-submodule
+git clone --recurse-submodules <REPO_URL>
 ```
 
-Then open a PR as usual.
-
-### Cloning a repo that includes this submodule
-
-If you're cloning a repo for the first time, include submodules:
-
-```bash
-git clone --recurse-submodules <repo-url>
-```
-
-If you already have the repo cloned, initialize the submodule:
+If you already cloned the repository, initialize the submodule:
 
 ```bash
 git submodule update --init --recursive
 ```
 
-### Referencing guidelines in your documentation
+### Reference guidelines in your documentation
 
-From your documentation repo, reference guidelines using relative paths to the `.style-guide` submodule:
+From your documentation repository, reference guidelines with relative paths to the `.style-guide` submodule:
 
 ```markdown
 See [Capitalization guidance](./.style-guide/formatting/capitalization.md)
 ```
 
-### Using with AI coding assistants
+### Set up AI coding assistants
 
-The F5 Tech Writer Agent instructions live at `.style-guide/agent-instructions/f5-tech-writer-agent.md`. This file defines the assistant's role, workflows (review, copy edit, draft from notes), north stars, mandatory rules, and citation format. It's the single source of truth for agent behavior across every repo that includes this submodule.
+The F5 Tech Writer Agent instructions live at `.style-guide/agent-instructions/f5-tech-writer-agent.md`. This file is the single source of truth for agent behavior across every repository that includes this submodule. It defines the following:
 
-Each assistant loads instructions from a different file. Set up the ones your team uses.
+- The assistant's role
+- The review, copy edit, and draft from notes workflows
+- North stars and mandatory rules
+- The citation format
+
+Each assistant reads a different file. Set up the ones your team uses.
 
 | Assistant | Reads | Expands file references |
 |---|---|---|
@@ -82,73 +89,94 @@ Each assistant loads instructions from a different file. Set up the ones your te
 | Claude Code | `CLAUDE.md` only | Yes, with `@path` syntax |
 | opencode | `AGENTS.md`, falls back to `CLAUDE.md` | No, use `opencode.json` |
 
-Put your repo-specific context in `AGENTS.md` and point the other files at it. This gives you one file to maintain instead of three.
+Put your repository-specific context in `AGENTS.md`, then point the other files at it. This gives you one file to maintain instead of three.
 
-#### AGENTS.md
+#### Create AGENTS.md
 
-Create `AGENTS.md` in your repository root. Copilot and opencode both read it. Start with a directive to load the agent instructions, then add your repo-specific context below it:
+Copilot and opencode both read `AGENTS.md`.
 
-```markdown
-# <Your repo name>
+1. Create `AGENTS.md` in your repository root.
 
-Before responding to any request in this repo, read
-`.style-guide/agent-instructions/f5-tech-writer-agent.md` in full. It
-defines your role, workflows, north stars, mandatory rules, and citation
-format. Treat it as your primary instructions for this repo.
+2. Add a directive to load the agent instructions, then add your repository-specific context below it:
 
-## Repo-specific context
+   ```markdown
+   # <YOUR_REPO_NAME>
 
-<Build commands, content structure, linting rules, anything unique to
-this codebase.>
-```
+   Before responding to any request in this repo, read
+   `.style-guide/agent-instructions/f5-tech-writer-agent.md` in full. It
+   defines your role, workflows, north stars, mandatory rules, and citation
+   format. Treat it as your primary instructions for this repo.
 
-Keep repo-specific context in its own section, not mixed into the agent instructions reference.
+   ## Repo-specific context
 
-#### CLAUDE.md
+   <BUILD_COMMANDS_CONTENT_STRUCTURE_LINTING_RULES>
+   ```
 
-Claude Code doesn't read `AGENTS.md`. Create a `CLAUDE.md` that imports both files:
+   Keep repository-specific context in its own section. Don't mix it into the agent instructions reference.
 
-```markdown
-@AGENTS.md
-@.style-guide/agent-instructions/f5-tech-writer-agent.md
-```
+#### Create CLAUDE.md
 
-Claude Code expands both at the start of every session, so there's nothing to keep in sync as the agent instructions evolve. The second line is a live reference rather than a directive, which makes it more reliable than asking the assistant to read the file.
+Claude Code doesn't read `AGENTS.md`.
 
-If your repo already has a `CLAUDE.md` with repo-specific content, move that content to `AGENTS.md` and reduce `CLAUDE.md` to the two import lines. opencode ignores `CLAUDE.md` entirely when `AGENTS.md` exists, so content left only in `CLAUDE.md` is invisible to opencode users.
+1. Create `CLAUDE.md` in your repository root.
 
-#### opencode.json
+2. Import both files:
 
-opencode reads `AGENTS.md`, but it does not expand `@` references or Markdown links. Add an `opencode.json` in your repository root so the agent instructions load every session:
+   ```markdown
+   @AGENTS.md
+   @.style-guide/agent-instructions/f5-tech-writer-agent.md
+   ```
 
-```json
-{
-  "$schema": "https://opencode.ai/config.json",
-  "instructions": [".style-guide/agent-instructions/f5-tech-writer-agent.md"]
-}
-```
+   Claude Code expands both files at the start of every session. Nothing stays out of sync as the agent instructions change. The second line is a live reference rather than a directive, which makes it more reliable than asking the assistant to read the file.
 
-Without this file, opencode sees only the directive in `AGENTS.md` and may or may not open the referenced file.
+3. If your repository already has a `CLAUDE.md` with repository-specific content, move that content to `AGENTS.md`. Reduce `CLAUDE.md` to the two import lines.
+
+   When `AGENTS.md` exists, opencode ignores `CLAUDE.md` completely. Content left only in `CLAUDE.md` is invisible to opencode users.
+
+#### Create opencode.json
+
+opencode reads `AGENTS.md`, but it doesn't expand `@` references or Markdown links. Without `opencode.json`, opencode sees only the directive in `AGENTS.md` and might not open the referenced file.
+
+1. Create `opencode.json` in your repository root, next to `AGENTS.md`:
+
+   ```json
+   {
+     "$schema": "https://opencode.ai/config.json",
+     "instructions": [".style-guide/agent-instructions/f5-tech-writer-agent.md"]
+   }
+   ```
+
+   Paths in `instructions` resolve relative to the config file, so this path works from the repository root.
+
+2. Commit the file. It's team configuration, so everyone who clones the repository gets the same setup.
+
+Every repository needs its own `opencode.json`. This repository ships one, but opencode searches the current directory and then traverses up to the nearest Git directory. opencode never descends into a submodule, so a downstream repository never reads the `opencode.json` inside `.style-guide/`.
 
 #### Verify the setup
 
-Directives ask the assistant to read a file, which isn't guaranteed on every turn. Test in a fresh session. Before giving the assistant a task, ask it to describe its instructions for the repo:
+A directive asks the assistant to read a file, and the assistant might not do it on every turn. Verify each assistant your team uses. A working Copilot configuration doesn't mean opencode is configured.
 
-> Summarize your instructions for this repository.
+1. Start a fresh session.
 
-If it accurately describes the review, copy edit, and draft workflows from `f5-tech-writer-agent.md`, the reference is working. Repeat for each assistant your team uses. Setup differs per tool, so a working Copilot configuration doesn't mean opencode is configured.
+2. Before you give the assistant a task, ask it to describe its instructions:
 
-Once configured, contributors can ask the assistant to:
+   > Summarize your instructions for this repository.
 
-- **Review a file** -- flag style issues, cite the specific guideline each one violates, and suggest fixes.
+3. Check the response. If the assistant describes the review, copy edit, and draft from notes workflows from `f5-tech-writer-agent.md`, the reference works.
+
+4. Repeat these steps for each assistant your team uses.
+
+After you configure an assistant, contributors can ask it to do the following:
+
+- **Review a file.** The assistant flags style issues, cites the guideline each one violates, and suggests fixes.
 
   > Review this file for F5 style: `content/path/to/your-file.md`
 
-- **Copy edit a file** -- revise the file in place and list every change made, with the guideline it applies.
+- **Copy edit a file.** The assistant revises the file in place, then lists every change with the guideline it applies.
 
   > Copy edit this file: `content/path/to/your-file.md`
 
-- **Draft from notes** -- turn raw notes into a structured draft. The assistant identifies the content type (how-to, concept, reference, tutorial, etc.), loads the matching template from `.style-guide/templates/`, and follows its section structure.
+- **Draft from notes.** The assistant turns raw notes into a structured draft. It identifies the content type, such as how-to, concept, reference, or tutorial. It then loads the matching template from `.style-guide/templates/` and follows that template's section structure.
 
   > Write a draft from the following notes:
   > - explain what an upstream block is in NGINX
@@ -157,21 +185,23 @@ Once configured, contributors can ask the assistant to:
   > - used with proxy_pass in a server or location block
   > - audience: developers new to NGINX
 
-The [nginx/documentation](https://github.com/nginx/documentation) repo includes this submodule and configures these files. Check its repository root for a working example.
+The [nginx/documentation](https://github.com/nginx/documentation) repository includes this submodule and configures these files. Check its repository root for a working example.
 
-### Updating the submodule
+### Update the submodule
 
-To fetch the latest updates from the style guide repository:
+To get the latest updates from the style guide repository:
 
-```bash
-git checkout -b chore/sync-style-guide
-git submodule update --remote .style-guide
-git add .style-guide
-git commit -m "chore: Update F5 style guide submodule"
-git push -u origin chore/sync-style-guide
-```
+1. Create a branch, update the submodule, and commit the change:
 
-Then open a PR as usual.
+   ```bash
+   git checkout -b chore/sync-style-guide
+   git submodule update --remote .style-guide
+   git add .style-guide
+   git commit -m "chore: Update F5 style guide submodule"
+   git push -u origin chore/sync-style-guide
+   ```
+
+2. Open a pull request as usual.
 
 ## Contributing
 
