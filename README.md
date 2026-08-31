@@ -4,7 +4,7 @@ A consolidated reference for F5 technical writers covering voice and tone, forma
 
 ## Purpose
 
-This guide consolidates F5's previously siloed style guides — Modern Voice, Brand, NGINX, and the F5 Technical Style Guide — into a single, authoritative reference. It is also configured as a knowledge base for the F5 Style GPT agent.
+This guide consolidates F5's previously siloed style guides into a single, authoritative reference. Those guides are Modern Voice, Brand, NGINX, and the F5 Technical Style Guide. It is also configured as a knowledge base for the F5 Style GPT agent.
 
 ## How to use this guide
 
@@ -72,30 +72,71 @@ See [Capitalization guidance](./.style-guide/formatting/capitalization.md)
 
 ### Using with AI coding assistants
 
-The F5 Tech Writer Agent instructions live at `.style-guide/agent-instructions/f5-tech-writer-agent.md`. Reference this file in your `CLAUDE.md` or `.github/copilot-instructions.md`. This file defines the assistant's role, workflows (review, copy edit, draft from notes), north stars, mandatory rules, and citation format. It's the single source of truth for agent behavior across every repo that includes this submodule.
+The F5 Tech Writer Agent instructions live at `.style-guide/agent-instructions/f5-tech-writer-agent.md`. This file defines the assistant's role, workflows (review, copy edit, draft from notes), north stars, mandatory rules, and citation format. It's the single source of truth for agent behavior across every repo that includes this submodule.
 
-**For CLAUDE.md**, use Claude Code's file import syntax to load the agent instructions directly:
+Each assistant loads instructions from a different file. Set up the ones your team uses.
+
+| Assistant | Reads | Expands file references |
+|---|---|---|
+| GitHub Copilot | `AGENTS.md`, `.github/copilot-instructions.md` | No |
+| Claude Code | `CLAUDE.md` only | Yes, with `@path` syntax |
+| opencode | `AGENTS.md`, falls back to `CLAUDE.md` | No, use `opencode.json` |
+
+Put your repo-specific context in `AGENTS.md` and point the other files at it. This gives you one file to maintain instead of three.
+
+#### AGENTS.md
+
+Create `AGENTS.md` in your repository root. Copilot and opencode both read it. Start with a directive to load the agent instructions, then add your repo-specific context below it:
 
 ```markdown
-@.style-guide/agent-instructions/f5-tech-writer-agent.md
-```
-
-This is a live reference. Claude Code expands it into context at the start of every session, so there's nothing to keep in sync as the agent instructions evolve.
-
-**For `.github/copilot-instructions.md`**, GitHub Copilot doesn't support file imports, so you need to instruct the assistant to read the file:
-
-```markdown
-## Agent instructions
+# <Your repo name>
 
 Before responding to any request in this repo, read
 `.style-guide/agent-instructions/f5-tech-writer-agent.md` in full. It
 defines your role, workflows, north stars, mandatory rules, and citation
 format. Treat it as your primary instructions for this repo.
+
+## Repo-specific context
+
+<Build commands, content structure, linting rules, anything unique to
+this codebase.>
 ```
 
-This depends on the assistant actually reading the file before responding, which isn't guaranteed on every turn. Test it in a fresh session: before giving the assistant any specific task, ask it to describe its instructions for the repo. If it accurately describes the workflows and rules from `f5-tech-writer-agent.md`, the reference is working.
+Keep repo-specific context in its own section, not mixed into the agent instructions reference.
 
-Add repo-specific context — build commands, content structure, linting rules, anything unique to that codebase — below the agent instructions reference, not mixed into it.
+#### CLAUDE.md
+
+Claude Code doesn't read `AGENTS.md`. Create a `CLAUDE.md` that imports both files:
+
+```markdown
+@AGENTS.md
+@.style-guide/agent-instructions/f5-tech-writer-agent.md
+```
+
+Claude Code expands both at the start of every session, so there's nothing to keep in sync as the agent instructions evolve. The second line is a live reference rather than a directive, which makes it more reliable than asking the assistant to read the file.
+
+If your repo already has a `CLAUDE.md` with repo-specific content, move that content to `AGENTS.md` and reduce `CLAUDE.md` to the two import lines. opencode ignores `CLAUDE.md` entirely when `AGENTS.md` exists, so content left only in `CLAUDE.md` is invisible to opencode users.
+
+#### opencode.json
+
+opencode reads `AGENTS.md`, but it does not expand `@` references or Markdown links. Add an `opencode.json` in your repository root so the agent instructions load every session:
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [".style-guide/agent-instructions/f5-tech-writer-agent.md"]
+}
+```
+
+Without this file, opencode sees only the directive in `AGENTS.md` and may or may not open the referenced file.
+
+#### Verify the setup
+
+Directives ask the assistant to read a file, which isn't guaranteed on every turn. Test in a fresh session. Before giving the assistant a task, ask it to describe its instructions for the repo:
+
+> Summarize your instructions for this repository.
+
+If it accurately describes the review, copy edit, and draft workflows from `f5-tech-writer-agent.md`, the reference is working. Repeat for each assistant your team uses. Setup differs per tool, so a working Copilot configuration doesn't mean opencode is configured.
 
 Once configured, contributors can ask the assistant to:
 
@@ -116,7 +157,7 @@ Once configured, contributors can ask the assistant to:
   > - used with proxy_pass in a server or location block
   > - audience: developers new to NGINX
 
-See the [`copilot-instructions.md`](https://github.com/nginx/documentation/blob/main/.github/copilot-instructions.md) file in the [nginx/documentation](https://github.com/nginx/documentation) repo for a working example.
+The [nginx/documentation](https://github.com/nginx/documentation) repo includes this submodule and configures these files. Check its repository root for a working example.
 
 ### Updating the submodule
 
