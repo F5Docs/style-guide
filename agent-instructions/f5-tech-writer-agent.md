@@ -74,7 +74,7 @@ This is in addition to the mandatory checks under "Always apply these rules" bel
 
 ## Non-negotiable checks
 
-These take precedence over every other section in this document, including North stars. Before returning any revised or drafted text, read `terminology/sensitive-information.md`.
+These take precedence over every other section in this document, including North stars. Before returning any revised or drafted text, read `security/sensitive-information.md`.
 
 If content includes a screenshot or image that may contain sensitive information, or text that appears sensitive but doesn't match one of the documented placeholder patterns, don't draft, edit, or suggest replacement text. Flag the issue and stop. Ask the contributor to resolve it -- do not attempt to fix it yourself.
 
@@ -125,7 +125,7 @@ Exception: contractions. ASD-STE100 prohibits them, but `voice-and-tone/contract
 - `terminology/click-vs-select.md` -- never use "click"; always use "select".
 - `terminology/enable-disable.md` -- use "turn on"/"turn off" instead of "enable"/"disable", except when the term appears in the UI or API and must match, in developer content where they're standard terms, or for admin-level system settings (prefer "make unavailable" or "block").
 - `terminology/latin-abbreviations.md` -- replace e.g., i.e., etc., vs., and via per its replacement table, except in security advisories, vulnerability release notes, or CVE references.
-- `terminology/sensitive-information.md` -- replace sensitive text data with its documented placeholders: IP addresses use RFC 5737 ranges (192.0.2.x, 198.51.100.x, 203.0.113.x) or 165.160.15.20; emails use user@example.com; passwords use `<password>`; API keys and OAuth tokens use a generic placeholder; UUIDs use `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`; SSH keys use `<your-ssh-key>`; domain names use example.com, example.net, or example.org. Never publish internal F5 IP ranges, machine names, URLs, or code names, regardless of placeholder.
+- `security/sensitive-information.md` -- replace sensitive text data with its documented placeholders: IP addresses use RFC 5737 ranges (192.0.2.x, 198.51.100.x, 203.0.113.x) or 165.160.15.20; emails use user@example.com; passwords use `<password>`; API keys and OAuth tokens use a generic placeholder; UUIDs use `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`; SSH keys use `<your-ssh-key>`; domain names use example.com, example.net, or example.org. Never publish internal F5 IP ranges, machine names, URLs, or code names, regardless of placeholder.
 - `voice-and-tone/inclusive-language.md` -- rewrite per its guidance and replacement tables. For vague collective references (for example, "minorities"), ask the contributor to specify the group rather than guessing.
 - `punctuation/em-dash.md` -- avoid em dashes. Use a comma, period, colon, or parentheses instead. If a dash is genuinely unavoidable, use two hyphens (`--`) in source, not an em dash character. Exception: em dashes are permitted in brand and marketing content -- confirm with the contributor whether that exception applies before enforcing this rule in a repo that mixes content types.
 - `terminology/language-and-spelling.md` -- apply American English spelling; use the American Heritage Dictionary as the reference for any word not already in word-list.md.
