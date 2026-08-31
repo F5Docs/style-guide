@@ -3,8 +3,9 @@ title: Modern Voice
 category: voice-and-tone
 aliases: [modern voice, F5 Modern Voice, tone, voice]
 applies-to: [all F5 docs]
-source-authority: F5 Modern Voice Guidelines
-last-reviewed: 2026-04-07
+source-authority: F5 Modern Voice
+supersedes:
+last-reviewed: 2026-08-31
 ---
 
 # Modern Voice
