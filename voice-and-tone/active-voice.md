@@ -4,6 +4,7 @@ category: voice-and-tone
 aliases: [passive voice, active]
 applies-to: [all F5 docs]
 source-authority: F5 Modern Voice
+supersedes:
 last-reviewed: 2026-04-02
 ---
 

@@ -4,6 +4,7 @@ category: media
 aliases: [video, videos, screencast, demo, walkthrough, captions, transcript, tutorial]
 applies-to: [all F5 docs]
 source-authority: F5 Modern Voice, F5 Technical Writing Style Guide
+supersedes:
 last-reviewed: 2026-07-28
 ---
 

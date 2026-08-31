@@ -4,6 +4,7 @@ category: terminology
 aliases: [setup, set up, configure]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Style Guide
+supersedes:
 last-reviewed: 2026-04-02
 ---
 

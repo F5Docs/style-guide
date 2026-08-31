@@ -4,6 +4,7 @@ category: punctuation
 aliases: [serial comma, Oxford comma]
 applies-to: [all F5 docs]
 source-authority: F5 NGINX Style Guide, F5 Brand Style Guide
+supersedes:
 last-reviewed: 2026-04-02
 ---
 

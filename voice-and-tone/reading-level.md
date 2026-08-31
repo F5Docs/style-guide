@@ -4,6 +4,7 @@ category: voice-and-tone
 aliases: [reading level, Flesch-Kincaid, grade level, readability]
 applies-to: [all F5 docs]
 source-authority: F5 Modern Voice, F5 NGINX Style Guide
+supersedes:
 last-reviewed: 2026-04-02
 ---
 

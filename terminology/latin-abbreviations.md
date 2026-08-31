@@ -4,6 +4,7 @@ category: terminology
 aliases: [e.g., i.e., etc., Latin, abbreviations]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Style Guide, F5 NGINX Style Guide
+supersedes:
 last-reviewed: 2026-04-02
 ---
 

@@ -4,6 +4,7 @@ category: media
 aliases: [images, screenshots, figures, diagrams, graphics]
 applies-to: [all F5 docs]
 source-authority: F5 NGINX Style Guide, F5 Technical Style Guide
+supersedes:
 last-reviewed: 2026-07-28
 ---
 

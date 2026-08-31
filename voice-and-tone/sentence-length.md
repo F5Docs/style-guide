@@ -4,6 +4,7 @@ category: voice-and-tone
 aliases: [sentence length, paragraph length, concise, brevity, word count]
 applies-to: [all F5 docs]
 source-authority: F5 Modern Voice, ASD-STE100
+supersedes:
 last-reviewed: 2026-08-07
 ---
 

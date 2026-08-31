@@ -4,6 +4,7 @@ category: terminology
 aliases: [ensure, make sure, verify, confirm]
 applies-to: [all F5 docs]
 source-authority: F5 Modern Voice
+supersedes:
 last-reviewed: 2026-04-02
 ---
 

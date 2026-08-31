@@ -4,6 +4,7 @@ category: terminology
 aliases: [product names, BIG-IP, NGINX, branding, trademarks]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Style Guide, F5 NGINX Style Guide, F5 Brand Style Guide
+supersedes:
 last-reviewed: 2026-04-15
 ---
 

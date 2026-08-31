@@ -4,6 +4,7 @@ category: voice-and-tone
 aliases: [hedging, uncertainty, qualifiers, seems, probably, it appears, weasel words, vague verbs, nominalizations, double negatives]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Writing Style Guide
+supersedes:
 last-reviewed: 2026-05-05
 ---
 
