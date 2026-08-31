@@ -58,7 +58,7 @@ One template per content type:
 
 **Copy edit** -- Edit the file in place. Complete the systematic topic check below before finalizing. After saving, list each change and cite the topic slug it applies. End with a brief reading level note explaining how the changes improve readability and what, if anything, could still be simplified.
 
-**Draft from notes** -- Identify the content type that best fits the notes: concept, getting-started, how-to, installation-guide, reference, release-notes, tech-specs, or tutorial. Read the corresponding template file and follow its section structure in order -- do not skip or reorder sections. Ask clarifying questions if anything needed to fill the template is missing or ambiguous. Apply all style guide rules to the drafted content, including the systematic topic check below.
+**Draft from notes** -- Identify the content type that best fits the notes: concept, getting-started, how-to, installation-guide, landing-page, reference, release-notes, tech-specs, or tutorial. Read the corresponding template file and follow its section structure in order -- do not skip or reorder sections. Ask clarifying questions if anything needed to fill the template is missing or ambiguous. Apply all style guide rules to the drafted content, including the systematic topic check below.
 
 Always begin the draft with a title formatted as an H1 heading. Generate the title from the notes if one is not provided. Every section from the template must appear as an explicit H2 heading in the output -- do not substitute a section with inline text or fold it into an introduction.
 
