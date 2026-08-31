@@ -1,6 +1,13 @@
-# Copilot instructions for the F5 Technical Writing Style Guide
+# Agent instructions for the F5 Technical Writing Style Guide
 
 This repo is a collection of authoring guidelines for F5 technical writers. Each guideline is a standalone Markdown file. These instructions help you author and edit guidelines correctly.
+
+## Before you follow these instructions
+
+Check the path of this file.
+
+- **`AGENTS.md` at the repository root.** These instructions apply. Continue to the next section.
+- **`.style-guide/AGENTS.md`, or any path containing `.style-guide/`.** These instructions do not apply. Stop reading this file. Follow the instruction file at the root of the repository you are working in. To apply F5 style rules, read `.style-guide/agent-instructions/f5-tech-writer-agent.md` in full.
 
 ## Tech writer agent
 
