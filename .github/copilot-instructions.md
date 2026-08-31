@@ -15,20 +15,23 @@ Guidelines live in category folders at the repo root. One file = one guideline o
 | Folder | Contents |
 |---|---|
 | `accessibility/` | Accessibility standards (alt text, color, link text) |
-| `agent-instructions/` | Agent role definitions and workflow instructions — not guideline files |
+| `agent-instructions/` | Agent role definitions and workflow instructions. Not guideline files |
 | `error-messages/` | Writing and publishing error messages |
 | `formatting/` | Visual and structural formatting rules |
 | `grammar/` | Grammar rules and usage |
 | `media/` | Guidelines for images and video |
 | `procedures/` | Writing tasks, steps, and instructions |
 | `punctuation/` | Punctuation usage |
-| `scripts/` | Maintenance scripts — not guideline files |
+| `scripts/` | Maintenance scripts. Not guideline files |
 | `security/` | Guidelines for handling sensitive information |
 | `terminology/` | Word choice and specific term guidance |
+| `tmp/` | Scratch space. Ignored by Git. Never add guidelines here |
 | `voice-and-tone/` | Tone, style, and language principles |
-| `templates/` | Document type templates (how-to, concept, etc.) — not guideline files |
+| `templates/` | Document type templates (how-to, concept, and so on). Not guideline files |
 
 `TOC.md` is the authoritative list of all guidelines, organized by category in alphabetical order. `README.md` covers the guide's purpose and fallback authorities.
+
+Files in `agent-instructions/` use the same frontmatter fields as guideline files, but they are not guidelines. Do not add them to `TOC.md`.
 
 ## Guideline file anatomy
 
@@ -56,13 +59,31 @@ last-reviewed: YYYY-MM-DD
 
 ### Frontmatter fields
 
-- **`title`** — The display name for the guideline. Required.
-- **`category`** — The folder name (e.g., `formatting`, `terminology`). Required.
-- **`aliases`** — Alternative terms a writer might search for. Use a YAML list.
-- **`applies-to`** — Default is `[all F5 docs]` unless the rule is scoped.
-- **`source-authority`** — The guide(s) this rule originates from. Use one or more of: `F5 Technical Style Guide`, `F5 Modern Voice`, `F5 NGINX Style Guide`, `F5 Brand Style Guide`, `Microsoft Style Guide`. If the rule is original to this guide with no prior source, use `F5 Technical Writing Style Guide`.
-- **`supersedes`** — Only populate when this guideline explicitly overrides a rule in a source guide. Omit if unused.
-- **`last-reviewed`** — Set to today's date in ISO 8601 format (`YYYY-MM-DD`) when creating or updating a file.
+- **`title`**: The display name for the guideline. Required.
+- **`category`**: The folder name, for example `formatting` or `terminology`. Required.
+- **`aliases`**: Alternative terms a writer might search for. Use a YAML list.
+- **`applies-to`**: Default is `[all F5 docs]` unless the rule is scoped to a single product or doc set.
+- **`source-authority`**: The guide or guides this rule originates from. Required. Use one or more of the values in the table below. If the rule is original to this guide with no prior source, use `F5 Technical Writing Style Guide`.
+- **`supersedes`**: Name the specific rule this guideline overrides, for example `ASD-STE100 (Rule 4.2 -- contractions)`. Include the key with an empty value when nothing is superseded.
+- **`last-reviewed`**: Set to today's date in ISO 8601 format (`YYYY-MM-DD`) when creating or updating a file.
+
+### Source authority values
+
+Use only these values in `source-authority`. Write them exactly as shown.
+
+| Value | Use for |
+|---|---|
+| `F5 Technical Style Guide` | The core F5 technical writing guide |
+| `F5 NGINX Style Guide` | NGINX-specific writing guidance |
+| `F5 Modern Voice` | F5 voice and tone guidance |
+| `F5 Brand Style Guide` | Brand, naming, and trademark guidance |
+| `F5 Distributed Cloud Style Guide` | Distributed Cloud writing guidance |
+| `Microsoft Style Guide` | The primary fallback authority |
+| `ASD-STE100` | Simplified Technical English rules |
+| `Screaming Frog Page Title Guide` | Page title and SEO guidance |
+| `F5 Technical Writing Style Guide` | Rules original to this guide with no prior source |
+
+To list more than one value, separate them with commas and order them as they appear in the table.
 
 ## Content conventions
 
@@ -74,10 +95,10 @@ last-reviewed: YYYY-MM-DD
 ### Examples section
 - Every guideline requires at least one **Do** and one **Don't**.
 - Use blockquotes (`>`) for example text.
-- Examples should be minimal and realistic — prefer F5 product context over generic filler.
+- Keep examples minimal and realistic. Prefer F5 product context over generic filler.
 
 ### Notes section
-- Optional. If there is nothing meaningful to add, omit the `## Notes` heading entirely — an empty heading is worse than no section.
+- Optional. If there is nothing meaningful to add, omit the `## Notes` heading entirely. An empty heading is worse than no section.
 - Use for edge cases, exceptions, and conflicts with fallback guides.
 - If this guide diverges from a fallback authority, explain which authority this guide follows and why.
 
@@ -118,7 +139,7 @@ Before drafting, always ask the contributor:
 
 Then follow these steps:
 
-1. Check `TOC.md` first — a guideline may already exist.
+1. Check `TOC.md` first. A guideline may already exist.
 2. Copy `templates/guideline-template.md` and complete every required frontmatter field.
 3. Place the file in the correct category folder.
 4. Add an entry to `TOC.md` in alphabetical order within the correct section.
