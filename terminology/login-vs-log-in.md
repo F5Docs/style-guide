@@ -4,6 +4,7 @@ category: terminology
 aliases: [login, log in, log out, logout, sign in, sign out]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Style Guide
+supersedes:
 last-reviewed: 2026-04-02
 ---
 

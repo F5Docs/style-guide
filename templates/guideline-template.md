@@ -4,7 +4,7 @@ category:
 aliases: []
 applies-to: [all F5 docs]
 source-authority: 
-supersedes: 
+supersedes:
 last-reviewed: YYYY-MM-DD
 ---
 

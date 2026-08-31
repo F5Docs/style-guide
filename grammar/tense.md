@@ -4,6 +4,7 @@ category: grammar
 aliases: [tense, present tense, future tense, past tense]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Style Guide, ASD-STE100
+supersedes:
 last-reviewed: 2026-08-07
 ---
 

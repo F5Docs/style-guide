@@ -4,6 +4,7 @@ category: formatting
 aliases: [lists, bullet points, numbered lists, bulleted lists, vertical lists]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Style Guide, ASD-STE100
+supersedes:
 last-reviewed: 2026-08-07
 ---
 

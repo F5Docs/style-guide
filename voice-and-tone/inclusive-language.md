@@ -4,6 +4,7 @@ category: voice-and-tone
 aliases: [inclusive language, gender neutral, person-first, diversity]
 applies-to: [all F5 docs]
 source-authority: F5 Brand Style Guide
+supersedes:
 last-reviewed: 2026-04-02
 ---
 

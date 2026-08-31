@@ -4,6 +4,7 @@ category: procedures
 aliases: [step prefix, step X, numbered headings, step labels in headings]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Writing Style Guide
+supersedes:
 last-reviewed: 2026-06-09
 ---
 

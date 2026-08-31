@@ -4,6 +4,7 @@ category: procedures
 aliases: [admonitions, notes, warnings, cautions, tips, important]
 applies-to: [all F5 docs]
 source-authority: F5 Technical Style Guide, F5 NGINX Style Guide, ASD-STE100
+supersedes:
 last-reviewed: 2026-08-07
 ---
 
