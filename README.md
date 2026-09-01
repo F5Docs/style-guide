@@ -74,7 +74,7 @@ See [Capitalization guidance](./.style-guide/formatting/capitalization.md)
 
 ### Set up AI coding assistants
 
-The F5 Tech Writer Agent instructions live at `.style-guide/agent-instructions/f5-tech-writer-agent.md`. This file is the single source of truth for agent behavior across every repository that includes this submodule. It defines the following:
+The F5 Tech Writer Agent instructions live at `.style-guide/agent-instructions/f5-tech-writer-agent.md`. This file defines the following:
 
 - The assistant's role
 - The review, copy edit, and draft from notes workflows
@@ -89,7 +89,7 @@ Each assistant reads a different file. Set up the ones your team uses.
 | Claude Code | `CLAUDE.md` only | Yes, with `@path` syntax |
 | opencode | `AGENTS.md`, falls back to `CLAUDE.md` | No, use `opencode.json` |
 
-Put your repository-specific context in `AGENTS.md`, then point the other files at it. This gives you one file to maintain instead of three.
+Put your repository-specific context in `AGENTS.md`, then point the other files at it.
 
 #### Create AGENTS.md
 
@@ -127,15 +127,15 @@ Claude Code doesn't read `AGENTS.md`.
    @.style-guide/agent-instructions/f5-tech-writer-agent.md
    ```
 
-   Claude Code expands both files at the start of every session. Nothing stays out of sync as the agent instructions change. The second line is a live reference rather than a directive, which makes it more reliable than asking the assistant to read the file.
+   Claude Code expands both files at the start of every session.
 
 3. If your repository already has a `CLAUDE.md` with repository-specific content, move that content to `AGENTS.md`. Reduce `CLAUDE.md` to the two import lines.
 
-   When `AGENTS.md` exists, opencode ignores `CLAUDE.md` completely. Content left only in `CLAUDE.md` is invisible to opencode users.
+   When `AGENTS.md` exists, opencode ignores `CLAUDE.md`. Content left only in `CLAUDE.md` is invisible to opencode users.
 
 #### Create opencode.json
 
-opencode reads `AGENTS.md`, but it doesn't expand `@` references or Markdown links. Without `opencode.json`, opencode sees only the directive in `AGENTS.md` and might not open the referenced file.
+opencode doesn't expand `@` references or Markdown links. Use `opencode.json` to load the agent instructions at the start of every session. The `instructions` array adds to `AGENTS.md` rather than replacing it.
 
 1. Create `opencode.json` in your repository root, next to `AGENTS.md`:
 
@@ -146,23 +146,23 @@ opencode reads `AGENTS.md`, but it doesn't expand `@` references or Markdown lin
    }
    ```
 
-   Paths in `instructions` resolve relative to the config file, so this path works from the repository root.
+   Paths in `instructions` resolve relative to the config file.
 
-2. Commit the file. It's team configuration, so everyone who clones the repository gets the same setup.
+2. Commit the file so everyone who clones the repository gets the same setup.
 
-Every repository needs its own `opencode.json`. This repository ships one, but opencode searches the current directory and then traverses up to the nearest Git directory. opencode never descends into a submodule, so a downstream repository never reads the `opencode.json` inside `.style-guide/`.
+Every repository needs its own `opencode.json`. A downstream repository doesn't read the `opencode.json` inside `.style-guide/`.
 
 #### Verify the setup
 
-A directive asks the assistant to read a file, and the assistant might not do it on every turn. Verify each assistant your team uses. A working Copilot configuration doesn't mean opencode is configured.
+Verify each assistant your team uses.
 
 1. Start a fresh session.
 
-2. Before you give the assistant a task, ask it to describe its instructions:
+2. Ask a question that only the agent instructions can answer:
 
-   > Summarize your instructions for this repository.
+   > What are the north stars for F5 documentation?
 
-3. Check the response. If the assistant describes the review, copy edit, and draft from notes workflows from `f5-tech-writer-agent.md`, the reference works.
+3. Check the response. The assistant names `sentence-length`, `active-voice`, `reading-level`, and `global-audience`.
 
 4. Repeat these steps for each assistant your team uses.
 
