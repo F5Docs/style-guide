@@ -81,6 +81,20 @@ The F5 Tech Writer Agent instructions live at `.style-guide/agent-instructions/f
 - North stars and mandatory rules
 - The citation format
 
+For a repository that doesn't have any of these files yet, run the setup script from a local clone of this repository:
+
+```bash
+scripts/deploy-writer-agent.sh /path/to/your-docs-repo
+```
+
+The script adds the `.style-guide` submodule if it's missing, then creates `AGENTS.md`, `.github/copilot-instructions.md`, `CLAUDE.md`, and `opencode.json`. It runs as a dry run by default. Pass `--apply` to write the files.
+
+The script never overwrites an existing file. It also refuses to run when `.github/copilot-instructions.md` already has content, because moving that content into `AGENTS.md` needs a person.
+
+When a file already exists, the script checks whether it references the agent instructions. Files that don't are marked `ACTION` with the edit they need, and the script exits with status 2. Every run writes `deploy-writer-agent.log` to the repository root, ending with the list of files to fix. Delete the log before you commit.
+
+The sections below describe each file, for repositories the script can't set up and for anyone who wants to know what it wrote.
+
 Each assistant reads a different file. Set up the ones your team uses.
 
 | Assistant | Reads | Expands file references |
