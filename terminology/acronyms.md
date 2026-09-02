@@ -215,7 +215,6 @@ These acronyms are not widely understood and do need to be spelled out:
 | VRRP    | Virtual Router Redundancy Protocol                |
 | vSite   | Virtual Site                                      |
 | WAAP    | Web App & API Protection                          |
-| WAF     | Web Application Firewall                          |
 | ZTP     | Zero Touch Provisioning                           |
 
 ## Related
