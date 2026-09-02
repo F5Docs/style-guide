@@ -18,7 +18,8 @@ Keeping these instructions here provides one maintained source instead of duplic
 2. Follow the submodule setup and update steps in the root [README](../README.md).
 3. In the downstream `AGENTS.md` file, reference `.style-guide/agent-instructions/f5-tech-writer-agent.md`. Put `AGENTS.md` in the repository root.
 4. Add `CLAUDE.md` and `opencode.json` to the repository root so Claude Code and opencode load the same instructions. Commit both files. See the root [README](../README.md) for what each assistant needs.
-5. Keep only downstream repository-specific additions in `AGENTS.md`.
+5. Replace the contents of `.github/copilot-instructions.md` with a pointer to `AGENTS.md`, for Copilot surfaces that don't read `AGENTS.md`.
+6. Keep only downstream repository-specific additions in `AGENTS.md`.
 
 ## Scope
 

@@ -85,7 +85,7 @@ Each assistant reads a different file. Set up the ones your team uses.
 
 | Assistant | Reads | Expands file references |
 |---|---|---|
-| GitHub Copilot | `AGENTS.md`, `.github/copilot-instructions.md` | No |
+| GitHub Copilot | `AGENTS.md` in VS Code, `.github/copilot-instructions.md` elsewhere | No |
 | Claude Code | `CLAUDE.md` only | Yes, with `@path` syntax |
 | opencode | `AGENTS.md`, falls back to `CLAUDE.md` | No, use `opencode.json` |
 
@@ -113,6 +113,22 @@ Copilot and opencode both read `AGENTS.md`.
    ```
 
    Keep repository-specific context in its own section. Don't mix it into the agent instructions reference.
+
+#### Point .github/copilot-instructions.md at AGENTS.md
+
+VS Code reads `AGENTS.md`, so this file is redundant there. Other Copilot surfaces, such as copilot.com, the Copilot coding agent, and the JetBrains and Xcode plugins, are unverified. Keep the file as a pointer so those surfaces reach the same instructions.
+
+1. Replace the contents of `.github/copilot-instructions.md` with a pointer:
+
+   ```markdown
+   # <YOUR_REPO_NAME>
+
+   Read `AGENTS.md` in the repository root in full before responding to any
+   request in this repo. It is the authoritative instruction file for this
+   repository.
+   ```
+
+2. Keep all repository-specific content in `AGENTS.md`. Two files with the same guidance drift apart.
 
 #### Create CLAUDE.md
 
