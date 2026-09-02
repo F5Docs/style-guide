@@ -5,7 +5,7 @@ import argparse
 import os
 import sys
 
-SKIP_DIRS = {"templates", "scripts", "agent-instructions"}
+SKIP_DIRS = {"templates", "scripts", "agent-instructions", "tmp"}
 
 CATEGORY_START_MARKER = "from this repo. Topics are organized into subdirectories by category:"
 CATEGORY_END_MARKER = "Each topic is a single .md file named after the slug (for example,"
