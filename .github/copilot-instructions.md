@@ -1,4 +1,3 @@
 # F5 Technical Writing Style Guide
 
-Read `AGENTS.md` in the repository root in full before responding to any request
-in this repo. It is the authoritative instruction file for this repository.
+Read `AGENTS.md` in the repository root in full before responding to any request in this repo. It is the authoritative instruction file for this repository.
