@@ -18,7 +18,7 @@
 #
 # Runs as a dry run by default. Pass --apply to write files.
 #
-# Writes a log to deploy-writer-agent.log in the target repository. The log
+# Writes a log to deploy-writer-agent.log in the current directory. The log
 # records every file the script created or skipped, and every file that needs a
 # hand edit. Use --log-file to write somewhere else.
 
@@ -30,6 +30,7 @@ AGENT_INSTRUCTIONS="${SUBMODULE_PATH}/agent-instructions/f5-tech-writer-agent.md
 
 REPO="."
 APPLY=false
+INVOKE_DIR="$PWD"
 LOG_FILE=""
 LOG_NAME="deploy-writer-agent.log"
 
@@ -126,7 +127,7 @@ fi
 
 # Start the log now that the repository root is known. Default to the repo
 # root so the log sits next to the files the script reports on.
-[ -n "$LOG_FILE" ] || LOG_FILE="${REPO_ROOT}/${LOG_NAME}"
+[ -n "$LOG_FILE" ] || LOG_FILE="${INVOKE_DIR}/${LOG_NAME}"
 
 log_dir="$(dirname "$LOG_FILE")"
 [ -d "$log_dir" ] || die "Log directory does not exist: $log_dir"
