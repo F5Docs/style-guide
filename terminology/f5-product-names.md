@@ -84,65 +84,65 @@ New names generally follow a `F5 <FUNCTION> for <PLATFORM>` pattern (for example
 
 ### NGINX products
 
-| Old name | First mention | Subsequent mention | Approved acronym |
-|---|---|---|---|
-| NGINX Plus | F5 NGINX Enterprise Edition | F5 NGINX EE | -- |
-| NGINX Ingress Controller | F5 Ingress Controller for NGINX Enterprise | F5 IC for NGINX Enterprise | -- |
-| NGINX Gateway Fabric | F5 Gateway Fabric for NGINX Enterprise | F5 GF for NGINX Enterprise | -- |
-| NGINX One Console | F5 Console for NGINX Enterprise | F5 Console for NGINX Enterprise | -- |
-| NGINX Instance Manager | F5 Console for NGINX Enterprise Local Edition | F5 Console for NGINX Enterprise - LE | -- |
-| NGINXaaS for Azure | F5 Application Delivery Service for Azure | F5 ADS for Azure | F5 ADS for Azure |
-| NGINXaaS for Google Cloud | F5 Application Delivery Service for Google Cloud | F5 ADS for Google Cloud | F5 ADS for Google Cloud |
-| (new product) | F5 Application Delivery Service for AWS | F5 ADS for AWS | F5 ADS for AWS |
-| NGINX App Protect WAF | F5 WAF for NGINX | F5 WAF for NGINX (retain full form) | -- |
-| NGINX App Protect DoS | F5 DoS for NGINX | F5 DoS for NGINX (retain full form) | -- |
-| NGINX One | TBD | -- | -- |
+| Old name                  | First mention                                    | Subsequent mention                   | Approved acronym        |
+|---------------------------|--------------------------------------------------|--------------------------------------|-------------------------|
+| NGINX Plus                | F5 NGINX Enterprise Edition                      | F5 NGINX EE                          | --                      |
+| NGINX Ingress Controller  | F5 Ingress Controller for NGINX Enterprise       | F5 IC for NGINX Enterprise           | --                      |
+| NGINX Gateway Fabric      | F5 Gateway Fabric for NGINX Enterprise           | F5 GF for NGINX Enterprise           | --                      |
+| NGINX One Console         | F5 Console for NGINX Enterprise                  | F5 Console for NGINX Enterprise      | --                      |
+| NGINX Instance Manager    | F5 Console for NGINX Enterprise Local Edition    | F5 Console for NGINX Enterprise - LE | --                      |
+| NGINXaaS for Azure        | F5 Application Delivery Service for Azure        | F5 ADS for Azure                     | F5 ADS for Azure        |
+| NGINXaaS for Google Cloud | F5 Application Delivery Service for Google Cloud | F5 ADS for Google Cloud              | F5 ADS for Google Cloud |
+| (new product)             | F5 Application Delivery Service for AWS          | F5 ADS for AWS                       | F5 ADS for AWS          |
+| NGINX App Protect WAF     | F5 WAF for NGINX                                 | F5 WAF for NGINX (retain full form)  | --                      |
+| NGINX App Protect DoS     | F5 DoS for NGINX                                 | F5 DoS for NGINX (retain full form)  | --                      |
+| NGINX One                 | TBD                                              | --                                   | --                      |
 
 Instance Manager and One Console both use the "F5 Console for NGINX Enterprise" base name. The "Local Edition" suffix distinguishes Instance Manager from One Console. Don't drop the suffix from Instance Manager mentions.
 
 **Open source products.** These products aren't part of the current rename. Never use the "F5" prefix on any mention.
 
-| Product |
-|---|
-| NGINX Agent |
-| NGINX Amplify |
+| Product           |
+|-------------------|
+| NGINX Agent       |
+| NGINX Amplify     |
 | NGINX Open Source |
-| NGINX Unit |
+| NGINX Unit        |
 
 ### BIG-IP products
 
-| Old name | First mention | Subsequent mention | Approved acronym |
-|---|---|---|---|
-| F5 BIG-IP Container Ingress Services | F5 Container Ingress Controller for BIG-IP | F5 CIC for BIG-IP | F5 CIC for BIG-IP |
-| F5 BIG-IP Local Traffic Manager | F5 Local Traffic Manager for BIG-IP | F5 LTM for BIG-IP | F5 LTM for BIG-IP |
-| F5 BIG-IP Domain Name Server | F5 Global Traffic Manager for BIG-IP | F5 GTM for BIG-IP | F5 GTM for BIG-IP |
-| F5 BIG-IP Advanced WAF | F5 WAF for BIG-IP | F5 WAF for BIG-IP (retain full form) | F5 WAF for BIG-IP |
-| F5 BIG-IP DDoS Hybrid Defender | F5 DDoS Hybrid Defender for BIG-IP | F5 DDoS Hybrid Defender for BIG-IP (retain full form) | -- |
-| F5 BIG-IP Advanced Firewall Manager | F5 Advanced Firewall Manager for BIG-IP | F5 AFM for BIG-IP | F5 AFM for BIG-IP |
-| F5 BIG-IP Access Policy Manager | F5 Zero Trust Access for BIG-IP | F5 ZTA for BIG-IP | F5 ZTA for BIG-IP |
-| F5 BIG-IP Policy Enforcer | F5 Policy Enforcer for BIG-IP | F5 Policy Enforcer for BIG-IP (retain full form) | -- |
-| F5 BIG-IP SSL Orchestrator | F5 SSL Orchestrator for BIG-IP | F5 SSLO for BIG-IP | F5 SSLO for BIG-IP |
-| F5 BIG-IP CGNAT | F5 CGNAT for BIG-IP | F5 CGNAT for BIG-IP (retain full form) | -- |
-| F5 BIG-IP PEM | F5 PEM for BIG-IP | F5 PEM for BIG-IP (retain full form) | -- |
-| (new product) | F5 Insight for ADSP | F5 Insight for ADSP (retain full form) | -- |
-| (new product) | F5 Data Loss Prevention for BIG-IP | F5 DLP for BIG-IP | F5 DLP for BIG-IP |
-| F5 BIG-IP Next for Kubernetes | TBD | -- | -- |
-| F5 BIG-IP Connector for Bot Defense | TBD | -- | -- |
-| F5 BIG-IQ Centralized Management | TBD | -- | -- |
-| F5 BIG-IP Automation Toolchain | TBD | -- | -- |
-| F5 Secure Web Gateway Services | TBD | -- | -- |
-| F5 IP Intelligence | TBD | -- | -- |
-| F5 Threat Campaigns | TBD | -- | -- |
+| Old name                             | First mention                              | Subsequent mention                                    | Approved acronym   |
+|--------------------------------------|--------------------------------------------|-------------------------------------------------------|--------------------|
+| F5 BIG-IP Container Ingress Services | F5 Container Ingress Controller for BIG-IP | F5 CIC for BIG-IP                                     | F5 CIC for BIG-IP  |
+| F5 BIG-IP Local Traffic Manager      | F5 Local Traffic Manager for BIG-IP        | F5 LTM for BIG-IP                                     | F5 LTM for BIG-IP  |
+| F5 BIG-IP Domain Name Server         | F5 Global Traffic Manager for BIG-IP       | F5 GTM for BIG-IP                                     | F5 GTM for BIG-IP  |
+| F5 BIG-IP Advanced WAF               | F5 WAF for BIG-IP                          | F5 WAF for BIG-IP (retain full form)                  | F5 WAF for BIG-IP  |
+| F5 BIG-IP DDoS Hybrid Defender       | F5 DDoS Hybrid Defender for BIG-IP         | F5 DDoS Hybrid Defender for BIG-IP (retain full form) | --                 |
+| F5 BIG-IP Advanced Firewall Manager  | F5 Advanced Firewall Manager for BIG-IP    | F5 AFM for BIG-IP                                     | F5 AFM for BIG-IP  |
+| F5 BIG-IP Access Policy Manager      | F5 Zero Trust Access for BIG-IP            | F5 ZTA for BIG-IP                                     | F5 ZTA for BIG-IP  |
+| F5 BIG-IP Policy Enforcer            | F5 Policy Enforcer for BIG-IP              | F5 Policy Enforcer for BIG-IP (retain full form)      | --                 |
+| F5 BIG-IP SSL Orchestrator           | F5 SSL Orchestrator for BIG-IP             | F5 SSLO for BIG-IP                                    | F5 SSLO for BIG-IP |
+| F5 BIG-IP CGNAT                      | F5 CGNAT for BIG-IP                        | F5 CGNAT for BIG-IP (retain full form)                | --                 |
+| F5 BIG-IP PEM                        | F5 PEM for BIG-IP                          | F5 PEM for BIG-IP (retain full form)                  | --                 |
+| (new product)                        | F5 Insight for ADSP                        | F5 Insight for ADSP (retain full form)                | --                 |
+| (new product)                        | F5 Data Loss Prevention for BIG-IP         | F5 DLP for BIG-IP                                     | F5 DLP for BIG-IP  |
+| F5 BIG-IP Next for Kubernetes        | TBD                                        | --                                                    | --                 |
+| F5 BIG-IP Connector for Bot Defense  | TBD                                        | --                                                    | --                 |
+| F5 BIG-IQ Centralized Management     | TBD                                        | --                                                    | --                 |
+| F5 BIG-IP Automation Toolchain       | TBD                                        | --                                                    | --                 |
+| F5 Secure Web Gateway Services       | TBD                                        | --                                                    | --                 |
+| F5 IP Intelligence                   | TBD                                        | --                                                    | --                 |
+| F5 Threat Campaigns                  | TBD                                        | --                                                    | --                 |
 
 ### Distributed Cloud products
 
 Most Distributed Cloud product names stay the same. This rename affects only the following products.
 
-| Old name | First mention | Subsequent mention | Approved acronym |
-|---|---|---|---|
-| F5 Distributed Cloud API Security | F5 API Security for Distributed Cloud Services | F5 API Security for Distributed Cloud Services | -- |
-| (new product) | F5 API Security Local Edition | F5 API Security Local Edition | -- |
-| F5 Distributed Cloud WAF | F5 WAF for Distributed Cloud | F5 WAF for Distributed Cloud (retain full form) | -- |
+| Old name                          | First mention                                  | Subsequent mention                              | Approved acronym |
+|-----------------------------------|------------------------------------------------|-------------------------------------------------|------------------|
+| F5 Distributed Cloud API Security | F5 API Security for Distributed Cloud Services | F5 API Security for Distributed Cloud Services  | --               |
+| (new product)                     | F5 API Security Local Edition                  | F5 API Security Local Edition                   | --               |
+| F5 Distributed Cloud WAF          | F5 WAF for Distributed Cloud                   | F5 WAF for Distributed Cloud (retain full form) | --               |
 
 ## Related
 
