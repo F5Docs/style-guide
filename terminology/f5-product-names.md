@@ -98,7 +98,7 @@ New names generally follow a `F5 <FUNCTION> for <PLATFORM>` pattern (for example
 | NGINX App Protect DoS     | F5 DoS for NGINX                                 | F5 DoS for NGINX (retain full form)  | --                      |
 | NGINX One                 | TBD                                              | --                                   | --                      |
 
-The products formerly known as NGINX Instance Manager and NGINX One Console both use the "F5 Console for NGINX Enterprise" for the new base name. The "Local Edition" suffix distinguishes NGINX Instance Manager from NGINX One Console. Don't drop the suffix from Instance Manager mentions.
+The products formerly known as NGINX Instance Manager and NGINX One Console both use the "F5 Console for NGINX Enterprise" for the new base name. The "Local Edition" suffix distinguishes NGINX Instance Manager from NGINX One Console. Don't drop the suffix from NGINX Instance Manager mentions.
 
 **Open source products.** These products aren't part of the current rename. Never use the "F5" prefix on any mention.
 
