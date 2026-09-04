@@ -157,7 +157,7 @@ Unless a "Subsequent mention" cell shows a different form, repeat the full first
 | F5 WAF for NGINX | -- | NGINX App Protect WAF |
 | F5 Workforce AI Security | -- | -- |
 | F5 Zero Trust Access for BIG-IP | F5 ZTA for BIG-IP | F5 BIG-IP Access Policy Manager |
-| F5 Zero Trust Access for Distributed Cloud | -- | -- |
+| F5 Zero Trust Access for Distributed Cloud | F5 ZTA for Distributed Cloud | -- |
 
 F5 Console for NGINX Enterprise and F5 Console for NGINX Enterprise Local Edition share the same base name. The "Local Edition" suffix distinguishes the two. Don't drop the suffix from either mention.
 
