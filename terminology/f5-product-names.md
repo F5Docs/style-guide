@@ -84,7 +84,7 @@ The following table lists every product this guide covers, in alphabetical order
 
 Unless a "Subsequent mention" cell shows a different form, repeat the full first-mention name on subsequent mentions.
 
-| Current name/First mention | Subsequent mention | Former name |
+| First mention | Subsequent mention | Former name |
 |---|---|---|
 | F5 Advanced Firewall Manager for BIG-IP | F5 AFM for BIG-IP | F5 BIG-IP Advanced Firewall Manager |
 | F5 AI Assistant | -- | -- |
