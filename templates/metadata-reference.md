@@ -30,8 +30,8 @@ Metadata must be valid YAML. Quote a value with single (`'`) or double (`"`) quo
 | `f5-docs` | `DOCS-nnn` | Administrative | Required | Internal documentation ID, created using Watchdocs. |
 | `f5-files` | array of paths | Administrative | Required (include-only key) | Used only in include files, to list every location where the include is reused. List at least two paths — if an include is used in only one place, inline the content instead. |
 | `f5-resource` | string (URL) | Administrative | Optional | Link to the source of an artifact used in the doc (for example, a diagramming tool file), so others can update it later. |
-| `url` | string (URL path) | Structural | Required for index pages | Defines a custom URL path for the page. Leaf pages derive their URL path implicitly from their file path and don't need this key; index pages (`_index.md`) do. |
-| `canonical` | string (URL path) | Structural | Required | The URL path of the authoritative version of this content. Every document must set this field — never leave it as an unresolved placeholder; ask the contributor if the value isn't clear. |
+| `url` | string (URL path) | Structural | Required for index pages | Defines a custom URL path for the page. Leaf pages derive their URL path implicitly from their file path and don't need this key; index pages (`_index.md`) do. Example: `url: /nginx-app-protect-waf/v5/admin-guide/` |
+| `canonical` | string (URL path) | Structural | Required | The URL path of the authoritative version of this content. Every document must set this field — never leave it as an unresolved placeholder; ask the contributor if the value isn't clear. Example: `canonical: /nginx-app-protect-waf/v5/admin-guide/` |
 | `cascade` | array | Structural | Optional | Hugo feature for applying metadata to child pages, for example EOL banners. |
 | `draft` | `true`/`false` | Administrative | Optional | Controls whether the page is published. |
 | `headless` | `true`/`false` | Structural | Optional | Indicates the page shouldn't appear in site navigation. |
