@@ -1,5 +1,6 @@
 ---
 title: {Verb phrase describing what the reader will learn to do}
+canonical: {The URL of the authoritative version of this content.}
 description: "{One-sentence summary of what skill the reader will gain, under 160 characters.}"
 weight: 100
 toc: true

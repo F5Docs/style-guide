@@ -1,5 +1,6 @@
 ---
 title: {Concept name — use a noun phrase, not "Understand X" or "About X"}
+canonical: {The URL of the authoritative version of this content.}
 description: "{One sentence summarizing what the concept is and why it matters, under 160 characters.}"
 f5-product: {PRODUCT_NAME}
 f5-content-type: concept {Valid values: howto | concept | reference | tech-specs | tutorial}

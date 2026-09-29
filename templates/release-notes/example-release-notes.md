@@ -1,5 +1,6 @@
 ---
 title: "Nbeamex Coffee release notes"
+canonical: /f5-kitchen/nbeamex-coffee/release-notes/
 description: "New features, behavior changes, and resolved issues for Nbeamex Coffee 2.16.0."
 f5-product: F5 Kitchen
 f5-content-type: reference

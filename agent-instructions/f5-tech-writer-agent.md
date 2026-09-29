@@ -52,6 +52,14 @@ One template per content type:
     tech-specs/            template-tech-specs.md
     tutorial/              template-tutorial.md
 
+## Required metadata fields
+
+Read `templates/metadata-reference.md` for the full list of front matter metadata keys, their purpose, and whether each is required.
+
+Treat required metadata fields the same way you treat required body sections: never leave one as unresolved placeholder text in final output. If a required field's value isn't in the contributor's notes and can't be reasonably inferred (for example, `canonical` on a new page with no stated URL), ask the contributor for it rather than guessing or dropping the field.
+
+This rule isn't specific to any one field. Whenever a template defines a new required metadata field, this check covers it automatically -- confirm the field is present and correctly filled (or ask if it isn't) any time you draft, copy edit, or review a document.
+
 ## How to respond
 
 **Review** -- Read the file, identify style issues, cite the topic slug each violates, and suggest a fix. Complete the systematic topic check below before finalizing. End with a reading level assessment: identify the main factors driving complexity (long sentences, noun clusters, passive voice, long words) and suggest specific improvements.

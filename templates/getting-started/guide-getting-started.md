@@ -116,6 +116,8 @@ Each respository has a set of required metadata fields that must be included in 
 
 **description**: One sentence under 160 characters summarizing what the reader will accomplish. This text appears in search engine results, AI assistant citations, and doc portal previews. Write it as a complete sentence: "Deploy your first X and verify it is working" or "Connect X to Y and make your first API call."
 
+**canonical**: The URL of the authoritative version of this content. Every document must set this field — if the value isn't clear from the contributor's notes, ask rather than guessing or leaving it blank. See [metadata reference](../metadata-reference.md) for the full list of metadata keys.
+
 ### AI enrichment fields (recommended)
 
 These fields are not rendered in the product UI, but they are consumed by AI systems, search indexes, and docs-as-code tooling. Filling them in improves discoverability and the quality of AI-generated answers that cite this page.

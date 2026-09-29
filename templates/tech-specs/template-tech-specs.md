@@ -1,5 +1,6 @@
 ---
 title: {Product or component name} technical specifications
+canonical: {The URL of the authoritative version of this content.}
 description: "{One-sentence summary of what component or system this page covers, under 160 characters.}"
 weight: 100
 toc: true

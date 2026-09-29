@@ -37,6 +37,9 @@ Don't include product names in titles. The product name appears in the breadcrum
 ### Uniqueness
 Every doc title must be unique. Duplicate titles make it harder for users and search engines to distinguish between pages.
 
+### Duplicate content
+A unique title doesn't prevent duplicate-content problems on its own. Every page sets a `canonical` front matter key identifying the URL of the authoritative version of its content. See the [metadata reference](../templates/metadata-reference.md) for how to fill in `canonical` and other front matter keys.
+
 ### Format
 Use sentence case. Start with the most important word — typically an imperative verb for tasks, or a noun for concepts and reference topics:
 
@@ -49,6 +52,7 @@ Use sentence case. Start with the most important word — typically an imperativ
 - [Capitalization](../formatting/capitalization.md)
 - [F5 product names](../terminology/f5-product-names.md)
 - [Headings](headings.md)
+- [Metadata reference](../templates/metadata-reference.md)
 
 ## See also
 

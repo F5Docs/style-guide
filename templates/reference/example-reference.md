@@ -1,5 +1,6 @@
 ---
 title: Drip coffee maker — settings and indicators
+canonical: /f5-kitchen/reference/drip-coffee-maker-settings/
 description: "Reference for all user-configurable settings and indicator light states on a standard drip coffee maker."
 f5-product: F5 Kitchen
 f5-content-type: reference

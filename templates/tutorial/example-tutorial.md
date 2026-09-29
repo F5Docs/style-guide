@@ -1,5 +1,6 @@
 ---
 title: Brew pour-over coffee with a burr grinder
+canonical: /f5-kitchen/tutorials/brew-pour-over-coffee-with-a-burr-grinder/
 description: "Learn to calibrate a burr grinder, prepare a pour-over brewer, and produce a well-extracted cup."
 weight: 100
 toc: true

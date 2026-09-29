@@ -104,6 +104,10 @@ AI assistants and human readers parse documentation differently from search engi
 
 **title**: The product name as it should appear as the page heading. Do not add "Documentation" or "Overview" — the page itself makes that clear.
 
+**url**: This page's own URL path, for example `/f5-kitchen/`. Required because a landing page is an index page (`_index.md`) — Hugo does not derive its URL implicitly the way it does for leaf pages.
+
+**canonical**: The URL of the authoritative version of this content. Every document must set this field — if the value isn't clear from the contributor's notes, ask rather than guessing or leaving it blank. See [metadata reference](../metadata-reference.md) for the full list of metadata keys.
+
 **f5-landing-page**: Always `true`. This tells the theme to render this page using the landing page layout instead of a standard content page.
 
 **cascade.logo**: The filename of the product's logo icon, resolved from the theme's images folder.

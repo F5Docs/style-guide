@@ -1,5 +1,6 @@
 ---
 title: Get started with your drip coffee maker
+canonical: /f5-kitchen/getting-started/drip-coffee-maker/
 description: "Unbox, set up, and brew a verified first cup with a drip coffee maker in under 20 minutes."
 f5-product: F5 Kitchen
 f5-content-type: howto

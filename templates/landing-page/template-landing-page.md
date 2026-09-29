@@ -3,6 +3,8 @@ f5-content-type: landing-page
 f5-docs: DOCS-000
 f5-product: {PRODUCT_NAME}
 title: {Product name}
+url: {This page's own URL path, for example /f5-kitchen/. Required because this is an index page — Hugo does not derive its URL implicitly.}
+canonical: {The URL of the authoritative version of this content.}
 description: "{One-sentence summary of what the product does and its core value, under 160 characters.}"
 f5-subtitle: {Short value-proposition phrase, displayed directly under the page title}
 weight: 100

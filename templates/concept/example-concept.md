@@ -1,5 +1,6 @@
 ---
 title: Coffee extraction
+canonical: /f5-kitchen/concepts/coffee-extraction/
 description: "Coffee extraction is the process by which hot water dissolves flavor compounds from ground coffee, determining the taste of the final cup."
 f5-product: F5 Kitchen
 f5-content-type: concept
