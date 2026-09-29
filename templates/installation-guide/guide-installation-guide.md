@@ -118,6 +118,8 @@ Each respository has a set of required metadata fields that must be included in 
 
 **description**: One sentence under 160 characters summarizing what the reader installs and on what platform. Include the platform version if the guide is version-specific. This text appears in search engine results, AI assistant citations, and doc portal previews.
 
+**canonical**: The URL path of the authoritative version of this content, for example `/f5-kitchen/install/drip-coffee-maker/`. Ask the contributor for this value directly. If they don't know it yet, set `canonical: TODO` rather than guessing — resolving it is expected to happen during PR review. See [metadata reference](../metadata-reference.md) for the full list of metadata keys.
+
 ### AI enrichment fields (recommended)
 
 These fields are not rendered in the product UI, but they are consumed by AI systems, search indexes, and docs-as-code tooling. Filling them in improves discoverability and the quality of AI-generated answers that cite this page.

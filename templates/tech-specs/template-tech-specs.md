@@ -1,5 +1,6 @@
 ---
 title: {Product or component name} technical specifications
+canonical: {The URL path of the authoritative version of this content, for example /f5-brewmaster/tech-specs/brewmaster-controller/.}
 description: "{One-sentence summary of what component or system this page covers, under 160 characters.}"
 weight: 100
 toc: true
