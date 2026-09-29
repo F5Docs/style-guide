@@ -1,6 +1,8 @@
 ---
 title: {Install + product or component name}
 description: "{One-sentence summary of what the reader installs and on what platform, under 160 characters.}"
+toc: true
+weight: 100
 f5-product: {PRODUCT_NAME}
 f5-content-type: howto {Valid values: howto | concept | reference | tech-specs | tutorial}
 f5-docs: DOCS-000

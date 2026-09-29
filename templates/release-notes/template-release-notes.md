@@ -1,6 +1,8 @@
 ---
 title: "{Product Name} release notes"
 description: "{One-sentence summary of what this release covers, under 160 characters.}"
+toc: true
+weight: 100
 f5-product: {PRODUCT_NAME}
 f5-content-type: reference {Valid values: howto | concept | reference | tech-specs | tutorial}
 f5-docs: DOCS-000
