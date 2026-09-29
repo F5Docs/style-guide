@@ -117,7 +117,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **description**: One sentence under 160 characters summarizing what this article covers. This text appears in search engine results, AI assistant citations, and doc portal previews.
 
-**canonical**: The URL path of the authoritative version of this content, for example `/f5-kitchen/reference/drip-coffee-maker-settings/`. Every document must set this field — if the value isn't clear from the contributor's notes, ask rather than guessing or leaving it blank. See [metadata reference](../metadata-reference.md) for the full list of metadata keys.
+**canonical**: The URL path of the authoritative version of this content, for example `/f5-kitchen/reference/drip-coffee-maker-settings/`. Ask the contributor for this value directly. If they don't know it yet, set `canonical: TODO` rather than guessing — resolving it is expected to happen during PR review. See [metadata reference](../metadata-reference.md) for the full list of metadata keys.
 
 ### AI enrichment fields (recommended)
 

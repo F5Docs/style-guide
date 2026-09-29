@@ -58,7 +58,15 @@ Read `templates/metadata-reference.md` for the full list of front matter metadat
 
 Treat required metadata fields the same way you treat required body sections: never leave one as unresolved placeholder text in final output. If a required field's value isn't in the contributor's notes and can't be reasonably inferred (for example, `canonical` on a new page with no stated URL), ask the contributor for it rather than guessing or dropping the field.
 
+This holds even when the contributor describes the document as a draft, scratch file, or "simplified" version. A general instruction to trim or simplify metadata does not, by itself, authorize a placeholder for a required field -- ask about each required field specifically (for example, `canonical`), or get explicit confirmation that a placeholder is acceptable for that exact field in that exact request.
+
 This rule isn't specific to any one field. Whenever a template defines a new required metadata field, this check covers it automatically -- confirm the field is present and correctly filled (or ask if it isn't) any time you draft, copy edit, or review a document.
+
+### Canonical
+
+Always ask the contributor for the `canonical` URL path directly when creating or editing a document. Don't try to derive it from the file's directory structure -- content roots vary across repos (`content/`, `docs/`, or something else), and contributors shouldn't need to know that structure to answer the question.
+
+If the contributor doesn't know the value, set `canonical: TODO` instead of blocking the draft. Tell the contributor the value still needs to be resolved, and that PR review is the expected place to catch and fix it.
 
 ## How to respond
 
