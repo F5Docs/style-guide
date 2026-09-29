@@ -1,5 +1,6 @@
 ---
 title: Install a drip coffee maker
+canonical: /f5-kitchen/install/drip-coffee-maker/
 description: "Set up a drip coffee maker on a standard kitchen countertop and brew a verified first pot."
 f5-product: F5 Kitchen
 f5-content-type: howto

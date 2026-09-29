@@ -3,6 +3,8 @@ f5-content-type: landing-page
 f5-docs: DOCS-007
 f5-product: F5 Kitchen Brew Console
 title: F5 Kitchen Brew Console
+url: /f5-kitchen-brew-console/
+canonical: /f5-kitchen-brew-console/
 description: "Monitor, configure, and troubleshoot every connected brewer in your café or roastery from a single console."
 f5-subtitle: Monitor, manage, and maintain every brewer in your fleet
 weight: 100

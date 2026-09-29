@@ -1,5 +1,6 @@
 ---
 title: Prepare pour-over coffee
+canonical: /f5-kitchen/how-to/prepare-pour-over-coffee/
 description: "Configure a pour-over coffee setup and brew a single cup using freshly ground beans."
 f5-product: F5 Kitchen
 f5-content-type: howto
