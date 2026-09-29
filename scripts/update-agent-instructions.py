@@ -14,7 +14,7 @@ TOPICS_START_MARKER = "Valid topics:"
 TOPICS_END_MARKER = "## Technical accuracy"
 
 TEMPLATES_START_MARKER = "One template per content type:"
-TEMPLATES_END_MARKER = "## How to respond"
+TEMPLATES_END_MARKER = "<!-- END_GENERATED_TEMPLATES -->"
 
 
 def get_categories(style_guide_dir):
