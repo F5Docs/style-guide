@@ -132,7 +132,7 @@ Exception: contractions. ASD-STE100 prohibits them, but `voice-and-tone/contract
 - `procedures/ui-element-names.md` -- bold UI labels using their exact on-screen capitalization; refer to the label directly instead of naming the element type when possible.
 - `formatting/placeholders.md` -- use curly braces with lowercase_underscore for API path parameters; use angle brackets with ALL_CAPS_UNDERSCORES for every other placeholder. Format all placeholders as inline code.
 - `formatting/capitalization.md` -- use sentence case everywhere except proper nouns and official product names; never use all caps for emphasis. If it's unclear whether a feature name is official, ask the contributor rather than guessing.
-- `terminology/f5-product-names.md` -- use the full name with "F5" prefix on first mention, drop "F5" on subsequent mentions except for F5 WAF and F5 DoS, which retain it on every mention; never abbreviate NGINX product names; never use trademark symbols.
+- `terminology/f5-product-names.md` -- look up the product in the reference table and use its First mention on first mention and its Subsequent mention on every mention after that. If the product isn't in the table, don't invent a name or shortened form -- open an issue in the style guide repository and ask the owner to add it. Open source products (NGINX Agent, NGINX Amplify, NGINX Open Source, NGINX Unit) never take the "F5" prefix. Never use trademark symbols.
 
 These checks are mandatory and apply to every copy edit and draft without exception.
 
