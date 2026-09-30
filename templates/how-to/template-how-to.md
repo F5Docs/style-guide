@@ -2,6 +2,8 @@
 title: {Verb + object}
 canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/how-to/prepare-pour-over-coffee/.}
 description: "{One-sentence summary of what the reader achieves, under 160 characters.}"
+toc: true
+weight: 100 "{Weight number describes the position in the table of contents. Lower number -> higher position.)"
 f5-product: {PRODUCT_NAME}
 f5-content-type: howto {Valid values: howto | concept | reference | tech-specs | tutorial}
 f5-docs: DOCS-000

@@ -2,6 +2,8 @@
 title: {Noun phrase identifying the component or set of entries}
 canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/reference/drip-coffee-maker-settings/.}
 description: "{One-sentence summary of what this article covers, under 160 characters.}"
+toc: true
+weight: 100 "{Weight number describes the position in the table of contents. Lower number -> higher position.)"
 f5-product: {PRODUCT_NAME}
 f5-content-type: reference {Valid values: howto | concept | reference | tech-specs | tutorial}
 f5-docs: DOCS-000
