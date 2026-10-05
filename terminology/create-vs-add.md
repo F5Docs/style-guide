@@ -30,7 +30,7 @@ Use "create" when an action produces something new that didn't exist before. Use
 
 ## Notes
 
-A quick test: think of creating a playlist and adding tracks to it. "Create" generates a new structure. "Add" augments a structure that already exists.
+A quick test: think of creating a playlist and adding songs to it. "Create" generates a new structure. "Add" augments a structure that already exists.
 
 If "create" or "add" appears as a literal label in the product UI or API, match the label even if it conflicts with this distinction.
 
