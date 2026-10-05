@@ -5,7 +5,7 @@ aliases: [create, add]
 applies-to: [all F5 docs]
 source-authority: F5 NGINX Style Guide
 supersedes:
-last-reviewed: 2026-10-02
+last-reviewed: 2026-10-05
 ---
 
 # Create vs. Add
