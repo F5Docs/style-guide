@@ -67,6 +67,7 @@
 - [Acronyms](terminology/acronyms.md)
 - [Click vs. Select](terminology/click-vs-select.md)
 - [Configure vs. Set up](terminology/configure-vs-set-up.md)
+- [Create vs. Add](terminology/create-vs-add.md)
 - [Enable and disable](terminology/enable-disable.md)
 - [Ensure vs. Make sure](terminology/ensure-vs-make-sure.md)
 - [F5 product names](terminology/f5-product-names.md)

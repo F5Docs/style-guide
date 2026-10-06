@@ -66,6 +66,7 @@ As a state, replace "disabled" with "inactive," "unavailable," or "off":
 
 ## Related
 
+- [Create vs. Add](create-vs-add.md)
 - [Toggle](ui-terms.md#toggle)
 - [UI terms](ui-terms.md)
 - [Word list](word-list.md)

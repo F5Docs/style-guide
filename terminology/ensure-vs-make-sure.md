@@ -37,6 +37,7 @@ Don't use "ensure" to mean "make certain" anywhere in technical documentation. R
 
 ## Related
 
+- [Create vs. Add](create-vs-add.md)
 - [Modern Voice](../voice-and-tone/modern-voice.md)
 - [Second person](../voice-and-tone/second-person.md)
 - [Word list](word-list.md)

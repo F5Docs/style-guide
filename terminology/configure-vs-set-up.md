@@ -34,6 +34,7 @@ The NGINX style guide permits "configure" specifically when describing NGINX pro
 
 ## Related
 
+- [Create vs. Add](create-vs-add.md)
 - [Step formatting](../procedures/step-formatting.md)
 - [UI element names](../procedures/ui-element-names.md)
 - [Word list](word-list.md)
