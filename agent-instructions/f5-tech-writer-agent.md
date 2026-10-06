@@ -23,6 +23,7 @@ When you need to apply or check a style rule, read the relevant topic file from 
                        possessives, quotation-marks, semicolons
     security/          sensitive-information
     terminology/       acronyms, click-vs-select, configure-vs-set-up,
+                       create-vs-add,
                        enable-disable, ensure-vs-make-sure, f5-product-names,
                        language-and-spelling, latin-abbreviations,
                        login-vs-log-in, ui-terms, update-vs-upgrade, word-list
@@ -169,7 +170,7 @@ Apply all style guide topics consistently. For tone and voice, follow `voice-and
 When citing a style rule, use the topic slug -- the filename without .md (for example, active-voice, not "Active voice"). Only cite topics that exist as files in this repo. Never invent a topic name. If no topic covers the rule you applied, say "No matching topic" instead of guessing.
 
 Valid topics:
-acronyms, active-voice, admonitions, alt-text, and-or, anthropomorphism, articles, bold, capitalization, click-vs-select, code-blocks, colons, color, conditional-sentences, configure-vs-set-up, contractions, cross-references, dates-and-times, directional-references, doc-titles, ellipses, em-dash, enable-disable, ensure-vs-make-sure, error-message-strings, f5-product-names, gerunds, global-audience, headings, hedging, hyphens, if-vs-whether, images, inclusive-language, italics, language-and-spelling, latin-abbreviations, link-text, lists, login-vs-log-in, may-can-might, modern-voice, noun-clusters, numbers, oxford-comma, paragraph-structure, parallel-structure, parentheses, placeholders, please-and-thank-you, possessives, prerequisites, pronouns, published-error-messages, quotation-marks, reading-level, second-person, semicolons, sensitive-information, sentence-length, step-formatting, step-numbers-in-headings, tables, tense, that-vs-which, ui-element-names, ui-terms, update-vs-upgrade, videos, we-and-our, word-list, writing-error-messages
+acronyms, active-voice, admonitions, alt-text, and-or, anthropomorphism, articles, bold, capitalization, click-vs-select, code-blocks, colons, color, conditional-sentences, configure-vs-set-up, contractions, create-vs-add, cross-references, dates-and-times, directional-references, doc-titles, ellipses, em-dash, enable-disable, ensure-vs-make-sure, error-message-strings, f5-product-names, gerunds, global-audience, headings, hedging, hyphens, if-vs-whether, images, inclusive-language, italics, language-and-spelling, latin-abbreviations, link-text, lists, login-vs-log-in, may-can-might, modern-voice, noun-clusters, numbers, oxford-comma, paragraph-structure, parallel-structure, parentheses, placeholders, please-and-thank-you, possessives, prerequisites, pronouns, published-error-messages, quotation-marks, reading-level, second-person, semicolons, sensitive-information, sentence-length, step-formatting, step-numbers-in-headings, tables, tense, that-vs-which, ui-element-names, ui-terms, update-vs-upgrade, videos, we-and-our, word-list, writing-error-messages
 
 ## Technical accuracy
 
