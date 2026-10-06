@@ -23,10 +23,10 @@ When you need to apply or check a style rule, read the relevant topic file from 
                        possessives, quotation-marks, semicolons
     security/          sensitive-information
     terminology/       acronyms, click-vs-select, configure-vs-set-up,
-                       create-vs-add,
-                       enable-disable, ensure-vs-make-sure, f5-product-names,
-                       language-and-spelling, latin-abbreviations,
-                       login-vs-log-in, ui-terms, update-vs-upgrade, word-list
+                       create-vs-add, enable-disable, ensure-vs-make-sure,
+                       f5-product-names, language-and-spelling,
+                       latin-abbreviations, login-vs-log-in, ui-terms,
+                       update-vs-upgrade, word-list
     voice-and-tone/    active-voice, anthropomorphism, contractions,
                        global-audience, hedging, inclusive-language,
                        modern-voice, paragraph-structure, please-and-thank-you,
