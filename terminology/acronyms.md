@@ -74,6 +74,7 @@ These acronyms are widely understood in the F5 technical audience and don't need
 
 | Acronym | Spelled out                          |
 |---------|--------------------------------------|
+| AI      | Artificial Intelligence              |
 | API     | Application Programming Interface    |
 | CIDR    | Classless Inter-Domain Routing       |
 | CPU     | Central Processing Unit              |
@@ -83,22 +84,28 @@ These acronyms are widely understood in the F5 technical audience and don't need
 | DNS     | Domain Name System                   |
 | FQDN    | Fully Qualified Domain Name          |
 | FTP     | File Transfer Protocol               |
+| GenAI   | Generative AI                        |
 | GPU     | Graphics Processing Unit             |
 | gRPC    | gRPC Remote Procedure Call           |
 | HTTP    | HyperText Transfer Protocol          |
 | HTTPS   | HyperText Transfer Protocol Secure   |
+| IAM     | Identity and Access Management       |
 | ID      | Identifier                           |
 | IP      | Internet Protocol                    |
 | JSON    | JavaScript Object Notation           |
 | JWT     | JSON Web Token                       |
 | LLM     | Large Language Model                 |
+| MCP     | Model Context Protocol               |
 | NAT     | Network Address Translation          |
 | PEM     | Privacy Enhanced Mail (file format)  |
 | RAM     | Random Access Memory                 |
 | REST    | Representational State Transfer      |
+| SAML    | Security Assertion Markup Language   |
+| SHA     | Secure Hash Algorithm                |
 | SMTP    | Simple Mail Transfer Protocol        |
 | SSH     | Secure Shell                         |
 | SSL     | Secure Sockets Layer                 |
+| SSO     | Single Sign-On                       |
 | TCP     | Transmission Control Protocol        |
 | TLS     | Transport Layer Security             |
 | UI      | User Interface                       |
