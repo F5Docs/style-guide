@@ -18,12 +18,16 @@ Write doc titles that are descriptive, unique, and concise. Target 60 characters
 
 **Do:**
 > Install on bare metal
+
 > Configure rate limiting
+
 > Set up a health monitor
 
 **Don't:**
 > Install NGINX Instance Manager on bare metal
+
 > Configure rate limiting in NGINX Plus
+
 > How to set up a health monitor for BIG-IP
 
 ## Notes
