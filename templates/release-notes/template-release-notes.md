@@ -1,18 +1,16 @@
 ---
 title: "{Product Name} release notes"
-canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/nbeamex-coffee/release-notes/.}
-description: "{One-sentence summary of what this release covers, under 160 characters.}"
-toc: true
-weight: 100 "{Weight number describes the position in the table of contents. Lower number -> higher position.)"
-f5-product: {PRODUCT_NAME}
-f5-content-type: reference {Valid values: howto | concept | reference | tech-specs | tutorial}
-f5-docs: DOCS-000
-f5-keywords: "{product name}, release notes, changelog, {version}, new features, resolved issues"
-f5-summary: >
+description: >
   {Sentence 1: what product and version range these release notes cover.}
   {Sentence 2: the most significant change or theme of the release.}
   {Sentence 3 (optional): any scope limits, such as platform or edition.}
-f5-audience: {developer | operator | admin | architect | any}
+canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/nbeamex-coffee/release-notes/.}
+f5-content-type: release-notes
+f5-keywords: "{product name}, release notes, changelog, {version}, new features, resolved issues"
+f5-personas: [{devops | netops | secops | support}]
+f5-product: {PRODUCT_NAME}
+toc: true
+weight: 100 "{Weight number describes the position in the table of contents. Lower number -> higher position.)"
 ---
 
 > If you need more information about how to fill in this template, read the accompanying [guide](./guide-release-notes.md).

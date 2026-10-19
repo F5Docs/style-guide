@@ -1,21 +1,19 @@
 ---
-f5-content-type: landing-page
-f5-docs: DOCS-007
-f5-product: F5 Kitchen Brew Console
 title: F5 Kitchen Brew Console
-url: /f5-kitchen-brew-console/
-canonical: /f5-kitchen-brew-console/
-description: "Monitor, configure, and troubleshoot every connected brewer in your café or roastery from a single console."
-f5-subtitle: Monitor, manage, and maintain every brewer in your fleet
-weight: 100
-f5-landing-page: true
-cascade:
-  logo: "Kitchen-Brew-Console-product-icon.svg"
-f5-keywords: "brew console, fleet management, connected brewers, brew monitoring, F5 Kitchen, extraction alerts"
-f5-summary: >
+description: >
   F5 Kitchen Brew Console centralizes monitoring and configuration for every connected brewer across your cafés and roasteries.
   Use it to track brew consistency, maintenance schedules, and firmware versions from one dashboard instead of checking each machine individually.
-f5-audience: any
+canonical: /f5-kitchen-brew-console/
+cascade:
+  logo: "Kitchen-Brew-Console-product-icon.svg"
+f5-content-type: landing-page
+f5-keywords: "brew console, fleet management, connected brewers, brew monitoring, F5 Kitchen, extraction alerts"
+f5-landing-page: true
+f5-personas: ["devops", "netops", "secops"]
+f5-product: F5 Kitchen Brew Console
+f5-subtitle: Monitor, manage, and maintain every brewer in your fleet
+url: /f5-kitchen-brew-console/
+weight: 100
 ---
 
 ## About

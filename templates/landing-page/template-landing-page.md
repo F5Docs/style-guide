@@ -1,21 +1,19 @@
 ---
-f5-content-type: landing-page
-f5-docs: DOCS-000
-f5-product: {PRODUCT_NAME}
 title: {Product name}
-url: {This page's own URL path, for example /f5-kitchen/. Required because this is an index page — Hugo does not derive its URL implicitly.}
-canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/.}
-description: "{One-sentence summary of what the product does and its core value, under 160 characters.}"
-f5-subtitle: {Short value-proposition phrase, displayed directly under the page title}
-weight: 100
-f5-landing-page: true
-cascade:
-  logo: "{Product-Name-product-icon.svg}"
-f5-keywords: "{product name}, {feature1}, {feature2}, {common search term}"
-f5-summary: >
+description: >
   {Sentence 1: what the product is and the core value it provides.}
   {Sentence 2: what it's part of, or the problem it solves. Mention a parent product family if applicable.}
-f5-audience: {developer | operator | admin | architect | any}
+canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/.}
+cascade:
+  logo: "{Product-Name-product-icon.svg}"
+f5-content-type: landing-page
+f5-keywords: "{product name}, {feature1}, {feature2}, {common search term}"
+f5-landing-page: true
+f5-personas: [{devops | netops | secops | support}]
+f5-product: {PRODUCT_NAME}
+f5-subtitle: {Short value-proposition phrase, displayed directly under the page title}
+url: {This page's own URL path, for example /f5-kitchen/. Required because this is an index page — Hugo does not derive its URL implicitly.}
+weight: 100
 ---
 
 > If you need more information about how to fill in this template, read the accompanying [guide](./guide-landing-page.md).
