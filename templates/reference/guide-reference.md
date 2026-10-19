@@ -102,7 +102,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **keywords**: Comma-separated terms a reader might type to find this article. Include the component name, all parameter names covered in the article, and common alternative phrasings such as "config", "settings", "options", or "parameters".
 
-**description**: Two to three sentences summarizing the page. This text appears in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what component or set of entries this article covers
 - Sentence 2: what the reader can use this article to look up

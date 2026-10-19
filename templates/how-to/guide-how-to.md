@@ -104,7 +104,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **keywords**: Comma-separated terms a reader might type to find this guide. Include product names, feature names, CLI commands, file paths, and common misspellings or alternative phrasings.
 
-**description**: Two to three sentences summarizing the page. This text appears in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what the reader will configure or achieve
 - Sentence 2: why they would need to do this, or the problem it solves

@@ -103,7 +103,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **keywords**: Comma-separated terms a reader might type to find this guide. Include the product name, package name, CLI commands used in the guide, the platform and version, and common alternative phrasings such as "setup", "deploy", or "get started".
 
-**description**: Two to three sentences summarizing the page. This text appears in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what the reader will install and where
 - Sentence 2: what the installed component does or enables

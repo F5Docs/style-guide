@@ -105,7 +105,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **keywords**: Comma-separated terms a reader might type to find this document. Include the concept name, related terms, common synonyms, and the product or domain context.
 
-**description**: Two to three sentences summarizing the page. This text appears in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what the concept is, in plain language
 - Sentence 2: why it matters to the reader or what it enables

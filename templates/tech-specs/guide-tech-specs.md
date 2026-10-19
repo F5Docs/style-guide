@@ -104,7 +104,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **keywords**: Comma-separated terms a reader might type to find this page. Include the product name, the names of key specifications covered, and common alternative phrasings such as "requirements", "limits", "compatibility", "specs", and "supported".
 
-**description**: Two to three sentences summarizing the page. This text appears in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what product, component, or system this page covers.
 - Sentence 2: what types of specifications the reader can look up here.

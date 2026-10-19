@@ -103,7 +103,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **keywords**: Comma-separated terms a reader might type to find this tutorial. Include the product name, the skill being taught, and common alternative phrasings such as "learn", "tutorial", "beginner", or "step by step".
 
-**description**: Two to three sentences summarizing the page. This text appears in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what skill the reader will learn and what they will build or produce
 - Sentence 2: why that skill matters or what it enables

@@ -99,7 +99,7 @@ Before writing, identify:
 
 **f5-keywords**: Comma-separated terms a reader might type to find this product. Include the product name, its main features, and common alternative phrasings.
 
-**description**: Two to three sentences summarizing the page. This text appears in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what the product is and the core value it provides
 - Sentence 2: what it's part of, or the problem it solves — mention the parent product family if applicable

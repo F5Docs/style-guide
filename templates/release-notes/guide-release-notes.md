@@ -111,7 +111,7 @@ Each respository has a set of required metadata fields that must be included in 
 
 **keywords**: Comma-separated terms a reader might type to find this page. Include the product name, version numbers covered, and the types of changes in the most recent release — for example, feature names, resolved issue identifiers, and CVE numbers.
 
-**description**: Two to three sentences summarizing the page. This text appears in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what product and version range these release notes cover
 - Sentence 2: the most significant change or theme of the release
