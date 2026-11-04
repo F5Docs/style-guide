@@ -1,18 +1,16 @@
 ---
 title: BrewMaster Controller technical specifications
-canonical: /f5-brewmaster/tech-specs/brewmaster-controller/
-description: "Hardware requirements, performance limits, compatibility, and networking specifications for the BrewMaster Controller."
-weight: 100
-toc: true
-f5-product: F5 Brewmaster
-f5-content-type: tech-specs
-f5-docs: DOCS-000
-f5-keywords: "BrewMaster Controller, technical specifications, system requirements, performance limits, compatibility, networking, ports, protocols, supported platforms, brew rate, extraction pressure"
-f5-summary: >
+description: >
   This page covers the technical specifications for the BrewMaster Controller, the core processing unit of the F5 BrewMaster automated coffee system.
   Use this page to verify hardware requirements, confirm platform compatibility, and look up performance limits and networking requirements before deployment.
   These specifications apply to BrewMaster Controller version 3.x running on supported Linux platforms.
-f5-audience: operator
+canonical: /f5-brewmaster/tech-specs/brewmaster-controller/
+f5-content-type: tech-specs
+f5-keywords: "BrewMaster Controller, technical specifications, system requirements, performance limits, compatibility, networking, ports, protocols, supported platforms, brew rate, extraction pressure"
+f5-personas: ["netops"]
+f5-product: F5 Brewmaster
+toc: true
+weight: 100
 ---
 
 The BrewMaster Controller is the core processing unit of the F5 BrewMaster automated coffee system. It manages extraction scheduling, pressure regulation, and telemetry collection across all connected brewing nodes.

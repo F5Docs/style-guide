@@ -1,18 +1,16 @@
 ---
 title: {Product or component name} technical specifications
-canonical: {The URL path of the authoritative version of this content, for example /f5-brewmaster/tech-specs/brewmaster-controller/.}
-description: "{One-sentence summary of what component or system this page covers, under 160 characters.}"
-weight: 100
-toc: true
-f5-product: {PRODUCT_NAME}
-f5-content-type: tech-specs {Valid values: howto | concept | reference | tech-specs | tutorial}
-f5-docs: DOCS-000
-f5-keywords: "{component name}, {spec1}, {spec2}, technical specifications, requirements, limits, performance, compatibility"
-f5-summary: >
+description: >
   {Sentence 1: what product, component, or system this page covers.}
   {Sentence 2: what types of specifications the reader can look up here, for example: hardware requirements, performance limits, or compatibility matrices.}
   {Sentence 3 (optional): version scope or platform constraints this page applies to.}
-f5-audience: {developer | operator | admin | architect | any}
+canonical: {The URL path of the authoritative version of this content, for example /f5-brewmaster/tech-specs/brewmaster-controller/.}
+f5-content-type: tech-specs
+f5-keywords: "{component name}, {spec1}, {spec2}, technical specifications, requirements, limits, performance, compatibility"
+f5-personas: [{devops | netops | secops | support}]
+f5-product: {PRODUCT_NAME}
+toc: true
+weight: 100
 ---
 
 > If you need more information about how to fill in this template, read the accompanying [guide](./guide-tech-specs.md).

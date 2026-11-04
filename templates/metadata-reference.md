@@ -23,12 +23,12 @@ Metadata must be valid YAML. Quote a value with single (`'`) or double (`"`) quo
 | `title` | string | Descriptive | Required | The document's main heading (H1); the title for the doc. |
 | `weight` | integer | Structural | Required | Determines ordering in site navigation. |
 | `toc` | `true`/`false` | Structural | Optional (default `false`) | Controls visibility of the in-doc table of contents. |
-| `description` | string | Descriptive | Required | A short summary used for search, SEO, and content indexing. Doesn't appear in the rendered document. |
-| `f5-product` | string | Descriptive | Required | Identifies the related product. Can take more than one value as a YAML list. Use `Miscellaneous` for use-case docs that don't belong to a specific product. |
-| `f5-content-type` | string: `concept`, `tech-specs`, `how-to`, `reference`, `tutorial`, `release-notes`, `installation-guide`, `landing-page`, `redoc`, `redirect` | Descriptive | Required | Defines the content archetype. Release notes are a type of `reference`; getting-started and installation guides are a type of `tutorial`. `landing-page` pages also require `f5-landing-page: true`. `redirect` pages have no content — they exist only to create a navigation entry that redirects elsewhere. |
-| `f5-review-priority` | string: `high`, `medium`, `low` | Administrative | Optional (default `medium`) | Sets the review cadence: high = 3 months, medium = 6 months, low = 12 months. |
-| `f5-docs` | `DOCS-nnn` | Administrative | Not yet enforced | Internal documentation ID, created using Watchdocs. No catalog exists yet, so use the literal placeholder `DOCS-000` instead of asking the contributor. This field becomes required once the Watchdocs catalog is available. |
-| `f5-files` | array of paths | Administrative | Required (include-only key) | Used only in include files, to list every location where the include is reused. List at least two paths — if an include is used in only one place, inline the content instead. |
+| `description` | string | Descriptive | Required | Two to three sentences, used for search, SEO, content indexing, and by AI assistants generating answers that cite the page. Cover what the reader will do or learn, why it matters, and any scope limits. Doesn't appear in the rendered document. |
+| `f5-product` | string | Descriptive | Required | Identifies the related product. Can take more than one value as a YAML list. Use an approved product name (first-mention form, see [F5 product names](../terminology/f5-product-names.md)). |
+| `f5-content-type` | string: `concept`, `tech-specs`, `how-to`, `reference`, `tutorial`, `release-notes`, `installation-guide`, `landing-page`, `redoc`, `redirect` | Descriptive | Required | Defines the content archetype. Use the value that matches the template: getting-started guides use `tutorial`. `landing-page` pages also require `f5-landing-page: true`. `redirect` pages have no content — they exist only to create a navigation entry that redirects elsewhere. |
+| `f5-review-priority` | string: `high`, `medium`, `low` | Administrative | Optional (default `medium`) | Sets the review cadence: `high` = 12 weeks, `medium` = 24 weeks, `low` = 48 weeks. The catalog stores this as weeks. |
+| `f5-docs` | `DOCS-nnn` | Administrative | Automatic | Internal documentation ID (`DOCS-1`, `DOCS-2`, and so on, no zero padding) assigned by the Watchdocs catalog script in a pull request. Don't add, edit, or invent it, and leave it out of new files. |
+| `f5-files` | array of paths | Administrative | Required (include-only key) | Used only in include files, to list every location where the include is reused. The Watchdocs catalog script keeps it up to date from the `include` shortcodes. An include should be used in at least two places — if it's used in only one, inline the content instead. |
 | `f5-resource` | string (URL) | Administrative | Optional | Link to the source of an artifact used in the doc (for example, a diagramming tool file), so others can update it later. |
 | `url` | string (URL path) | Structural | Required for index pages | Defines a custom URL path for the page. Leaf pages derive their URL path implicitly from their file path and don't need this key; index pages (`_index.md`) do. Example: `url: /nginx-app-protect-waf/v5/admin-guide/` |
 | `canonical` | string (URL path) | Structural | Required | The URL path of the authoritative version of this content. Ask the contributor for this value directly. If they don't know it yet, set `canonical: TODO` rather than guessing — resolving it is expected to happen during PR review. Example: `canonical: /nginx-app-protect-waf/v5/admin-guide/` |
@@ -37,17 +37,19 @@ Metadata must be valid YAML. Quote a value with single (`'`) or double (`"`) quo
 | `headless` | `true`/`false` | Structural | Optional | Indicates the page shouldn't appear in site navigation. |
 | `layout` / `type` | string | Structural | Optional | Defines which Hugo template/layout to use, for example for EOL banners (`nms-eos-list`, `acm-eos`). |
 | `noindex` | `true`/`false` | Structural | Optional | Prevents search engines from indexing the page. |
-| `f5-personas` | array of strings | Descriptive | Optional (needs refinement) | User personas the content is for, for example `["devops", "netops", "secops", "support"]`. |
+| `f5-personas` | array of strings | Descriptive | Required | User personas the content is for. Accepted values: `devops`, `netops`, `secops`, `support`. List every persona that applies. |
 
-## Metadata for AI agent consumption
+## Search and discovery metadata
 
-These keys aren't rendered in the product UI, but they're consumed by AI systems, search indexes, and docs-as-code tooling.
+This key isn't rendered in the product UI, but search indexes and docs-as-code tooling use it.
 
 | Key | Value(s) | Purpose | Required | Notes |
 |---|---|---|---|---|
 | `f5-keywords` | comma-separated strings | AI guidance | Required | Terms a reader might type to find this page: product names, feature names, CLI commands, file paths, common misspellings or alternative phrasings. |
-| `f5-summary` | string | AI guidance | Required | Two to three sentences expanding on `description`, used by AI assistants generating answers that cite this page. Cover: what the reader will do or learn, why it matters, and any scope limits. |
-| `f5-audience` | string | AI guidance | Required | Who the doc is for. Accepted values: `developer`, `operator`, `admin`, `architect`, `any`. |
+
+## Catalog
+
+The Watchdocs catalog script syncs these keys with the documentation catalog: `title`, `description`, `f5-product`, `f5-content-type`, `f5-review-priority`, `f5-keywords`, `f5-personas`, `f5-docs`, and `f5-files`. It also records each page's code URL, public URL, and last content change from the repository. The script opens a pull request with the metadata it adds or changes, such as `f5-docs` IDs and approved product names in place of aliases.
 
 ## Why canonical matters
 
@@ -69,20 +71,18 @@ For deeper background, see Semrush's [Canonical URLs guide](https://www.semrush.
 ```yaml
 ---
 title: Technical Specifications
-weight: 100
-toc: true
-description: "Detailed specifications for NGINX Instance Manager, including system requirements and performance benchmarks."
-f5-product: F5 NGINX Instance Manager
-canonical: /nginx-instance-manager/tech-specs/
-f5-review-priority: high
-f5-content-type: tech-specs
-f5-docs: DOCS-001
-f5-keywords: "NIM, technical specifications, system requirements, performance limits, compatibility, networking, ports, protocols, supported platforms"
-f5-summary: >
+description: >
   This page covers the technical specifications for the F5 NGINX Instance Manager.
   Use this page to verify hardware requirements, confirm platform compatibility, and look up
   performance limits and networking requirements before deployment.
   These specifications apply to NGINX Instance Manager 3.x running on supported platforms.
-f5-audience: operator
+canonical: /nginx-instance-manager/tech-specs/
+f5-content-type: tech-specs
+f5-keywords: "NIM, technical specifications, system requirements, performance limits, compatibility, networking, ports, protocols, supported platforms"
+f5-personas: ["devops", "netops"]
+f5-product: F5 NGINX Instance Manager
+f5-review-priority: high
+toc: true
+weight: 100
 ---
 ```

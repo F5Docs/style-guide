@@ -55,28 +55,15 @@ Before writing, identify:
 - **Order sections by reader priority, not internal structure.** Put the content most readers need first — typically "get started" — and push reference-style content (API, glossary, changelog) into "More information" at the bottom.
 - **Do not duplicate navigation.** A landing page is not a sitemap. Only include cards for the pages that matter most; do not attempt to list every page in the section.
 - **Use `brandIcon`, not `icon`, for related products.** In a components section, use each product's real logo (`brandIcon`) so readers can visually recognize sibling products. Reserve the generic `icon` parameter (Lucide icons) for task-oriented cards within this product.
-
----
-
-## AI-ready writing principles
-
-AI assistants and human readers parse documentation differently from search engines. Apply these rules to every section of the landing page.
-
-**1. Lead with what the product does, not what it is called.** The title already states the name. The first sentence of About should state the value.
-
-- Bad: "F5 Kitchen Brew Console is a console for brewers."
-- Good: "F5 Kitchen Brew Console makes it easy to manage connected brewers across locations and environments."
-
-**2. Name specific capabilities.** Avoid vague value statements that could describe any product.
-
-- Bad: "Brew Console helps you work more efficiently."
-- Good: "Brew Console lets you track extraction targets, manage maintenance schedules, and monitor firmware versions."
-
-**3. Use exact product names consistently.** Never shorten a product name inconsistently across cards — pick one short form (if any) and use it everywhere on the page.
-
-**4. Make every card description self-contained.** A card description is often surfaced on its own in search results or AI answers, separate from its title. Write it so it makes sense without the card title next to it.
-
-**5. Write descriptive link text inside card titles.** Card titles are used as the link text. "Connect more brewers" tells the reader and AI systems what the destination page covers; "Learn more" does not.
+- **Lead with what the product does, not what it is called.** The title already states the name. The first sentence of About should state the value.
+  - Bad: "F5 Kitchen Brew Console is a console for brewers."
+  - Good: "F5 Kitchen Brew Console makes it easy to manage connected brewers across locations and environments."
+- **Name specific capabilities.** Avoid vague value statements that could describe any product.
+  - Bad: "Brew Console helps you work more efficiently."
+  - Good: "Brew Console lets you track extraction targets, manage maintenance schedules, and monitor firmware versions."
+- **Use exact product names consistently.** Never shorten a product name inconsistently across cards — pick one short form (if any) and use it everywhere on the page.
+- **Make every card description self-contained.** Write it so it makes sense without the card title next to it.
+- **Write descriptive link text inside card titles.** Card titles are used as the link text.
 
 ---
 
@@ -98,8 +85,6 @@ AI assistants and human readers parse documentation differently from search engi
 
 **f5-content-type**: Always `landing-page`.
 
-**f5-docs**: The tracking ID for this document. Use `DOCS-000` until a real ID is assigned.
-
 **f5-product**: The product name, used for internal catalogue and search. Case-sensitive.
 
 **title**: The product name as it should appear as the page heading. Do not add "Documentation" or "Overview" — the page itself makes that clear.
@@ -112,26 +97,20 @@ AI assistants and human readers parse documentation differently from search engi
 
 **cascade.logo**: The filename of the product's logo icon, resolved from the theme's images folder.
 
-### Recommended fields
-
-**description**: One sentence under 160 characters summarizing what the product does. Appears in search engine results, AI assistant citations, and doc portal previews.
-
-**f5-subtitle**: A short phrase displayed directly beneath the page title on the rendered page. This is the first thing a reader sees — make it a value statement, not a tagline.
-
-**weight**: Controls sort order relative to sibling sections. Lower numbers appear first. Omit if the product does not need to be pinned to a specific position.
-
-### AI enrichment fields (recommended)
-
-These fields are not rendered in the product UI, but they are consumed by AI systems, search indexes, and docs-as-code tooling.
-
 **f5-keywords**: Comma-separated terms a reader might type to find this product. Include the product name, its main features, and common alternative phrasings.
 
-**f5-summary**: One to two sentences expanding on `description`. AI assistants use this field when generating answers that cite this page. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what the product is and the core value it provides
 - Sentence 2: what it's part of, or the problem it solves — mention the parent product family if applicable
 
-**f5-audience**: Who this product is for. Accepted values: `developer`, `operator`, `admin`, `architect`, `any`.
+**personas**: The roles the page is for. Accepted values: `devops`, `netops`, `secops`, `support`. List every role that applies.
+
+### Recommended fields
+
+**f5-subtitle**: A short phrase displayed directly beneath the page title on the rendered page. This is the first thing a reader sees — make it a value statement, not a tagline.
+
+**weight**: Controls sort order relative to sibling sections. Lower numbers appear first. Omit if the product does not need to be pinned to a specific position.
 
 ---
 

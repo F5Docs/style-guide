@@ -55,32 +55,17 @@ Before writing, identify:
 - **Do not document error scenarios or complex variations.** Getting started guides are optimised for the happy path. Unexpected scenarios belong in troubleshooting guides and how-tos.
 - **Limit steps.** Aim for a maximum of 8 to 10 steps per part. If more steps are required, break the guide into logical parts with separate headings.
 - **Minimise links within the guide.** Keep users on a single page. Provide links to supporting or background information at the bottom of the guide in the Next steps section, not inline.
-
----
-
-## AI-ready writing principles
-
-AI assistants and human readers parse documentation differently from search engines. Apply these rules in every section of the guide.
-
-**1. One idea per sentence.** Long compound sentences confuse AI extractors.
-
-- Bad: "Open the config file, which is located at /etc/app/config.yml, and add your API key."
-- Good: "Open `/etc/app/config.yml`. Add your API key to the `api_key` field."
-
-**2. Use exact names consistently.** If the product is "NGINX Agent", never shorten it to "the agent" mid-guide. Inconsistency breaks AI entity resolution and confuses readers who arrive mid-page from search.
-
-**3. State the outcome of each step.** After every command or code block, add one sentence describing what it does or what the reader should observe. AI assistants surface these outcome sentences when answering follow-up questions.
-
-**4. Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual noun.
-
-- Bad: "Reload it to apply the changes."
-- Good: "Reload NGINX Agent to apply the changes."
-
-**5. Keep code blocks self-contained.** Every code block must be runnable in isolation or clearly note what must be substituted. Use `ALL_CAPS_PLACEHOLDERS` for values the reader must supply — for example, `YOUR_API_KEY_HERE` or `YOUR_PROJECT_NAME_HERE`.
-
-**6. Use parallel structure in lists.** Every bullet or numbered step should follow the same grammatical pattern — all start with a verb, or all are noun phrases.
-
-**7. Mark optional content explicitly.** Use "(Optional)" at the start of any step, section, or field that not every reader will need.
+- **One idea per sentence.** Split long compound sentences so each sentence makes one point.
+  - Bad: "Open the config file, which is located at /etc/app/config.yml, and add your API key."
+  - Good: "Open `/etc/app/config.yml`. Add your API key to the `api_key` field."
+- **Use exact names consistently.** If the product is "NGINX Agent", never shorten it to "the agent" mid-guide.
+- **State the outcome of each step.** After every command or code block, add one sentence describing what it does or what the reader should observe.
+- **Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual noun.
+  - Bad: "Reload it to apply the changes."
+  - Good: "Reload NGINX Agent to apply the changes."
+- **Keep code blocks self-contained.** Every code block must be runnable in isolation or clearly note what must be substituted. Use `ALL_CAPS_PLACEHOLDERS` for values the reader must supply — for example, `YOUR_API_KEY_HERE` or `YOUR_PROJECT_NAME_HERE`.
+- **Use parallel structure in lists.** Every bullet or numbered step should follow the same grammatical pattern — all start with a verb, or all are noun phrases.
+- **Mark optional content explicitly.** Use "(Optional)" at the start of any step, section, or field that not every reader will need.
 
 ---
 
@@ -114,23 +99,17 @@ Each respository has a set of required metadata fields that must be included in 
 - Good: "Get started with NGINX Agent"
 - Bad: "Getting started with NGINX Agent" or "How to get started with NGINX Agent"
 
-**description**: One sentence under 160 characters summarizing what the reader will accomplish. This text appears in search engine results, AI assistant citations, and doc portal previews. Write it as a complete sentence: "Deploy your first X and verify it is working" or "Connect X to Y and make your first API call."
-
 **canonical**: The URL path of the authoritative version of this content, for example `/f5-kitchen/getting-started/drip-coffee-maker/`. Ask the contributor for this value directly. If they don't know it yet, set `canonical: TODO` rather than guessing — resolving it is expected to happen during PR review. See [metadata reference](../metadata-reference.md) for the full list of metadata keys.
-
-### AI enrichment fields (recommended)
-
-These fields are not rendered in the product UI, but they are consumed by AI systems, search indexes, and docs-as-code tooling. Filling them in improves discoverability and the quality of AI-generated answers that cite this page.
 
 **keywords**: Comma-separated terms a reader might type to find this guide. Include the product name, feature names, the primary CLI command or action used in the guide, and common alternative phrasings such as "quickstart", "first steps", "introduction", or "hello world".
 
-**summary**: Two to three sentences expanding on `description`. AI assistants use this field when generating answers that cite this page. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what the reader will do and what they will have at the end
 - Sentence 2: what the primary feature does or enables
 - Sentence 3 (optional): the audience, scope limits, or assumed knowledge
 
-**audience**: Who this guide is for. Accepted values: `developer`, `operator`, `admin`, `architect`, `any`. Getting started guides are typically audience `any` unless the product is role-specific.
+**personas**: The roles the page is for. Accepted values: `devops`, `netops`, `secops`, `support`. List every role that applies.
 
 ---
 

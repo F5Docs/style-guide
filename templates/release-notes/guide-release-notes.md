@@ -60,31 +60,17 @@ Before writing, identify:
 - **List the most impactful items first.** Within each section, list items in order of impact to the user, not in order of development completion.
 - **Use consistent formatting.** Every entry in a section must follow the same structure: bold title, then description. Do not mix formats within a section.
 - **Do not disclose security issues prematurely.** Security updates must not be published until an investigation is complete and a fix is available. Include the standard security disclosure callout in every release that contains security updates.
-
----
-
-## AI-ready writing principles
-
-AI assistants and human readers parse documentation differently from search engines. Apply these rules in every section of the release notes.
-
-**1. Use exact product and feature names consistently.** If the feature is called "Instance Manager", never shorten it to "the manager" or "IM" in the same document. Inconsistency breaks AI entity resolution.
-
-**2. One idea per sentence.** Long compound sentences confuse AI extractors.
-
-- Bad: "We have added a new feature that allows you to filter instances by region and also export the filtered results as a CSV file."
-- Good: "You can now filter instances by region. You can also export filtered results as a CSV file."
-
-**3. Include the CVE identifier in the entry text for security updates, not only in a link.** AI assistants extract CVE numbers most reliably when they appear as plain text in the entry, not only as link text.
-
-**4. State issue identifiers in plain text as well as in links.** Write the issue number in the entry text so it is findable by search and AI systems even when the link cannot be followed.
-
-- Good: "Fixed an issue where the dashboard failed to load (issue 1234)."
-- Bad: "Fixed an issue where the dashboard failed to load ([details](https://example.com/issues/1234))."
-
-**5. Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual feature or product name.
-
-- Bad: "It now supports multi-region deployments."
-- Good: "NGINX Agent now supports multi-region deployments."
+- **Use exact product and feature names consistently.** If the feature is called "Instance Manager", never shorten it to "the manager" or "IM" in the same document.
+- **One idea per sentence.** Split long compound sentences so each sentence makes one point.
+  - Bad: "We have added a new feature that allows you to filter instances by region and also export the filtered results as a CSV file."
+  - Good: "You can now filter instances by region. You can also export filtered results as a CSV file."
+- **Include the CVE identifier in the entry text for security updates, not only in a link.**
+- **State issue identifiers in plain text as well as in links.**
+  - Good: "Fixed an issue where the dashboard failed to load (issue 1234)."
+  - Bad: "Fixed an issue where the dashboard failed to load ([details](https://example.com/issues/1234))."
+- **Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual feature or product name.
+  - Bad: "It now supports multi-region deployments."
+  - Good: "NGINX Agent now supports multi-region deployments."
 
 ---
 
@@ -118,26 +104,20 @@ Each respository has a set of required metadata fields that must be included in 
 - Good: "Nbeamex Coffee release notes"
 - Bad: "Nbeamex Coffee 2.16.0 release notes" or "Release notes for Nbeamex Coffee"
 
-**description**: One sentence under 160 characters summarizing what this page covers. Include the product name and the types of changes documented. This text appears in search engine results, AI assistant citations, and doc portal previews.
-
 - Good: "New features, behavior changes, and resolved issues for Nbeamex Coffee 2.16.0."
 - Bad: "Release notes."
 
 **canonical**: The URL path of the authoritative version of this content, for example `/f5-kitchen/nbeamex-coffee/release-notes/`. Ask the contributor for this value directly. If they don't know it yet, set `canonical: TODO` rather than guessing — resolving it is expected to happen during PR review. See [metadata reference](../metadata-reference.md) for the full list of metadata keys.
 
-### AI enrichment fields (recommended)
-
-These fields are not rendered in the product UI, but they are consumed by AI systems, search indexes, and docs-as-code tooling. Filling them in improves discoverability and the quality of AI-generated answers that cite this page.
-
 **keywords**: Comma-separated terms a reader might type to find this page. Include the product name, version numbers covered, and the types of changes in the most recent release — for example, feature names, resolved issue identifiers, and CVE numbers.
 
-**summary**: Two to three sentences expanding on `description`. AI assistants use this field when generating answers that cite this page. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what product and version range these release notes cover
 - Sentence 2: the most significant change or theme of the release
 - Sentence 3 (optional): any scope limits, such as platform or edition
 
-**audience**: Who this page is for. Accepted values: `developer`, `operator`, `admin`, `architect`, `any`. Release notes are typically `any` because they are read by a mixed technical and non-technical audience.
+**personas**: The roles the page is for. Accepted values: `devops`, `netops`, `secops`, `support`. List every role that applies.
 
 ---
 

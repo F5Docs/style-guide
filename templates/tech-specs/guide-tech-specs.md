@@ -45,41 +45,6 @@ Before writing, identify:
 
 ---
 
-## AI-ready writing principles
-
-AI assistants and human readers parse documentation differently from search engines. Apply these rules in every section of the page.
-
-**1. One specification per row.** Never combine two limits or requirements in a single table row or cell. AI systems extract values from table cells — combining values makes extraction unreliable.
-
-- Bad: "4 GB RAM minimum, 16 GB recommended"
-- Good: Two separate rows, one for Minimum and one for Recommended.
-
-**2. Use exact names consistently.** Component names, metric names, and platform names must match the product and industry exactly, and must be used identically throughout the page. Inconsistency breaks AI entity resolution and confuses readers who arrive mid-page from search.
-
-**3. Always include units.** State every numeric value with its unit explicitly. Do not assume the unit is obvious from context.
-
-- Bad: "10,000"
-- Good: "10,000 requests per second"
-
-**4. Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual product or component name.
-
-- Bad: "It supports a maximum of 1,000 connections."
-- Good: "The BrewMaster Controller supports a maximum of 1,000 concurrent connections."
-
-**5. State limits as their own sentence.** Do not bury limits inside longer prose. Each limit should be an independent, self-contained statement.
-
-- Bad: "Performance may degrade when processing large volumes of requests at high concurrency, especially on systems with less than 8 GB of RAM."
-- Good: "The maximum supported throughput is 10,000 requests per second. Systems with less than 8 GB of RAM may experience reduced throughput at peak concurrency."
-
-**6. Mark optional and conditional values explicitly.** When a specification applies only in certain configurations or deployments, state the condition before the value.
-
-- Bad: "512 MB"
-- Good: "512 MB when deployed in disconnected mode"
-
-**7. Use ALL_CAPS_PLACEHOLDERS for values the reader must supply.** In example values and code samples, use `YOUR_VALUE_HERE` rather than `<value>` or `$VALUE`.
-
----
-
 ## Section requirements
 
 | Section | Required? |
@@ -93,6 +58,28 @@ AI assistants and human readers parse documentation differently from search engi
 | Compatibility | Conditional — include when the product integrates with or depends on other systems |
 | Networking specifications | Conditional — include when the product has network port or protocol requirements |
 | Known limits and constraints | Conditional — include when there are hard limits or unsupported configurations the reader must know |
+
+---
+
+## Best practices
+
+- **One specification per row.** Never combine two limits or requirements in a single table row or cell.
+  - Bad: "4 GB RAM minimum, 16 GB recommended"
+  - Good: Two separate rows, one for Minimum and one for Recommended.
+- **Use exact names consistently.** Component names, metric names, and platform names must match the product and industry exactly, and must be used identically throughout the page.
+- **Always include units.** State every numeric value with its unit explicitly. Do not assume the unit is obvious from context.
+  - Bad: "10,000"
+  - Good: "10,000 requests per second"
+- **Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual product or component name.
+  - Bad: "It supports a maximum of 1,000 connections."
+  - Good: "The BrewMaster Controller supports a maximum of 1,000 concurrent connections."
+- **State limits as their own sentence.** Do not bury limits inside longer prose. Each limit should be an independent, self-contained statement.
+  - Bad: "Performance may degrade when processing large volumes of requests at high concurrency, especially on systems with less than 8 GB of RAM."
+  - Good: "The maximum supported throughput is 10,000 requests per second. Systems with less than 8 GB of RAM may experience reduced throughput at peak concurrency."
+- **Mark optional and conditional values explicitly.** When a specification applies only in certain configurations or deployments, state the condition before the value.
+  - Bad: "512 MB"
+  - Good: "512 MB when deployed in disconnected mode"
+- **Use ALL_CAPS_PLACEHOLDERS for values the reader must supply.** In example values and code samples, use `YOUR_VALUE_HERE` rather than `<value>` or `$VALUE`.
 
 ---
 
@@ -113,23 +100,17 @@ Each respository has a set of required metadata fields that must be included in 
 - Bad: "BrewMaster Controller specs" (too informal)
 - Bad: "Technical specifications for the BrewMaster Controller" (passive construction)
 
-**description**: One sentence under 160 characters summarizing what product or component this page covers and what the reader can look up. This text appears in search engine results, AI assistant citations, and doc portal previews.
-
 **canonical**: The URL path of the authoritative version of this content, for example `/f5-brewmaster/tech-specs/brewmaster-controller/`. Ask the contributor for this value directly. If they don't know it yet, set `canonical: TODO` rather than guessing — resolving it is expected to happen during PR review. See [metadata reference](../metadata-reference.md) for the full list of metadata keys.
-
-### AI enrichment fields (recommended)
-
-These fields are not rendered in the product UI, but they are consumed by AI systems, search indexes, and docs-as-code tooling. Filling them in improves discoverability and the quality of AI-generated answers that cite this page.
 
 **keywords**: Comma-separated terms a reader might type to find this page. Include the product name, the names of key specifications covered, and common alternative phrasings such as "requirements", "limits", "compatibility", "specs", and "supported".
 
-**summary**: Two to three sentences expanding on `description`. AI assistants use this field when generating answers that cite this page. Write in plain prose. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what product, component, or system this page covers.
 - Sentence 2: what types of specifications the reader can look up here.
 - Sentence 3 (optional): version scope or platform constraints.
 
-**audience**: Who this page is for. Accepted values: `developer`, `operator`, `admin`, `architect`, `any`. Tech specs pages are typically `operator` or `architect`.
+**personas**: The roles the page is for. Accepted values: `devops`, `netops`, `secops`, `support`. List every role that applies.
 
 ---
 
@@ -191,8 +172,6 @@ Cover ports, protocols, and any bandwidth or latency requirements. State whether
 ### Known limits and constraints
 
 Write each limit as a complete, independent sentence. State the exact limit value and what happens when it is exceeded. This section is read by AI assistants responding to questions like "what happens if I exceed the connection limit?" — every sentence must be self-contained and unambiguous.
-
----
 
 ---
 

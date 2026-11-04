@@ -50,40 +50,23 @@ Before writing, identify:
 
 - **One platform per guide.** Write one guide per operating system or distribution. If steps differ between Ubuntu and RHEL, write two guides. Combining them forces users to read steps that do not apply to them.
 - **One install method per guide.** If multiple install methods exist, document the recommended one. Mention alternatives only by linking to a separate document.
-- **Number every step.** Numbered steps are the most reliable structure for AI to extract procedural instructions. Do not use unnumbered prose for steps, even if a task has only one step.
-- **Add an outcome sentence after every command.** State what the command does or what the reader should observe. This is the part AI assistants are most likely to surface when answering follow-up questions.
+- **Number every step.** Numbered steps are easiest to follow. Do not use unnumbered prose for steps, even if a task has only one step.
+- **Add an outcome sentence after every command.** State what the command does or what the reader should observe.
 - **Show expected output.** After commands that produce output the reader must verify — such as a version check or a status command — show a truncated example of the expected output. This lets readers confirm they are on the right path without guessing.
 - **Test your instructions end to end.** Run through every step on a clean machine or VM that matches the target platform. This uncovers omitted steps, version mismatches, and permissions gaps. If you cannot test them yourself, have a developer or subject matter expert demonstrate the steps.
 - **Re-test after every notable product release.** Package names, configuration keys, and service names can change between releases. Re-test end to end whenever a significant release affects the product you are documenting.
 - **Minimise links within the guide.** Keep users on a single page. Provide links to supporting or background information in the References section, not inline.
-
----
-
-## AI-ready writing principles
-
-AI assistants and human readers parse documentation differently from search engines. Apply these rules in every section of the guide.
-
-**1. One idea per sentence.** Long compound sentences confuse AI extractors.
-
-- Bad: "Open the config file, which is located at /etc/nginx-agent/nginx-agent.conf, and replace the token value with the key you copied from the console."
-- Good: "Open `/etc/nginx-agent/nginx-agent.conf`. Replace `YOUR_DATA_PLANE_KEY_HERE` with the data plane key you copied from NGINX One Console."
-
-**2. Use exact names consistently.** If the product is "NGINX Agent", never shorten it to "the agent" mid-guide. Inconsistency breaks AI entity resolution and confuses readers who arrive mid-page from search.
-
-**3. State the outcome of each step.** After every command or code block, add one sentence describing what it does or what the reader should observe. AI assistants surface these outcome sentences when answering questions like "what does this command do?"
-
-**4. Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual noun.
-
-- Bad: "Reload it to apply the changes."
-- Good: "Reload NGINX Agent to apply the changes."
-
-**5. Keep code blocks self-contained.** Every code block must be runnable in isolation or clearly note what must be substituted. Use `ALL_CAPS_PLACEHOLDERS` for values the reader must supply — for example, `YOUR_DATA_PLANE_KEY_HERE` or `YOUR_INSTANCE_IP_HERE`.
-
-**6. Use parallel structure in lists.** Every bullet or numbered step should follow the same grammatical pattern — all start with a verb, or all are noun phrases.
-
-**7. Mark optional content explicitly.** Use "(Optional)" at the start of any step, section, or field that not every reader will need.
-
-**8. Copy error strings verbatim into Troubleshooting.** AI assistants frequently surface troubleshooting content in response to error messages. Copying the exact error string into the Symptom field is the single most effective thing you can do to make troubleshooting content discoverable.
+- **One idea per sentence.** Split long compound sentences so each sentence makes one point.
+  - Bad: "Open the config file, which is located at /etc/nginx-agent/nginx-agent.conf, and replace the token value with the key you copied from the console."
+  - Good: "Open `/etc/nginx-agent/nginx-agent.conf`. Replace `YOUR_DATA_PLANE_KEY_HERE` with the data plane key you copied from NGINX One Console."
+- **Use exact names consistently.** If the product is "NGINX Agent", never shorten it to "the agent" mid-guide.
+- **Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual noun.
+  - Bad: "Reload it to apply the changes."
+  - Good: "Reload NGINX Agent to apply the changes."
+- **Keep code blocks self-contained.** Every code block must be runnable in isolation or clearly note what must be substituted. Use `ALL_CAPS_PLACEHOLDERS` for values the reader must supply — for example, `YOUR_DATA_PLANE_KEY_HERE` or `YOUR_INSTANCE_IP_HERE`.
+- **Use parallel structure in lists.** Every bullet or numbered step should follow the same grammatical pattern — all start with a verb, or all are noun phrases.
+- **Mark optional content explicitly.** Use "(Optional)" at the start of any step, section, or field that not every reader will need.
+- **Copy error strings verbatim into Troubleshooting.** Copying the exact error string into the Symptom field is the single most effective thing you can do to make troubleshooting content discoverable.
 
 ---
 
@@ -116,23 +99,17 @@ Each respository has a set of required metadata fields that must be included in 
 - Good: "Install NGINX Agent on Ubuntu"
 - Bad: "How to install NGINX Agent on Ubuntu" or "Installing NGINX Agent"
 
-**description**: One sentence under 160 characters summarizing what the reader installs and on what platform. Include the platform version if the guide is version-specific. This text appears in search engine results, AI assistant citations, and doc portal previews.
-
 **canonical**: The URL path of the authoritative version of this content, for example `/f5-kitchen/install/drip-coffee-maker/`. Ask the contributor for this value directly. If they don't know it yet, set `canonical: TODO` rather than guessing — resolving it is expected to happen during PR review. See [metadata reference](../metadata-reference.md) for the full list of metadata keys.
-
-### AI enrichment fields (recommended)
-
-These fields are not rendered in the product UI, but they are consumed by AI systems, search indexes, and docs-as-code tooling. Filling them in improves discoverability and the quality of AI-generated answers that cite this page.
 
 **keywords**: Comma-separated terms a reader might type to find this guide. Include the product name, package name, CLI commands used in the guide, the platform and version, and common alternative phrasings such as "setup", "deploy", or "get started".
 
-**summary**: Two to three sentences expanding on `description`. AI assistants use this field when generating answers that cite this page. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what the reader will install and where
 - Sentence 2: what the installed component does or enables
 - Sentence 3 (optional): supported platforms, versions, or scope limits
 
-**audience**: Who this guide is for. Accepted values: `developer`, `operator`, `admin`, `architect`, `any`. This helps AI systems route questions to the right document and allows doc portals to filter content by role.
+**personas**: The roles the page is for. Accepted values: `devops`, `netops`, `secops`, `support`. List every role that applies.
 
 ---
 
