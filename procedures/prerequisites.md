@@ -44,6 +44,7 @@ Frame prerequisites naturally in the intro sentence rather than as a formal bloc
 - [Admonitions](admonitions.md)
 - [Second person](../voice-and-tone/second-person.md)
 - [Step formatting](step-formatting.md)
+- [Version references](../terminology/version-references.md)
 
 ## See also
 
