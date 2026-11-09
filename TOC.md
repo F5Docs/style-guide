@@ -76,6 +76,7 @@
 - [Login vs. Log in](terminology/login-vs-log-in.md)
 - [UI terms](terminology/ui-terms.md)
 - [Update vs. Upgrade](terminology/update-vs-upgrade.md)
+- [Version references](terminology/version-references.md)
 - [Word list](terminology/word-list.md)
 
 ## Voice and tone
