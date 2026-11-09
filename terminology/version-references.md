@@ -44,10 +44,22 @@ Once the release that introduced a feature reaches EOL, remove "introduced in" a
 
 ### Match the phrasing to the product's support model
 
-Not every product has a formal end-of-life policy. Use language that reflects reality:
+Not every product has a formal end-of-life policy. Before you cite a version as a prerequisite, check whether the product publishes explicit EOL dates for its releases:
 
-- For products with a defined EOL schedule (for example, NGINX Plus), say "a supported release."
-- For products without one (for example, NGINX Open Source), say "a current release." "Supported" overstates what the vendor actually guarantees.
+- If it does (for example, [NGINX Plus](https://docs.nginx.com/nginx/releases/), which has a published release-support schedule), say "a supported release."
+- If it doesn't (for example, [NGINX Open Source](https://nginx.org/en/download.html), which has no formal end-of-support date for a given release), say "a current release" instead. "Supported" would overstate what the vendor guarantees.
+
+**Do:**
+> Before you begin, make sure you have:
+> - A supported release of NGINX Plus
+> - A current release of NGINX Open Source
+
+**Don't:**
+> Before you begin, make sure you have:
+> - NGINX Plus R23 or later
+> - A supported release of NGINX Open Source
+
+NGINX Plus R23 shipped in December 2020 and is long past end of life. Citing it as a minimum tells today's reader nothing useful, because every supported release already exceeds it.
 
 ### Where version history belongs regardless of age
 
