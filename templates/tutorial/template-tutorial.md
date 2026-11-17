@@ -1,18 +1,16 @@
 ---
 title: {Verb phrase describing what the reader will learn to do}
-canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/tutorials/brew-pour-over-coffee-with-a-burr-grinder/.}
-description: "{One-sentence summary of what skill the reader will gain, under 160 characters.}"
-weight: 100
-toc: true
-f5-product: {PRODUCT_NAME}
-f5-content-type: tutorial {Valid values: howto | concept | reference | tech-specs | tutorial}
-f5-docs: DOCS-000
-f5-keywords: "{product name}, {skill}, {keyword3}, tutorial, learn, step by step, beginner"
-f5-summary: >
+description: >
   {Sentence 1: what skill the reader will learn and what they will build or produce.}
   {Sentence 2: why that skill matters or what it enables.}
   {Sentence 3 (optional): intended audience and any assumed knowledge.}
-f5-audience: {developer | operator | admin | architect | any}
+canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/tutorials/brew-pour-over-coffee-with-a-burr-grinder/.}
+f5-content-type: tutorial
+f5-keywords: "{product name}, {skill}, {keyword3}, tutorial, learn, step by step, beginner"
+f5-personas: [{devops | netops | secops | support}]
+f5-product: {PRODUCT_NAME}
+toc: true
+weight: 100
 ---
 
 > If you need more information about how to fill in this template, read the accompanying [guide](./guide-tutorial.md).

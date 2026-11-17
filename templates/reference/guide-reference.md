@@ -49,42 +49,25 @@ Before writing, identify:
 ## Best practices
 
 - **One component per article.** Cover one configuration file, one API endpoint, one CLI command, or one logical group of related parameters per page. If an article grows too large to scan easily, split it by logical subset.
-- **Be consistent across every entry.** Every entry in a table or list must use the same attributes in the same order. Inconsistency forces readers to re-orient on every row and breaks AI extraction.
-- **Use exact names.** Parameter names, type names, and default values must match the product exactly, including capitalization and punctuation. A mismatch between the reference article and the product is the most damaging error a reference article can contain.
+- **Be consistent across every entry.** Every entry in a table or list must use the same attributes in the same order.
 - **State defaults explicitly.** If a parameter has a default value, always state it. If a parameter has no default and is required, state that it is required. Never leave the default or required status implied.
 - **Keep descriptions factual and brief.** Each description should answer "what does this entry do or accept?" in one to two sentences. Do not include usage instructions or examples unless they are essential to understanding the entry.
 - **Auto-generate where possible.** Reference documentation that is generated from source code or API schemas is easier to keep accurate. If auto-generation tooling exists, use it and treat the template as the structure within which generated content lives.
 - **Review with a subject matter expert.** Reference articles are high-stakes: an incorrect type, default, or constraint can cause misconfiguration. Always have a developer or SME review every entry before publication.
 - **Re-validate after every release.** Parameter names, types, defaults, and constraints change between product versions. Re-validate the entire article whenever a release affects the component you are documenting.
-
----
-
-## AI-ready writing principles
-
-AI assistants and human readers parse documentation differently from search engines. Apply these rules in every section of the article.
-
-**1. Use exact names consistently.** Parameter names, field names, and type names must match the product exactly and be used identically throughout the article. Inconsistency breaks AI entity resolution and causes lookup failures.
-
-**2. One idea per sentence.** Long compound descriptions confuse AI extractors.
-
-- Bad: "Sets the timeout value in seconds, which applies to both read and write operations and defaults to 30 if not specified."
-- Good: "Sets the timeout in seconds for read and write operations. Default: `30`."
-
-**3. State defaults and constraints as their own sentence or field.** Do not bury defaults or constraints inside a longer description sentence. AI systems extract these values most reliably when they are stated explicitly.
-
-- Bad: "The log level, which can be debug, info, warn, or error, and defaults to info."
-- Good: "The log verbosity level. Accepted values: `debug`, `info`, `warn`, `error`. Default: `info`."
-
-**4. Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual parameter or component name.
-
-- Bad: "It must be set before the agent starts."
-- Good: "The `api_key` parameter must be set before NGINX Agent starts."
-
-**5. Mark optional and required entries explicitly.** Do not rely on the absence of a "Required" label to imply optional. State required or optional for every entry.
-
-**6. Use parallel structure in every table and list.** Every description in a table column should follow the same grammatical pattern. All descriptions start with a verb phrase, or all are noun phrases. Mixing patterns forces AI and human readers to re-parse each entry individually.
-
-**7. Use ALL_CAPS_PLACEHOLDERS for values the reader must supply.** In example values and code samples, use `YOUR_VALUE_HERE` rather than `<value>` or `$VALUE`. This is consistent with how-to guides and installation guides in this documentation set.
+- **Use exact names consistently.** Parameter names, field names, and type names must match the product exactly and be used identically throughout the article.
+- **One idea per sentence.** Split long compound sentences so each sentence makes one point.
+  - Bad: "Sets the timeout value in seconds, which applies to both read and write operations and defaults to 30 if not specified."
+  - Good: "Sets the timeout in seconds for read and write operations. Default: `30`."
+- **State defaults and constraints as their own sentence or field.** Do not bury defaults or constraints inside a longer description sentence.
+  - Bad: "The log level, which can be debug, info, warn, or error, and defaults to info."
+  - Good: "The log verbosity level. Accepted values: `debug`, `info`, `warn`, `error`. Default: `info`."
+- **Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual parameter or component name.
+  - Bad: "It must be set before the agent starts."
+  - Good: "The `api_key` parameter must be set before NGINX Agent starts."
+- **Mark optional and required entries explicitly.** Do not rely on the absence of a "Required" label to imply optional. State required or optional for every entry.
+- **Use parallel structure in every table and list.** Every description in a table column should follow the same grammatical pattern. All descriptions start with a verb phrase, or all are noun phrases.
+- **Use ALL_CAPS_PLACEHOLDERS for values the reader must supply.** In example values and code samples, use `YOUR_VALUE_HERE` rather than `<value>` or `$VALUE`. This is consistent with how-to guides and installation guides in this documentation set.
 
 ---
 
@@ -115,23 +98,17 @@ Each respository has a set of required metadata fields that must be included in 
 - Good: "Instance Manager API — list instances"
 - Bad: "How to configure NGINX Agent" or "Configuring NGINX Agent"
 
-**description**: One sentence under 160 characters summarizing what this article covers. This text appears in search engine results, AI assistant citations, and doc portal previews.
-
 **canonical**: The URL path of the authoritative version of this content, for example `/f5-kitchen/reference/drip-coffee-maker-settings/`. Ask the contributor for this value directly. If they don't know it yet, set `canonical: TODO` rather than guessing — resolving it is expected to happen during PR review. See [metadata reference](../metadata-reference.md) for the full list of metadata keys.
-
-### AI enrichment fields (recommended)
-
-These fields are not rendered in the product UI, but they are consumed by AI systems, search indexes, and docs-as-code tooling. Filling them in improves discoverability and the quality of AI-generated answers that cite this page.
 
 **keywords**: Comma-separated terms a reader might type to find this article. Include the component name, all parameter names covered in the article, and common alternative phrasings such as "config", "settings", "options", or "parameters".
 
-**summary**: Two to three sentences expanding on `description`. AI assistants use this field when generating answers that cite this page. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what component or set of entries this article covers
 - Sentence 2: what the reader can use this article to look up
 - Sentence 3 (optional): scope limits, such as the product version this applies to
 
-**audience**: Who this article is for. Accepted values: `developer`, `operator`, `admin`, `architect`, `any`. Reference articles are typically `developer` or `operator` depending on who configures or calls the component.
+**personas**: The roles the page is for. Accepted values: `devops`, `netops`, `secops`, `support`. List every role that applies.
 
 ---
 

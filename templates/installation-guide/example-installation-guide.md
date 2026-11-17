@@ -1,17 +1,15 @@
 ---
 title: Install a drip coffee maker
-canonical: /f5-kitchen/install/drip-coffee-maker/
-description: "Set up a drip coffee maker on a standard kitchen countertop and brew a verified first pot."
-f5-product: F5 Kitchen
-f5-content-type: howto
-f5-docs: DOCS-000
-f5-keywords: "coffee maker, drip coffee, install, setup, carafe, filter basket, water reservoir, brew, countertop"
-f5-summary: >
+description: >
   Use this guide to install a drip coffee maker on a kitchen countertop and brew a working first pot.
   A drip coffee maker automates hot water flow through ground coffee, producing a full carafe with
   minimal manual effort. This guide covers countertop installation only; for built-in or under-cabinet
   models, see the model-specific installation guide supplied with your unit.
-f5-audience: any
+canonical: /f5-kitchen/install/drip-coffee-maker/
+f5-content-type: installation-guide
+f5-keywords: "coffee maker, drip coffee, install, setup, carafe, filter basket, water reservoir, brew, countertop"
+f5-personas: ["devops", "netops"]
+f5-product: F5 Kitchen
 ---
 
 ## Overview

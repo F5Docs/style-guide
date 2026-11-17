@@ -1,18 +1,16 @@
 ---
 title: {Concept name — use a noun phrase, not "Understand X" or "About X"}
-canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/concepts/coffee-extraction/.}
-description: "{One sentence summarizing what the concept is and why it matters, under 160 characters.}"
-toc: true
-weight: 100 "{Weight number describes the position in the table of contents. Lower number -> higher position.)"
-f5-product: {PRODUCT_NAME}
-f5-content-type: concept {Valid values: howto | concept | reference | tech-specs | tutorial}
-f5-docs: DOCS-000
-f5-keywords: "{concept name}, {related term}, {synonym}, {product or domain context}"
-f5-summary: >
+description: >
   {Sentence 1: what the concept is, in plain language. Write in plain prose and avoid jargon.}
   {Sentence 2: why it matters to the reader or what it enables.}
   {Sentence 3 (optional): scope, boundaries, or what this document does not cover.}
-f5-audience: {developer | operator | admin | architect | any}
+canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/concepts/coffee-extraction/.}
+f5-content-type: concept
+f5-keywords: "{concept name}, {related term}, {synonym}, {product or domain context}"
+f5-personas: [{devops | netops | secops | support}]
+f5-product: {PRODUCT_NAME}
+toc: true
+weight: 100 "{Weight number describes the position in the table of contents. Lower number -> higher position.)"
 ---
 
 > If you need more information about how to fill in this template, read the accompanying [guide](./guide-concept.md).

@@ -1,18 +1,16 @@
 ---
 title: {Noun phrase identifying the component or set of entries}
-canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/reference/drip-coffee-maker-settings/.}
-description: "{One-sentence summary of what this article covers, under 160 characters.}"
-toc: true
-weight: 100 "{Weight number describes the position in the table of contents. Lower number -> higher position.)"
-f5-product: {PRODUCT_NAME}
-f5-content-type: reference {Valid values: howto | concept | reference | tech-specs | tutorial}
-f5-docs: DOCS-000
-f5-keywords: "{component name}, {parameter1}, {parameter2}, {keyword3}, config, settings, options, parameters"
-f5-summary: >
+description: >
   {Sentence 1: what component or set of entries this article covers.}
   {Sentence 2: what the reader can use this article to look up.}
   {Sentence 3 (optional): scope limits, such as the product version this applies to.}
-f5-audience: {developer | operator | admin | architect | any}
+canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/reference/drip-coffee-maker-settings/.}
+f5-content-type: reference
+f5-keywords: "{component name}, {parameter1}, {parameter2}, {keyword3}, config, settings, options, parameters"
+f5-personas: [{devops | netops | secops | support}]
+f5-product: {PRODUCT_NAME}
+toc: true
+weight: 100 "{Weight number describes the position in the table of contents. Lower number -> higher position.)"
 ---
 
 > If you need more information about how to fill in this template, read the accompanying [guide](./guide-reference.md).

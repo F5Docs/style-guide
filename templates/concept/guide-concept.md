@@ -55,37 +55,20 @@ Before writing, identify:
 - **Use cases carry the weight.** Abstract explanations are forgotten; concrete scenarios are remembered. Every concept document should have at least one use case that shows a real reader with a real problem using the concept to solve it.
 - **Define what this concept is not.** Explicitly ruling out common misconceptions or near-synonyms prevents misapplication and reduces support questions.
 - **Do not include steps.** If you find yourself writing numbered instructions, move that content to a how-to guide and link to it from the References section.
-
----
-
-## AI-ready writing principles
-
-AI assistants and human readers parse documentation differently from search engines. Apply these rules in every section of the concept document.
-
-**1. One idea per sentence.** Long compound sentences confuse AI extractors.
-
-- Bad: "Coffee extraction is the process by which water, which must be at the correct temperature, dissolves soluble compounds from ground coffee, producing the drink."
-- Good: "Coffee extraction is the process by which hot water dissolves soluble compounds from ground coffee. Water temperature directly affects which compounds are extracted and in what quantities."
-
-**2. Use exact names consistently.** If the concept is "extraction yield", never shorten it to "yield" or "the process" mid-document. Inconsistency breaks AI entity resolution and confuses readers who arrive mid-page from search.
-
-**3. State the significance of each key fact.** After introducing a property or characteristic of the concept, add one sentence explaining why it matters to the reader. AI assistants surface these significance sentences when answering "why does X matter?" questions.
-
-**4. Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual noun.
-
-- Bad: "It affects the final taste significantly."
-- Good: "Extraction yield affects the final taste of the brewed coffee significantly."
-
-**5. Make definitions self-contained.** The definition section must be understandable in isolation — AI assistants frequently surface it as a standalone answer. Do not rely on context from earlier sections.
-
-**6. Use parallel structure in lists.** Every bullet in a list should follow the same grammatical pattern — all noun phrases, or all starting with a verb.
-
-**7. Mark optional content explicitly.** Use "(Optional)" at the start of any section or paragraph that not every reader will need, such as historical background or advanced comparisons.
-
-**8. Write alt text for every image.** Alt text is read by screen readers and indexed by AI systems. Describe what the image shows and what it communicates, not just what it depicts.
-
-- Bad: `![Coffee](coffee-img.jpg)`
-- Good: `![A French press and a glass cup surrounded by whole coffee beans, illustrating the components used in immersion brewing.](coffee-img.jpg)`
+- **One idea per sentence.** Split long compound sentences so each sentence makes one point.
+  - Bad: "Coffee extraction is the process by which water, which must be at the correct temperature, dissolves soluble compounds from ground coffee, producing the drink."
+  - Good: "Coffee extraction is the process by which hot water dissolves soluble compounds from ground coffee. Water temperature directly affects which compounds are extracted and in what quantities."
+- **Use exact names consistently.** If the concept is "extraction yield", never shorten it to "yield" or "the process" mid-document.
+- **State the significance of each key fact.** After introducing a property or characteristic of the concept, add one sentence explaining why it matters to the reader.
+- **Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual noun.
+  - Bad: "It affects the final taste significantly."
+  - Good: "Extraction yield affects the final taste of the brewed coffee significantly."
+- **Make definitions self-contained.** The definition must be understandable in isolation. Do not rely on context from earlier sections.
+- **Use parallel structure in lists.** Every bullet in a list should follow the same grammatical pattern — all noun phrases, or all starting with a verb.
+- **Mark optional content explicitly.** Use "(Optional)" at the start of any section or paragraph that not every reader will need, such as historical background or advanced comparisons.
+- **Write alt text for every image.** Describe what the image shows and what it communicates, not just what it depicts.
+  - Bad: `![Coffee](coffee-img.jpg)`
+  - Good: `![A French press and a glass cup surrounded by whole coffee beans, illustrating the components used in immersion brewing.](coffee-img.jpg)`
 
 ---
 
@@ -118,23 +101,17 @@ Each respository has a set of required metadata fields that must be included in 
 - Good: "Coffee extraction"
 - Bad: "Understanding coffee extraction" or "About the coffee extraction process"
 
-**description**: One sentence under 160 characters summarizing what the concept is and why it matters. This text appears in search engine results, AI assistant citations, and doc portal previews.
-
 **canonical**: The URL path of the authoritative version of this content, for example `/f5-kitchen/concepts/coffee-extraction/`. Ask the contributor for this value directly. If they don't know it yet, set `canonical: TODO` rather than guessing — resolving it is expected to happen during PR review. See [metadata reference](../metadata-reference.md) for the full list of metadata keys.
-
-### AI enrichment fields (recommended)
-
-These fields are not rendered in the product UI, but they are consumed by AI systems, search indexes, and docs-as-code tooling. Filling them in improves discoverability and the quality of AI-generated answers that cite this page.
 
 **keywords**: Comma-separated terms a reader might type to find this document. Include the concept name, related terms, common synonyms, and the product or domain context.
 
-**summary**: Two to three sentences expanding on `description`. AI assistants use this field when generating answers that cite this page. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what the concept is, in plain language
 - Sentence 2: why it matters to the reader or what it enables
 - Sentence 3 (optional): scope, boundaries, or what this document does not cover
 
-**audience**: Who this document is for. Accepted values: `developer`, `operator`, `admin`, `architect`, `any`. This helps AI systems route questions to the right document and allows doc portals to filter content by role.
+**personas**: The roles the page is for. Accepted values: `devops`, `netops`, `secops`, `support`. List every role that applies.
 
 ---
 

@@ -56,32 +56,17 @@ Before writing, identify:
 - **Explain why, not just what.** Unlike how-to guides, tutorials should briefly explain why each significant step is taken. This is what turns a procedure into a learning experience.
 - **Make code samples complete and self-contained.** Every code sample must include all required import or using statements and inline comments that explain what the code does. Readers will copy and paste these samples — they must work without modification.
 - **Minimise links within the tutorial.** Keep readers on a single page. Provide links to background reading and next steps at the end of the tutorial, not inline.
-
----
-
-## AI-ready writing principles
-
-AI assistants and human readers parse documentation differently from search engines. Apply these rules in every section of the tutorial.
-
-**1. One idea per sentence.** Long compound sentences confuse AI extractors.
-
-- Bad: "Open the config file, which is located at /etc/app/config.yml, and add your API key, which you can find in the console."
-- Good: "Open `/etc/app/config.yml`. Add your API key to the `api_key` field. You can find your API key in the console under Settings."
-
-**2. Use exact names consistently.** If the product is "NGINX Agent", never shorten it to "the agent" mid-tutorial. Inconsistency breaks AI entity resolution and confuses readers who arrive mid-page from search.
-
-**3. State the outcome of each step.** After every command or code block, add one sentence describing what it does or what the reader should observe. AI assistants surface these outcome sentences when answering follow-up questions.
-
-**4. Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual noun.
-
-- Bad: "Run it to apply the configuration."
-- Good: "Run NGINX Agent to apply the configuration."
-
-**5. Keep code blocks self-contained.** Every code block must be runnable in isolation or clearly note what must be substituted. Use `ALL_CAPS_PLACEHOLDERS` for values the reader must supply — for example, `YOUR_API_KEY_HERE`.
-
-**6. Use parallel structure in lists.** Learning objectives, summary points, and prerequisite lists must all follow the same grammatical pattern. Learning objectives always start with a verb: "Configure...", "Build...", "Connect...".
-
-**7. Mark optional content explicitly.** Use "(Optional)" at the start of any step, section, or field that not every reader will need.
+- **One idea per sentence.** Split long compound sentences so each sentence makes one point.
+  - Bad: "Open the config file, which is located at /etc/app/config.yml, and add your API key, which you can find in the console."
+  - Good: "Open `/etc/app/config.yml`. Add your API key to the `api_key` field. You can find your API key in the console under Settings."
+- **Use exact names consistently.** If the product is "NGINX Agent", never shorten it to "the agent" mid-tutorial.
+- **State the outcome of each step.** After every command or code block, add one sentence describing what it does or what the reader should observe.
+- **Avoid implicit pronouns.** Replace "it", "this", and "they" with the actual noun.
+  - Bad: "Run it to apply the configuration."
+  - Good: "Run NGINX Agent to apply the configuration."
+- **Keep code blocks self-contained.** Every code block must be runnable in isolation or clearly note what must be substituted. Use `ALL_CAPS_PLACEHOLDERS` for values the reader must supply — for example, `YOUR_API_KEY_HERE`.
+- **Use parallel structure in lists.** Learning objectives, summary points, and prerequisite lists must all follow the same grammatical pattern. Learning objectives always start with a verb: "Configure...", "Build...", "Connect...".
+- **Mark optional content explicitly.** Use "(Optional)" at the start of any step, section, or field that not every reader will need.
 
 ---
 
@@ -114,23 +99,17 @@ Each respository has a set of required metadata fields that must be included in 
 - Good: "Build a pour-over coffee setup"
 - Bad: "How to build a pour-over coffee setup" or "Building a pour-over coffee setup"
 
-**description**: One sentence under 160 characters summarizing what skill the reader will gain. This text appears in search engine results, AI assistant citations, and doc portal previews.
-
 **canonical**: The URL path of the authoritative version of this content, for example `/f5-kitchen/tutorials/brew-pour-over-coffee-with-a-burr-grinder/`. Ask the contributor for this value directly. If they don't know it yet, set `canonical: TODO` rather than guessing — resolving it is expected to happen during PR review. See [metadata reference](../metadata-reference.md) for the full list of metadata keys.
-
-### AI enrichment fields (recommended)
-
-These fields are not rendered in the product UI, but they are consumed by AI systems, search indexes, and docs-as-code tooling. Filling them in improves discoverability and the quality of AI-generated answers that cite this page.
 
 **keywords**: Comma-separated terms a reader might type to find this tutorial. Include the product name, the skill being taught, and common alternative phrasings such as "learn", "tutorial", "beginner", or "step by step".
 
-**summary**: Two to three sentences expanding on `description`. AI assistants use this field when generating answers that cite this page. Write in plain prose and avoid jargon. Cover:
+**description**: Two to three sentences summarizing the page. This text may appear in search engine results, assistant citations, and doc portal previews. Write in plain prose and avoid jargon. Cover:
 
 - Sentence 1: what skill the reader will learn and what they will build or produce
 - Sentence 2: why that skill matters or what it enables
 - Sentence 3 (optional): the intended audience and any assumed knowledge
 
-**audience**: Who this tutorial is for. Accepted values: `developer`, `operator`, `admin`, `architect`, `any`. Tutorials are typically `any` or a specific role depending on the skill being taught.
+**personas**: The roles the page is for. Accepted values: `devops`, `netops`, `secops`, `support`. List every role that applies.
 
 ---
 

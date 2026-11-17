@@ -1,18 +1,16 @@
 ---
 title: Get started with {product or feature name}
-canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/getting-started/drip-coffee-maker/.}
-description: "{One-sentence summary of what the reader will accomplish, under 160 characters.}"
-toc: true
-weight: 100 "{Weight number describes the position in the table of contents. Lower number -> higher position.)"
-f5-product: {PRODUCT_NAME}
-f5-content-type: howto {Valid values: howto | concept | reference | tech-specs | tutorial}
-f5-docs: DOCS-000
-f5-keywords: "{keyword1}, {keyword2}, {keyword3}, quickstart, first steps, introduction"
-f5-summary: >
+description: >
   {Sentence 1: what the reader will do and what they will have at the end.}
   {Sentence 2: what the primary feature does or enables.}
   {Sentence 3 (optional): intended audience, scope limits, or assumed knowledge.}
-f5-audience: {developer | operator | admin | architect | any}
+canonical: {The URL path of the authoritative version of this content, for example /f5-kitchen/getting-started/drip-coffee-maker/.}
+f5-content-type: tutorial
+f5-keywords: "{keyword1}, {keyword2}, {keyword3}, quickstart, first steps, introduction"
+f5-personas: [{devops | netops | secops | support}]
+f5-product: {PRODUCT_NAME}
+toc: true
+weight: 100 "{Weight number describes the position in the table of contents. Lower number -> higher position.)"
 ---
 
 > If you need more information about how to fill in this template, read the accompanying [guide](./guide-getting-started.md).
