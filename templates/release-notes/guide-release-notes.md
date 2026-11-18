@@ -40,7 +40,7 @@ Well-written release notes:
 
 Before writing, identify:
 
-- **The release version and date.** Use semantic versioning (MAJOR.MINOR.PATCH, for example `2.16.0`). The date should be the public release date in `Month Day, Year` format.
+- **The release version and date.** Use semantic versioning (MAJOR.MINOR.PATCH, for example `2.16.0`). The date should be the public release date in `Month Day, Year` format. Versioning does not have to follow [Semantic Versioning 2.0.0](https://semver.org).
 - **What changed.** Work with the engineering and product teams to get a complete list of features, behavior changes, resolved issues, and security updates in the release. Do not rely on commit messages alone — they are written for developers, not customers.
 - **What matters to the user.** For each change, ask: "Why does this matter to a customer? What can they now do that they could not do before, or what problem does this fix for them?" If a change has no user-facing impact, it does not belong in release notes.
 - **Whether an upgrade guide is needed.** If the release requires users to take action before or during upgrading — such as backing up data, running a migration script, or changing configuration — include an upgrade guide section. A missing upgrade notice is one of the most damaging omissions in release notes.
